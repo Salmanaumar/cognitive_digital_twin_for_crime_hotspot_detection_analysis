@@ -1,0 +1,443 @@
+/* 
+   Cognitive Digital Twin: Crime Hotspot Detection & Predictive Analysis
+   Visual Theme: Deep Plum and Rose Gold Palette
+*/
+
+:root {
+    --primary-plum: #3B103F;
+    --plum-dark: #290B2C;
+    --plum-light: #54185A;
+    --plum-subtle: #F5EBF7;
+    --accent-rose: #D83B6F;
+    --rose-hover: #C12C5E;
+    --rose-light: #FDF2F5;
+    --rose-border: #F4B8CA;
+    --text-dark: #1E293B;
+    --text-muted: #64748B;
+    --bg-page: #F8FAFC;
+    --card-bg: #FFFFFF;
+    --risk-high: #E11D48;
+    --risk-med: #F59E0B;
+    --risk-low: #10B981;
+}
+
+body {
+    background-color: var(--bg-page);
+    color: var(--text-dark);
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Plum & Rose Buttons & Accents */
+.bg-plum { background-color: var(--primary-plum) !important; }
+.bg-plum-dark { background-color: var(--plum-dark) !important; }
+.bg-plum-subtle { background-color: var(--plum-subtle) !important; }
+.text-plum { color: var(--primary-plum) !important; }
+.text-plum-dark { color: var(--plum-dark) !important; }
+
+.bg-rose { background-color: var(--accent-rose) !important; }
+.bg-rose-subtle { background-color: var(--rose-light) !important; }
+.text-rose { color: var(--accent-rose) !important; }
+.border-rose { border-color: var(--rose-border) !important; }
+
+.btn-plum {
+    background-color: var(--primary-plum);
+    color: #FFFFFF;
+    border: none;
+    transition: all 0.2s ease-in-out;
+}
+.btn-plum:hover, .btn-plum:focus {
+    background-color: var(--plum-dark);
+    color: #FFFFFF;
+}
+
+.btn-rose {
+    background-color: var(--accent-rose);
+    color: #FFFFFF;
+    border: none;
+    transition: all 0.2s ease-in-out;
+}
+.btn-rose:hover, .btn-rose:focus {
+    background-color: var(--rose-hover);
+    color: #FFFFFF;
+}
+
+.btn-outline-plum {
+    color: var(--primary-plum);
+    border: 1px solid var(--primary-plum);
+    background-color: transparent;
+}
+.btn-outline-plum:hover {
+    background-color: var(--primary-plum);
+    color: #FFFFFF;
+}
+
+.btn-outline-rose {
+    color: var(--accent-rose);
+    border: 1px solid var(--accent-rose);
+    background-color: transparent;
+}
+.btn-outline-rose:hover {
+    background-color: var(--accent-rose);
+    color: #FFFFFF;
+}
+
+/* Login Page Styling */
+.login-body {
+    background: linear-gradient(135deg, #290B2C 0%, #3B103F 50%, #54185A 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.login-wrapper {
+    width: 100%;
+    max-width: 480px;
+    padding: 20px;
+}
+
+.login-card {
+    background: #FFFFFF;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.login-header {
+    background: linear-gradient(135deg, #3B103F 0%, #290B2C 100%);
+    color: #FFFFFF;
+    padding: 30px 24px 20px 24px;
+    border-bottom: 3px solid var(--accent-rose);
+}
+
+.brand-badge {
+    font-size: 0.72rem;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    color: var(--accent-rose);
+}
+
+.login-title {
+    font-size: 1.6rem;
+    font-weight: 800;
+    margin-bottom: 4px;
+    color: #FFFFFF;
+}
+
+.login-subtitle {
+    font-size: 0.85rem;
+    color: #E2E8F0;
+    margin-bottom: 0;
+}
+
+.login-input {
+    border-radius: 8px;
+    padding: 10px 14px;
+    border: 1px solid #CBD5E1;
+}
+.login-input:focus {
+    border-color: var(--accent-rose);
+    box-shadow: 0 0 0 3px rgba(216, 59, 111, 0.2);
+}
+
+/* Navbar */
+.app-navbar {
+    background: linear-gradient(90deg, #290B2C 0%, #3B103F 70%, #4A154B 100%);
+    border-bottom: 2px solid var(--accent-rose);
+    padding: 10px 24px;
+}
+
+.navbar-brand-title {
+    font-size: 1.15rem;
+    font-weight: 800;
+    color: #FFFFFF;
+    letter-spacing: 0.5px;
+}
+
+.navbar-brand-subtitle {
+    font-size: 0.75rem;
+    color: #FBCFE8;
+}
+
+/* Nav Tabs */
+.custom-nav-tabs {
+    border-bottom: 2px solid #E2E8F0;
+    background: #FFFFFF;
+    padding: 6px 16px 0 16px;
+}
+
+.custom-nav-tabs .nav-link {
+    color: var(--text-muted);
+    font-size: 0.88rem;
+    font-weight: 600;
+    padding: 10px 16px;
+    border: none;
+    border-bottom: 3px solid transparent;
+    border-radius: 0;
+    transition: all 0.2s;
+}
+
+.custom-nav-tabs .nav-link:hover {
+    color: var(--primary-plum);
+    border-bottom-color: var(--rose-border);
+}
+
+.custom-nav-tabs .nav-link.active {
+    color: var(--primary-plum);
+    background: transparent;
+    border-bottom-color: var(--accent-rose);
+    font-weight: 700;
+}
+
+/* KPI Cards */
+.kpi-card {
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: 18px 20px;
+    border: 1px solid #E2E8F0;
+    border-left: 4px solid var(--primary-plum);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+    transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.kpi-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.06);
+}
+
+.kpi-card.kpi-rose {
+    border-left-color: var(--accent-rose);
+}
+
+.kpi-title {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    font-weight: 700;
+    color: var(--text-muted);
+    margin-bottom: 6px;
+}
+
+.kpi-value {
+    font-size: 1.85rem;
+    font-weight: 800;
+    color: var(--primary-plum);
+    line-height: 1.1;
+}
+
+.kpi-subtext {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    margin-top: 4px;
+}
+
+/* Leaflet Map Container */
+#crimeMap {
+    height: 600px;
+    width: 100%;
+    border-radius: 12px;
+    border: 1px solid #CBD5E1;
+    z-index: 10;
+}
+
+/* Map legend */
+.map-legend {
+    background: white;
+    padding: 10px 14px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    font-size: 0.78rem;
+    line-height: 1.4;
+}
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+}
+.legend-color {
+    width: 14px;
+    height: 14px;
+    border-radius: 3px;
+    margin-right: 8px;
+    display: inline-block;
+}
+
+/* Tables */
+.table-custom th {
+    background-color: var(--primary-plum);
+    color: #FFFFFF;
+    font-size: 0.82rem;
+    font-weight: 600;
+    padding: 10px 12px;
+    white-space: nowrap;
+}
+
+.table-custom td {
+    font-size: 0.84rem;
+    padding: 9px 12px;
+    vertical-align: middle;
+}
+
+/* Badges */
+.badge-risk-high {
+    background-color: rgba(225, 29, 72, 0.12);
+    color: #BE123C;
+    border: 1px solid rgba(225, 29, 72, 0.3);
+    font-weight: 700;
+}
+
+.badge-risk-med {
+    background-color: rgba(245, 158, 11, 0.12);
+    color: #B45309;
+    border: 1px solid rgba(245, 158, 11, 0.3);
+    font-weight: 700;
+}
+
+.badge-risk-low {
+    background-color: rgba(16, 185, 129, 0.12);
+    color: #047857;
+    border: 1px solid rgba(16, 185, 129, 0.3);
+    font-weight: 700;
+}
+
+/* SHAP Waterfall / Factors */
+.shap-bar-container {
+    background: #F1F5F9;
+    height: 18px;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+}
+
+.shap-bar-pos {
+    background: linear-gradient(90deg, #F43F5E, #E11D48);
+    height: 100%;
+}
+
+.shap-bar-neg {
+    background: linear-gradient(90deg, #10B981, #059669);
+    height: 100%;
+}
+
+/* Alert Notification Card */
+.alert-card {
+    border-left: 5px solid;
+    border-radius: 8px;
+    padding: 14px 18px;
+    background: #FFFFFF;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    margin-bottom: 12px;
+}
+.alert-critical {
+    border-left-color: var(--risk-high);
+    background: #FFF1F2;
+}
+.alert-high {
+    border-left-color: #F97316;
+    background: #FFF7ED;
+}
+.alert-medium {
+    border-left-color: var(--risk-med);
+    background: #FEFCE8;
+}
+
+/* Presentation Mode */
+body.presentation-mode .app-navbar {
+    padding: 6px 16px;
+}
+body.presentation-mode .kpi-value {
+    font-size: 2.3rem;
+}
+body.presentation-mode #crimeMap {
+    height: 720px;
+}
+
+/* Footer */
+.app-footer {
+    background: #FFFFFF;
+    border-top: 1px solid #E2E8F0;
+    padding: 14px 24px;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-top: auto;
+}
+
+/* High-Resolution Chart Images & Toggles */
+.chart-img-container {
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 250px;
+}
+
+.chart-canvas-container {
+    position: relative;
+    width: 100%;
+    min-height: 250px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 6px;
+}
+.chart-canvas-container canvas {
+    width: 100% !important;
+    height: 100% !important;
+    display: block;
+}
+
+.chart-preview-img {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    border: 1px solid #E2E8F0;
+    width: 100%;
+    height: auto;
+    max-height: 270px;
+    object-fit: contain;
+    background-color: #FFFFFF;
+    cursor: zoom-in;
+}
+
+.chart-preview-img:hover {
+    transform: scale(1.012);
+    box-shadow: 0 6px 18px rgba(59, 16, 63, 0.12);
+}
+
+.btn-xs {
+    padding: 2px 7px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    line-height: 1.35;
+    border-radius: 4px;
+}
+
+.btn-outline-plum {
+    color: var(--primary-plum);
+    border-color: var(--primary-plum);
+    background-color: transparent;
+}
+.btn-outline-plum:hover, .btn-outline-plum.active {
+    background-color: var(--primary-plum) !important;
+    color: #FFFFFF !important;
+}
+
+.btn-outline-rose {
+    color: var(--accent-rose);
+    border-color: var(--accent-rose);
+    background-color: transparent;
+}
+.btn-outline-rose:hover, .btn-outline-rose.active {
+    background-color: var(--accent-rose) !important;
+    color: #FFFFFF !important;
+}
+
+.chart-badge-action {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}

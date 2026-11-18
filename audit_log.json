@@ -1,0 +1,462 @@
+[
+  {
+    "id": 46,
+    "timestamp": "2026-11-18 10:47:41",
+    "username": "salmanawadood2008@gmail.com",
+    "role": "Analyst",
+    "action": "Patrol Route Generation",
+    "details": "Generated patrol allocation for 3 units across 8-hour shift.",
+    "ip": "127.0.0.1",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 45,
+    "timestamp": "2026-11-18 10:47:40",
+    "username": "salmanawadood2008@gmail.com",
+    "role": "Analyst",
+    "action": "Patrol Route Generation",
+    "details": "Generated patrol allocation for 3 units across 8-hour shift.",
+    "ip": "127.0.0.1",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 44,
+    "timestamp": "2026-11-18 10:47:39",
+    "username": "salmanawadood2008@gmail.com",
+    "role": "Analyst",
+    "action": "Patrol Route Generation",
+    "details": "Generated patrol allocation for 3 units across 8-hour shift.",
+    "ip": "127.0.0.1",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 43,
+    "timestamp": "2026-11-18 10:47:37",
+    "username": "salmanawadood2008@gmail.com",
+    "role": "Analyst",
+    "action": "Patrol Route Generation",
+    "details": "Generated patrol allocation for 3 units across 8-hour shift.",
+    "ip": "127.0.0.1",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 42,
+    "timestamp": "2026-11-18 10:47:33",
+    "username": "salmanawadood2008@gmail.com",
+    "role": "Analyst",
+    "action": "Patrol Route Generation",
+    "details": "Generated patrol allocation for 3 units across 8-hour shift.",
+    "ip": "127.0.0.1",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 41,
+    "timestamp": "2026-11-18 10:40:29",
+    "username": "admin",
+    "role": "Administrator",
+    "action": "Patrol Route Generation",
+    "details": "Generated patrol allocation for 3 units across 8-hour shift.",
+    "ip": "127.0.0.1",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 40,
+    "timestamp": "2026-11-18 10:40:29",
+    "username": "admin",
+    "role": "Administrator",
+    "action": "User Login",
+    "details": "User logged in successfully.",
+    "ip": "127.0.0.1",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 39,
+    "timestamp": "2026-11-17 19:31:31",
+    "username": "admin",
+    "role": "Administrator",
+    "action": "Patrol Route Generation",
+    "details": "Generated patrol allocation for 3 units across 8-hour shift.",
+    "ip": "127.0.0.1",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 38,
+    "timestamp": "2026-11-17 16:12:14",
+    "username": "admin",
+    "role": "Administrator",
+    "action": "User Login",
+    "details": "User logged in successfully.",
+    "ip": "127.0.0.1",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 37,
+    "timestamp": "2026-11-17 16:11:56",
+    "username": "admin",
+    "role": "Unknown",
+    "action": "Failed Login Attempt",
+    "details": "Invalid credentials supplied for admin.",
+    "ip": "127.0.0.1",
+    "status": "WARNING"
+  },
+  {
+    "id": 36,
+    "timestamp": "2026-11-16 16:40:28",
+    "username": "admin",
+    "role": "Administrator",
+    "action": "User Login",
+    "details": "User logged in successfully.",
+    "ip": "127.0.0.1",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 35,
+    "timestamp": "2026-11-16 16:39:22",
+    "username": "admin",
+    "role": "Administrator",
+    "action": "User Login",
+    "details": "User logged in successfully.",
+    "ip": "127.0.0.1",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 34,
+    "timestamp": "2026-11-16 16:26:19",
+    "username": "admin",
+    "role": "Administrator",
+    "action": "User Login",
+    "details": "User logged in successfully.",
+    "ip": "127.0.0.1",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 33,
+    "timestamp": "2026-11-16 16:26:08",
+    "username": "admin",
+    "role": "Administrator",
+    "action": "User Login",
+    "details": "User logged in successfully.",
+    "ip": "127.0.0.1",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 32,
+    "timestamp": "2026-11-16 16:15:39",
+    "username": "sivaji",
+    "role": "Analyst",
+    "action": "Single Incident Prediction",
+    "details": "Evaluated single incident at (17.3616, 78.4747) - Risk: High",
+    "ip": "127.0.0.1",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 31,
+    "timestamp": "2026-11-16 16:09:29",
+    "username": "admin",
+    "role": "Administrator",
+    "action": "User Login",
+    "details": "User logged in successfully.",
+    "ip": "127.0.0.1",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 30,
+    "timestamp": "2026-11-16 16:08:35",
+    "username": "dc_rao",
+    "role": "Unknown",
+    "action": "Failed Login Attempt",
+    "details": "Invalid credentials supplied for dc_rao.",
+    "ip": "127.0.0.1",
+    "status": "WARNING"
+  },
+  {
+    "id": 29,
+    "timestamp": "2026-11-16 15:52:51",
+    "username": "sivaji",
+    "role": "Analyst",
+    "action": "Alert Acknowledged",
+    "details": "Acknowledged alert ALT-2026-1001",
+    "ip": "127.0.0.1",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 28,
+    "timestamp": "2026-11-16 15:51:51",
+    "username": "sivaji",
+    "role": "Analyst",
+    "action": "User Login",
+    "details": "User logged in successfully.",
+    "ip": "127.0.0.1",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 27,
+    "timestamp": "2026-11-16 15:51:37",
+    "username": "sivaji",
+    "role": "Analyst",
+    "action": "User Logout",
+    "details": "User ended session.",
+    "ip": "127.0.0.1",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 26,
+    "timestamp": "2026-11-16 15:51:28",
+    "username": "sivaji",
+    "role": "Analyst",
+    "action": "User Auto-Login",
+    "details": "User automatically logged in upon registration.",
+    "ip": "127.0.0.1",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 25,
+    "timestamp": "2026-11-16 15:51:28",
+    "username": "sivaji",
+    "role": "Analyst",
+    "action": "User Registration",
+    "details": "New user 'sivaji' registered with role 'Analyst'.",
+    "ip": "127.0.0.1",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 24,
+    "timestamp": "2026-11-16 15:51:00",
+    "username": "admin",
+    "role": "Administrator",
+    "action": "Dataset Switched",
+    "details": "Switched active dataset to hyderabad_crime_records.csv",
+    "ip": "127.0.0.1",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 23,
+    "timestamp": "2026-11-16 15:50:57",
+    "username": "admin",
+    "role": "Administrator",
+    "action": "User Logout",
+    "details": "User ended session.",
+    "ip": "127.0.0.1",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 22,
+    "timestamp": "2026-11-16 15:50:22",
+    "username": "admin",
+    "role": "Administrator",
+    "action": "Model Retraining",
+    "details": "Retrained Cognitive Digital Twin to v1.1 (SMOTE=True).",
+    "ip": "127.0.0.1",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 21,
+    "timestamp": "2026-11-16 15:49:11",
+    "username": "admin",
+    "role": "Administrator",
+    "action": "User Login",
+    "details": "User logged in successfully.",
+    "ip": "127.0.0.1",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 20,
+    "timestamp": "2026-11-16 12:56:52",
+    "username": "admin",
+    "role": "Administrator",
+    "action": "User Login",
+    "details": "User logged in successfully.",
+    "ip": "127.0.0.1",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 19,
+    "timestamp": "2026-11-15 11:05:04",
+    "username": "analyst",
+    "role": "Analyst",
+    "action": "Alert Acknowledged",
+    "details": "Acknowledged alert ALT-2026-1001",
+    "ip": "127.0.0.1",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 18,
+    "timestamp": "2026-11-15 11:02:21",
+    "username": "analyst",
+    "role": "Analyst",
+    "action": "User Login",
+    "details": "User logged in successfully.",
+    "ip": "127.0.0.1",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 17,
+    "timestamp": "2026-11-15 11:01:21",
+    "username": "dc_rao",
+    "role": "Police Officer",
+    "action": "User Login",
+    "details": "User logged in successfully.",
+    "ip": "127.0.0.1",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 16,
+    "timestamp": "2026-11-15 11:01:21",
+    "username": "dc_rao",
+    "role": "Police Officer",
+    "action": "User Auto-Login",
+    "details": "User automatically logged in upon registration.",
+    "ip": "127.0.0.1",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 15,
+    "timestamp": "2026-11-15 11:01:21",
+    "username": "dc_rao",
+    "role": "Police Officer",
+    "action": "User Registration",
+    "details": "New user 'dc_rao' registered with role 'Police Officer'.",
+    "ip": "127.0.0.1",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 14,
+    "timestamp": "2026-11-15 10:59:48",
+    "username": "admin",
+    "role": "Administrator",
+    "action": "Dataset Switched",
+    "details": "Switched active dataset to bengaluru_crime_records.csv",
+    "ip": "127.0.0.1",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 13,
+    "timestamp": "2026-11-15 10:59:14",
+    "username": "admin",
+    "role": "Administrator",
+    "action": "User Login",
+    "details": "User logged in successfully.",
+    "ip": "127.0.0.1",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 12,
+    "timestamp": "2026-11-15 10:57:11",
+    "username": "sivaji",
+    "role": "Unknown",
+    "action": "Failed Login Attempt",
+    "details": "Invalid credentials supplied for sivaji.",
+    "ip": "127.0.0.1",
+    "status": "WARNING"
+  },
+  {
+    "id": 11,
+    "timestamp": "2026-11-15 10:15:12",
+    "username": "admin",
+    "role": "Administrator",
+    "action": "Dataset Switched",
+    "details": "Switched active dataset to hyderabad_crime_records.csv",
+    "ip": "127.0.0.1",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 10,
+    "timestamp": "2026-11-15 10:15:06",
+    "username": "admin",
+    "role": "Administrator",
+    "action": "Dataset Switched",
+    "details": "Switched active dataset to bengaluru_crime_records.csv",
+    "ip": "127.0.0.1",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 9,
+    "timestamp": "2026-11-15 10:15:00",
+    "username": "admin",
+    "role": "Administrator",
+    "action": "User Login",
+    "details": "User logged in successfully.",
+    "ip": "127.0.0.1",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 8,
+    "timestamp": "2026-11-15 10:14:48",
+    "username": "admin",
+    "role": "Administrator",
+    "action": "Report Export",
+    "details": "Exported PDF Police Briefing Report for Hyderabad",
+    "ip": "127.0.0.1",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 7,
+    "timestamp": "2026-11-15 10:14:48",
+    "username": "admin",
+    "role": "Administrator",
+    "action": "Digital Twin Simulation",
+    "details": "Simulated intervention: Patrol=+30%, Lighting=+25%, Crowd=Normal, Weather=Clear",
+    "ip": "127.0.0.1",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 6,
+    "timestamp": "2026-11-15 10:14:48",
+    "username": "admin",
+    "role": "Administrator",
+    "action": "Single Incident Prediction",
+    "details": "Evaluated single incident at (17.3616, 78.4747) - Risk: High",
+    "ip": "127.0.0.1",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 5,
+    "timestamp": "2026-11-15 10:14:48",
+    "username": "admin",
+    "role": "Administrator",
+    "action": "User Login",
+    "details": "User logged in successfully.",
+    "ip": "127.0.0.1",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 4,
+    "timestamp": "2026-11-15 10:14:33",
+    "username": "admin",
+    "role": "Administrator",
+    "action": "User Login",
+    "details": "User logged in successfully.",
+    "ip": "127.0.0.1",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 3,
+    "timestamp": "2026-11-15 10:12:13",
+    "username": "admin",
+    "role": "Administrator",
+    "action": "User Login",
+    "details": "User logged in successfully.",
+    "ip": "127.0.0.1",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 2,
+    "timestamp": "2026-11-15 10:12:04",
+    "username": "admin",
+    "role": "Administrator",
+    "action": "User Login",
+    "details": "User logged in successfully.",
+    "ip": "127.0.0.1",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 1,
+    "timestamp": "2026-11-15 10:11:39",
+    "username": "system",
+    "role": "System",
+    "action": "System Initialized",
+    "details": "Cognitive Digital Twin security and audit sub-system initialized.",
+    "ip": "127.0.0.1",
+    "status": "SUCCESS"
+  }
+]

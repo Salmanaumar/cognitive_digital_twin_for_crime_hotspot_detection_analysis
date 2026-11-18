@@ -1,0 +1,1201 @@
+date,time,day_of_week,month,city,area_name,latitude,longitude,crime_type,location_category,crime_frequency,historical_crime_count,risk_level,date_parsed,hour,is_weekend,is_night,baseline_prediction,proposed_prediction,actual_risk_level,baseline_correct,proposed_correct,proposed_confidence_pct,numerical_risk_score
+2025-02-27,22:15:14,Thursday,February,Hyderabad,Mehdipatnam,17.395574,78.441994,Robbery,Residential,3.44,82,High,2025-02-27,22,0,1,Low,High,High,❌,✅,79.6,87
+2025-01-17,21:14:32,Friday,January,Hyderabad,Begumpet,17.446932,78.474484,Drug Offense,Commercial,4.46,81,High,2025-01-17,21,0,1,High,High,High,✅,✅,74.1,84
+2025-12-26,21:28:37,Friday,December,Hyderabad,Mehdipatnam,17.387844,78.44744,Vehicle Theft,Commercial,2.83,58,High,2025-12-26,21,0,1,High,High,High,✅,✅,77.3,86
+2025-05-23,04:13:48,Friday,May,Hyderabad,Gachibowli,17.4192,78.356503,Chain Snatching,Residential,0.43,10,Low,2025-05-23,4,0,1,Low,Low,Low,✅,✅,91.2,5
+2026-03-10,11:38:16,Tuesday,March,Hyderabad,Gachibowli,17.432836,78.337602,Theft,Park/Open Ground,0.52,12,Low,2026-03-10,11,0,0,Low,Low,Low,✅,✅,93.9,4
+2025-02-10,02:40:39,Monday,February,Hyderabad,Begumpet,17.465176,78.469554,Chain Snatching,Street/Road,3.57,55,High,2025-02-10,2,0,1,High,High,High,✅,✅,70.0,80
+2026-01-31,20:54:14,Saturday,January,Hyderabad,Secunderabad,17.435095,78.495966,Burglary,Parking Lot,3.06,72,High,2026-01-31,20,1,1,High,High,High,✅,✅,83.2,90
+2025-07-06,05:23:22,Sunday,July,Hyderabad,LB Nagar,17.341431,78.552156,Assault,Nightclub/Bar,2.3,49,Low,2025-07-06,5,1,0,Medium,Low,Low,❌,✅,52.8,33
+2025-02-06,21:34:46,Thursday,February,Hyderabad,Mehdipatnam,17.393271,78.427423,Assault,Transit Station,4.26,75,High,2025-02-06,21,0,1,Low,High,High,❌,✅,83.3,89
+2025-11-24,10:43:20,Monday,November,Hyderabad,Koti,17.384149,78.493754,Theft,Street/Road,3.19,73,Medium,2025-11-24,10,0,0,High,High,Medium,❌,❌,80.9,86
+2025-05-18,00:56:45,Sunday,May,Hyderabad,Begumpet,17.443775,78.463991,Chain Snatching,Street/Road,4.18,78,High,2025-05-18,0,1,1,High,High,High,✅,✅,82.4,89
+2026-04-14,21:16:08,Tuesday,April,Hyderabad,Koti,17.371627,78.479655,Assault,Market/Bazaar,4.14,78,High,2026-04-14,21,0,1,High,High,High,✅,✅,84.9,90
+2025-08-08,15:23:14,Friday,August,Hyderabad,Kukatpally,17.489285,78.404493,Robbery,Market/Bazaar,4.14,79,High,2025-08-08,15,0,0,High,High,High,✅,✅,86.0,91
+2026-03-17,01:10:50,Tuesday,March,Hyderabad,Charminar,17.359943,78.469712,Vandalism,Residential,3.05,74,High,2026-03-17,1,0,1,High,High,High,✅,✅,80.7,87
+2025-09-28,08:35:55,Sunday,September,Hyderabad,Madhapur,17.439449,78.38193,Theft,Nightclub/Bar,2.29,44,Low,2025-09-28,8,1,0,Medium,Low,Low,❌,✅,48.6,31
+2025-05-17,20:21:07,Saturday,May,Hyderabad,Abids,17.382697,78.472894,Vehicle Theft,Parking Lot,1.76,35,Medium,2025-05-17,20,1,1,Medium,Medium,Medium,✅,✅,72.4,46
+2026-03-25,19:48:11,Wednesday,March,Hyderabad,Dilsukhnagar,17.368513,78.537217,Harassment,Residential,3.2,80,High,2026-03-25,19,0,0,High,High,High,✅,✅,83.6,89
+2025-09-17,21:23:48,Wednesday,September,Hyderabad,Mehdipatnam,17.38025,78.45144,Robbery,Market/Bazaar,3.36,76,Medium,2025-09-17,21,0,1,High,High,Medium,❌,❌,50.0,73
+2025-06-15,20:59:23,Sunday,June,Hyderabad,Kukatpally,17.506523,78.395454,Vehicle Theft,Street/Road,2.71,55,High,2025-06-15,20,1,1,Low,High,High,❌,✅,74.6,83
+2026-04-30,01:31:52,Thursday,April,Hyderabad,Kukatpally,17.498712,78.408865,Burglary,Market/Bazaar,3.83,65,High,2026-04-30,1,0,1,High,High,High,✅,✅,83.9,89
+2026-04-30,17:10:16,Thursday,April,Hyderabad,Madhapur,17.442684,78.388879,Harassment,Parking Lot,1.74,29,Low,2026-04-30,17,0,0,Medium,Medium,Low,❌,❌,60.9,37
+2026-01-09,22:12:45,Friday,January,Hyderabad,Abids,17.369759,78.476264,Vehicle Theft,Parking Lot,1.6,35,Medium,2026-01-09,22,0,1,Medium,Medium,Medium,✅,✅,75.1,44
+2026-04-06,16:28:07,Monday,April,Hyderabad,Madhapur,17.44701,78.394732,Assault,Street/Road,1.49,31,Medium,2026-04-06,16,0,0,Medium,Medium,Medium,✅,✅,71.7,43
+2025-10-11,21:00:04,Saturday,October,Hyderabad,Kukatpally,17.494552,78.386212,Theft,Street/Road,2.48,58,Medium,2025-10-11,21,1,1,Medium,Medium,Medium,✅,✅,54.9,64
+2025-06-19,02:32:15,Thursday,June,Hyderabad,LB Nagar,17.346182,78.571906,Vehicle Theft,Park/Open Ground,1.57,22,Medium,2025-06-19,2,0,1,Medium,Medium,Medium,✅,✅,68.2,39
+2026-04-24,18:15:50,Friday,April,Hyderabad,Dilsukhnagar,17.364202,78.521328,Cybercrime,Parking Lot,3.49,60,High,2026-04-24,18,0,0,High,High,High,✅,✅,66.0,78
+2025-08-09,23:29:55,Saturday,August,Hyderabad,Mehdipatnam,17.397928,78.435825,Theft,Residential,3.26,58,High,2025-08-09,23,1,1,Medium,High,High,❌,✅,62.9,78
+2026-02-14,03:15:12,Saturday,February,Hyderabad,Gachibowli,17.433055,78.349515,Assault,Market/Bazaar,0.85,22,Medium,2026-02-14,3,1,1,Low,Low,Medium,❌,❌,81.3,11
+2025-05-23,14:15:55,Friday,May,Hyderabad,Jubilee Hills,17.432697,78.403272,Burglary,Park/Open Ground,2.06,45,Low,2025-05-23,14,0,0,Low,Medium,Low,✅,❌,46.2,34
+2025-02-20,00:53:00,Thursday,February,Hyderabad,Ameerpet,17.442693,78.438517,Burglary,Street/Road,2.94,58,High,2025-02-20,0,0,1,Low,High,High,❌,✅,73.7,81
+2025-04-20,12:57:03,Sunday,April,Hyderabad,Madhapur,17.442034,78.388924,Robbery,Parking Lot,1.64,26,Low,2025-04-20,12,1,0,Medium,Medium,Low,❌,❌,69.5,41
+2026-04-20,14:18:27,Monday,April,Hyderabad,Hitec City,17.454411,78.397513,Harassment,Park/Open Ground,1.76,28,Medium,2026-04-20,14,0,0,Medium,Medium,Medium,✅,✅,66.9,38
+2025-01-30,00:03:47,Thursday,January,Hyderabad,Secunderabad,17.441979,78.504555,Chain Snatching,Commercial,3.38,58,High,2025-01-30,0,0,1,High,High,High,✅,✅,78.9,86
+2026-04-16,08:03:32,Thursday,April,Hyderabad,Ameerpet,17.442441,78.458037,Burglary,Transit Station,3.37,51,High,2026-04-16,8,0,0,High,High,High,✅,✅,68.4,78
+2026-03-18,20:56:36,Wednesday,March,Hyderabad,Mehdipatnam,17.393945,78.437385,Assault,Commercial,4.01,80,High,2026-03-18,20,0,1,High,High,High,✅,✅,85.9,92
+2025-10-26,22:59:16,Sunday,October,Hyderabad,Mehdipatnam,17.397476,78.435464,Assault,Bank/ATM,3.5,61,High,2025-10-26,22,1,1,High,High,High,✅,✅,82.3,88
+2025-12-10,20:19:29,Wednesday,December,Hyderabad,Jubilee Hills,17.439607,78.410602,Chain Snatching,Residential,1.33,32,Medium,2025-12-10,20,0,1,Medium,Medium,Medium,✅,✅,70.2,45
+2025-02-21,21:32:16,Friday,February,Hyderabad,Kukatpally,17.483741,78.393426,Robbery,Bank/ATM,3.32,60,Medium,2025-02-21,21,0,1,High,High,Medium,❌,❌,48.3,70
+2025-05-26,05:28:53,Monday,May,Hyderabad,Gachibowli,17.440204,78.360528,Harassment,Nightclub/Bar,0.52,12,Low,2025-05-26,5,0,0,Low,Low,Low,✅,✅,93.3,4
+2025-06-03,06:56:08,Tuesday,June,Hyderabad,Ameerpet,17.429796,78.456117,Vehicle Theft,Residential,3.71,60,High,2025-06-03,6,0,0,Low,High,High,❌,✅,47.8,60
+2025-05-20,09:38:13,Tuesday,May,Hyderabad,Jubilee Hills,17.435686,78.406717,Chain Snatching,Street/Road,2.03,37,Medium,2025-05-20,9,0,0,Medium,Medium,Medium,✅,✅,68.7,41
+2025-09-16,15:16:57,Tuesday,September,Hyderabad,Hitec City,17.436092,78.373096,Theft,Residential,1.7,43,Medium,2025-09-16,15,0,0,Low,Medium,Medium,❌,✅,68.5,43
+2025-01-23,00:21:49,Thursday,January,Hyderabad,Hitec City,17.443966,78.368056,Robbery,Nightclub/Bar,1.99,39,Medium,2025-01-23,0,0,1,Medium,Medium,Medium,✅,✅,65.5,42
+2025-12-28,20:07:04,Sunday,December,Hyderabad,Ameerpet,17.429828,78.459356,Robbery,Market/Bazaar,3.45,57,Medium,2025-12-28,20,1,1,High,Medium,Medium,❌,✅,48.4,68
+2025-10-10,21:02:19,Friday,October,Hyderabad,Kukatpally,17.49882,78.430422,Chain Snatching,Commercial,3.98,77,High,2025-10-10,21,0,1,High,High,High,✅,✅,69.3,83
+2025-12-08,02:35:56,Monday,December,Hyderabad,Secunderabad,17.441758,78.499709,Vandalism,Transit Station,2.76,64,Medium,2025-12-08,2,0,1,High,Medium,Medium,❌,✅,48.1,66
+2026-02-20,05:56:26,Friday,February,Hyderabad,Abids,17.387117,78.474155,Theft,Transit Station,1.73,40,Low,2026-02-20,5,0,0,Medium,Medium,Low,❌,❌,52.6,36
+2026-04-22,13:51:42,Wednesday,April,Hyderabad,Abids,17.387684,78.474142,Assault,Nightclub/Bar,1.57,30,Medium,2026-04-22,13,0,0,Medium,Medium,Medium,✅,✅,68.6,40
+2025-07-15,01:54:30,Tuesday,July,Hyderabad,Banjara Hills,17.409878,78.441137,Assault,Street/Road,1.74,45,Low,2025-07-15,1,0,1,Low,Low,Low,✅,✅,44.7,37
+2025-06-06,07:14:01,Friday,June,Hyderabad,Gachibowli,17.459212,78.363647,Assault,Parking Lot,0.96,17,Low,2025-06-06,7,0,0,Low,Low,Low,✅,✅,89.7,6
+2026-01-31,08:22:41,Saturday,January,Hyderabad,Banjara Hills,17.399399,78.437192,Harassment,Parking Lot,2.01,45,Low,2026-01-31,8,1,0,Low,Low,Low,✅,✅,59.5,26
+2025-06-19,06:56:16,Thursday,June,Hyderabad,Ameerpet,17.431325,78.46159,Robbery,Nightclub/Bar,2.63,54,High,2025-06-19,6,0,0,High,High,High,✅,✅,62.5,75
+2025-06-26,13:27:38,Thursday,June,Hyderabad,Begumpet,17.458824,78.46964,Harassment,Residential,4.24,75,Medium,2025-06-26,13,0,0,Low,High,Medium,❌,❌,50.7,68
+2025-05-11,23:00:33,Sunday,May,Hyderabad,Secunderabad,17.442918,78.511511,Harassment,Street/Road,3.26,73,High,2025-05-11,23,1,1,High,High,High,✅,✅,82.4,89
+2026-04-17,22:42:54,Friday,April,Hyderabad,Mehdipatnam,17.401735,78.437439,Burglary,Nightclub/Bar,3.61,60,High,2026-04-17,22,0,1,High,High,High,✅,✅,76.7,86
+2025-06-17,22:35:08,Tuesday,June,Hyderabad,Begumpet,17.442801,78.481376,Assault,Parking Lot,3.18,62,High,2025-06-17,22,0,1,Low,High,High,❌,✅,73.7,82
+2025-03-31,22:25:35,Monday,March,Hyderabad,Koti,17.380379,78.476718,Theft,Nightclub/Bar,3.56,67,High,2025-03-31,22,0,1,High,High,High,✅,✅,77.5,86
+2025-10-24,19:41:20,Friday,October,Hyderabad,Abids,17.389973,78.469775,Cybercrime,Park/Open Ground,2.1,39,Medium,2025-10-24,19,0,0,Medium,Medium,Medium,✅,✅,73.8,45
+2025-08-31,08:42:05,Sunday,August,Hyderabad,Ameerpet,17.429648,78.451997,Vehicle Theft,Market/Bazaar,2.8,68,High,2025-08-31,8,1,0,High,High,High,✅,✅,77.3,85
+2026-02-24,07:43:19,Tuesday,February,Hyderabad,Banjara Hills,17.420777,78.436709,Assault,Street/Road,1.75,33,High,2026-02-24,7,0,0,Medium,Medium,High,❌,❌,38.9,54
+2025-09-01,02:04:29,Monday,September,Hyderabad,Secunderabad,17.456964,78.482683,Vandalism,Street/Road,4.62,86,High,2025-09-01,2,0,1,High,High,High,✅,✅,81.6,88
+2025-03-17,03:57:48,Monday,March,Hyderabad,Secunderabad,17.436009,78.499961,Burglary,Parking Lot,2.63,63,High,2025-03-17,3,0,1,High,High,High,✅,✅,81.1,88
+2025-09-23,00:15:58,Tuesday,September,Hyderabad,Dilsukhnagar,17.364085,78.531497,Burglary,Park/Open Ground,3.15,55,Medium,2025-09-23,0,0,1,High,Medium,Medium,❌,✅,48.7,67
+2025-09-29,13:48:57,Monday,September,Hyderabad,Mehdipatnam,17.394496,78.447751,Cybercrime,Market/Bazaar,3.4,80,Medium,2025-09-29,13,0,0,High,High,Medium,❌,❌,60.0,78
+2025-08-17,18:28:16,Sunday,August,Hyderabad,Ameerpet,17.443478,78.453183,Assault,Nightclub/Bar,3.38,73,High,2025-08-17,18,1,0,High,High,High,✅,✅,83.7,90
+2025-05-21,01:18:15,Wednesday,May,Hyderabad,Secunderabad,17.452323,78.494784,Vehicle Theft,Bank/ATM,4.17,75,Medium,2025-05-21,1,0,1,High,Medium,Medium,❌,✅,48.3,70
+2025-03-12,04:14:24,Wednesday,March,Hyderabad,Banjara Hills,17.426044,78.435868,Robbery,Street/Road,1.41,28,Medium,2025-03-12,4,0,1,Medium,Medium,Medium,✅,✅,72.8,40
+2025-10-05,14:26:03,Sunday,October,Hyderabad,Gachibowli,17.437932,78.343995,Assault,Parking Lot,0.81,18,Low,2025-10-05,14,1,0,Low,Low,Low,✅,✅,90.5,5
+2026-04-30,15:30:00,Thursday,April,Hyderabad,Kukatpally,17.486652,78.389886,Chain Snatching,Nightclub/Bar,4.03,75,Medium,2026-04-30,15,0,0,High,High,Medium,❌,❌,47.5,71
+2025-08-03,17:47:47,Sunday,August,Hyderabad,LB Nagar,17.340107,78.552129,Harassment,Street/Road,2.09,38,Medium,2025-08-03,17,1,0,Medium,Medium,Medium,✅,✅,79.6,46
+2025-09-06,22:42:43,Saturday,September,Hyderabad,Begumpet,17.438096,78.463829,Vandalism,Transit Station,3.5,66,Medium,2025-09-06,22,1,1,High,Medium,Medium,❌,✅,50.5,68
+2025-10-01,23:37:36,Wednesday,October,Hyderabad,Kukatpally,17.491234,78.401231,Theft,Residential,3.51,87,High,2025-10-01,23,0,1,High,High,High,✅,✅,81.2,88
+2025-08-25,05:03:16,Monday,August,Hyderabad,LB Nagar,17.334115,78.54094,Vandalism,Bank/ATM,1.78,31,Medium,2025-08-25,5,0,0,Medium,Medium,Medium,✅,✅,70.7,43
+2026-01-25,12:17:48,Sunday,January,Hyderabad,Gachibowli,17.423803,78.36146,Vandalism,Nightclub/Bar,0.79,17,Low,2026-01-25,12,1,0,Low,Low,Low,✅,✅,89.1,6
+2025-10-04,22:14:41,Saturday,October,Hyderabad,Dilsukhnagar,17.368652,78.522391,Burglary,Commercial,2.19,46,Medium,2025-10-04,22,1,1,Medium,Medium,Medium,✅,✅,75.6,52
+2026-03-06,21:15:08,Friday,March,Hyderabad,Secunderabad,17.450069,78.504467,Cybercrime,Residential,4.13,75,Medium,2026-03-06,21,0,1,High,Medium,Medium,❌,✅,46.2,68
+2025-12-25,08:49:23,Thursday,December,Hyderabad,Madhapur,17.450093,78.391601,Robbery,Residential,1.98,33,Medium,2025-12-25,8,0,0,Medium,Medium,Medium,✅,✅,60.7,36
+2025-02-25,18:01:59,Tuesday,February,Hyderabad,Hitec City,17.461706,78.38045,Vehicle Theft,Parking Lot,1.94,39,Low,2025-02-25,18,0,0,Medium,Low,Low,❌,✅,51.5,29
+2025-02-08,02:40:15,Saturday,February,Hyderabad,Secunderabad,17.446879,78.499767,Burglary,Nightclub/Bar,3.84,63,Medium,2025-02-08,2,1,1,High,High,Medium,❌,❌,52.7,74
+2025-10-17,01:22:34,Friday,October,Hyderabad,Abids,17.390113,78.48131,Vandalism,Bank/ATM,1.43,33,Medium,2025-10-17,1,0,1,Medium,Medium,Medium,✅,✅,71.9,45
+2025-01-07,13:52:31,Tuesday,January,Hyderabad,Gachibowli,17.423109,78.344694,Burglary,Parking Lot,0.96,17,Low,2025-01-07,13,0,0,Low,Low,Low,✅,✅,90.1,6
+2025-08-24,22:09:27,Sunday,August,Hyderabad,LB Nagar,17.330398,78.5551,Robbery,Market/Bazaar,1.81,45,Medium,2025-08-24,22,1,1,Medium,Medium,Medium,✅,✅,73.5,50
+2026-04-16,17:49:30,Thursday,April,Hyderabad,Abids,17.380438,78.488152,Cybercrime,Parking Lot,1.96,52,Medium,2026-04-16,17,0,0,Low,Medium,Medium,❌,✅,49.2,60
+2025-06-15,07:53:59,Sunday,June,Hyderabad,Hitec City,17.442911,78.374942,Burglary,Nightclub/Bar,1.5,31,Medium,2025-06-15,7,1,0,Medium,Medium,Medium,✅,✅,76.2,43
+2025-10-19,19:42:24,Sunday,October,Hyderabad,Madhapur,17.447384,78.401403,Chain Snatching,Commercial,1.44,36,Medium,2025-10-19,19,1,0,Medium,Medium,Medium,✅,✅,67.3,51
+2025-09-07,06:22:51,Sunday,September,Hyderabad,Jubilee Hills,17.433975,78.409719,Vehicle Theft,Bank/ATM,2.03,35,Low,2025-09-07,6,1,0,Medium,Low,Low,❌,✅,58.3,25
+2026-03-27,20:33:12,Friday,March,Hyderabad,Dilsukhnagar,17.365199,78.529683,Burglary,Street/Road,4.14,72,High,2026-03-27,20,0,1,High,High,High,✅,✅,80.7,88
+2025-05-04,22:30:41,Sunday,May,Hyderabad,Abids,17.380051,78.477784,Cybercrime,Park/Open Ground,1.95,45,High,2025-05-04,22,1,1,Medium,Medium,High,❌,❌,73.3,49
+2025-04-24,12:44:15,Thursday,April,Hyderabad,Hitec City,17.446159,78.371212,Vehicle Theft,Bank/ATM,1.8,37,Medium,2025-04-24,12,0,0,Medium,Medium,Medium,✅,✅,71.8,44
+2025-08-06,23:35:21,Wednesday,August,Hyderabad,Gachibowli,17.44146,78.358126,Chain Snatching,Park/Open Ground,0.53,14,Low,2025-08-06,23,0,1,Low,Low,Low,✅,✅,89.8,6
+2025-03-03,13:07:47,Monday,March,Hyderabad,Secunderabad,17.445063,78.509249,Harassment,Transit Station,3.01,70,High,2025-03-03,13,0,0,Low,High,High,❌,✅,76.5,82
+2025-05-22,23:37:48,Thursday,May,Hyderabad,Madhapur,17.434453,78.403055,Harassment,Nightclub/Bar,1.44,30,Medium,2025-05-22,23,0,1,Medium,Medium,Medium,✅,✅,67.0,41
+2025-04-27,11:11:19,Sunday,April,Hyderabad,Hitec City,17.455519,78.377793,Theft,Market/Bazaar,1.8,30,Medium,2025-04-27,11,1,0,Medium,Medium,Medium,✅,✅,54.8,43
+2025-10-11,21:40:55,Saturday,October,Hyderabad,Charminar,17.361482,78.481071,Cybercrime,Residential,3.61,55,High,2025-10-11,21,1,1,High,High,High,✅,✅,67.2,79
+2025-09-03,14:21:11,Wednesday,September,Hyderabad,Madhapur,17.43176,78.390787,Theft,Nightclub/Bar,1.75,45,Medium,2025-09-03,14,0,0,Medium,Medium,Medium,✅,✅,72.7,47
+2025-02-03,12:31:04,Monday,February,Hyderabad,LB Nagar,17.33689,78.556101,Drug Offense,Commercial,1.53,30,High,2025-02-03,12,0,0,Medium,Medium,High,❌,❌,42.6,52
+2025-06-05,21:07:35,Thursday,June,Hyderabad,Kukatpally,17.486814,78.403632,Vandalism,Street/Road,3.02,69,High,2025-06-05,21,0,1,Low,High,High,❌,✅,75.5,81
+2025-08-15,00:27:19,Friday,August,Hyderabad,Koti,17.375876,78.482228,Drug Offense,Commercial,3.37,68,Low,2025-08-15,0,0,1,High,High,Low,❌,❌,51.8,59
+2026-01-26,06:40:13,Monday,January,Hyderabad,Banjara Hills,17.411171,78.426117,Vehicle Theft,Residential,1.29,32,Medium,2026-01-26,6,0,0,Medium,Medium,Medium,✅,✅,64.2,40
+2025-02-08,23:28:44,Saturday,February,Hyderabad,Ameerpet,17.441617,78.457937,Drug Offense,Park/Open Ground,3.56,81,High,2025-02-08,23,1,1,High,High,High,✅,✅,81.9,89
+2025-12-28,09:44:55,Sunday,December,Hyderabad,Hitec City,17.448413,78.38326,Cybercrime,Residential,1.63,35,Medium,2025-12-28,9,1,0,Medium,Medium,Medium,✅,✅,76.5,44
+2026-02-08,20:37:42,Sunday,February,Hyderabad,Hitec City,17.462493,78.374714,Assault,Parking Lot,1.69,29,Medium,2026-02-08,20,1,1,Medium,Medium,Medium,✅,✅,57.0,43
+2025-03-18,07:04:03,Tuesday,March,Hyderabad,Mehdipatnam,17.396212,78.44559,Robbery,Nightclub/Bar,3.27,79,High,2025-03-18,7,0,0,High,High,High,✅,✅,83.0,89
+2026-04-17,20:29:44,Friday,April,Hyderabad,Kukatpally,17.50689,78.379946,Vehicle Theft,Parking Lot,3.09,63,High,2026-04-17,20,0,1,High,High,High,✅,✅,79.9,87
+2025-08-13,02:38:02,Wednesday,August,Hyderabad,Madhapur,17.443127,78.382848,Vandalism,Bank/ATM,2.09,40,Medium,2025-08-13,2,0,1,Medium,Medium,Medium,✅,✅,74.9,48
+2025-04-28,21:53:55,Monday,April,Hyderabad,Banjara Hills,17.408608,78.435674,Drug Offense,Commercial,2.12,42,Medium,2025-04-28,21,0,1,Medium,Medium,Medium,✅,✅,69.0,46
+2025-10-23,01:48:48,Thursday,October,Hyderabad,Hitec City,17.435202,78.375677,Robbery,Park/Open Ground,1.82,35,Medium,2025-10-23,1,0,1,Medium,Medium,Medium,✅,✅,71.7,44
+2025-05-23,00:27:40,Friday,May,Hyderabad,Koti,17.36709,78.49423,Cybercrime,Residential,3.0,69,High,2025-05-23,0,0,1,High,High,High,✅,✅,80.0,87
+2025-06-14,21:06:54,Saturday,June,Hyderabad,Gachibowli,17.434895,78.345003,Robbery,Bank/ATM,0.58,14,Low,2025-06-14,21,1,1,Low,Low,Low,✅,✅,86.5,8
+2025-12-06,12:52:48,Saturday,December,Hyderabad,Hitec City,17.423478,78.382677,Harassment,Commercial,1.81,43,High,2025-12-06,12,1,0,Low,Medium,High,❌,❌,42.6,57
+2025-06-15,03:49:25,Sunday,June,Hyderabad,Hitec City,17.447507,78.36938,Harassment,Commercial,2.23,49,Low,2025-06-15,3,1,1,Low,Low,Low,✅,✅,60.0,27
+2025-07-31,01:12:33,Thursday,July,Hyderabad,Madhapur,17.455764,78.385406,Chain Snatching,Park/Open Ground,1.66,35,Medium,2025-07-31,1,0,1,Medium,Medium,Medium,✅,✅,73.9,45
+2025-04-15,21:59:18,Tuesday,April,Hyderabad,Charminar,17.34858,78.475085,Cybercrime,Park/Open Ground,2.64,53,High,2025-04-15,21,0,1,High,High,High,✅,✅,69.6,79
+2025-11-08,08:19:35,Saturday,November,Hyderabad,Mehdipatnam,17.382487,78.445242,Theft,Market/Bazaar,3.0,73,High,2025-11-08,8,1,0,High,High,High,✅,✅,83.1,89
+2026-04-13,03:29:07,Monday,April,Hyderabad,LB Nagar,17.338817,78.549124,Robbery,Park/Open Ground,1.64,38,Medium,2026-04-13,3,0,1,Medium,Medium,Medium,✅,✅,72.8,47
+2025-05-20,23:30:15,Tuesday,May,Hyderabad,Dilsukhnagar,17.377651,78.530873,Cybercrime,Market/Bazaar,3.24,66,High,2025-05-20,23,0,1,High,High,High,✅,✅,78.8,87
+2025-11-03,21:55:04,Monday,November,Hyderabad,Koti,17.387017,78.485076,Vehicle Theft,Parking Lot,3.75,61,Medium,2025-11-03,21,0,1,High,High,Medium,❌,❌,49.7,71
+2025-05-17,06:37:30,Saturday,May,Hyderabad,Ameerpet,17.441404,78.460941,Drug Offense,Park/Open Ground,3.93,72,High,2025-05-17,6,1,0,High,High,High,✅,✅,75.2,83
+2025-06-26,10:35:48,Thursday,June,Hyderabad,Madhapur,17.444399,78.38804,Harassment,Parking Lot,1.75,39,Low,2025-06-26,10,0,0,Medium,Medium,Low,❌,❌,52.7,34
+2025-04-07,22:15:36,Monday,April,Hyderabad,LB Nagar,17.343538,78.559781,Vandalism,Street/Road,2.06,48,Medium,2025-04-07,22,0,1,Medium,Medium,Medium,✅,✅,75.0,49
+2025-06-12,15:24:42,Thursday,June,Hyderabad,Charminar,17.346634,78.471888,Robbery,Park/Open Ground,3.0,66,High,2025-06-12,15,0,0,High,High,High,✅,✅,71.8,80
+2025-06-19,17:06:33,Thursday,June,Hyderabad,Kukatpally,17.492787,78.406185,Cybercrime,Commercial,3.48,65,High,2025-06-19,17,0,0,High,High,High,✅,✅,78.3,86
+2025-03-21,02:16:21,Friday,March,Hyderabad,Mehdipatnam,17.379771,78.45225,Drug Offense,Parking Lot,4.4,82,High,2025-03-21,2,0,1,High,High,High,✅,✅,85.2,91
+2026-03-13,21:54:34,Friday,March,Hyderabad,Gachibowli,17.436201,78.352131,Vandalism,Bank/ATM,0.84,16,Low,2026-03-13,21,0,1,Low,Low,Low,✅,✅,91.1,5
+2025-11-13,01:43:58,Thursday,November,Hyderabad,Charminar,17.362173,78.470879,Vehicle Theft,Street/Road,3.18,67,High,2025-11-13,1,0,1,High,High,High,✅,✅,78.1,85
+2026-01-25,20:45:55,Sunday,January,Hyderabad,Banjara Hills,17.425896,78.432143,Burglary,Park/Open Ground,1.57,26,Medium,2026-01-25,20,1,1,Medium,Medium,Medium,✅,✅,65.3,43
+2025-01-15,02:03:18,Wednesday,January,Hyderabad,Koti,17.389357,78.497545,Chain Snatching,Bank/ATM,3.39,77,High,2025-01-15,2,0,1,High,High,High,✅,✅,73.6,83
+2025-07-30,02:11:10,Wednesday,July,Hyderabad,Ameerpet,17.429033,78.444197,Robbery,Residential,4.02,90,Medium,2025-07-30,2,0,1,Low,High,Medium,❌,❌,51.1,70
+2025-12-16,00:09:14,Tuesday,December,Hyderabad,Kukatpally,17.499935,78.399155,Cybercrime,Nightclub/Bar,3.36,66,High,2025-12-16,0,0,1,High,High,High,✅,✅,80.2,86
+2026-04-06,12:43:34,Monday,April,Hyderabad,Charminar,17.359977,78.475075,Robbery,Residential,4.2,75,Medium,2026-04-06,12,0,0,High,High,Medium,❌,❌,83.0,88
+2025-06-03,23:44:16,Tuesday,June,Hyderabad,Kukatpally,17.488376,78.403372,Cybercrime,Nightclub/Bar,3.28,67,Low,2025-06-03,23,0,1,High,High,Low,❌,❌,46.3,52
+2025-09-05,03:15:24,Friday,September,Hyderabad,LB Nagar,17.347171,78.553001,Drug Offense,Bank/ATM,1.88,48,Medium,2025-09-05,3,0,1,Medium,Medium,Medium,✅,✅,50.0,51
+2025-06-01,02:42:25,Sunday,June,Hyderabad,Dilsukhnagar,17.369246,78.533454,Vehicle Theft,Commercial,3.24,80,Medium,2025-06-01,2,1,1,High,High,Medium,❌,❌,49.0,71
+2026-01-17,01:58:38,Saturday,January,Hyderabad,Abids,17.399568,78.468838,Cybercrime,Nightclub/Bar,2.18,40,Medium,2026-01-17,1,1,1,Medium,Medium,Medium,✅,✅,69.8,48
+2026-02-15,01:12:39,Sunday,February,Hyderabad,Kukatpally,17.48438,78.389239,Vehicle Theft,Transit Station,3.63,85,High,2026-02-15,1,1,1,Low,High,High,❌,✅,81.5,87
+2025-11-27,02:28:02,Thursday,November,Hyderabad,Mehdipatnam,17.382597,78.441908,Drug Offense,Bank/ATM,2.94,57,High,2025-11-27,2,0,1,High,High,High,✅,✅,78.3,86
+2025-06-17,23:26:11,Tuesday,June,Hyderabad,Hitec City,17.441653,78.38277,Assault,Transit Station,1.64,43,Medium,2025-06-17,23,0,1,Medium,Medium,Medium,✅,✅,76.1,47
+2025-09-29,16:58:17,Monday,September,Hyderabad,Gachibowli,17.431962,78.353033,Robbery,Nightclub/Bar,1.06,26,Low,2025-09-29,16,0,0,Medium,Low,Low,❌,✅,69.6,17
+2026-01-18,10:51:07,Sunday,January,Hyderabad,Hitec City,17.464087,78.377674,Cybercrime,Residential,1.13,27,Medium,2026-01-18,10,1,0,Medium,Medium,Medium,✅,✅,73.2,40
+2026-03-17,15:54:51,Tuesday,March,Hyderabad,Secunderabad,17.460459,78.489443,Harassment,Bank/ATM,2.72,49,High,2026-03-17,15,0,0,High,High,High,✅,✅,65.1,76
+2025-05-16,23:23:43,Friday,May,Hyderabad,Charminar,17.340392,78.483432,Vehicle Theft,Parking Lot,3.3,78,Medium,2025-05-16,23,0,1,High,Medium,Medium,❌,✅,52.7,69
+2025-12-12,07:30:01,Friday,December,Hyderabad,Banjara Hills,17.417919,78.433661,Drug Offense,Market/Bazaar,1.92,46,Low,2025-12-12,7,0,0,Low,Low,Low,✅,✅,59.6,26
+2025-11-28,02:29:58,Friday,November,Hyderabad,Secunderabad,17.431015,78.512318,Vehicle Theft,Parking Lot,2.77,67,High,2025-11-28,2,0,1,High,High,High,✅,✅,75.1,84
+2025-06-05,06:06:15,Thursday,June,Hyderabad,Charminar,17.355964,78.468873,Harassment,Transit Station,3.14,75,High,2025-06-05,6,0,0,Low,High,High,❌,✅,68.2,75
+2026-01-16,16:37:47,Friday,January,Hyderabad,Mehdipatnam,17.387404,78.447015,Robbery,Parking Lot,3.4,83,High,2026-01-16,16,0,0,High,High,High,✅,✅,84.9,91
+2025-11-12,13:17:02,Wednesday,November,Hyderabad,Madhapur,17.454811,78.383977,Chain Snatching,Street/Road,1.51,35,Medium,2025-11-12,13,0,0,Medium,Medium,Medium,✅,✅,79.8,46
+2026-03-14,01:23:34,Saturday,March,Hyderabad,Secunderabad,17.444645,78.495824,Chain Snatching,Commercial,2.94,66,High,2026-03-14,1,1,1,High,High,High,✅,✅,83.1,89
+2026-03-11,14:05:42,Wednesday,March,Hyderabad,Banjara Hills,17.402242,78.449817,Assault,Commercial,1.67,37,Medium,2026-03-11,14,0,0,Medium,Medium,Medium,✅,✅,70.9,45
+2025-03-06,09:04:53,Thursday,March,Hyderabad,Secunderabad,17.434265,78.487032,Harassment,Street/Road,3.98,80,High,2025-03-06,9,0,0,High,High,High,✅,✅,83.0,89
+2025-04-30,10:49:09,Wednesday,April,Hyderabad,LB Nagar,17.355674,78.534841,Drug Offense,Commercial,1.96,33,Medium,2025-04-30,10,0,0,Medium,Medium,Medium,✅,✅,77.0,44
+2025-03-08,17:16:51,Saturday,March,Hyderabad,Jubilee Hills,17.427541,78.410493,Robbery,Residential,2.36,46,Low,2025-03-08,17,1,0,Low,Medium,Low,✅,❌,58.1,43
+2025-01-08,11:50:50,Wednesday,January,Hyderabad,Jubilee Hills,17.429214,78.418068,Assault,Bank/ATM,1.41,31,High,2025-01-08,11,0,0,Low,Medium,High,❌,❌,56.3,37
+2025-03-06,19:07:47,Thursday,March,Hyderabad,Charminar,17.362967,78.473228,Burglary,Park/Open Ground,2.76,67,High,2025-03-06,19,0,0,High,High,High,✅,✅,81.8,87
+2025-10-31,00:14:39,Friday,October,Hyderabad,Ameerpet,17.424463,78.452715,Theft,Market/Bazaar,3.91,70,High,2025-10-31,0,0,1,High,High,High,✅,✅,72.8,83
+2025-02-01,15:27:43,Saturday,February,Hyderabad,Charminar,17.363648,78.482562,Burglary,Park/Open Ground,3.26,76,High,2025-02-01,15,1,0,High,High,High,✅,✅,79.4,87
+2025-06-14,19:09:04,Saturday,June,Hyderabad,Banjara Hills,17.414335,78.442153,Robbery,Nightclub/Bar,1.47,37,Medium,2025-06-14,19,1,0,Medium,Medium,Medium,✅,✅,71.8,46
+2025-12-31,00:33:18,Wednesday,December,Hyderabad,Ameerpet,17.441641,78.442494,Cybercrime,Market/Bazaar,3.09,68,High,2025-12-31,0,0,1,High,High,High,✅,✅,79.3,85
+2025-12-26,03:54:41,Friday,December,Hyderabad,Abids,17.378808,78.467112,Harassment,Street/Road,1.54,34,Medium,2025-12-26,3,0,1,Medium,Medium,Medium,✅,✅,70.6,44
+2025-07-31,23:25:26,Thursday,July,Hyderabad,Secunderabad,17.432305,78.519359,Burglary,Bank/ATM,3.14,78,High,2025-07-31,23,0,1,High,High,High,✅,✅,85.7,91
+2025-07-11,04:43:59,Friday,July,Hyderabad,Hitec City,17.448361,78.365047,Cybercrime,Residential,1.28,20,Medium,2025-07-11,4,0,1,Medium,Medium,Medium,✅,✅,67.2,38
+2025-08-10,03:47:47,Sunday,August,Hyderabad,Banjara Hills,17.424794,78.430075,Chain Snatching,Transit Station,1.74,31,High,2025-08-10,3,1,1,Medium,High,High,❌,✅,47.6,63
+2025-10-15,20:26:22,Wednesday,October,Hyderabad,Ameerpet,17.4533,78.447922,Vandalism,Commercial,3.83,68,High,2025-10-15,20,0,1,High,High,High,✅,✅,80.6,87
+2025-02-23,18:32:13,Sunday,February,Hyderabad,Gachibowli,17.445159,78.35668,Robbery,Park/Open Ground,0.58,12,Low,2025-02-23,18,1,0,Low,Low,Low,✅,✅,84.7,8
+2026-03-09,17:23:07,Monday,March,Hyderabad,Gachibowli,17.429545,78.34709,Vehicle Theft,Street/Road,0.87,17,Low,2026-03-09,17,0,0,Low,Low,Low,✅,✅,87.1,7
+2026-02-24,19:39:43,Tuesday,February,Hyderabad,Abids,17.395478,78.482146,Harassment,Commercial,1.52,35,Low,2026-02-24,19,0,0,Medium,Low,Low,❌,✅,55.2,27
+2025-12-22,08:01:11,Monday,December,Hyderabad,LB Nagar,17.352248,78.553271,Vehicle Theft,Nightclub/Bar,1.95,32,Medium,2025-12-22,8,0,0,Medium,Medium,Medium,✅,✅,74.2,42
+2026-03-22,04:36:42,Sunday,March,Hyderabad,Jubilee Hills,17.431584,78.412752,Vandalism,Residential,1.19,29,Medium,2026-03-22,4,1,1,Medium,Medium,Medium,✅,✅,76.2,42
+2025-02-16,09:24:26,Sunday,February,Hyderabad,Charminar,17.350359,78.478708,Cybercrime,Bank/ATM,3.27,56,High,2025-02-16,9,1,0,High,High,High,✅,✅,64.7,75
+2025-06-16,05:56:03,Monday,June,Hyderabad,Dilsukhnagar,17.378846,78.517543,Robbery,Transit Station,3.4,66,High,2025-06-16,5,0,0,High,High,High,✅,✅,54.1,67
+2025-05-20,14:42:27,Tuesday,May,Hyderabad,Banjara Hills,17.410395,78.444048,Cybercrime,Park/Open Ground,1.9,38,Medium,2025-05-20,14,0,0,Medium,Medium,Medium,✅,✅,73.9,45
+2025-09-20,03:22:27,Saturday,September,Hyderabad,Abids,17.391658,78.482024,Burglary,Nightclub/Bar,2.57,50,Medium,2025-09-20,3,1,1,High,High,Medium,❌,❌,48.5,67
+2025-09-27,21:19:02,Saturday,September,Hyderabad,Madhapur,17.458085,78.386033,Assault,Parking Lot,1.87,37,High,2025-09-27,21,1,1,Medium,High,High,❌,✅,48.3,67
+2025-06-04,07:48:16,Wednesday,June,Hyderabad,Secunderabad,17.436336,78.509927,Vehicle Theft,Bank/ATM,2.84,61,High,2025-06-04,7,0,0,High,High,High,✅,✅,76.2,84
+2025-08-09,23:34:45,Saturday,August,Hyderabad,Dilsukhnagar,17.366397,78.518262,Assault,Market/Bazaar,3.24,73,Medium,2025-08-09,23,1,1,High,High,Medium,❌,❌,48.1,72
+2025-07-01,02:25:55,Tuesday,July,Hyderabad,Abids,17.390723,78.475374,Theft,Parking Lot,1.29,28,Medium,2025-07-01,2,0,1,Medium,Medium,Medium,✅,✅,67.3,38
+2026-03-18,10:36:27,Wednesday,March,Hyderabad,Banjara Hills,17.414274,78.429095,Drug Offense,Parking Lot,1.65,40,Medium,2026-03-18,10,0,0,Medium,Medium,Medium,✅,✅,55.4,38
+2025-02-28,12:01:20,Friday,February,Hyderabad,Hitec City,17.444832,78.38114,Robbery,Park/Open Ground,1.86,45,Medium,2025-02-28,12,0,0,Low,Medium,Medium,❌,✅,60.0,41
+2025-02-15,13:54:06,Saturday,February,Hyderabad,Gachibowli,17.43596,78.344109,Assault,Parking Lot,0.64,14,Low,2025-02-15,13,1,0,Low,Low,Low,✅,✅,90.5,5
+2026-03-22,22:14:21,Sunday,March,Hyderabad,Begumpet,17.456064,78.461834,Robbery,Residential,4.23,80,High,2026-03-22,22,1,1,High,High,High,✅,✅,79.3,87
+2025-09-19,02:22:22,Friday,September,Hyderabad,Ameerpet,17.431858,78.442671,Robbery,Street/Road,3.39,64,High,2025-09-19,2,0,1,High,High,High,✅,✅,70.0,81
+2025-03-30,02:48:41,Sunday,March,Hyderabad,Secunderabad,17.434998,78.495198,Burglary,Transit Station,4.29,88,High,2025-03-30,2,1,1,High,High,High,✅,✅,86.0,91
+2025-10-16,18:28:43,Thursday,October,Hyderabad,Abids,17.384196,78.474338,Drug Offense,Bank/ATM,1.78,42,Low,2025-10-16,18,0,0,Medium,Low,Low,❌,✅,56.0,27
+2025-03-19,14:04:30,Wednesday,March,Hyderabad,Gachibowli,17.439835,78.363256,Cybercrime,Nightclub/Bar,0.62,10,Low,2025-03-19,14,0,0,Low,Low,Low,✅,✅,93.8,4
+2025-09-17,02:19:29,Wednesday,September,Hyderabad,Gachibowli,17.412254,78.341938,Cybercrime,Commercial,0.57,12,Low,2025-09-17,2,0,1,Low,Low,Low,✅,✅,93.0,4
+2025-02-09,20:55:54,Sunday,February,Hyderabad,Hitec City,17.448955,78.391974,Burglary,Market/Bazaar,2.16,41,Medium,2025-02-09,20,1,1,Medium,Medium,Medium,✅,✅,73.2,48
+2026-02-10,04:28:58,Tuesday,February,Hyderabad,Ameerpet,17.440745,78.45402,Drug Offense,Street/Road,3.98,78,High,2026-02-10,4,0,1,Low,High,High,❌,✅,76.0,82
+2025-03-19,17:06:51,Wednesday,March,Hyderabad,Ameerpet,17.448557,78.45349,Chain Snatching,Residential,4.41,85,High,2025-03-19,17,0,0,High,High,High,✅,✅,83.6,89
+2025-05-07,17:33:33,Wednesday,May,Hyderabad,Charminar,17.358637,78.468032,Drug Offense,Transit Station,4.1,76,High,2025-05-07,17,0,0,Low,High,High,❌,✅,79.8,84
+2025-07-18,13:49:21,Friday,July,Hyderabad,Hitec City,17.44373,78.387428,Drug Offense,Commercial,2.11,44,Medium,2025-07-18,13,0,0,Low,Low,Medium,❌,❌,44.3,35
+2025-02-03,10:06:35,Monday,February,Hyderabad,Gachibowli,17.452061,78.350609,Vandalism,Nightclub/Bar,0.81,13,Low,2025-02-03,10,0,0,Low,Low,Low,✅,✅,90.9,6
+2026-04-10,21:21:05,Friday,April,Hyderabad,Mehdipatnam,17.388029,78.444653,Drug Offense,Transit Station,2.82,67,High,2026-04-10,21,0,1,High,High,High,✅,✅,75.9,85
+2025-12-24,07:38:45,Wednesday,December,Hyderabad,Mehdipatnam,17.37712,78.45082,Burglary,Nightclub/Bar,4.27,79,High,2025-12-24,7,0,0,High,High,High,✅,✅,88.3,92
+2025-06-18,04:42:44,Wednesday,June,Hyderabad,Abids,17.386529,78.476518,Harassment,Residential,1.68,44,Medium,2025-06-18,4,0,1,Low,Medium,Medium,❌,✅,74.8,46
+2025-07-05,22:11:13,Saturday,July,Hyderabad,Ameerpet,17.436452,78.432018,Chain Snatching,Park/Open Ground,3.48,72,High,2025-07-05,22,1,1,High,High,High,✅,✅,73.0,83
+2025-03-21,02:18:54,Friday,March,Hyderabad,Jubilee Hills,17.420316,78.38971,Burglary,Market/Bazaar,1.89,36,Medium,2025-03-21,2,0,1,Medium,Medium,Medium,✅,✅,74.2,46
+2026-03-29,01:21:56,Sunday,March,Hyderabad,Dilsukhnagar,17.377775,78.535184,Drug Offense,Transit Station,4.09,71,High,2026-03-29,1,1,1,High,High,High,✅,✅,83.9,89
+2025-04-03,22:49:39,Thursday,April,Hyderabad,Jubilee Hills,17.446673,78.398739,Robbery,Park/Open Ground,1.82,28,Medium,2025-04-03,22,0,1,Medium,Medium,Medium,✅,✅,53.9,38
+2026-01-04,23:39:18,Sunday,January,Hyderabad,Mehdipatnam,17.398783,78.441447,Cybercrime,Street/Road,2.91,71,High,2026-01-04,23,1,1,Low,High,High,❌,✅,85.2,90
+2026-02-06,15:57:53,Friday,February,Hyderabad,Abids,17.380988,78.48505,Assault,Bank/ATM,2.41,46,Low,2026-02-06,15,0,0,Low,Low,Low,✅,✅,56.2,31
+2025-08-25,09:49:24,Monday,August,Hyderabad,Madhapur,17.450457,78.38966,Harassment,Market/Bazaar,2.12,40,Low,2025-08-25,9,0,0,Medium,Low,Low,❌,✅,50.1,30
+2025-04-13,19:08:55,Sunday,April,Hyderabad,LB Nagar,17.350842,78.562833,Vehicle Theft,Commercial,1.94,33,Medium,2025-04-13,19,1,0,Medium,Medium,Medium,✅,✅,77.6,45
+2025-10-11,03:45:54,Saturday,October,Hyderabad,Gachibowli,17.450094,78.352831,Harassment,Residential,0.59,15,Medium,2025-10-11,3,1,1,Low,Medium,Medium,❌,✅,57.7,30
+2025-05-20,14:57:32,Tuesday,May,Hyderabad,Jubilee Hills,17.426489,78.421708,Robbery,Parking Lot,1.11,26,Low,2025-05-20,14,0,0,Medium,Low,Low,❌,✅,68.6,17
+2026-02-23,22:59:01,Monday,February,Hyderabad,Secunderabad,17.427169,78.502818,Vandalism,Commercial,3.69,78,High,2026-02-23,22,0,1,High,High,High,✅,✅,83.4,90
+2025-07-17,14:14:01,Thursday,July,Hyderabad,Secunderabad,17.436282,78.478909,Chain Snatching,Residential,4.14,82,High,2025-07-17,14,0,0,Low,High,High,❌,✅,82.1,89
+2025-03-12,01:18:58,Wednesday,March,Hyderabad,Jubilee Hills,17.434877,78.411131,Cybercrime,Transit Station,2.02,34,Medium,2025-03-12,1,0,1,Medium,Medium,Medium,✅,✅,68.0,45
+2025-11-12,00:57:05,Wednesday,November,Hyderabad,Madhapur,17.448271,78.382233,Theft,Nightclub/Bar,1.76,35,Medium,2025-11-12,0,0,1,Medium,Medium,Medium,✅,✅,77.9,45
+2026-04-27,19:27:07,Monday,April,Hyderabad,Ameerpet,17.430489,78.448601,Vehicle Theft,Street/Road,2.8,66,High,2026-04-27,19,0,0,High,High,High,✅,✅,77.0,83
+2025-08-03,00:29:04,Sunday,August,Hyderabad,Secunderabad,17.431887,78.496051,Burglary,Park/Open Ground,4.21,80,High,2025-08-03,0,1,1,High,High,High,✅,✅,88.0,92
+2025-09-21,01:09:18,Sunday,September,Hyderabad,Mehdipatnam,17.387652,78.43954,Vandalism,Commercial,3.72,69,High,2025-09-21,1,1,1,High,High,High,✅,✅,82.3,88
+2025-08-02,01:05:33,Saturday,August,Hyderabad,Kukatpally,17.495177,78.394425,Chain Snatching,Residential,4.09,80,High,2025-08-02,1,1,1,High,High,High,✅,✅,87.4,91
+2025-09-17,17:01:24,Wednesday,September,Hyderabad,Abids,17.386364,78.482212,Cybercrime,Commercial,2.33,45,Medium,2025-09-17,17,0,0,Low,Medium,Medium,❌,✅,68.7,48
+2025-05-10,23:01:22,Saturday,May,Hyderabad,Gachibowli,17.450639,78.350481,Burglary,Bank/ATM,0.67,13,Low,2025-05-10,23,1,1,Low,Low,Low,✅,✅,86.2,8
+2025-02-23,13:08:02,Sunday,February,Hyderabad,Mehdipatnam,17.388644,78.444736,Chain Snatching,Market/Bazaar,2.57,56,Medium,2025-02-23,13,1,0,High,High,Medium,❌,❌,46.7,69
+2026-03-02,21:29:44,Monday,March,Hyderabad,Jubilee Hills,17.429337,78.410693,Cybercrime,Transit Station,1.89,37,High,2026-03-02,21,0,1,Medium,Medium,High,❌,❌,67.3,42
+2026-02-02,04:18:12,Monday,February,Hyderabad,Dilsukhnagar,17.39252,78.523927,Theft,Street/Road,3.96,65,High,2026-02-02,4,0,1,High,High,High,✅,✅,73.5,82
+2025-09-21,12:52:34,Sunday,September,Hyderabad,Hitec City,17.443804,78.37816,Cybercrime,Nightclub/Bar,1.08,25,Medium,2025-09-21,12,1,0,Medium,Medium,Medium,✅,✅,47.0,30
+2025-05-27,02:03:55,Tuesday,May,Hyderabad,Secunderabad,17.448628,78.497414,Chain Snatching,Nightclub/Bar,3.32,68,High,2025-05-27,2,0,1,High,High,High,✅,✅,80.4,88
+2026-04-01,23:57:24,Wednesday,April,Hyderabad,Begumpet,17.434894,78.454685,Chain Snatching,Transit Station,3.87,84,High,2026-04-01,23,0,1,High,High,High,✅,✅,86.1,91
+2026-04-19,16:17:51,Sunday,April,Hyderabad,Gachibowli,17.439257,78.363147,Burglary,Parking Lot,0.62,11,Low,2026-04-19,16,1,0,Low,Low,Low,✅,✅,89.2,6
+2025-04-03,17:18:20,Thursday,April,Hyderabad,LB Nagar,17.357512,78.563241,Burglary,Residential,2.0,39,Medium,2025-04-03,17,0,0,Medium,Medium,Medium,✅,✅,75.6,50
+2025-08-17,19:45:27,Sunday,August,Hyderabad,Hitec City,17.44609,78.374868,Robbery,Park/Open Ground,1.98,35,Medium,2025-08-17,19,1,0,Medium,Medium,Medium,✅,✅,72.0,44
+2026-03-22,16:17:40,Sunday,March,Hyderabad,Dilsukhnagar,17.374974,78.501912,Theft,Residential,3.28,77,High,2026-03-22,16,1,0,High,High,High,✅,✅,84.1,89
+2026-02-15,08:01:09,Sunday,February,Hyderabad,Ameerpet,17.440494,78.447605,Drug Offense,Park/Open Ground,2.79,56,High,2026-02-15,8,1,0,High,High,High,✅,✅,63.3,75
+2026-02-03,22:24:36,Tuesday,February,Hyderabad,Secunderabad,17.436158,78.501072,Theft,Transit Station,2.99,68,Medium,2026-02-03,22,0,1,Low,High,Medium,❌,❌,45.8,67
+2025-08-16,02:36:08,Saturday,August,Hyderabad,Gachibowli,17.423339,78.350933,Harassment,Bank/ATM,0.8,20,Low,2025-08-16,2,1,1,Low,Low,Low,✅,✅,88.0,7
+2025-05-08,03:01:47,Thursday,May,Hyderabad,Hitec City,17.455506,78.384002,Robbery,Park/Open Ground,1.29,32,Medium,2025-05-08,3,0,1,Medium,Medium,Medium,✅,✅,76.9,42
+2025-03-02,22:45:28,Sunday,March,Hyderabad,Ameerpet,17.444277,78.45808,Assault,Nightclub/Bar,4.01,74,High,2025-03-02,22,1,1,High,High,High,✅,✅,83.3,90
+2026-03-13,02:28:11,Friday,March,Hyderabad,Jubilee Hills,17.440142,78.40921,Cybercrime,Residential,1.62,37,Medium,2026-03-13,2,0,1,Medium,Medium,Medium,✅,✅,72.1,46
+2025-06-13,21:22:45,Friday,June,Hyderabad,LB Nagar,17.346087,78.5467,Burglary,Market/Bazaar,1.89,48,Medium,2025-06-13,21,0,1,Medium,Medium,Medium,✅,✅,71.9,52
+2026-03-12,05:45:45,Thursday,March,Hyderabad,Hitec City,17.449361,78.376554,Robbery,Bank/ATM,1.4,35,Medium,2026-03-12,5,0,0,Medium,Medium,Medium,✅,✅,72.1,41
+2026-02-10,02:31:01,Tuesday,February,Hyderabad,Secunderabad,17.441015,78.50192,Chain Snatching,Market/Bazaar,4.07,87,High,2026-02-10,2,0,1,High,High,High,✅,✅,82.3,89
+2025-10-10,04:39:56,Friday,October,Hyderabad,Abids,17.407707,78.472383,Burglary,Residential,1.35,28,Medium,2025-10-10,4,0,1,Medium,Medium,Medium,✅,✅,74.2,42
+2026-01-04,23:49:26,Sunday,January,Hyderabad,Dilsukhnagar,17.361292,78.529854,Drug Offense,Residential,2.84,53,Low,2026-01-04,23,1,1,Low,High,Low,✅,❌,62.3,75
+2025-02-07,01:33:22,Friday,February,Hyderabad,Mehdipatnam,17.390075,78.444839,Robbery,Market/Bazaar,4.53,84,High,2025-02-07,1,0,1,High,High,High,✅,✅,83.8,90
+2025-03-08,13:32:58,Saturday,March,Hyderabad,Abids,17.390753,78.489527,Theft,Residential,1.93,40,High,2025-03-08,13,1,0,Medium,Medium,High,❌,❌,50.0,54
+2025-03-24,10:59:45,Monday,March,Hyderabad,Jubilee Hills,17.440744,78.416796,Assault,Bank/ATM,1.58,33,Low,2025-03-24,10,0,0,Low,Low,Low,✅,✅,54.4,27
+2025-02-10,08:12:40,Monday,February,Hyderabad,LB Nagar,17.339527,78.554573,Harassment,Nightclub/Bar,1.78,31,Medium,2025-02-10,8,0,0,Medium,Medium,Medium,✅,✅,69.5,42
+2025-10-01,01:10:37,Wednesday,October,Hyderabad,Kukatpally,17.50761,78.403228,Drug Offense,Transit Station,3.39,74,High,2025-10-01,1,0,1,High,High,High,✅,✅,81.9,87
+2026-04-07,02:59:36,Tuesday,April,Hyderabad,Dilsukhnagar,17.377175,78.52926,Theft,Commercial,3.3,67,High,2026-04-07,2,0,1,High,High,High,✅,✅,80.7,87
+2026-01-30,01:13:49,Friday,January,Hyderabad,Mehdipatnam,17.3904,78.444105,Drug Offense,Parking Lot,3.59,80,High,2026-01-30,1,0,1,High,High,High,✅,✅,77.9,86
+2026-04-01,20:34:18,Wednesday,April,Hyderabad,Madhapur,17.438076,78.37835,Vehicle Theft,Park/Open Ground,1.71,36,Medium,2026-04-01,20,0,1,Medium,Medium,Medium,✅,✅,70.6,45
+2025-07-27,20:44:03,Sunday,July,Hyderabad,Mehdipatnam,17.386488,78.432515,Robbery,Park/Open Ground,3.52,67,High,2025-07-27,20,1,1,High,High,High,✅,✅,81.6,88
+2025-06-24,22:55:45,Tuesday,June,Hyderabad,Secunderabad,17.448617,78.510572,Chain Snatching,Bank/ATM,3.99,71,High,2025-06-24,22,0,1,High,High,High,✅,✅,74.2,83
+2025-09-21,17:06:20,Sunday,September,Hyderabad,Gachibowli,17.420105,78.367228,Assault,Park/Open Ground,0.62,11,Low,2025-09-21,17,1,0,Low,Low,Low,✅,✅,88.9,7
+2025-03-14,22:24:55,Friday,March,Hyderabad,Secunderabad,17.458529,78.504101,Drug Offense,Parking Lot,4.27,77,Low,2025-03-14,22,0,1,High,Low,Low,❌,✅,44.7,47
+2025-03-23,13:12:48,Sunday,March,Hyderabad,Koti,17.376368,78.484455,Robbery,Park/Open Ground,3.4,76,High,2025-03-23,13,1,0,High,High,High,✅,✅,80.0,87
+2025-06-07,20:25:32,Saturday,June,Hyderabad,Koti,17.390167,78.48176,Cybercrime,Street/Road,3.53,67,High,2025-06-07,20,1,1,High,High,High,✅,✅,79.6,87
+2025-01-26,00:56:53,Sunday,January,Hyderabad,Charminar,17.353683,78.482226,Cybercrime,Nightclub/Bar,3.24,75,High,2025-01-26,0,1,1,High,High,High,✅,✅,81.3,88
+2025-08-09,04:56:16,Saturday,August,Hyderabad,Banjara Hills,17.407846,78.440108,Chain Snatching,Parking Lot,1.44,35,High,2025-08-09,4,1,1,Medium,High,High,❌,✅,42.3,62
+2025-10-19,22:35:18,Sunday,October,Hyderabad,Charminar,17.348856,78.478224,Burglary,Parking Lot,4.68,94,High,2025-10-19,22,1,1,High,High,High,✅,✅,81.5,89
+2025-05-24,06:08:06,Saturday,May,Hyderabad,Ameerpet,17.432868,78.44881,Vandalism,Bank/ATM,4.05,72,High,2025-05-24,6,1,0,High,High,High,✅,✅,80.6,87
+2026-01-22,04:12:38,Thursday,January,Hyderabad,Gachibowli,17.434484,78.343597,Harassment,Parking Lot,0.74,12,High,2026-01-22,4,0,1,Low,Low,High,❌,❌,58.2,38
+2026-01-01,10:51:30,Thursday,January,Hyderabad,Jubilee Hills,17.429697,78.413311,Harassment,Park/Open Ground,1.33,28,Medium,2026-01-01,10,0,0,Medium,Medium,Medium,✅,✅,64.2,36
+2025-03-13,00:20:10,Thursday,March,Hyderabad,Ameerpet,17.43514,78.458282,Vandalism,Nightclub/Bar,4.01,81,High,2025-03-13,0,0,1,High,High,High,✅,✅,79.2,87
+2025-09-18,17:31:45,Thursday,September,Hyderabad,LB Nagar,17.363482,78.542297,Drug Offense,Nightclub/Bar,1.84,31,Medium,2025-09-18,17,0,0,Medium,Medium,Medium,✅,✅,70.6,41
+2025-06-19,21:07:26,Thursday,June,Hyderabad,Gachibowli,17.438618,78.347861,Drug Offense,Nightclub/Bar,0.53,12,Low,2025-06-19,21,0,1,Low,Low,Low,✅,✅,92.6,5
+2025-12-02,18:36:14,Tuesday,December,Hyderabad,Hitec City,17.455176,78.363718,Theft,Park/Open Ground,1.35,26,Medium,2025-12-02,18,0,0,Medium,Medium,Medium,✅,✅,55.7,35
+2025-11-14,15:09:52,Friday,November,Hyderabad,Dilsukhnagar,17.382222,78.520271,Assault,Commercial,3.74,69,Medium,2025-11-14,15,0,0,High,High,Medium,❌,❌,63.6,79
+2025-04-08,00:28:20,Tuesday,April,Hyderabad,Banjara Hills,17.402616,78.440207,Vandalism,Transit Station,1.73,27,Medium,2025-04-08,0,0,1,Medium,Medium,Medium,✅,✅,62.9,39
+2025-09-14,18:55:54,Sunday,September,Hyderabad,Begumpet,17.440047,78.458282,Theft,Transit Station,2.92,70,High,2025-09-14,18,1,0,Low,High,High,❌,✅,72.1,79
+2025-12-06,15:33:24,Saturday,December,Hyderabad,Gachibowli,17.434028,78.349168,Chain Snatching,Transit Station,0.94,21,Low,2025-12-06,15,1,0,Low,Low,Low,✅,✅,83.1,9
+2025-10-07,11:43:49,Tuesday,October,Hyderabad,Gachibowli,17.442747,78.355568,Vehicle Theft,Park/Open Ground,0.63,14,Low,2025-10-07,11,0,0,Low,Low,Low,✅,✅,92.0,4
+2025-10-13,09:14:19,Monday,October,Hyderabad,Hitec City,17.44906,78.392772,Vehicle Theft,Street/Road,1.74,45,Medium,2025-10-13,9,0,0,Low,Medium,Medium,❌,✅,49.9,35
+2025-09-03,11:35:59,Wednesday,September,Hyderabad,Gachibowli,17.444567,78.349508,Vehicle Theft,Nightclub/Bar,0.38,9,Low,2025-09-03,11,0,0,Low,Low,Low,✅,✅,91.3,5
+2025-07-14,15:52:22,Monday,July,Hyderabad,Ameerpet,17.450168,78.445846,Robbery,Nightclub/Bar,3.47,58,High,2025-07-14,15,0,0,High,High,High,✅,✅,70.1,80
+2025-02-10,23:41:16,Monday,February,Hyderabad,Dilsukhnagar,17.360061,78.522169,Cybercrime,Street/Road,3.41,67,Medium,2025-02-10,23,0,1,High,Medium,Medium,❌,✅,50.1,69
+2026-04-23,17:44:17,Thursday,April,Hyderabad,Hitec City,17.437507,78.379003,Robbery,Residential,2.21,43,Medium,2026-04-23,17,0,0,Low,Medium,Medium,❌,✅,61.7,44
+2025-05-05,00:14:40,Monday,May,Hyderabad,Secunderabad,17.445565,78.505954,Assault,Commercial,2.55,58,High,2025-05-05,0,0,1,High,High,High,✅,✅,76.1,84
+2025-08-30,02:08:00,Saturday,August,Hyderabad,Dilsukhnagar,17.369497,78.530365,Harassment,Transit Station,3.38,69,High,2025-08-30,2,1,1,High,High,High,✅,✅,82.5,88
+2026-03-26,01:12:48,Thursday,March,Hyderabad,Koti,17.385509,78.506644,Vehicle Theft,Bank/ATM,4.46,80,High,2026-03-26,1,0,1,High,High,High,✅,✅,73.5,83
+2026-01-29,00:14:34,Thursday,January,Hyderabad,Koti,17.379321,78.490412,Theft,Transit Station,4.4,85,Medium,2026-01-29,0,0,1,Low,High,Medium,❌,❌,48.9,70
+2026-04-24,01:53:25,Friday,April,Hyderabad,Jubilee Hills,17.439253,78.404978,Cybercrime,Transit Station,2.32,47,Low,2026-04-24,1,0,1,Low,Low,Low,✅,✅,59.9,26
+2025-05-29,03:19:36,Thursday,May,Hyderabad,Koti,17.378343,78.484809,Drug Offense,Residential,3.67,68,High,2025-05-29,3,0,1,High,High,High,✅,✅,78.4,86
+2025-10-06,21:54:32,Monday,October,Hyderabad,Mehdipatnam,17.391825,78.443027,Cybercrime,Nightclub/Bar,2.97,69,Medium,2025-10-06,21,0,1,High,High,Medium,❌,❌,61.9,79
+2025-03-25,23:29:41,Tuesday,March,Hyderabad,Gachibowli,17.459819,78.346499,Vehicle Theft,Transit Station,0.69,14,Low,2025-03-25,23,0,1,Low,Low,Low,✅,✅,87.0,8
+2025-06-01,18:43:48,Sunday,June,Hyderabad,Abids,17.382479,78.471058,Assault,Transit Station,1.45,37,Medium,2025-06-01,18,1,0,Medium,Medium,Medium,✅,✅,76.7,45
+2025-07-27,19:20:05,Sunday,July,Hyderabad,Koti,17.386462,78.487132,Vandalism,Residential,3.29,64,Low,2025-07-27,19,1,0,Low,High,Low,✅,❌,62.2,74
+2025-06-15,07:00:16,Sunday,June,Hyderabad,Madhapur,17.440785,78.390347,Vandalism,Street/Road,1.93,39,Medium,2025-06-15,7,1,0,Medium,Medium,Medium,✅,✅,72.1,43
+2025-06-04,18:46:36,Wednesday,June,Hyderabad,Gachibowli,17.432368,78.352238,Theft,Nightclub/Bar,0.93,16,Low,2025-06-04,18,0,0,Low,Low,Low,✅,✅,90.7,5
+2025-12-08,22:10:25,Monday,December,Hyderabad,Charminar,17.362789,78.472003,Harassment,Nightclub/Bar,2.73,55,High,2025-12-08,22,0,1,High,High,High,✅,✅,66.7,77
+2025-07-08,19:14:14,Tuesday,July,Hyderabad,Hitec City,17.44592,78.372177,Robbery,Park/Open Ground,1.63,22,Medium,2025-07-08,19,0,0,Medium,Medium,Medium,✅,✅,66.0,37
+2025-07-11,00:58:30,Friday,July,Hyderabad,Kukatpally,17.498196,78.409125,Harassment,Street/Road,3.29,63,High,2025-07-11,0,0,1,Medium,High,High,❌,✅,71.7,79
+2026-03-24,19:28:33,Tuesday,March,Hyderabad,Kukatpally,17.486348,78.397928,Chain Snatching,Residential,3.65,87,High,2026-03-24,19,0,0,High,High,High,✅,✅,86.6,91
+2025-10-08,16:12:36,Wednesday,October,Hyderabad,LB Nagar,17.336339,78.537784,Harassment,Transit Station,1.97,37,Medium,2025-10-08,16,0,0,Medium,Medium,Medium,✅,✅,75.5,44
+2025-08-15,21:45:37,Friday,August,Hyderabad,Ameerpet,17.437261,78.446905,Cybercrime,Residential,3.37,76,High,2025-08-15,21,0,1,High,High,High,✅,✅,81.2,88
+2025-08-21,23:29:36,Thursday,August,Hyderabad,Charminar,17.35723,78.477834,Theft,Market/Bazaar,3.02,75,High,2025-08-21,23,0,1,High,High,High,✅,✅,83.6,90
+2026-01-06,00:25:16,Tuesday,January,Hyderabad,Hitec City,17.435547,78.376952,Theft,Street/Road,2.12,40,High,2026-01-06,0,0,1,Medium,Medium,High,❌,❌,42.0,56
+2025-06-26,04:59:57,Thursday,June,Hyderabad,Begumpet,17.444482,78.458934,Burglary,Park/Open Ground,3.23,53,High,2025-06-26,4,0,1,High,High,High,✅,✅,68.2,78
+2026-01-29,04:49:41,Thursday,January,Hyderabad,Jubilee Hills,17.413478,78.40374,Vandalism,Bank/ATM,1.88,34,Medium,2026-01-29,4,0,1,Medium,Medium,Medium,✅,✅,68.9,41
+2026-04-10,20:43:42,Friday,April,Hyderabad,Koti,17.377047,78.495019,Harassment,Transit Station,3.63,84,Medium,2026-04-10,20,0,1,High,High,Medium,❌,❌,79.3,87
+2025-04-02,17:25:33,Wednesday,April,Hyderabad,Banjara Hills,17.414893,78.443071,Robbery,Street/Road,2.33,45,High,2025-04-02,17,0,0,Low,High,High,❌,✅,43.0,63
+2025-06-02,01:34:27,Monday,June,Hyderabad,Charminar,17.372014,78.487192,Harassment,Parking Lot,2.5,54,High,2025-06-02,1,0,1,Low,High,High,❌,✅,57.2,70
+2025-03-21,08:12:59,Friday,March,Hyderabad,Gachibowli,17.440809,78.362677,Burglary,Commercial,0.71,19,Low,2025-03-21,8,0,0,Low,Low,Low,✅,✅,89.5,6
+2026-03-29,10:13:04,Sunday,March,Hyderabad,Koti,17.379477,78.488177,Burglary,Commercial,3.81,62,High,2026-03-29,10,1,0,High,High,High,✅,✅,76.1,84
+2026-03-23,01:02:25,Monday,March,Hyderabad,Dilsukhnagar,17.36238,78.53509,Cybercrime,Street/Road,3.94,73,High,2026-03-23,1,0,1,High,High,High,✅,✅,79.2,86
+2026-02-02,01:08:32,Monday,February,Hyderabad,LB Nagar,17.337325,78.556493,Vehicle Theft,Street/Road,1.9,37,Low,2026-02-02,1,0,1,Medium,Low,Low,❌,✅,47.9,31
+2025-06-13,02:43:52,Friday,June,Hyderabad,Kukatpally,17.488446,78.406637,Chain Snatching,Street/Road,4.47,89,Medium,2025-06-13,2,0,1,High,High,Medium,❌,❌,79.9,87
+2025-09-24,22:17:03,Wednesday,September,Hyderabad,Mehdipatnam,17.380226,78.455111,Harassment,Transit Station,3.77,74,High,2025-09-24,22,0,1,High,High,High,✅,✅,78.8,87
+2025-09-11,22:41:42,Thursday,September,Hyderabad,Ameerpet,17.442633,78.458097,Vandalism,Market/Bazaar,4.13,71,High,2025-09-11,22,0,1,High,High,High,✅,✅,78.9,87
+2025-03-18,21:48:34,Tuesday,March,Hyderabad,Begumpet,17.439552,78.473823,Cybercrime,Street/Road,3.86,69,High,2025-03-18,21,0,1,High,High,High,✅,✅,78.6,85
+2025-03-15,04:35:26,Saturday,March,Hyderabad,Dilsukhnagar,17.36197,78.527574,Vandalism,Market/Bazaar,3.23,73,High,2025-03-15,4,1,1,High,High,High,✅,✅,75.7,85
+2025-05-11,01:05:59,Sunday,May,Hyderabad,Secunderabad,17.431542,78.482569,Cybercrime,Bank/ATM,3.76,61,High,2025-05-11,1,1,1,High,High,High,✅,✅,79.5,87
+2025-04-08,01:17:24,Tuesday,April,Hyderabad,LB Nagar,17.34183,78.549548,Drug Offense,Commercial,2.27,45,High,2025-04-08,1,0,1,Medium,High,High,❌,✅,49.9,68
+2026-01-25,18:46:42,Sunday,January,Hyderabad,Abids,17.389663,78.475761,Harassment,Street/Road,2.16,41,Medium,2026-01-25,18,1,0,Medium,Medium,Medium,✅,✅,71.9,45
+2025-06-20,20:13:59,Friday,June,Hyderabad,Koti,17.389509,78.492576,Assault,Residential,3.81,78,Medium,2025-06-20,20,0,1,High,High,Medium,❌,❌,52.7,73
+2025-11-06,15:58:15,Thursday,November,Hyderabad,Dilsukhnagar,17.371998,78.519489,Harassment,Bank/ATM,3.69,76,High,2025-11-06,15,0,0,High,High,High,✅,✅,84.0,89
+2025-11-29,22:23:32,Saturday,November,Hyderabad,Ameerpet,17.441456,78.454089,Cybercrime,Park/Open Ground,3.29,64,Medium,2025-11-29,22,1,1,High,High,Medium,❌,❌,50.4,72
+2025-08-29,13:58:13,Friday,August,Hyderabad,Dilsukhnagar,17.373324,78.510614,Chain Snatching,Bank/ATM,3.24,76,High,2025-08-29,13,0,0,High,High,High,✅,✅,75.9,83
+2025-04-24,23:09:01,Thursday,April,Hyderabad,LB Nagar,17.343696,78.552043,Vehicle Theft,Market/Bazaar,2.06,35,Medium,2025-04-24,23,0,1,Medium,Medium,Medium,✅,✅,75.0,45
+2025-06-01,22:14:24,Sunday,June,Hyderabad,Begumpet,17.443028,78.459596,Drug Offense,Street/Road,3.92,81,High,2025-06-01,22,1,1,Low,High,High,❌,✅,81.3,88
+2025-06-22,02:31:46,Sunday,June,Hyderabad,Mehdipatnam,17.397359,78.454672,Cybercrime,Park/Open Ground,3.45,58,High,2025-06-22,2,1,1,High,High,High,✅,✅,72.5,83
+2025-03-28,04:46:34,Friday,March,Hyderabad,Gachibowli,17.439028,78.349018,Cybercrime,Transit Station,0.78,14,Low,2025-03-28,4,0,1,Low,Low,Low,✅,✅,89.7,6
+2026-03-10,02:52:42,Tuesday,March,Hyderabad,LB Nagar,17.334101,78.54335,Theft,Commercial,1.81,30,High,2026-03-10,2,0,1,Medium,High,High,❌,✅,40.9,59
+2025-04-29,21:00:13,Tuesday,April,Hyderabad,Mehdipatnam,17.405416,78.439903,Harassment,Park/Open Ground,3.68,80,High,2025-04-29,21,0,1,High,High,High,✅,✅,87.7,92
+2025-12-08,18:42:31,Monday,December,Hyderabad,Mehdipatnam,17.405049,78.437093,Theft,Commercial,3.09,74,High,2025-12-08,18,0,0,High,High,High,✅,✅,85.9,91
+2025-01-09,22:34:18,Thursday,January,Hyderabad,Charminar,17.357185,78.495166,Theft,Market/Bazaar,3.79,76,Medium,2025-01-09,22,0,1,High,High,Medium,❌,❌,56.6,75
+2025-04-02,20:33:09,Wednesday,April,Hyderabad,Koti,17.397291,78.501793,Assault,Street/Road,4.25,81,High,2025-04-02,20,0,1,High,High,High,✅,✅,86.4,91
+2025-07-01,08:50:25,Tuesday,July,Hyderabad,LB Nagar,17.351927,78.547791,Burglary,Bank/ATM,1.44,36,Medium,2025-07-01,8,0,0,Low,Medium,Medium,❌,✅,52.7,45
+2025-12-23,01:52:54,Tuesday,December,Hyderabad,Secunderabad,17.448827,78.493106,Burglary,Commercial,3.37,66,High,2025-12-23,1,0,1,High,High,High,✅,✅,84.1,90
+2025-10-10,01:00:44,Friday,October,Hyderabad,Begumpet,17.435566,78.464851,Robbery,Residential,2.98,71,Medium,2025-10-10,1,0,1,High,High,Medium,❌,❌,58.1,76
+2026-02-06,02:06:57,Friday,February,Hyderabad,Mehdipatnam,17.39544,78.432176,Harassment,Commercial,3.71,80,High,2026-02-06,2,0,1,High,High,High,✅,✅,84.4,90
+2025-12-21,18:30:17,Sunday,December,Hyderabad,LB Nagar,17.355468,78.556857,Theft,Residential,1.89,33,Low,2025-12-21,18,1,0,Medium,Medium,Low,❌,❌,77.6,44
+2025-10-06,20:11:59,Monday,October,Hyderabad,Koti,17.391989,78.471201,Chain Snatching,Commercial,3.24,68,High,2025-10-06,20,0,1,High,High,High,✅,✅,81.0,88
+2026-02-25,22:52:25,Wednesday,February,Hyderabad,Abids,17.392127,78.459352,Burglary,Nightclub/Bar,1.35,29,Medium,2026-02-25,22,0,1,Medium,Medium,Medium,✅,✅,67.8,40
+2026-03-04,13:24:48,Wednesday,March,Hyderabad,Kukatpally,17.502964,78.39804,Robbery,Residential,4.34,84,High,2026-03-04,13,0,0,High,High,High,✅,✅,88.5,93
+2025-01-28,03:27:14,Tuesday,January,Hyderabad,Gachibowli,17.430741,78.325922,Burglary,Bank/ATM,0.74,13,Low,2025-01-28,3,0,1,Low,Low,Low,✅,✅,92.1,5
+2025-01-16,20:17:50,Thursday,January,Hyderabad,Gachibowli,17.41713,78.347613,Cybercrime,Park/Open Ground,0.64,16,Low,2025-01-16,20,0,1,Low,Low,Low,✅,✅,88.4,8
+2025-08-10,00:42:24,Sunday,August,Hyderabad,Begumpet,17.436713,78.468814,Burglary,Nightclub/Bar,4.14,72,High,2025-08-10,0,1,1,High,High,High,✅,✅,84.4,90
+2025-05-18,04:24:45,Sunday,May,Hyderabad,Banjara Hills,17.407789,78.42856,Robbery,Parking Lot,1.41,31,Medium,2025-05-18,4,1,1,Medium,Medium,Medium,✅,✅,74.4,44
+2025-01-03,09:28:23,Friday,January,Hyderabad,Banjara Hills,17.422909,78.429275,Vehicle Theft,Residential,1.28,31,High,2025-01-03,9,0,0,Medium,Medium,High,❌,❌,38.5,54
+2025-08-18,00:26:06,Monday,August,Hyderabad,Begumpet,17.440491,78.466288,Theft,Residential,3.1,62,High,2025-08-18,0,0,1,High,High,High,✅,✅,75.6,83
+2025-11-03,15:00:18,Monday,November,Hyderabad,Kukatpally,17.500595,78.397349,Vandalism,Parking Lot,3.54,75,High,2025-11-03,15,0,0,High,High,High,✅,✅,81.6,87
+2026-04-09,10:36:33,Thursday,April,Hyderabad,Ameerpet,17.444577,78.440947,Robbery,Parking Lot,3.5,68,High,2026-04-09,10,0,0,High,High,High,✅,✅,80.1,85
+2025-05-18,15:09:04,Sunday,May,Hyderabad,Hitec City,17.447231,78.376915,Robbery,Parking Lot,1.48,36,Medium,2025-05-18,15,1,0,Medium,Medium,Medium,✅,✅,72.9,45
+2026-02-05,02:23:16,Thursday,February,Hyderabad,Madhapur,17.444886,78.387165,Assault,Park/Open Ground,1.76,35,Medium,2026-02-05,2,0,1,Medium,Medium,Medium,✅,✅,74.3,46
+2025-02-24,04:19:00,Monday,February,Hyderabad,Madhapur,17.440173,78.391993,Vandalism,Bank/ATM,1.88,49,Medium,2025-02-24,4,0,1,Medium,Medium,Medium,✅,✅,67.7,50
+2026-03-18,10:28:21,Wednesday,March,Hyderabad,Abids,17.394036,78.487992,Vandalism,Transit Station,1.37,25,Medium,2026-03-18,10,0,0,Medium,Medium,Medium,✅,✅,68.5,38
+2025-04-13,21:25:20,Sunday,April,Hyderabad,Dilsukhnagar,17.372292,78.531931,Vehicle Theft,Park/Open Ground,3.91,77,High,2025-04-13,21,1,1,High,High,High,✅,✅,86.2,91
+2025-07-12,08:52:50,Saturday,July,Hyderabad,Gachibowli,17.434414,78.34949,Vandalism,Bank/ATM,0.61,12,Low,2025-07-12,8,1,0,Low,Low,Low,✅,✅,91.4,5
+2025-10-31,08:43:49,Friday,October,Hyderabad,Secunderabad,17.434732,78.491906,Harassment,Commercial,3.68,66,Medium,2025-10-31,8,0,0,High,High,Medium,❌,❌,76.9,86
+2025-08-13,05:52:54,Wednesday,August,Hyderabad,Secunderabad,17.428331,78.49906,Vandalism,Park/Open Ground,3.52,73,High,2025-08-13,5,0,0,High,High,High,✅,✅,86.9,91
+2025-05-10,16:50:24,Saturday,May,Hyderabad,Secunderabad,17.446965,78.497677,Burglary,Park/Open Ground,3.3,80,High,2025-05-10,16,1,0,High,High,High,✅,✅,72.3,84
+2025-10-01,02:44:26,Wednesday,October,Hyderabad,Begumpet,17.453007,78.470443,Harassment,Commercial,4.05,69,High,2025-10-01,2,0,1,High,High,High,✅,✅,79.3,86
+2025-10-02,19:40:58,Thursday,October,Hyderabad,Abids,17.391906,78.461994,Burglary,Residential,1.9,39,Medium,2025-10-02,19,0,0,Medium,Medium,Medium,✅,✅,75.6,46
+2025-07-01,00:02:36,Tuesday,July,Hyderabad,Mehdipatnam,17.401105,78.447394,Vandalism,Bank/ATM,3.56,71,High,2025-07-01,0,0,1,High,High,High,✅,✅,75.9,84
+2025-05-13,07:32:47,Tuesday,May,Hyderabad,Banjara Hills,17.419478,78.428929,Harassment,Market/Bazaar,2.27,44,Medium,2025-05-13,7,0,0,Low,Medium,Medium,❌,✅,49.4,38
+2025-08-17,23:49:43,Sunday,August,Hyderabad,Secunderabad,17.437776,78.502167,Drug Offense,Market/Bazaar,3.56,57,High,2025-08-17,23,1,1,High,High,High,✅,✅,77.2,86
+2025-09-05,23:58:05,Friday,September,Hyderabad,Charminar,17.353959,78.478089,Burglary,Transit Station,2.94,70,High,2025-09-05,23,0,1,High,High,High,✅,✅,61.1,78
+2026-02-06,06:33:30,Friday,February,Hyderabad,Madhapur,17.449832,78.39343,Chain Snatching,Park/Open Ground,1.42,33,Medium,2026-02-06,6,0,0,Medium,Medium,Medium,✅,✅,71.0,43
+2025-08-20,22:02:51,Wednesday,August,Hyderabad,Dilsukhnagar,17.367303,78.532586,Burglary,Commercial,3.29,62,High,2025-08-20,22,0,1,High,High,High,✅,✅,73.9,84
+2026-02-14,01:15:33,Saturday,February,Hyderabad,Mehdipatnam,17.405943,78.444892,Robbery,Market/Bazaar,3.95,75,High,2026-02-14,1,1,1,High,High,High,✅,✅,79.8,88
+2025-08-25,23:40:11,Monday,August,Hyderabad,Begumpet,17.447408,78.464037,Robbery,Parking Lot,4.06,79,High,2025-08-25,23,0,1,High,High,High,✅,✅,85.0,89
+2026-03-29,00:27:24,Sunday,March,Hyderabad,Kukatpally,17.492271,78.383958,Theft,Street/Road,3.4,73,High,2026-03-29,0,1,1,High,High,High,✅,✅,79.4,86
+2026-02-19,06:51:55,Thursday,February,Hyderabad,Dilsukhnagar,17.379176,78.524517,Harassment,Transit Station,3.69,68,High,2026-02-19,6,0,0,Low,High,High,❌,✅,73.1,79
+2025-02-28,08:42:55,Friday,February,Hyderabad,Madhapur,17.443778,78.388214,Cybercrime,Market/Bazaar,1.99,38,Medium,2025-02-28,8,0,0,Medium,Medium,Medium,✅,✅,72.2,43
+2025-11-09,20:22:22,Sunday,November,Hyderabad,Begumpet,17.454437,78.478571,Cybercrime,Transit Station,3.31,66,Medium,2025-11-09,20,1,1,High,Medium,Medium,❌,✅,49.5,68
+2025-02-13,13:07:15,Thursday,February,Hyderabad,Kukatpally,17.495004,78.400684,Vehicle Theft,Residential,2.79,56,High,2025-02-13,13,0,0,Low,High,High,❌,✅,61.2,71
+2025-09-19,12:26:38,Friday,September,Hyderabad,Jubilee Hills,17.428183,78.408909,Robbery,Parking Lot,1.46,32,Medium,2025-09-19,12,0,0,Medium,Medium,Medium,✅,✅,62.1,40
+2025-10-03,08:35:10,Friday,October,Hyderabad,Mehdipatnam,17.402607,78.4512,Cybercrime,Nightclub/Bar,2.91,64,High,2025-10-03,8,0,0,High,High,High,✅,✅,79.6,87
+2025-08-19,19:03:55,Tuesday,August,Hyderabad,LB Nagar,17.349811,78.553637,Chain Snatching,Commercial,1.78,42,High,2025-08-19,19,0,0,Medium,High,High,❌,✅,42.7,64
+2025-07-16,17:32:41,Wednesday,July,Hyderabad,LB Nagar,17.347882,78.557403,Cybercrime,Parking Lot,1.88,41,Medium,2025-07-16,17,0,0,Medium,Medium,Medium,✅,✅,74.0,50
+2026-03-07,21:05:36,Saturday,March,Hyderabad,Dilsukhnagar,17.377657,78.523737,Theft,Street/Road,4.1,70,High,2026-03-07,21,1,1,High,High,High,✅,✅,81.5,88
+2025-10-03,02:29:36,Friday,October,Hyderabad,Secunderabad,17.4384,78.490759,Cybercrime,Market/Bazaar,4.52,87,High,2025-10-03,2,0,1,High,High,High,✅,✅,84.5,90
+2025-05-18,17:52:23,Sunday,May,Hyderabad,Banjara Hills,17.419705,78.433624,Harassment,Commercial,2.28,45,Medium,2025-05-18,17,1,0,Low,Medium,Medium,❌,✅,58.8,47
+2025-04-22,06:47:53,Tuesday,April,Hyderabad,Ameerpet,17.442775,78.445208,Assault,Nightclub/Bar,2.9,51,High,2025-04-22,6,0,0,High,High,High,✅,✅,68.4,79
+2026-03-18,02:28:55,Wednesday,March,Hyderabad,Gachibowli,17.438312,78.346105,Burglary,Street/Road,0.55,12,Low,2026-03-18,2,0,1,Low,Low,Low,✅,✅,91.2,5
+2025-12-19,01:39:40,Friday,December,Hyderabad,Kukatpally,17.503101,78.392688,Vandalism,Transit Station,4.17,87,High,2025-12-19,1,0,1,High,High,High,✅,✅,86.0,90
+2026-02-21,20:36:22,Saturday,February,Hyderabad,Secunderabad,17.439064,78.496949,Harassment,Nightclub/Bar,4.09,85,High,2026-02-21,20,1,1,High,High,High,✅,✅,81.6,89
+2025-12-27,09:18:36,Saturday,December,Hyderabad,Gachibowli,17.43423,78.349189,Vehicle Theft,Market/Bazaar,0.6,7,Medium,2025-12-27,9,1,0,Medium,Medium,Medium,✅,✅,55.2,29
+2026-02-07,13:58:03,Saturday,February,Hyderabad,Abids,17.398802,78.477509,Vehicle Theft,Transit Station,2.16,48,Low,2026-02-07,13,1,0,Low,Low,Low,✅,✅,61.3,25
+2025-03-16,10:48:53,Sunday,March,Hyderabad,Secunderabad,17.42542,78.492797,Vandalism,Park/Open Ground,3.38,63,High,2025-03-16,10,1,0,High,High,High,✅,✅,81.0,88
+2025-11-18,13:24:28,Tuesday,November,Hyderabad,Hitec City,17.4424,78.384823,Burglary,Residential,1.88,38,Medium,2025-11-18,13,0,0,Medium,Medium,Medium,✅,✅,78.0,45
+2025-12-22,11:29:31,Monday,December,Hyderabad,Hitec City,17.435385,78.383463,Chain Snatching,Commercial,1.9,43,Medium,2025-12-22,11,0,0,Low,Medium,Medium,❌,✅,57.4,41
+2025-02-17,17:40:42,Monday,February,Hyderabad,Dilsukhnagar,17.386168,78.523293,Chain Snatching,Residential,4.53,92,High,2025-02-17,17,0,0,High,High,High,✅,✅,83.1,89
+2026-02-27,22:20:53,Friday,February,Hyderabad,Begumpet,17.463027,78.467256,Vehicle Theft,Bank/ATM,3.14,65,High,2026-02-27,22,0,1,High,High,High,✅,✅,75.5,84
+2026-03-13,22:57:43,Friday,March,Hyderabad,Kukatpally,17.489806,78.399304,Theft,Commercial,3.6,55,High,2026-03-13,22,0,1,High,High,High,✅,✅,70.9,82
+2025-08-24,00:07:59,Sunday,August,Hyderabad,LB Nagar,17.343938,78.535657,Robbery,Park/Open Ground,1.46,32,High,2025-08-24,0,1,1,Medium,High,High,❌,✅,43.0,61
+2025-04-14,07:56:41,Monday,April,Hyderabad,Begumpet,17.44536,78.45474,Vehicle Theft,Transit Station,2.71,62,High,2025-04-14,7,0,0,High,High,High,✅,✅,75.7,82
+2025-05-09,02:23:42,Friday,May,Hyderabad,Gachibowli,17.448776,78.34428,Robbery,Commercial,0.75,18,Low,2025-05-09,2,0,1,Low,Low,Low,✅,✅,88.6,6
+2025-12-25,16:41:05,Thursday,December,Hyderabad,Dilsukhnagar,17.367519,78.530071,Burglary,Commercial,2.48,55,High,2025-12-25,16,0,0,Low,High,High,❌,✅,69.4,79
+2025-10-31,07:33:43,Friday,October,Hyderabad,Jubilee Hills,17.432728,78.390002,Cybercrime,Commercial,1.92,37,Medium,2025-10-31,7,0,0,Medium,Medium,Medium,✅,✅,66.0,40
+2025-03-03,13:44:08,Monday,March,Hyderabad,LB Nagar,17.340033,78.54009,Cybercrime,Residential,1.9,32,Medium,2025-03-03,13,0,0,Medium,Medium,Medium,✅,✅,76.3,44
+2026-02-17,22:23:56,Tuesday,February,Hyderabad,Dilsukhnagar,17.374976,78.536951,Vehicle Theft,Transit Station,4.01,68,High,2026-02-17,22,0,1,Low,High,High,❌,✅,71.5,81
+2026-03-24,04:41:43,Tuesday,March,Hyderabad,Abids,17.387136,78.474674,Robbery,Residential,1.76,34,Medium,2026-03-24,4,0,1,Medium,Medium,Medium,✅,✅,74.0,42
+2025-11-29,22:46:13,Saturday,November,Hyderabad,Kukatpally,17.489034,78.402343,Robbery,Parking Lot,3.55,77,High,2025-11-29,22,1,1,High,High,High,✅,✅,77.0,86
+2025-04-22,02:57:06,Tuesday,April,Hyderabad,LB Nagar,17.344011,78.544303,Robbery,Residential,1.69,43,Medium,2025-04-22,2,0,1,Medium,Medium,Medium,✅,✅,75.9,50
+2025-08-08,10:50:08,Friday,August,Hyderabad,Gachibowli,17.444195,78.347554,Assault,Nightclub/Bar,0.64,14,Medium,2025-08-08,10,0,0,Low,Medium,Medium,❌,✅,53.1,28
+2025-11-04,12:49:44,Tuesday,November,Hyderabad,Kukatpally,17.493911,78.399751,Theft,Nightclub/Bar,3.71,68,High,2025-11-04,12,0,0,High,High,High,✅,✅,82.2,87
+2025-04-07,12:41:03,Monday,April,Hyderabad,Ameerpet,17.437967,78.442342,Assault,Park/Open Ground,3.18,64,High,2025-04-07,12,0,0,High,High,High,✅,✅,75.9,84
+2025-11-23,19:04:33,Sunday,November,Hyderabad,Madhapur,17.447272,78.376445,Theft,Bank/ATM,1.49,36,High,2025-11-23,19,1,0,Medium,Medium,High,❌,❌,41.3,61
+2026-03-06,18:26:23,Friday,March,Hyderabad,LB Nagar,17.330025,78.558061,Harassment,Transit Station,2.33,46,Medium,2026-03-06,18,0,0,Medium,Medium,Medium,✅,✅,68.5,47
+2025-02-07,00:37:04,Friday,February,Hyderabad,Abids,17.38583,78.487702,Theft,Nightclub/Bar,1.61,36,High,2025-02-07,0,0,1,Medium,High,High,❌,✅,41.7,59
+2026-02-09,22:40:45,Monday,February,Hyderabad,Charminar,17.359474,78.486167,Harassment,Parking Lot,4.25,79,High,2026-02-09,22,0,1,High,High,High,✅,✅,53.4,72
+2025-11-24,17:34:39,Monday,November,Hyderabad,Banjara Hills,17.414526,78.442186,Robbery,Nightclub/Bar,1.39,28,Medium,2025-11-24,17,0,0,Medium,Medium,Medium,✅,✅,67.1,38
+2026-04-17,02:09:34,Friday,April,Hyderabad,Ameerpet,17.450185,78.454537,Chain Snatching,Parking Lot,3.45,82,High,2026-04-17,2,0,1,High,High,High,✅,✅,85.4,90
+2025-11-29,21:41:04,Saturday,November,Hyderabad,LB Nagar,17.336854,78.550481,Vehicle Theft,Parking Lot,1.91,48,Low,2025-11-29,21,1,1,Medium,Low,Low,❌,✅,54.7,29
+2025-01-30,23:07:29,Thursday,January,Hyderabad,Secunderabad,17.440297,78.497009,Drug Offense,Commercial,2.99,72,High,2025-01-30,23,0,1,High,High,High,✅,✅,81.4,88
+2026-01-15,20:45:08,Thursday,January,Hyderabad,Mehdipatnam,17.378132,78.436653,Theft,Transit Station,3.61,79,Low,2026-01-15,20,0,1,Low,High,Low,✅,❌,56.7,64
+2025-09-22,11:10:23,Monday,September,Hyderabad,Ameerpet,17.452631,78.444603,Robbery,Nightclub/Bar,2.37,55,High,2025-09-22,11,0,0,Low,High,High,❌,✅,58.9,72
+2025-06-21,11:33:04,Saturday,June,Hyderabad,Charminar,17.36597,78.474751,Vehicle Theft,Residential,2.97,73,High,2025-06-21,11,1,0,High,High,High,✅,✅,72.4,80
+2025-01-29,15:54:36,Wednesday,January,Hyderabad,Gachibowli,17.431315,78.346006,Robbery,Bank/ATM,0.8,13,Low,2025-01-29,15,0,0,Low,Low,Low,✅,✅,92.8,4
+2026-04-03,18:43:46,Friday,April,Hyderabad,Banjara Hills,17.421176,78.433029,Burglary,Street/Road,2.29,42,Medium,2026-04-03,18,0,0,Medium,Medium,Medium,✅,✅,70.7,49
+2026-03-16,10:02:30,Monday,March,Hyderabad,Charminar,17.349283,78.46281,Chain Snatching,Parking Lot,2.73,61,High,2026-03-16,10,0,0,High,High,High,✅,✅,76.6,83
+2025-01-19,17:51:58,Sunday,January,Hyderabad,LB Nagar,17.35956,78.57005,Vandalism,Street/Road,1.51,34,Medium,2025-01-19,17,1,0,Medium,Medium,Medium,✅,✅,78.5,44
+2026-01-04,02:04:36,Sunday,January,Hyderabad,Koti,17.372308,78.47978,Chain Snatching,Residential,3.11,73,High,2026-01-04,2,1,1,Low,High,High,❌,✅,83.1,89
+2025-04-02,00:02:25,Wednesday,April,Hyderabad,Charminar,17.378193,78.467345,Burglary,Park/Open Ground,4.09,69,High,2025-04-02,0,0,1,High,High,High,✅,✅,81.1,87
+2025-06-17,02:35:29,Tuesday,June,Hyderabad,Hitec City,17.445835,78.384396,Theft,Bank/ATM,1.47,34,Medium,2025-06-17,2,0,1,Medium,Medium,Medium,✅,✅,73.8,42
+2025-06-05,23:39:15,Thursday,June,Hyderabad,Abids,17.387278,78.472652,Cybercrime,Bank/ATM,1.66,39,Low,2025-06-05,23,0,1,Low,Low,Low,✅,✅,65.3,21
+2026-02-02,06:46:57,Monday,February,Hyderabad,Abids,17.393127,78.487653,Harassment,Street/Road,2.05,39,High,2026-02-02,6,0,0,Medium,Medium,High,❌,❌,37.5,52
+2025-01-13,22:40:53,Monday,January,Hyderabad,Begumpet,17.446853,78.463654,Theft,Bank/ATM,3.56,55,High,2025-01-13,22,0,1,High,High,High,✅,✅,72.4,82
+2026-03-11,12:06:13,Wednesday,March,Hyderabad,Begumpet,17.443703,78.457019,Harassment,Street/Road,3.69,81,High,2026-03-11,12,0,0,High,High,High,✅,✅,82.8,87
+2025-03-14,05:02:58,Friday,March,Hyderabad,Charminar,17.354354,78.46947,Assault,Market/Bazaar,3.76,78,High,2025-03-14,5,0,0,High,High,High,✅,✅,85.5,91
+2025-08-23,23:05:37,Saturday,August,Hyderabad,Gachibowli,17.461828,78.346742,Burglary,Market/Bazaar,0.72,12,Low,2025-08-23,23,1,1,Low,Low,Low,✅,✅,89.8,6
+2025-02-08,20:27:42,Saturday,February,Hyderabad,Begumpet,17.449145,78.467117,Robbery,Street/Road,3.68,62,High,2025-02-08,20,1,1,High,High,High,✅,✅,75.6,84
+2026-04-20,12:44:53,Monday,April,Hyderabad,Gachibowli,17.449426,78.347264,Chain Snatching,Bank/ATM,1.13,23,Low,2026-04-20,12,0,0,Low,Low,Low,✅,✅,66.8,19
+2026-04-29,06:08:49,Wednesday,April,Hyderabad,Banjara Hills,17.420348,78.412177,Drug Offense,Residential,1.85,35,High,2026-04-29,6,0,0,Medium,Medium,High,❌,❌,61.1,42
+2025-08-27,10:26:07,Wednesday,August,Hyderabad,Madhapur,17.44502,78.385523,Harassment,Bank/ATM,1.73,40,Medium,2025-08-27,10,0,0,Medium,Medium,Medium,✅,✅,74.9,45
+2025-08-26,08:54:07,Tuesday,August,Hyderabad,Hitec City,17.451125,78.381305,Burglary,Transit Station,2.02,39,Medium,2025-08-26,8,0,0,Medium,Medium,Medium,✅,✅,71.7,47
+2025-12-27,22:38:02,Saturday,December,Hyderabad,LB Nagar,17.34982,78.557925,Assault,Bank/ATM,1.6,26,High,2025-12-27,22,1,1,Low,Medium,High,❌,❌,57.4,41
+2025-07-02,20:43:19,Wednesday,July,Hyderabad,Secunderabad,17.449411,78.503966,Vehicle Theft,Transit Station,2.88,68,Low,2025-07-02,20,0,1,Low,Low,Low,✅,✅,49.3,42
+2025-08-20,17:47:35,Wednesday,August,Hyderabad,LB Nagar,17.339138,78.552008,Assault,Residential,1.45,36,High,2025-08-20,17,0,0,Medium,Medium,High,❌,❌,43.6,63
+2025-03-13,03:00:03,Thursday,March,Hyderabad,Abids,17.384661,78.471036,Assault,Transit Station,1.35,33,Medium,2025-03-13,3,0,1,Medium,Medium,Medium,✅,✅,75.5,43
+2025-12-18,20:41:05,Thursday,December,Hyderabad,Gachibowli,17.45174,78.348925,Drug Offense,Nightclub/Bar,0.54,14,High,2025-12-18,20,0,1,Low,Low,High,❌,❌,51.2,45
+2025-04-12,20:28:51,Saturday,April,Hyderabad,Banjara Hills,17.40274,78.429598,Robbery,Residential,2.06,39,Medium,2025-04-12,20,1,1,Medium,Medium,Medium,✅,✅,67.9,48
+2025-03-04,01:29:03,Tuesday,March,Hyderabad,Gachibowli,17.438861,78.354506,Robbery,Parking Lot,0.95,22,Low,2025-03-04,1,0,1,Low,Low,Low,✅,✅,81.0,10
+2025-12-16,22:13:58,Tuesday,December,Hyderabad,Begumpet,17.449783,78.456486,Robbery,Nightclub/Bar,2.83,65,High,2025-12-16,22,0,1,High,High,High,✅,✅,79.3,85
+2025-01-18,19:39:39,Saturday,January,Hyderabad,Jubilee Hills,17.431964,78.41533,Assault,Nightclub/Bar,1.84,36,Medium,2025-01-18,19,1,0,Medium,Medium,Medium,✅,✅,73.8,46
+2025-09-03,22:24:08,Wednesday,September,Hyderabad,Ameerpet,17.439177,78.444367,Vandalism,Street/Road,4.04,74,Medium,2025-09-03,22,0,1,High,High,Medium,❌,❌,51.5,72
+2025-05-08,02:34:50,Thursday,May,Hyderabad,Ameerpet,17.439393,78.459258,Theft,Parking Lot,3.87,71,High,2025-05-08,2,0,1,High,High,High,✅,✅,77.1,84
+2025-09-06,11:58:36,Saturday,September,Hyderabad,Abids,17.390795,78.459347,Harassment,Bank/ATM,1.74,33,Medium,2025-09-06,11,1,0,Medium,Medium,Medium,✅,✅,46.2,38
+2025-06-13,20:57:51,Friday,June,Hyderabad,Charminar,17.35659,78.474823,Vehicle Theft,Commercial,2.91,70,High,2025-06-13,20,0,1,High,High,High,✅,✅,78.2,86
+2025-10-27,07:10:06,Monday,October,Hyderabad,Abids,17.397601,78.466563,Assault,Street/Road,1.49,31,Medium,2025-10-27,7,0,0,Medium,Medium,Medium,✅,✅,70.2,42
+2026-04-15,23:03:48,Wednesday,April,Hyderabad,Abids,17.396829,78.469594,Assault,Parking Lot,1.89,32,Low,2026-04-15,23,0,1,Medium,Low,Low,❌,✅,61.2,23
+2025-03-30,05:15:37,Sunday,March,Hyderabad,LB Nagar,17.352507,78.551101,Chain Snatching,Bank/ATM,1.58,31,High,2025-03-30,5,1,0,Low,Medium,High,❌,❌,49.0,37
+2025-06-30,07:36:12,Monday,June,Hyderabad,Dilsukhnagar,17.38135,78.514075,Cybercrime,Market/Bazaar,3.15,73,High,2025-06-30,7,0,0,High,High,High,✅,✅,77.8,86
+2025-02-16,00:14:01,Sunday,February,Hyderabad,Charminar,17.369323,78.484589,Harassment,Park/Open Ground,3.39,75,High,2025-02-16,0,1,1,High,High,High,✅,✅,76.8,85
+2025-04-14,13:45:11,Monday,April,Hyderabad,Kukatpally,17.496326,78.397323,Chain Snatching,Commercial,3.07,63,High,2025-04-14,13,0,0,High,High,High,✅,✅,78.9,87
+2026-04-15,20:54:33,Wednesday,April,Hyderabad,Dilsukhnagar,17.368804,78.52951,Chain Snatching,Residential,3.1,70,High,2026-04-15,20,0,1,High,High,High,✅,✅,84.0,89
+2025-07-22,22:19:20,Tuesday,July,Hyderabad,Mehdipatnam,17.380363,78.431768,Robbery,Transit Station,3.97,71,High,2025-07-22,22,0,1,Low,High,High,❌,✅,74.5,82
+2025-11-29,10:11:45,Saturday,November,Hyderabad,Madhapur,17.453278,78.382389,Harassment,Bank/ATM,1.45,33,Medium,2025-11-29,10,1,0,Medium,Medium,Medium,✅,✅,66.3,47
+2025-03-31,12:19:46,Monday,March,Hyderabad,LB Nagar,17.353468,78.565018,Vehicle Theft,Transit Station,1.62,29,Medium,2025-03-31,12,0,0,Medium,Medium,Medium,✅,✅,72.6,40
+2025-10-21,02:36:02,Tuesday,October,Hyderabad,Dilsukhnagar,17.361843,78.533703,Robbery,Bank/ATM,4.16,82,High,2025-10-21,2,0,1,High,High,High,✅,✅,75.1,85
+2025-02-23,07:21:47,Sunday,February,Hyderabad,Kukatpally,17.496238,78.398414,Burglary,Street/Road,2.81,67,Low,2025-02-23,7,1,0,Low,Low,Low,✅,✅,54.7,40
+2025-11-22,02:52:45,Saturday,November,Hyderabad,Jubilee Hills,17.432227,78.399283,Chain Snatching,Park/Open Ground,1.08,26,Medium,2025-11-22,2,1,1,Medium,Medium,Medium,✅,✅,72.2,40
+2025-12-21,22:50:06,Sunday,December,Hyderabad,Secunderabad,17.427697,78.489229,Theft,Commercial,3.36,70,High,2025-12-21,22,1,1,High,High,High,✅,✅,85.7,91
+2025-03-27,18:56:24,Thursday,March,Hyderabad,Begumpet,17.464001,78.472677,Chain Snatching,Market/Bazaar,4.38,90,High,2025-03-27,18,0,0,High,High,High,✅,✅,78.6,86
+2026-02-08,18:41:48,Sunday,February,Hyderabad,Madhapur,17.456729,78.385712,Assault,Transit Station,2.25,41,High,2026-02-08,18,1,0,Medium,Medium,High,❌,❌,74.7,48
+2025-01-18,09:01:20,Saturday,January,Hyderabad,LB Nagar,17.351083,78.556935,Vehicle Theft,Residential,1.01,24,Medium,2025-01-18,9,1,0,Medium,Medium,Medium,✅,✅,68.2,36
+2025-07-12,20:35:57,Saturday,July,Hyderabad,Koti,17.390247,78.480762,Burglary,Bank/ATM,3.62,79,Low,2025-07-12,20,1,1,High,High,Low,❌,❌,77.1,87
+2025-09-05,16:41:10,Friday,September,Hyderabad,Koti,17.383718,78.487107,Drug Offense,Parking Lot,4.1,73,High,2025-09-05,16,0,0,High,High,High,✅,✅,80.4,87
+2025-04-16,06:26:44,Wednesday,April,Hyderabad,Gachibowli,17.445462,78.354316,Harassment,Market/Bazaar,0.66,15,Low,2025-04-16,6,0,0,Low,Low,Low,✅,✅,76.8,13
+2025-05-02,03:03:25,Friday,May,Hyderabad,Hitec City,17.442674,78.364054,Drug Offense,Market/Bazaar,1.81,47,Medium,2025-05-02,3,0,1,Low,Medium,Medium,❌,✅,66.0,49
+2025-07-04,20:18:52,Friday,July,Hyderabad,Charminar,17.365897,78.475113,Drug Offense,Park/Open Ground,2.59,54,High,2025-07-04,20,0,1,High,High,High,✅,✅,65.9,77
+2025-03-29,20:30:54,Saturday,March,Hyderabad,Secunderabad,17.436898,78.495758,Burglary,Nightclub/Bar,3.72,74,High,2025-03-29,20,1,1,High,High,High,✅,✅,85.8,91
+2025-12-05,01:34:24,Friday,December,Hyderabad,Koti,17.385006,78.483743,Robbery,Bank/ATM,3.88,75,High,2025-12-05,1,0,1,High,High,High,✅,✅,82.3,89
+2025-01-23,08:28:29,Thursday,January,Hyderabad,Madhapur,17.441813,78.381439,Vehicle Theft,Street/Road,2.23,51,Medium,2025-01-23,8,0,0,Medium,Medium,Medium,✅,✅,56.9,48
+2025-03-19,06:05:42,Wednesday,March,Hyderabad,Charminar,17.364241,78.479659,Chain Snatching,Market/Bazaar,2.51,60,Low,2025-03-19,6,0,0,Low,High,Low,✅,❌,58.2,72
+2025-04-27,02:24:52,Sunday,April,Hyderabad,Kukatpally,17.488019,78.416316,Harassment,Parking Lot,3.75,78,High,2025-04-27,2,1,1,High,High,High,✅,✅,88.3,92
+2025-09-01,21:30:19,Monday,September,Hyderabad,Koti,17.37816,78.488497,Burglary,Parking Lot,2.96,56,High,2025-09-01,21,0,1,High,High,High,✅,✅,72.6,82
+2025-09-22,07:07:48,Monday,September,Hyderabad,Koti,17.364705,78.498967,Cybercrime,Transit Station,2.71,49,Low,2025-09-22,7,0,0,Low,Low,Low,✅,✅,56.4,32
+2025-04-09,04:02:27,Wednesday,April,Hyderabad,Abids,17.394583,78.476469,Burglary,Parking Lot,1.58,29,Low,2025-04-09,4,0,1,Medium,Low,Low,❌,✅,58.4,25
+2025-03-17,11:20:58,Monday,March,Hyderabad,Mehdipatnam,17.393118,78.437804,Burglary,Residential,3.69,77,High,2025-03-17,11,0,0,High,High,High,✅,✅,84.3,90
+2025-06-16,19:29:58,Monday,June,Hyderabad,Ameerpet,17.429808,78.454947,Theft,Market/Bazaar,3.24,76,High,2025-06-16,19,0,0,High,High,High,✅,✅,83.3,89
+2025-03-17,18:37:37,Monday,March,Hyderabad,Jubilee Hills,17.443773,78.410145,Burglary,Residential,1.51,39,Medium,2025-03-17,18,0,0,Medium,Medium,Medium,✅,✅,70.7,45
+2025-05-27,17:56:22,Tuesday,May,Hyderabad,Abids,17.395948,78.47184,Vandalism,Nightclub/Bar,1.42,32,Medium,2025-05-27,17,0,0,Medium,Medium,Medium,✅,✅,65.6,39
+2025-11-08,21:17:25,Saturday,November,Hyderabad,Kukatpally,17.501759,78.395983,Robbery,Parking Lot,3.26,66,High,2025-11-08,21,1,1,High,High,High,✅,✅,78.6,87
+2025-06-19,04:47:30,Thursday,June,Hyderabad,Koti,17.382242,78.482807,Vehicle Theft,Bank/ATM,2.98,63,High,2025-06-19,4,0,1,High,High,High,✅,✅,77.9,85
+2025-06-05,09:17:53,Thursday,June,Hyderabad,Abids,17.396954,78.47205,Cybercrime,Residential,2.04,47,Medium,2025-06-05,9,0,0,Low,Medium,Medium,❌,✅,62.2,42
+2026-01-16,14:49:52,Friday,January,Hyderabad,Hitec City,17.44548,78.378403,Chain Snatching,Nightclub/Bar,2.18,52,Medium,2026-01-16,14,0,0,Low,Medium,Medium,❌,✅,61.1,51
+2025-02-15,21:58:52,Saturday,February,Hyderabad,Mehdipatnam,17.386123,78.449425,Vandalism,Park/Open Ground,3.92,77,Medium,2025-02-15,21,1,1,High,High,Medium,❌,❌,82.1,89
+2025-01-29,16:50:10,Wednesday,January,Hyderabad,LB Nagar,17.340019,78.547418,Burglary,Nightclub/Bar,2.19,49,Medium,2025-01-29,16,0,0,Medium,Medium,Medium,✅,✅,68.9,55
+2026-02-04,16:56:36,Wednesday,February,Hyderabad,Jubilee Hills,17.428644,78.412791,Theft,Transit Station,1.97,44,Low,2026-02-04,16,0,0,Low,Low,Low,✅,✅,50.2,30
+2026-03-05,20:29:03,Thursday,March,Hyderabad,Secunderabad,17.444294,78.519374,Chain Snatching,Street/Road,3.39,73,High,2026-03-05,20,0,1,High,High,High,✅,✅,84.2,90
+2025-09-16,12:40:59,Tuesday,September,Hyderabad,Madhapur,17.446787,78.398873,Burglary,Commercial,1.78,37,Medium,2025-09-16,12,0,0,Medium,Medium,Medium,✅,✅,68.8,48
+2025-08-17,02:30:37,Sunday,August,Hyderabad,Kukatpally,17.497972,78.388996,Harassment,Bank/ATM,3.74,64,High,2025-08-17,2,1,1,High,High,High,✅,✅,83.3,89
+2025-05-13,05:18:01,Tuesday,May,Hyderabad,Koti,17.361566,78.488292,Vandalism,Commercial,3.57,62,Medium,2025-05-13,5,0,0,High,High,Medium,❌,❌,52.5,69
+2025-04-20,07:41:14,Sunday,April,Hyderabad,Abids,17.383383,78.476881,Assault,Nightclub/Bar,1.96,47,Medium,2025-04-20,7,1,0,Low,Medium,Medium,❌,✅,67.4,49
+2026-03-19,03:30:58,Thursday,March,Hyderabad,Charminar,17.357567,78.474048,Robbery,Transit Station,2.83,70,Medium,2026-03-19,3,0,1,High,High,Medium,❌,❌,56.4,73
+2025-05-10,22:45:45,Saturday,May,Hyderabad,Secunderabad,17.445422,78.477833,Vehicle Theft,Parking Lot,3.1,66,Medium,2025-05-10,22,1,1,High,Medium,Medium,❌,✅,54.1,67
+2025-05-10,06:29:19,Saturday,May,Hyderabad,Madhapur,17.453735,78.38231,Harassment,Parking Lot,1.69,38,High,2025-05-10,6,1,0,Medium,Medium,High,❌,❌,42.7,57
+2025-12-06,14:35:41,Saturday,December,Hyderabad,Ameerpet,17.444409,78.452937,Drug Offense,Nightclub/Bar,3.74,62,High,2025-12-06,14,1,0,High,High,High,✅,✅,74.5,83
+2025-02-02,10:17:40,Sunday,February,Hyderabad,Madhapur,17.44352,78.402879,Chain Snatching,Nightclub/Bar,1.42,35,Medium,2025-02-02,10,1,0,Medium,Medium,Medium,✅,✅,75.3,44
+2025-11-30,21:33:48,Sunday,November,Hyderabad,Koti,17.396817,78.489765,Assault,Commercial,3.63,71,High,2025-11-30,21,1,1,High,High,High,✅,✅,81.9,89
+2025-12-15,04:46:01,Monday,December,Hyderabad,Gachibowli,17.445304,78.336875,Cybercrime,Nightclub/Bar,0.75,13,Low,2025-12-15,4,0,1,Low,Low,Low,✅,✅,90.3,5
+2025-07-18,09:21:46,Friday,July,Hyderabad,Begumpet,17.444967,78.458751,Assault,Market/Bazaar,4.38,80,High,2025-07-18,9,0,0,High,High,High,✅,✅,79.2,87
+2026-04-27,19:19:54,Monday,April,Hyderabad,Koti,17.386676,78.493801,Robbery,Market/Bazaar,4.0,69,High,2026-04-27,19,0,0,High,High,High,✅,✅,83.7,90
+2025-03-07,23:16:46,Friday,March,Hyderabad,Madhapur,17.457,78.398893,Harassment,Transit Station,2.3,46,Low,2025-03-07,23,0,1,Low,Low,Low,✅,✅,62.9,24
+2025-02-15,21:47:55,Saturday,February,Hyderabad,Mehdipatnam,17.387134,78.434299,Vehicle Theft,Parking Lot,3.85,67,High,2025-02-15,21,1,1,High,High,High,✅,✅,82.6,89
+2025-05-31,20:30:03,Saturday,May,Hyderabad,Kukatpally,17.503166,78.4071,Drug Offense,Residential,3.68,76,Medium,2025-05-31,20,1,1,High,High,Medium,❌,❌,55.9,75
+2025-03-03,06:37:30,Monday,March,Hyderabad,Ameerpet,17.428766,78.445203,Vandalism,Commercial,3.33,70,High,2025-03-03,6,0,0,High,High,High,✅,✅,79.2,86
+2025-06-25,00:57:58,Wednesday,June,Hyderabad,Secunderabad,17.439418,78.501938,Cybercrime,Transit Station,3.7,64,Medium,2025-06-25,0,0,1,Low,Medium,Medium,❌,✅,45.2,61
+2026-02-03,02:31:21,Tuesday,February,Hyderabad,Jubilee Hills,17.435905,78.407698,Robbery,Bank/ATM,1.67,29,High,2026-02-03,2,0,1,Medium,Medium,High,❌,❌,50.7,32
+2025-05-21,06:48:49,Wednesday,May,Hyderabad,Madhapur,17.446396,78.393652,Robbery,Transit Station,1.88,42,Medium,2025-05-21,6,0,0,Medium,Medium,Medium,✅,✅,75.8,45
+2025-02-15,04:39:27,Saturday,February,Hyderabad,Abids,17.387169,78.466598,Vandalism,Parking Lot,1.77,33,Low,2025-02-15,4,1,1,Medium,Low,Low,❌,✅,52.2,31
+2025-01-03,21:46:23,Friday,January,Hyderabad,Begumpet,17.439505,78.472577,Theft,Bank/ATM,4.18,78,High,2025-01-03,21,0,1,High,High,High,✅,✅,80.2,88
+2025-01-03,21:14:44,Friday,January,Hyderabad,Mehdipatnam,17.388646,78.444247,Chain Snatching,Nightclub/Bar,3.07,65,High,2025-01-03,21,0,1,High,High,High,✅,✅,75.3,85
+2025-10-29,20:52:02,Wednesday,October,Hyderabad,Ameerpet,17.447498,78.436179,Vehicle Theft,Nightclub/Bar,3.39,71,High,2025-10-29,20,0,1,High,High,High,✅,✅,81.9,87
+2025-09-26,01:08:21,Friday,September,Hyderabad,Kukatpally,17.490414,78.385941,Cybercrime,Bank/ATM,2.91,70,High,2025-09-26,1,0,1,High,High,High,✅,✅,81.1,88
+2026-04-16,03:14:14,Thursday,April,Hyderabad,Koti,17.386728,78.485472,Robbery,Street/Road,3.42,63,High,2026-04-16,3,0,1,High,High,High,✅,✅,77.1,84
+2025-03-05,11:45:41,Wednesday,March,Hyderabad,Jubilee Hills,17.429022,78.396692,Theft,Parking Lot,1.86,44,Medium,2025-03-05,11,0,0,Low,Medium,Medium,❌,✅,67.5,43
+2025-11-16,20:42:06,Sunday,November,Hyderabad,Ameerpet,17.433443,78.434952,Theft,Commercial,3.86,63,High,2025-11-16,20,1,1,High,High,High,✅,✅,79.0,86
+2025-03-05,23:44:09,Wednesday,March,Hyderabad,Begumpet,17.442857,78.459006,Assault,Commercial,3.52,74,High,2025-03-05,23,0,1,High,High,High,✅,✅,80.9,88
+2025-12-06,16:17:39,Saturday,December,Hyderabad,Banjara Hills,17.406734,78.42241,Drug Offense,Transit Station,1.6,32,Medium,2025-12-06,16,1,0,Medium,Medium,Medium,✅,✅,69.2,41
+2025-09-19,23:39:07,Friday,September,Hyderabad,Banjara Hills,17.408225,78.427668,Vehicle Theft,Residential,1.69,43,High,2025-09-19,23,0,1,Medium,High,High,❌,✅,47.8,66
+2025-11-08,22:53:33,Saturday,November,Hyderabad,Secunderabad,17.439233,78.499786,Assault,Bank/ATM,3.38,62,High,2025-11-08,22,1,1,High,High,High,✅,✅,83.2,90
+2025-10-08,21:44:59,Wednesday,October,Hyderabad,Charminar,17.351203,78.481338,Cybercrime,Bank/ATM,3.49,62,High,2025-10-08,21,0,1,High,High,High,✅,✅,81.0,88
+2025-02-15,18:09:05,Saturday,February,Hyderabad,Mehdipatnam,17.379,78.450508,Harassment,Residential,3.56,58,Medium,2025-02-15,18,1,0,High,High,Medium,❌,❌,48.2,70
+2025-04-29,22:16:29,Tuesday,April,Hyderabad,Mehdipatnam,17.396012,78.445825,Theft,Residential,3.34,58,Medium,2025-04-29,22,0,1,Medium,Medium,Medium,✅,✅,48.3,68
+2025-05-29,11:51:43,Thursday,May,Hyderabad,LB Nagar,17.338783,78.565763,Chain Snatching,Parking Lot,2.1,37,High,2025-05-29,11,0,0,Medium,Medium,High,❌,❌,48.4,59
+2026-01-24,01:00:54,Saturday,January,Hyderabad,LB Nagar,17.354695,78.549527,Robbery,Transit Station,1.88,30,Medium,2026-01-24,1,1,1,Medium,Medium,Medium,✅,✅,68.1,42
+2025-11-15,08:56:46,Saturday,November,Hyderabad,Madhapur,17.441385,78.390373,Burglary,Bank/ATM,1.9,42,Medium,2025-11-15,8,1,0,Low,Medium,Medium,❌,✅,70.9,49
+2025-07-25,12:29:17,Friday,July,Hyderabad,Banjara Hills,17.429597,78.446752,Vandalism,Park/Open Ground,2.17,44,Medium,2025-07-25,12,0,0,Low,Medium,Medium,❌,✅,43.1,38
+2026-02-13,21:44:46,Friday,February,Hyderabad,Koti,17.385273,78.491244,Theft,Transit Station,2.72,57,High,2026-02-13,21,0,1,High,High,High,✅,✅,70.7,81
+2025-09-05,17:11:39,Friday,September,Hyderabad,Kukatpally,17.494163,78.393874,Vandalism,Bank/ATM,4.17,84,High,2025-09-05,17,0,0,High,High,High,✅,✅,87.1,92
+2026-03-27,07:30:58,Friday,March,Hyderabad,Mehdipatnam,17.394863,78.44672,Cybercrime,Residential,3.77,74,High,2026-03-27,7,0,0,High,High,High,✅,✅,82.6,89
+2025-05-14,20:20:00,Wednesday,May,Hyderabad,Banjara Hills,17.422553,78.442798,Harassment,Street/Road,1.79,40,Low,2025-05-14,20,0,1,Medium,Medium,Low,❌,❌,59.9,47
+2025-09-25,06:27:42,Thursday,September,Hyderabad,Ameerpet,17.438731,78.454432,Assault,Park/Open Ground,3.38,72,High,2025-09-25,6,0,0,High,High,High,✅,✅,65.7,78
+2025-07-17,02:35:57,Thursday,July,Hyderabad,Mehdipatnam,17.394031,78.448873,Drug Offense,Commercial,3.52,66,High,2025-07-17,2,0,1,High,High,High,✅,✅,70.2,81
+2025-09-16,15:54:31,Tuesday,September,Hyderabad,Jubilee Hills,17.438546,78.399161,Robbery,Residential,2.02,41,Medium,2025-09-16,15,0,0,Medium,Medium,Medium,✅,✅,69.0,43
+2025-06-19,04:32:14,Thursday,June,Hyderabad,Secunderabad,17.435504,78.505177,Harassment,Parking Lot,3.26,71,Medium,2025-06-19,4,0,1,Low,High,Medium,❌,❌,58.2,74
+2025-08-24,14:51:36,Sunday,August,Hyderabad,Banjara Hills,17.410077,78.435733,Cybercrime,Residential,1.71,43,Medium,2025-08-24,14,1,0,Low,Medium,Medium,❌,✅,73.9,49
+2025-03-02,15:47:41,Sunday,March,Hyderabad,Gachibowli,17.436155,78.360449,Theft,Residential,0.71,18,Low,2025-03-02,15,1,0,Low,Low,Low,✅,✅,88.9,6
+2025-10-09,20:50:38,Thursday,October,Hyderabad,Ameerpet,17.441842,78.439989,Drug Offense,Nightclub/Bar,4.22,85,High,2025-10-09,20,0,1,High,High,High,✅,✅,84.0,90
+2025-12-10,22:23:52,Wednesday,December,Hyderabad,Mehdipatnam,17.38895,78.438202,Theft,Street/Road,3.5,70,High,2025-12-10,22,0,1,Low,High,High,❌,✅,84.6,90
+2025-11-14,19:30:45,Friday,November,Hyderabad,Abids,17.373842,78.477763,Chain Snatching,Park/Open Ground,1.72,29,High,2025-11-14,19,0,0,Medium,Medium,High,❌,❌,39.7,59
+2025-04-24,22:53:40,Thursday,April,Hyderabad,Mehdipatnam,17.395991,78.44106,Vehicle Theft,Market/Bazaar,3.99,91,High,2025-04-24,22,0,1,High,High,High,✅,✅,89.3,93
+2025-01-24,05:31:08,Friday,January,Hyderabad,Banjara Hills,17.421261,78.435772,Vandalism,Residential,1.84,41,Medium,2025-01-24,5,0,0,Medium,Medium,Medium,✅,✅,57.4,40
+2025-03-03,15:13:29,Monday,March,Hyderabad,Secunderabad,17.441302,78.522182,Assault,Bank/ATM,3.85,67,High,2025-03-03,15,0,0,High,High,High,✅,✅,86.5,92
+2026-04-20,01:37:07,Monday,April,Hyderabad,Charminar,17.358485,78.487427,Cybercrime,Park/Open Ground,4.04,80,Low,2026-04-20,1,0,1,High,High,Low,❌,❌,42.6,51
+2025-09-13,00:33:47,Saturday,September,Hyderabad,Jubilee Hills,17.436344,78.399951,Theft,Market/Bazaar,1.38,32,Medium,2025-09-13,0,1,1,Medium,Medium,Medium,✅,✅,76.7,44
+2026-04-19,16:49:58,Sunday,April,Hyderabad,Madhapur,17.449197,78.405457,Robbery,Transit Station,1.38,35,Medium,2026-04-19,16,1,0,Medium,Medium,Medium,✅,✅,75.7,44
+2025-07-18,21:38:38,Friday,July,Hyderabad,Banjara Hills,17.409923,78.425632,Chain Snatching,Market/Bazaar,1.5,28,Medium,2025-07-18,21,0,1,Medium,Medium,Medium,✅,✅,66.8,41
+2026-04-14,10:17:25,Tuesday,April,Hyderabad,Kukatpally,17.483359,78.404399,Chain Snatching,Nightclub/Bar,2.8,60,Medium,2026-04-14,10,0,0,High,Medium,Medium,❌,✅,50.4,66
+2025-07-31,19:44:56,Thursday,July,Hyderabad,Jubilee Hills,17.440071,78.424008,Harassment,Nightclub/Bar,1.98,42,Medium,2025-07-31,19,0,0,Medium,Medium,Medium,✅,✅,58.9,39
+2025-06-10,22:47:59,Tuesday,June,Hyderabad,LB Nagar,17.354387,78.560642,Harassment,Street/Road,1.39,27,Medium,2025-06-10,22,0,1,Medium,Medium,Medium,✅,✅,71.2,39
+2025-05-29,07:45:41,Thursday,May,Hyderabad,Dilsukhnagar,17.371423,78.532094,Robbery,Market/Bazaar,3.89,78,High,2025-05-29,7,0,0,High,High,High,✅,✅,84.2,90
+2025-12-30,03:48:22,Tuesday,December,Hyderabad,Gachibowli,17.437414,78.342584,Harassment,Park/Open Ground,0.56,13,Low,2025-12-30,3,0,1,Low,Low,Low,✅,✅,90.8,6
+2026-03-07,02:27:51,Saturday,March,Hyderabad,Koti,17.389268,78.484823,Theft,Market/Bazaar,2.95,57,High,2026-03-07,2,1,1,High,High,High,✅,✅,73.8,82
+2025-01-28,21:03:12,Tuesday,January,Hyderabad,Jubilee Hills,17.431534,78.40118,Vehicle Theft,Transit Station,1.85,35,Medium,2025-01-28,21,0,1,Medium,Medium,Medium,✅,✅,65.0,40
+2026-03-06,01:44:50,Friday,March,Hyderabad,Jubilee Hills,17.434145,78.421369,Vehicle Theft,Street/Road,2.03,48,Medium,2026-03-06,1,0,1,Low,Medium,Medium,❌,✅,41.6,49
+2026-02-21,14:06:39,Saturday,February,Hyderabad,Gachibowli,17.438189,78.360341,Harassment,Street/Road,0.83,14,Medium,2026-02-21,14,1,0,Low,Medium,Medium,❌,✅,59.0,31
+2026-02-12,22:18:44,Thursday,February,Hyderabad,Abids,17.3846,78.472992,Theft,Parking Lot,1.96,34,Medium,2026-02-12,22,0,1,Medium,Medium,Medium,✅,✅,70.7,42
+2025-12-17,10:35:03,Wednesday,December,Hyderabad,Abids,17.388794,78.481026,Theft,Nightclub/Bar,1.56,24,Medium,2025-12-17,10,0,0,Medium,Medium,Medium,✅,✅,61.4,37
+2026-03-17,14:53:14,Tuesday,March,Hyderabad,Abids,17.375988,78.478458,Chain Snatching,Nightclub/Bar,1.66,36,Medium,2026-03-17,14,0,0,Medium,Medium,Medium,✅,✅,69.6,45
+2026-01-07,06:18:28,Wednesday,January,Hyderabad,Abids,17.389506,78.468559,Robbery,Residential,1.69,31,Low,2026-01-07,6,0,0,Medium,Low,Low,❌,✅,54.8,25
+2025-09-21,20:27:17,Sunday,September,Hyderabad,Dilsukhnagar,17.374012,78.515599,Harassment,Nightclub/Bar,3.68,64,High,2025-09-21,20,1,1,High,High,High,✅,✅,72.9,83
+2025-05-11,00:21:29,Sunday,May,Hyderabad,LB Nagar,17.347848,78.564304,Robbery,Commercial,1.83,33,Low,2025-05-11,0,1,1,Medium,Low,Low,❌,✅,64.4,22
+2025-01-27,12:31:50,Monday,January,Hyderabad,Kukatpally,17.495371,78.410884,Drug Offense,Market/Bazaar,3.41,63,High,2025-01-27,12,0,0,High,High,High,✅,✅,80.0,86
+2025-06-12,21:33:04,Thursday,June,Hyderabad,Dilsukhnagar,17.363035,78.528931,Harassment,Transit Station,3.95,78,High,2025-06-12,21,0,1,Low,High,High,❌,✅,77.4,86
+2025-02-17,21:42:21,Monday,February,Hyderabad,Begumpet,17.446225,78.47393,Chain Snatching,Bank/ATM,3.52,72,High,2025-02-17,21,0,1,High,High,High,✅,✅,80.3,87
+2025-11-13,16:30:35,Thursday,November,Hyderabad,Abids,17.383097,78.480966,Theft,Residential,1.54,35,Medium,2025-11-13,16,0,0,Medium,Medium,Medium,✅,✅,63.3,40
+2026-04-09,00:15:02,Thursday,April,Hyderabad,Secunderabad,17.436936,78.487055,Chain Snatching,Parking Lot,3.21,74,High,2026-04-09,0,0,1,High,High,High,✅,✅,83.3,89
+2026-01-06,00:52:49,Tuesday,January,Hyderabad,Ameerpet,17.439278,78.444465,Chain Snatching,Market/Bazaar,3.82,74,High,2026-01-06,0,0,1,High,High,High,✅,✅,73.1,83
+2025-06-01,09:20:32,Sunday,June,Hyderabad,Charminar,17.356337,78.481536,Burglary,Residential,4.02,69,Low,2025-06-01,9,1,0,Low,High,Low,✅,❌,52.2,59
+2025-10-03,17:00:40,Friday,October,Hyderabad,Abids,17.379624,78.48234,Burglary,Street/Road,1.89,36,Medium,2025-10-03,17,0,0,Medium,Medium,Medium,✅,✅,74.5,45
+2026-03-19,06:13:34,Thursday,March,Hyderabad,Secunderabad,17.443606,78.487363,Vandalism,Residential,3.53,59,High,2026-03-19,6,0,0,High,High,High,✅,✅,73.8,82
+2025-06-19,20:03:11,Thursday,June,Hyderabad,Dilsukhnagar,17.374501,78.530776,Vehicle Theft,Market/Bazaar,3.24,55,High,2025-06-19,20,0,1,High,High,High,✅,✅,59.2,72
+2026-04-12,23:28:40,Sunday,April,Hyderabad,Secunderabad,17.431832,78.482599,Vandalism,Parking Lot,2.72,65,High,2026-04-12,23,1,1,High,High,High,✅,✅,83.7,90
+2025-03-02,01:46:39,Sunday,March,Hyderabad,Mehdipatnam,17.381717,78.452417,Burglary,Commercial,3.73,58,High,2025-03-02,1,1,1,High,High,High,✅,✅,77.7,85
+2025-02-24,01:19:38,Monday,February,Hyderabad,Ameerpet,17.44018,78.450829,Burglary,Nightclub/Bar,2.89,69,High,2025-02-24,1,0,1,High,High,High,✅,✅,70.2,80
+2025-12-05,00:30:10,Friday,December,Hyderabad,LB Nagar,17.354991,78.54571,Harassment,Street/Road,1.29,25,Medium,2025-12-05,0,0,1,Medium,Medium,Medium,✅,✅,71.5,42
+2026-02-13,17:18:40,Friday,February,Hyderabad,Abids,17.393671,78.484951,Robbery,Nightclub/Bar,1.6,37,Low,2026-02-13,17,0,0,Medium,Low,Low,❌,✅,44.6,34
+2026-03-20,23:41:23,Friday,March,Hyderabad,Abids,17.401679,78.478538,Theft,Market/Bazaar,2.14,45,Medium,2026-03-20,23,0,1,Medium,Medium,Medium,✅,✅,69.6,48
+2025-01-22,00:36:38,Wednesday,January,Hyderabad,Banjara Hills,17.417594,78.444061,Vandalism,Market/Bazaar,2.1,42,Low,2025-01-22,0,0,1,Medium,Low,Low,❌,✅,49.5,31
+2025-04-18,23:47:57,Friday,April,Hyderabad,Hitec City,17.432668,78.372774,Chain Snatching,Street/Road,2.08,37,Low,2025-04-18,23,0,1,Medium,Low,Low,❌,✅,57.3,26
+2025-09-20,04:10:11,Saturday,September,Hyderabad,LB Nagar,17.348641,78.5354,Assault,Nightclub/Bar,1.88,38,High,2025-09-20,4,1,1,Medium,High,High,❌,✅,45.9,64
+2026-02-14,20:54:48,Saturday,February,Hyderabad,Mehdipatnam,17.391071,78.437875,Harassment,Park/Open Ground,3.75,83,High,2026-02-14,20,1,1,High,High,High,✅,✅,86.8,92
+2025-12-10,02:16:06,Wednesday,December,Hyderabad,Hitec City,17.459201,78.37723,Assault,Park/Open Ground,1.66,38,Medium,2025-12-10,2,0,1,Medium,Medium,Medium,✅,✅,73.7,47
+2025-12-02,22:39:04,Tuesday,December,Hyderabad,Mehdipatnam,17.394833,78.434924,Assault,Bank/ATM,3.98,77,High,2025-12-02,22,0,1,High,High,High,✅,✅,85.7,91
+2025-12-04,00:09:36,Thursday,December,Hyderabad,Kukatpally,17.510596,78.395352,Drug Offense,Bank/ATM,3.12,78,Low,2025-12-04,0,0,1,High,High,Low,❌,❌,50.1,57
+2025-01-03,10:15:50,Friday,January,Hyderabad,Jubilee Hills,17.436085,78.417947,Assault,Parking Lot,2.0,37,Medium,2025-01-03,10,0,0,Medium,Medium,Medium,✅,✅,64.6,40
+2025-12-14,23:21:56,Sunday,December,Hyderabad,Jubilee Hills,17.432248,78.411765,Cybercrime,Park/Open Ground,1.54,37,Medium,2025-12-14,23,1,1,Medium,Medium,Medium,✅,✅,74.9,46
+2025-09-07,17:06:11,Sunday,September,Hyderabad,Hitec City,17.430262,78.38151,Drug Offense,Residential,2.35,52,Medium,2025-09-07,17,1,0,Low,Medium,Medium,❌,✅,41.5,40
+2025-03-13,17:12:16,Thursday,March,Hyderabad,LB Nagar,17.341974,78.550993,Burglary,Residential,1.55,22,Medium,2025-03-13,17,0,0,Medium,Medium,Medium,✅,✅,70.5,40
+2025-01-16,15:49:37,Thursday,January,Hyderabad,Mehdipatnam,17.394256,78.449493,Assault,Commercial,4.02,71,High,2025-01-16,15,0,0,High,High,High,✅,✅,81.1,88
+2025-10-04,02:09:23,Saturday,October,Hyderabad,Koti,17.387436,78.480265,Vandalism,Street/Road,4.26,74,High,2025-10-04,2,1,1,High,High,High,✅,✅,81.2,88
+2025-03-10,14:32:32,Monday,March,Hyderabad,Hitec City,17.445809,78.377798,Burglary,Parking Lot,1.38,34,Medium,2025-03-10,14,0,0,Medium,Medium,Medium,✅,✅,75.3,44
+2025-05-03,08:48:32,Saturday,May,Hyderabad,Mehdipatnam,17.387469,78.441528,Robbery,Park/Open Ground,2.39,54,High,2025-05-03,8,1,0,Medium,High,High,❌,✅,45.8,65
+2025-12-04,07:47:46,Thursday,December,Hyderabad,Kukatpally,17.489423,78.393961,Cybercrime,Bank/ATM,2.63,60,High,2025-12-04,7,0,0,High,High,High,✅,✅,70.4,81
+2025-04-29,02:16:23,Tuesday,April,Hyderabad,Madhapur,17.446251,78.389568,Assault,Commercial,2.19,54,Medium,2025-04-29,2,0,1,Medium,Medium,Medium,✅,✅,66.3,58
+2026-02-10,23:58:29,Tuesday,February,Hyderabad,Koti,17.377498,78.495115,Theft,Commercial,3.2,76,High,2026-02-10,23,0,1,High,High,High,✅,✅,83.9,89
+2025-09-24,22:53:47,Wednesday,September,Hyderabad,Dilsukhnagar,17.36264,78.514331,Vehicle Theft,Market/Bazaar,3.47,81,High,2025-09-24,22,0,1,High,High,High,✅,✅,56.1,75
+2025-07-13,01:57:53,Sunday,July,Hyderabad,Mehdipatnam,17.388565,78.445757,Burglary,Market/Bazaar,2.87,65,High,2025-07-13,1,1,1,High,High,High,✅,✅,77.4,86
+2025-04-25,22:52:55,Friday,April,Hyderabad,Koti,17.382148,78.479913,Chain Snatching,Park/Open Ground,3.91,71,Medium,2025-04-25,22,0,1,High,Medium,Medium,❌,✅,53.5,67
+2025-09-14,17:10:14,Sunday,September,Hyderabad,Charminar,17.363491,78.466196,Burglary,Market/Bazaar,3.98,80,High,2025-09-14,17,1,0,High,High,High,✅,✅,81.3,88
+2025-04-06,05:23:38,Sunday,April,Hyderabad,Jubilee Hills,17.431136,78.39309,Burglary,Street/Road,1.31,27,Medium,2025-04-06,5,1,0,Medium,Medium,Medium,✅,✅,74.0,42
+2025-02-28,23:30:13,Friday,February,Hyderabad,Dilsukhnagar,17.359313,78.506124,Drug Offense,Transit Station,4.2,85,Medium,2025-02-28,23,0,1,High,Medium,Medium,❌,✅,55.3,68
+2025-05-05,00:37:10,Monday,May,Hyderabad,Charminar,17.365457,78.47765,Robbery,Market/Bazaar,3.49,57,Medium,2025-05-05,0,0,1,High,Medium,Medium,❌,✅,47.6,66
+2025-01-29,05:16:59,Wednesday,January,Hyderabad,Jubilee Hills,17.422425,78.403305,Robbery,Market/Bazaar,1.74,36,Medium,2025-01-29,5,0,0,Medium,Medium,Medium,✅,✅,64.0,38
+2025-11-23,01:46:42,Sunday,November,Hyderabad,Kukatpally,17.504675,78.399104,Vehicle Theft,Residential,3.13,63,High,2025-11-23,1,1,1,High,High,High,✅,✅,80.5,87
+2026-03-21,15:10:14,Saturday,March,Hyderabad,Madhapur,17.444091,78.375786,Vandalism,Transit Station,1.87,46,Medium,2026-03-21,15,1,0,Medium,Medium,Medium,✅,✅,66.6,45
+2025-04-04,19:42:32,Friday,April,Hyderabad,Abids,17.406233,78.486508,Vehicle Theft,Transit Station,1.73,41,Medium,2025-04-04,19,0,0,Medium,Medium,Medium,✅,✅,66.8,46
+2025-08-21,20:14:24,Thursday,August,Hyderabad,Koti,17.365627,78.49361,Vandalism,Transit Station,3.44,66,High,2025-08-21,20,0,1,High,High,High,✅,✅,80.6,87
+2026-03-17,16:52:09,Tuesday,March,Hyderabad,Ameerpet,17.432789,78.441602,Drug Offense,Residential,3.54,59,High,2026-03-17,16,0,0,High,High,High,✅,✅,68.0,77
+2025-11-04,02:34:32,Tuesday,November,Hyderabad,Kukatpally,17.497743,78.398073,Burglary,Residential,3.77,67,High,2025-11-04,2,0,1,High,High,High,✅,✅,80.9,87
+2025-11-05,20:57:49,Wednesday,November,Hyderabad,Koti,17.376657,78.484856,Vandalism,Market/Bazaar,4.0,74,High,2025-11-05,20,0,1,High,High,High,✅,✅,81.6,89
+2025-12-24,21:51:30,Wednesday,December,Hyderabad,Charminar,17.36576,78.466877,Vandalism,Bank/ATM,4.04,72,Medium,2025-12-24,21,0,1,High,High,Medium,❌,❌,49.2,72
+2026-01-25,06:27:08,Sunday,January,Hyderabad,Koti,17.375691,78.479607,Vehicle Theft,Park/Open Ground,3.91,73,Medium,2026-01-25,6,1,0,High,High,Medium,❌,❌,55.6,73
+2025-05-26,19:56:34,Monday,May,Hyderabad,Banjara Hills,17.414466,78.426229,Vandalism,Nightclub/Bar,1.57,31,High,2025-05-26,19,0,0,Medium,Medium,High,❌,❌,42.5,50
+2026-02-09,00:07:33,Monday,February,Hyderabad,Dilsukhnagar,17.361308,78.519358,Theft,Parking Lot,4.12,79,High,2026-02-09,0,0,1,Medium,High,High,❌,✅,56.0,70
+2025-06-11,13:23:06,Wednesday,June,Hyderabad,Abids,17.390642,78.463788,Robbery,Parking Lot,2.2,39,Medium,2025-06-11,13,0,0,Medium,Medium,Medium,✅,✅,73.1,43
+2026-03-14,17:27:36,Saturday,March,Hyderabad,Hitec City,17.43929,78.388307,Chain Snatching,Nightclub/Bar,1.72,45,Medium,2026-03-14,17,1,0,Low,Medium,Medium,❌,✅,72.4,48
+2025-07-31,00:30:11,Thursday,July,Hyderabad,Secunderabad,17.435105,78.48942,Chain Snatching,Market/Bazaar,4.25,77,High,2025-07-31,0,0,1,High,High,High,✅,✅,78.2,86
+2025-10-23,11:49:45,Thursday,October,Hyderabad,Hitec City,17.447566,78.40861,Vandalism,Transit Station,1.65,32,Low,2025-10-23,11,0,0,Medium,Low,Low,❌,✅,52.4,26
+2026-01-18,07:28:50,Sunday,January,Hyderabad,Banjara Hills,17.425197,78.433951,Robbery,Residential,1.41,27,Medium,2026-01-18,7,1,0,Medium,Medium,Medium,✅,✅,68.9,40
+2025-06-23,17:39:44,Monday,June,Hyderabad,Abids,17.386441,78.476136,Theft,Transit Station,1.59,38,Low,2025-06-23,17,0,0,Medium,Low,Low,❌,✅,47.4,30
+2026-02-16,21:30:59,Monday,February,Hyderabad,Charminar,17.37137,78.470803,Drug Offense,Parking Lot,2.66,60,High,2026-02-16,21,0,1,High,High,High,✅,✅,74.9,83
+2025-07-09,20:46:24,Wednesday,July,Hyderabad,Secunderabad,17.434052,78.504363,Vandalism,Market/Bazaar,4.14,73,High,2025-07-09,20,0,1,High,High,High,✅,✅,79.2,86
+2025-01-30,08:40:31,Thursday,January,Hyderabad,Kukatpally,17.48958,78.39827,Cybercrime,Commercial,3.0,66,Medium,2025-01-30,8,0,0,High,High,Medium,❌,❌,54.7,72
+2026-02-16,21:02:50,Monday,February,Hyderabad,Koti,17.380842,78.486186,Drug Offense,Market/Bazaar,4.26,89,High,2026-02-16,21,0,1,High,High,High,✅,✅,80.7,88
+2025-03-28,14:15:41,Friday,March,Hyderabad,Kukatpally,17.485322,78.408775,Theft,Transit Station,3.23,71,Low,2025-03-28,14,0,0,Low,High,Low,✅,❌,44.9,51
+2025-07-24,11:42:25,Thursday,July,Hyderabad,Abids,17.398008,78.485281,Vandalism,Street/Road,1.68,35,High,2025-07-24,11,0,0,Medium,Medium,High,❌,❌,36.6,53
+2025-02-05,12:46:53,Wednesday,February,Hyderabad,Dilsukhnagar,17.362239,78.514689,Harassment,Bank/ATM,3.84,64,Low,2025-02-05,12,0,0,High,High,Low,❌,❌,45.4,55
+2025-04-26,19:12:29,Saturday,April,Hyderabad,Hitec City,17.446092,78.368018,Vandalism,Commercial,1.47,33,High,2025-04-26,19,1,0,Medium,High,High,❌,✅,42.5,61
+2025-02-24,00:18:21,Monday,February,Hyderabad,Ameerpet,17.454105,78.445322,Burglary,Market/Bazaar,3.68,73,Medium,2025-02-24,0,0,1,Medium,High,Medium,✅,❌,56.8,75
+2026-02-11,18:16:44,Wednesday,February,Hyderabad,LB Nagar,17.338109,78.566179,Cybercrime,Parking Lot,2.06,37,Medium,2026-02-11,18,0,0,Medium,Medium,Medium,✅,✅,76.1,48
+2026-01-23,02:29:43,Friday,January,Hyderabad,Secunderabad,17.437739,78.503051,Cybercrime,Commercial,3.38,79,High,2026-01-23,2,0,1,High,High,High,✅,✅,78.3,87
+2025-07-15,20:50:14,Tuesday,July,Hyderabad,Banjara Hills,17.411368,78.427248,Assault,Bank/ATM,1.45,35,Low,2025-07-15,20,0,1,Low,Low,Low,✅,✅,56.7,27
+2025-10-02,02:16:15,Thursday,October,Hyderabad,Ameerpet,17.439335,78.462001,Vehicle Theft,Residential,3.16,68,High,2025-10-02,2,0,1,High,High,High,✅,✅,76.6,84
+2025-06-25,02:35:59,Wednesday,June,Hyderabad,LB Nagar,17.334753,78.568098,Robbery,Park/Open Ground,1.55,29,Medium,2025-06-25,2,0,1,Medium,Medium,Medium,✅,✅,53.4,46
+2025-10-21,01:43:59,Tuesday,October,Hyderabad,Koti,17.380181,78.492421,Assault,Park/Open Ground,4.08,71,High,2025-10-21,1,0,1,High,High,High,✅,✅,80.1,87
+2026-03-23,21:12:53,Monday,March,Hyderabad,Secunderabad,17.442012,78.508479,Assault,Bank/ATM,3.25,67,High,2026-03-23,21,0,1,High,High,High,✅,✅,85.5,91
+2026-04-17,02:43:42,Friday,April,Hyderabad,Banjara Hills,17.419334,78.439751,Cybercrime,Commercial,1.66,34,Medium,2026-04-17,2,0,1,Medium,Medium,Medium,✅,✅,63.9,41
+2026-03-11,00:20:31,Wednesday,March,Hyderabad,Charminar,17.373731,78.479517,Drug Offense,Nightclub/Bar,3.26,76,High,2026-03-11,0,0,1,High,High,High,✅,✅,78.9,86
+2026-04-14,16:17:25,Tuesday,April,Hyderabad,Abids,17.377045,78.478158,Assault,Transit Station,1.17,28,Medium,2026-04-14,16,0,0,Medium,Medium,Medium,✅,✅,70.6,40
+2025-09-02,04:32:22,Tuesday,September,Hyderabad,Begumpet,17.441391,78.481502,Vandalism,Transit Station,3.1,68,Low,2025-09-02,4,0,1,High,High,Low,❌,❌,61.9,74
+2025-09-23,01:00:00,Tuesday,September,Hyderabad,Dilsukhnagar,17.353876,78.532929,Assault,Parking Lot,3.95,85,High,2025-09-23,1,0,1,High,High,High,✅,✅,72.1,84
+2025-11-10,08:11:35,Monday,November,Hyderabad,Gachibowli,17.429803,78.337723,Vehicle Theft,Street/Road,0.72,18,Low,2025-11-10,8,0,0,Low,Low,Low,✅,✅,86.1,8
+2025-06-25,23:27:13,Wednesday,June,Hyderabad,Kukatpally,17.494154,78.392789,Vandalism,Bank/ATM,3.15,71,Medium,2025-06-25,23,0,1,High,High,Medium,❌,❌,69.0,77
+2025-08-19,05:36:08,Tuesday,August,Hyderabad,Hitec City,17.453102,78.373495,Drug Offense,Street/Road,2.12,48,High,2025-08-19,5,0,0,Low,High,High,❌,✅,44.8,60
+2026-02-16,07:35:27,Monday,February,Hyderabad,Hitec City,17.446786,78.375706,Vandalism,Street/Road,1.39,35,Medium,2026-02-16,7,0,0,Medium,Medium,Medium,✅,✅,67.3,40
+2025-03-18,20:11:26,Tuesday,March,Hyderabad,Dilsukhnagar,17.348893,78.519434,Cybercrime,Transit Station,4.16,72,High,2025-03-18,20,0,1,High,High,High,✅,✅,81.7,87
+2025-06-11,12:16:35,Wednesday,June,Hyderabad,Dilsukhnagar,17.382588,78.528693,Drug Offense,Commercial,2.62,59,High,2025-06-11,12,0,0,High,High,High,✅,✅,69.2,79
+2025-01-31,06:52:16,Friday,January,Hyderabad,Jubilee Hills,17.436782,78.408556,Cybercrime,Residential,1.75,39,Medium,2025-01-31,6,0,0,Medium,Medium,Medium,✅,✅,66.9,41
+2025-07-04,11:35:35,Friday,July,Hyderabad,Hitec City,17.426018,78.386351,Vehicle Theft,Bank/ATM,1.45,32,Medium,2025-07-04,11,0,0,Medium,Medium,Medium,✅,✅,70.7,42
+2026-03-21,21:38:12,Saturday,March,Hyderabad,Gachibowli,17.437792,78.34263,Drug Offense,Market/Bazaar,0.68,12,Low,2026-03-21,21,1,1,Low,Low,Low,✅,✅,88.8,6
+2025-07-01,10:43:32,Tuesday,July,Hyderabad,Hitec City,17.442176,78.371765,Cybercrime,Park/Open Ground,1.65,26,Medium,2025-07-01,10,0,0,Medium,Medium,Medium,✅,✅,71.2,39
+2025-08-26,20:09:55,Tuesday,August,Hyderabad,Hitec City,17.442753,78.372965,Robbery,Bank/ATM,1.79,37,Medium,2025-08-26,20,0,1,Medium,Medium,Medium,✅,✅,69.8,44
+2025-07-27,05:05:10,Sunday,July,Hyderabad,Kukatpally,17.497528,78.397553,Chain Snatching,Street/Road,3.46,73,High,2025-07-27,5,1,0,Low,High,High,❌,✅,76.5,82
+2025-12-30,08:38:41,Tuesday,December,Hyderabad,Hitec City,17.445119,78.390255,Vandalism,Nightclub/Bar,2.05,40,Medium,2025-12-30,8,0,0,Medium,Medium,Medium,✅,✅,58.2,39
+2026-01-18,18:33:28,Sunday,January,Hyderabad,Gachibowli,17.437711,78.351092,Vandalism,Transit Station,0.91,17,Low,2026-01-18,18,1,0,Low,Low,Low,✅,✅,90.4,5
+2026-01-08,07:42:16,Thursday,January,Hyderabad,Jubilee Hills,17.416163,78.398363,Burglary,Street/Road,2.12,40,Medium,2026-01-08,7,0,0,Medium,Medium,Medium,✅,✅,59.7,40
+2025-02-02,15:35:03,Sunday,February,Hyderabad,Banjara Hills,17.434402,78.414385,Theft,Parking Lot,1.59,35,Medium,2025-02-02,15,1,0,Medium,Medium,Medium,✅,✅,66.7,41
+2025-02-23,08:39:09,Sunday,February,Hyderabad,Banjara Hills,17.414844,78.439057,Burglary,Parking Lot,1.9,37,Medium,2025-02-23,8,1,0,Medium,Medium,Medium,✅,✅,68.2,43
+2025-05-26,21:08:33,Monday,May,Hyderabad,Dilsukhnagar,17.379573,78.520905,Robbery,Nightclub/Bar,2.79,64,High,2025-05-26,21,0,1,High,High,High,✅,✅,70.9,82
+2026-04-14,10:55:30,Tuesday,April,Hyderabad,LB Nagar,17.335355,78.556779,Cybercrime,Market/Bazaar,1.53,31,Medium,2026-04-14,10,0,0,Medium,Medium,Medium,✅,✅,71.7,46
+2025-12-24,17:11:37,Wednesday,December,Hyderabad,Jubilee Hills,17.429277,78.404592,Drug Offense,Park/Open Ground,2.13,39,Medium,2025-12-24,17,0,0,Medium,Medium,Medium,✅,✅,69.3,44
+2025-10-16,01:40:34,Thursday,October,Hyderabad,Koti,17.380846,78.480654,Vehicle Theft,Bank/ATM,3.53,65,High,2025-10-16,1,0,1,High,High,High,✅,✅,76.8,85
+2025-02-15,14:19:23,Saturday,February,Hyderabad,Abids,17.381939,78.476255,Vandalism,Nightclub/Bar,1.72,28,Medium,2025-02-15,14,1,0,Medium,Medium,Medium,✅,✅,68.0,40
+2025-09-25,07:22:18,Thursday,September,Hyderabad,Charminar,17.36553,78.471836,Cybercrime,Market/Bazaar,2.97,72,High,2025-09-25,7,0,0,High,High,High,✅,✅,77.6,86
+2026-04-30,15:19:00,Thursday,April,Hyderabad,Madhapur,17.448968,78.38734,Vandalism,Nightclub/Bar,1.84,37,Medium,2026-04-30,15,0,0,Medium,Medium,Medium,✅,✅,71.6,42
+2025-10-08,23:56:35,Wednesday,October,Hyderabad,Charminar,17.360886,78.474399,Vandalism,Parking Lot,4.07,69,High,2025-10-08,23,0,1,High,High,High,✅,✅,78.1,85
+2025-11-27,23:14:16,Thursday,November,Hyderabad,Dilsukhnagar,17.354929,78.527428,Burglary,Parking Lot,4.48,84,High,2025-11-27,23,0,1,High,High,High,✅,✅,83.4,90
+2026-02-14,19:51:44,Saturday,February,Hyderabad,Abids,17.397774,78.456482,Vehicle Theft,Nightclub/Bar,1.75,29,Medium,2026-02-14,19,1,0,Medium,Medium,Medium,✅,✅,68.1,40
+2025-05-18,13:12:54,Sunday,May,Hyderabad,Abids,17.386273,78.47874,Burglary,Transit Station,1.78,28,Medium,2025-05-18,13,1,0,Medium,Medium,Medium,✅,✅,74.9,42
+2025-08-22,22:44:39,Friday,August,Hyderabad,Mehdipatnam,17.390715,78.435927,Cybercrime,Street/Road,2.84,67,High,2025-08-22,22,0,1,High,High,High,✅,✅,81.3,88
+2025-10-01,20:18:17,Wednesday,October,Hyderabad,Charminar,17.367019,78.4685,Robbery,Park/Open Ground,2.57,45,High,2025-10-01,20,0,1,High,High,High,✅,✅,55.7,71
+2025-01-08,15:13:21,Wednesday,January,Hyderabad,Jubilee Hills,17.423592,78.39425,Vandalism,Nightclub/Bar,2.0,42,Medium,2025-01-08,15,0,0,Medium,Medium,Medium,✅,✅,69.2,44
+2025-08-26,22:50:02,Tuesday,August,Hyderabad,Gachibowli,17.444968,78.354615,Chain Snatching,Residential,0.44,9,Medium,2025-08-26,22,0,1,Medium,Medium,Medium,✅,✅,50.5,27
+2025-07-20,02:34:30,Sunday,July,Hyderabad,Abids,17.381765,78.459485,Robbery,Street/Road,1.76,46,Medium,2025-07-20,2,1,1,Low,Medium,Medium,❌,✅,47.8,55
+2026-03-01,02:45:15,Sunday,March,Hyderabad,Begumpet,17.457242,78.459524,Vandalism,Park/Open Ground,2.84,60,High,2026-03-01,2,1,1,High,High,High,✅,✅,77.3,85
+2025-04-12,02:06:33,Saturday,April,Hyderabad,Charminar,17.353582,78.468681,Assault,Park/Open Ground,3.71,70,High,2025-04-12,2,1,1,High,High,High,✅,✅,78.0,84
+2026-04-25,10:10:40,Saturday,April,Hyderabad,Hitec City,17.447632,78.384984,Theft,Market/Bazaar,1.74,43,High,2026-04-25,10,1,0,Low,High,High,❌,✅,44.3,63
+2025-11-23,09:12:23,Sunday,November,Hyderabad,Madhapur,17.442058,78.402145,Theft,Street/Road,1.39,34,Medium,2025-11-23,9,1,0,Medium,Medium,Medium,✅,✅,74.5,43
+2025-06-16,02:17:37,Monday,June,Hyderabad,Begumpet,17.449542,78.475323,Burglary,Parking Lot,3.14,68,High,2025-06-16,2,0,1,High,High,High,✅,✅,63.3,72
+2025-10-25,18:44:38,Saturday,October,Hyderabad,Charminar,17.379853,78.469759,Robbery,Bank/ATM,2.93,60,High,2025-10-25,18,1,0,High,High,High,✅,✅,75.7,84
+2025-02-16,21:39:21,Sunday,February,Hyderabad,Madhapur,17.457457,78.393178,Theft,Commercial,1.86,38,Medium,2025-02-16,21,1,1,Medium,Medium,Medium,✅,✅,65.9,47
+2025-10-02,07:31:14,Thursday,October,Hyderabad,Dilsukhnagar,17.361181,78.519284,Chain Snatching,Market/Bazaar,4.49,86,High,2025-10-02,7,0,0,High,High,High,✅,✅,87.4,92
+2026-04-02,14:46:12,Thursday,April,Hyderabad,Abids,17.387375,78.480658,Theft,Parking Lot,1.89,38,Medium,2026-04-02,14,0,0,Medium,Medium,Medium,✅,✅,61.0,46
+2026-04-06,01:31:45,Monday,April,Hyderabad,Hitec City,17.449385,78.391454,Cybercrime,Market/Bazaar,1.84,33,Medium,2026-04-06,1,0,1,Medium,Medium,Medium,✅,✅,61.3,39
+2025-04-08,18:11:34,Tuesday,April,Hyderabad,Madhapur,17.454131,78.383202,Chain Snatching,Bank/ATM,1.96,37,Medium,2025-04-08,18,0,0,Low,Medium,Medium,❌,✅,69.1,45
+2026-03-02,19:58:55,Monday,March,Hyderabad,LB Nagar,17.34797,78.544297,Harassment,Transit Station,1.95,37,Medium,2026-03-02,19,0,0,Medium,Medium,Medium,✅,✅,77.4,44
+2025-06-01,08:34:23,Sunday,June,Hyderabad,Madhapur,17.446011,78.374581,Cybercrime,Commercial,2.23,51,Medium,2025-06-01,8,1,0,Medium,Medium,Medium,✅,✅,66.6,53
+2026-01-11,20:39:54,Sunday,January,Hyderabad,Begumpet,17.436133,78.481691,Chain Snatching,Street/Road,3.25,71,High,2026-01-11,20,1,1,Low,High,High,❌,✅,80.6,87
+2025-10-03,09:33:43,Friday,October,Hyderabad,Mehdipatnam,17.393353,78.443717,Cybercrime,Market/Bazaar,3.32,65,High,2025-10-03,9,0,0,High,High,High,✅,✅,77.2,86
+2025-07-29,20:20:07,Tuesday,July,Hyderabad,Gachibowli,17.426751,78.35737,Burglary,Market/Bazaar,0.67,17,High,2025-07-29,20,0,1,Low,Low,High,❌,❌,52.5,42
+2025-04-02,01:12:06,Wednesday,April,Hyderabad,Jubilee Hills,17.423919,78.415593,Cybercrime,Street/Road,1.86,31,High,2025-04-02,1,0,1,Medium,High,High,❌,✅,37.3,56
+2026-03-05,23:33:39,Thursday,March,Hyderabad,Mehdipatnam,17.396709,78.451565,Drug Offense,Nightclub/Bar,2.75,57,High,2026-03-05,23,0,1,High,High,High,✅,✅,77.4,85
+2026-01-03,21:41:31,Saturday,January,Hyderabad,Kukatpally,17.499921,78.390499,Burglary,Park/Open Ground,3.29,83,High,2026-01-03,21,1,1,High,High,High,✅,✅,80.2,88
+2026-01-16,16:52:23,Friday,January,Hyderabad,Ameerpet,17.430263,78.457682,Theft,Nightclub/Bar,3.58,79,High,2026-01-16,16,0,0,High,High,High,✅,✅,82.8,89
+2026-03-04,09:04:13,Wednesday,March,Hyderabad,Banjara Hills,17.409518,78.437997,Harassment,Residential,1.71,29,Medium,2026-03-04,9,0,0,Medium,Medium,Medium,✅,✅,51.3,33
+2025-07-17,00:42:15,Thursday,July,Hyderabad,Ameerpet,17.43017,78.459144,Drug Offense,Transit Station,3.6,72,High,2025-07-17,0,0,1,Low,High,High,❌,✅,67.9,76
+2026-01-18,01:36:22,Sunday,January,Hyderabad,Begumpet,17.449567,78.488528,Cybercrime,Parking Lot,2.73,52,High,2026-01-18,1,1,1,Low,High,High,❌,✅,60.0,73
+2025-10-09,12:32:21,Thursday,October,Hyderabad,Jubilee Hills,17.419408,78.419327,Robbery,Market/Bazaar,1.59,35,Medium,2025-10-09,12,0,0,Medium,Medium,Medium,✅,✅,57.6,36
+2026-04-08,10:35:20,Wednesday,April,Hyderabad,Gachibowli,17.439848,78.351098,Chain Snatching,Parking Lot,0.97,17,Low,2026-04-08,10,0,0,Low,Low,Low,✅,✅,85.1,8
+2025-11-08,07:36:34,Saturday,November,Hyderabad,Gachibowli,17.450316,78.351604,Assault,Parking Lot,0.62,13,Low,2025-11-08,7,1,0,Low,Low,Low,✅,✅,92.1,4
+2025-08-18,12:00:46,Monday,August,Hyderabad,Madhapur,17.457948,78.400635,Theft,Nightclub/Bar,1.84,36,High,2025-08-18,12,0,0,Medium,Medium,High,❌,❌,54.2,36
+2026-04-01,09:00:19,Wednesday,April,Hyderabad,Jubilee Hills,17.433633,78.399094,Assault,Street/Road,2.26,46,Medium,2026-04-01,9,0,0,Low,Medium,Medium,❌,✅,69.0,47
+2026-02-25,22:52:17,Wednesday,February,Hyderabad,Abids,17.390999,78.482167,Harassment,Nightclub/Bar,1.73,42,Medium,2026-02-25,22,0,1,Medium,Medium,Medium,✅,✅,65.1,46
+2025-03-21,23:22:09,Friday,March,Hyderabad,Kukatpally,17.511388,78.391482,Robbery,Nightclub/Bar,3.3,79,Medium,2025-03-21,23,0,1,High,High,Medium,❌,❌,61.9,76
+2025-04-30,22:05:36,Wednesday,April,Hyderabad,Secunderabad,17.460337,78.493162,Vandalism,Street/Road,2.67,63,High,2025-04-30,22,0,1,High,High,High,✅,✅,78.8,85
+2025-09-05,05:31:52,Friday,September,Hyderabad,Abids,17.392569,78.466267,Drug Offense,Residential,1.98,40,Medium,2025-09-05,5,0,0,Medium,Medium,Medium,✅,✅,61.8,41
+2026-01-10,15:05:49,Saturday,January,Hyderabad,Charminar,17.377367,78.474544,Theft,Bank/ATM,3.5,66,Medium,2026-01-10,15,1,0,High,High,Medium,❌,❌,51.8,72
+2025-08-02,06:55:49,Saturday,August,Hyderabad,Begumpet,17.457419,78.470993,Assault,Commercial,3.67,77,High,2025-08-02,6,1,0,High,High,High,✅,✅,81.8,87
+2025-01-28,20:20:34,Tuesday,January,Hyderabad,Begumpet,17.44949,78.459038,Drug Offense,Transit Station,4.05,71,High,2025-01-28,20,0,1,Low,High,High,❌,✅,69.2,76
+2025-03-20,01:25:28,Thursday,March,Hyderabad,Secunderabad,17.431689,78.50814,Drug Offense,Market/Bazaar,3.65,65,High,2025-03-20,1,0,1,High,High,High,✅,✅,81.6,88
+2026-02-07,12:09:08,Saturday,February,Hyderabad,Hitec City,17.42545,78.367772,Chain Snatching,Residential,1.85,47,Medium,2026-02-07,12,1,0,Low,Medium,Medium,❌,✅,56.6,42
+2025-10-08,20:25:32,Wednesday,October,Hyderabad,Charminar,17.365027,78.475317,Vandalism,Transit Station,2.97,61,High,2025-10-08,20,0,1,High,High,High,✅,✅,71.5,81
+2025-09-07,00:12:35,Sunday,September,Hyderabad,Secunderabad,17.429894,78.498476,Drug Offense,Market/Bazaar,3.22,66,High,2025-09-07,0,1,1,High,High,High,✅,✅,80.3,88
+2026-02-02,13:20:43,Monday,February,Hyderabad,Hitec City,17.429149,78.366356,Drug Offense,Residential,1.75,33,Medium,2026-02-02,13,0,0,Medium,Medium,Medium,✅,✅,63.0,38
+2025-07-07,22:22:38,Monday,July,Hyderabad,Begumpet,17.44608,78.470487,Theft,Nightclub/Bar,3.82,81,Low,2025-07-07,22,0,1,High,High,Low,❌,❌,61.2,68
+2026-02-25,17:39:09,Wednesday,February,Hyderabad,Kukatpally,17.506307,78.414058,Cybercrime,Nightclub/Bar,2.83,65,High,2026-02-25,17,0,0,High,High,High,✅,✅,77.8,85
+2025-03-21,23:54:05,Friday,March,Hyderabad,Gachibowli,17.431158,78.34603,Burglary,Commercial,0.6,16,Low,2025-03-21,23,0,1,Low,Low,Low,✅,✅,91.2,6
+2025-03-17,12:00:21,Monday,March,Hyderabad,Koti,17.39972,78.496224,Burglary,Nightclub/Bar,3.72,83,High,2025-03-17,12,0,0,High,High,High,✅,✅,85.7,91
+2025-04-18,23:34:13,Friday,April,Hyderabad,Gachibowli,17.441579,78.360026,Assault,Market/Bazaar,0.82,20,Low,2025-04-18,23,0,1,Low,Low,Low,✅,✅,85.1,9
+2026-01-09,03:24:37,Friday,January,Hyderabad,Kukatpally,17.494108,78.398995,Harassment,Commercial,2.84,67,High,2026-01-09,3,0,1,High,High,High,✅,✅,77.0,85
+2025-04-13,22:39:17,Sunday,April,Hyderabad,Hitec City,17.45312,78.379737,Theft,Park/Open Ground,1.67,31,Low,2025-04-13,22,1,1,Medium,Low,Low,❌,✅,58.9,26
+2025-07-18,21:17:42,Friday,July,Hyderabad,Banjara Hills,17.419531,78.440258,Chain Snatching,Residential,2.21,45,Medium,2025-07-18,21,0,1,Medium,Medium,Medium,✅,✅,67.0,48
+2025-11-29,23:32:45,Saturday,November,Hyderabad,Koti,17.381589,78.482758,Burglary,Bank/ATM,4.22,75,Medium,2025-11-29,23,1,1,High,Medium,Medium,❌,✅,48.8,72
+2025-02-15,00:29:35,Saturday,February,Hyderabad,Ameerpet,17.43572,78.464675,Theft,Commercial,2.73,56,Medium,2025-02-15,0,1,1,Medium,Medium,Medium,✅,✅,48.0,65
+2025-06-20,15:25:47,Friday,June,Hyderabad,Hitec City,17.4421,78.368641,Robbery,Commercial,1.47,37,Medium,2025-06-20,15,0,0,Medium,Medium,Medium,✅,✅,66.9,42
+2025-11-17,09:15:32,Monday,November,Hyderabad,Gachibowli,17.446826,78.350562,Vehicle Theft,Commercial,0.67,14,Low,2025-11-17,9,0,0,Low,Low,Low,✅,✅,90.0,5
+2026-02-22,11:14:09,Sunday,February,Hyderabad,Koti,17.385007,78.496367,Chain Snatching,Parking Lot,3.25,61,High,2026-02-22,11,1,0,Low,High,High,❌,✅,69.5,79
+2025-09-24,10:26:15,Wednesday,September,Hyderabad,Begumpet,17.448254,78.475211,Drug Offense,Transit Station,3.67,79,Low,2025-09-24,10,0,0,Low,Low,Low,✅,✅,42.6,49
+2025-11-06,00:08:13,Thursday,November,Hyderabad,Koti,17.382814,78.491314,Robbery,Market/Bazaar,3.58,68,Medium,2025-11-06,0,0,1,High,High,Medium,❌,❌,78.2,86
+2025-12-19,22:57:33,Friday,December,Hyderabad,Hitec City,17.433194,78.379542,Robbery,Parking Lot,1.8,32,High,2025-12-19,22,0,1,Medium,Medium,High,❌,❌,40.2,53
+2025-10-17,13:04:35,Friday,October,Hyderabad,Koti,17.370045,78.487758,Harassment,Residential,3.34,68,High,2025-10-17,13,0,0,High,High,High,✅,✅,76.2,84
+2025-03-16,13:56:26,Sunday,March,Hyderabad,Koti,17.379298,78.483391,Vandalism,Nightclub/Bar,2.8,67,High,2025-03-16,13,1,0,High,High,High,✅,✅,81.1,87
+2026-04-03,20:59:47,Friday,April,Hyderabad,LB Nagar,17.34799,78.532212,Vehicle Theft,Transit Station,2.19,42,Medium,2026-04-03,20,0,1,Medium,Medium,Medium,✅,✅,76.6,48
+2025-04-05,00:48:39,Saturday,April,Hyderabad,Jubilee Hills,17.432051,78.397927,Drug Offense,Nightclub/Bar,1.57,29,Medium,2025-04-05,0,1,1,Medium,Medium,Medium,✅,✅,69.2,44
+2025-11-02,01:01:22,Sunday,November,Hyderabad,Secunderabad,17.448008,78.499716,Burglary,Park/Open Ground,2.73,65,High,2025-11-02,1,1,1,High,High,High,✅,✅,80.7,88
+2025-08-29,14:11:54,Friday,August,Hyderabad,Kukatpally,17.496102,78.388906,Vandalism,Park/Open Ground,4.33,78,High,2025-08-29,14,0,0,High,High,High,✅,✅,86.6,91
+2025-04-26,02:00:59,Saturday,April,Hyderabad,Secunderabad,17.435996,78.504868,Vehicle Theft,Parking Lot,2.5,55,High,2025-04-26,2,1,1,Medium,High,High,❌,✅,56.3,73
+2026-01-23,21:59:28,Friday,January,Hyderabad,Secunderabad,17.440318,78.489815,Drug Offense,Park/Open Ground,3.95,65,Medium,2026-01-23,21,0,1,High,High,Medium,❌,❌,52.3,73
+2025-05-07,02:02:38,Wednesday,May,Hyderabad,Koti,17.384953,78.487748,Vandalism,Bank/ATM,3.35,64,High,2025-05-07,2,0,1,High,High,High,✅,✅,70.1,82
+2025-10-20,00:41:56,Monday,October,Hyderabad,Dilsukhnagar,17.378029,78.535791,Theft,Market/Bazaar,3.07,61,High,2025-10-20,0,0,1,High,High,High,✅,✅,66.0,80
+2026-03-26,01:56:15,Thursday,March,Hyderabad,LB Nagar,17.346583,78.556259,Harassment,Market/Bazaar,1.81,40,Low,2026-03-26,1,0,1,Medium,Medium,Low,❌,❌,52.2,48
+2025-10-13,02:40:03,Monday,October,Hyderabad,Charminar,17.358984,78.472992,Assault,Nightclub/Bar,3.61,67,High,2025-10-13,2,0,1,High,High,High,✅,✅,75.9,85
+2026-02-01,06:37:30,Sunday,February,Hyderabad,Hitec City,17.432268,78.39836,Vandalism,Nightclub/Bar,2.0,48,Low,2026-02-01,6,1,0,Low,Low,Low,✅,✅,61.4,25
+2025-09-22,17:53:41,Monday,September,Hyderabad,Dilsukhnagar,17.378245,78.519681,Cybercrime,Residential,3.37,70,High,2025-09-22,17,0,0,High,High,High,✅,✅,75.4,84
+2025-10-27,22:34:08,Monday,October,Hyderabad,Abids,17.386221,78.482123,Vandalism,Parking Lot,1.9,39,Medium,2025-10-27,22,0,1,Medium,Medium,Medium,✅,✅,72.3,46
+2025-08-21,18:57:45,Thursday,August,Hyderabad,Jubilee Hills,17.435378,78.411103,Assault,Park/Open Ground,1.92,37,Medium,2025-08-21,18,0,0,Medium,Medium,Medium,✅,✅,70.7,43
+2025-11-29,08:45:46,Saturday,November,Hyderabad,Dilsukhnagar,17.366798,78.51614,Burglary,Residential,3.31,64,High,2025-11-29,8,1,0,High,High,High,✅,✅,73.8,81
+2025-07-05,01:24:46,Saturday,July,Hyderabad,Mehdipatnam,17.383875,78.456133,Harassment,Transit Station,3.83,63,High,2025-07-05,1,1,1,High,High,High,✅,✅,79.5,87
+2026-01-29,22:36:55,Thursday,January,Hyderabad,Charminar,17.372545,78.46535,Robbery,Transit Station,3.1,64,High,2026-01-29,22,0,1,Low,High,High,❌,✅,69.0,79
+2025-01-27,22:46:49,Monday,January,Hyderabad,Dilsukhnagar,17.380779,78.539562,Cybercrime,Nightclub/Bar,3.62,72,High,2025-01-27,22,0,1,High,High,High,✅,✅,74.8,85
+2025-03-09,03:39:48,Sunday,March,Hyderabad,Koti,17.371225,78.48941,Vehicle Theft,Commercial,3.59,79,High,2025-03-09,3,1,1,High,High,High,✅,✅,80.1,88
+2025-10-06,00:38:56,Monday,October,Hyderabad,Madhapur,17.450947,78.403108,Cybercrime,Street/Road,1.56,29,Medium,2025-10-06,0,0,1,Medium,Medium,Medium,✅,✅,71.7,44
+2025-08-21,06:37:30,Thursday,August,Hyderabad,Madhapur,17.453556,78.398125,Drug Offense,Commercial,1.46,35,Low,2025-08-21,6,0,0,Medium,Low,Low,❌,✅,60.0,24
+2025-11-14,20:35:52,Friday,November,Hyderabad,Hitec City,17.439248,78.364657,Assault,Commercial,1.5,33,High,2025-11-14,20,0,1,Medium,High,High,❌,✅,39.3,59
+2025-06-28,02:02:42,Saturday,June,Hyderabad,Mehdipatnam,17.391586,78.441277,Drug Offense,Nightclub/Bar,2.73,66,Medium,2025-06-28,2,1,1,High,High,Medium,❌,❌,56.2,75
+2025-02-25,21:10:43,Tuesday,February,Hyderabad,Charminar,17.366724,78.475685,Vehicle Theft,Market/Bazaar,2.55,58,Low,2025-02-25,21,0,1,High,High,Low,❌,❌,39.9,51
+2025-10-24,20:05:49,Friday,October,Hyderabad,Dilsukhnagar,17.375621,78.541665,Vehicle Theft,Bank/ATM,3.97,69,Medium,2025-10-24,20,0,1,High,High,Medium,❌,❌,49.5,73
+2025-02-04,13:53:35,Tuesday,February,Hyderabad,LB Nagar,17.347533,78.560795,Burglary,Nightclub/Bar,2.23,44,High,2025-02-04,13,0,0,Medium,High,High,❌,✅,43.3,65
+2026-03-17,00:26:33,Tuesday,March,Hyderabad,Dilsukhnagar,17.38127,78.52119,Assault,Street/Road,3.74,90,High,2026-03-17,0,0,1,High,High,High,✅,✅,77.9,86
+2026-01-09,19:05:30,Friday,January,Hyderabad,Kukatpally,17.488044,78.394494,Drug Offense,Nightclub/Bar,3.49,68,High,2026-01-09,19,0,0,High,High,High,✅,✅,78.6,85
+2025-05-13,16:36:39,Tuesday,May,Hyderabad,Gachibowli,17.427652,78.363802,Chain Snatching,Transit Station,0.71,19,Low,2025-05-13,16,0,0,Low,Low,Low,✅,✅,87.9,7
+2025-09-12,21:56:39,Friday,September,Hyderabad,Mehdipatnam,17.39217,78.432752,Assault,Nightclub/Bar,3.02,60,High,2025-09-12,21,0,1,High,High,High,✅,✅,75.0,85
+2025-08-27,20:47:54,Wednesday,August,Hyderabad,Charminar,17.372295,78.484161,Assault,Parking Lot,3.97,82,High,2025-08-27,20,0,1,High,High,High,✅,✅,86.0,91
+2025-10-14,20:13:00,Tuesday,October,Hyderabad,Gachibowli,17.450174,78.358072,Assault,Nightclub/Bar,0.92,17,Low,2025-10-14,20,0,1,Low,Low,Low,✅,✅,85.1,10
+2025-06-03,16:35:20,Tuesday,June,Hyderabad,Hitec City,17.441287,78.380807,Theft,Residential,1.97,35,Medium,2025-06-03,16,0,0,Medium,Medium,Medium,✅,✅,70.7,41
+2026-01-06,20:53:11,Tuesday,January,Hyderabad,Begumpet,17.461098,78.466405,Assault,Bank/ATM,3.62,64,Medium,2026-01-06,20,0,1,High,High,Medium,❌,❌,55.9,74
+2026-04-15,15:51:02,Wednesday,April,Hyderabad,Madhapur,17.441846,78.377959,Robbery,Park/Open Ground,1.7,29,Medium,2026-04-15,15,0,0,Medium,Medium,Medium,✅,✅,75.4,42
+2026-03-19,22:29:50,Thursday,March,Hyderabad,Koti,17.374514,78.484427,Vandalism,Commercial,3.88,79,High,2026-03-19,22,0,1,High,High,High,✅,✅,81.5,88
+2025-12-14,00:01:13,Sunday,December,Hyderabad,Dilsukhnagar,17.368978,78.513013,Drug Offense,Bank/ATM,3.57,67,High,2025-12-14,0,1,1,High,High,High,✅,✅,80.9,87
+2025-05-24,00:21:24,Saturday,May,Hyderabad,Jubilee Hills,17.425225,78.413412,Harassment,Transit Station,1.61,38,Medium,2025-05-24,0,1,1,Medium,Medium,Medium,✅,✅,73.6,46
+2025-11-01,03:55:50,Saturday,November,Hyderabad,Jubilee Hills,17.432775,78.407906,Vehicle Theft,Bank/ATM,2.13,39,High,2025-11-01,3,1,1,Medium,High,High,❌,✅,41.2,61
+2025-02-14,21:23:28,Friday,February,Hyderabad,Begumpet,17.441987,78.46936,Vehicle Theft,Street/Road,4.01,92,High,2025-02-14,21,0,1,High,High,High,✅,✅,84.3,90
+2025-07-11,01:49:12,Friday,July,Hyderabad,Banjara Hills,17.415416,78.429871,Burglary,Nightclub/Bar,1.46,31,High,2025-07-11,1,0,1,Medium,High,High,❌,✅,40.5,59
+2026-04-09,16:09:12,Thursday,April,Hyderabad,Madhapur,17.450369,78.393202,Chain Snatching,Park/Open Ground,2.07,38,Low,2026-04-09,16,0,0,Medium,Medium,Low,❌,❌,74.4,46
+2026-02-02,10:09:49,Monday,February,Hyderabad,Hitec City,17.43898,78.380586,Burglary,Market/Bazaar,1.98,43,Low,2026-02-02,10,0,0,Low,Low,Low,✅,✅,59.9,25
+2026-01-06,23:45:55,Tuesday,January,Hyderabad,Secunderabad,17.441184,78.516,Harassment,Residential,3.24,51,High,2026-01-06,23,0,1,Low,High,High,❌,✅,67.1,79
+2025-12-18,05:21:29,Thursday,December,Hyderabad,Charminar,17.360569,78.477425,Theft,Residential,4.19,79,High,2025-12-18,5,0,0,Low,High,High,❌,✅,82.6,87
+2025-06-09,02:19:40,Monday,June,Hyderabad,Dilsukhnagar,17.367663,78.527409,Assault,Bank/ATM,3.88,74,High,2025-06-09,2,0,1,High,High,High,✅,✅,73.3,84
+2025-09-30,10:49:28,Tuesday,September,Hyderabad,Hitec City,17.450264,78.38641,Burglary,Nightclub/Bar,1.25,28,High,2025-09-30,10,0,0,Medium,Medium,High,❌,❌,41.2,57
+2025-01-08,19:35:32,Wednesday,January,Hyderabad,Banjara Hills,17.416186,78.434498,Burglary,Street/Road,1.74,38,Medium,2025-01-08,19,0,0,Medium,Medium,Medium,✅,✅,63.1,47
+2025-05-19,04:45:51,Monday,May,Hyderabad,Gachibowli,17.442811,78.346227,Vehicle Theft,Street/Road,0.74,13,Medium,2025-05-19,4,0,1,Low,Medium,Medium,❌,✅,50.2,26
+2026-04-02,23:03:08,Thursday,April,Hyderabad,Kukatpally,17.514582,78.401718,Theft,Park/Open Ground,3.58,60,High,2026-04-02,23,0,1,High,High,High,✅,✅,80.5,87
+2025-02-14,21:45:38,Friday,February,Hyderabad,Charminar,17.356855,78.477218,Drug Offense,Nightclub/Bar,4.31,87,High,2025-02-14,21,0,1,High,High,High,✅,✅,79.3,88
+2026-02-23,06:45:48,Monday,February,Hyderabad,Gachibowli,17.447078,78.346379,Harassment,Residential,0.86,20,Low,2026-02-23,6,0,0,Low,Low,Low,✅,✅,86.6,7
+2026-02-21,22:29:06,Saturday,February,Hyderabad,Banjara Hills,17.416182,78.437198,Cybercrime,Nightclub/Bar,1.77,42,Medium,2026-02-21,22,1,1,Medium,Medium,Medium,✅,✅,71.8,49
+2025-08-27,15:14:14,Wednesday,August,Hyderabad,Abids,17.389877,78.475961,Robbery,Nightclub/Bar,1.6,39,Medium,2025-08-27,15,0,0,Medium,Medium,Medium,✅,✅,65.9,43
+2026-04-15,13:29:31,Wednesday,April,Hyderabad,Dilsukhnagar,17.368991,78.522587,Theft,Residential,3.58,72,High,2026-04-15,13,0,0,High,High,High,✅,✅,84.8,89
+2025-08-25,05:18:49,Monday,August,Hyderabad,Madhapur,17.456401,78.390235,Chain Snatching,Transit Station,1.56,38,High,2025-08-25,5,0,0,Medium,High,High,❌,✅,42.6,62
+2026-01-01,06:37:30,Thursday,January,Hyderabad,LB Nagar,17.347419,78.547706,Burglary,Nightclub/Bar,1.8,39,Medium,2026-01-01,6,0,0,Medium,Medium,Medium,✅,✅,65.0,49
+2025-07-31,21:35:10,Thursday,July,Hyderabad,Kukatpally,17.489724,78.404262,Cybercrime,Parking Lot,3.34,69,High,2025-07-31,21,0,1,Low,High,High,❌,✅,64.2,71
+2025-12-22,18:27:50,Monday,December,Hyderabad,LB Nagar,17.332457,78.549916,Vandalism,Bank/ATM,1.82,42,Medium,2025-12-22,18,0,0,Medium,Medium,Medium,✅,✅,64.0,49
+2025-12-06,21:04:47,Saturday,December,Hyderabad,Jubilee Hills,17.438245,78.406324,Drug Offense,Park/Open Ground,1.31,29,Medium,2025-12-06,21,1,1,Medium,Medium,Medium,✅,✅,74.5,43
+2025-06-16,17:06:52,Monday,June,Hyderabad,Madhapur,17.437027,78.388231,Cybercrime,Transit Station,1.18,28,Low,2025-06-16,17,0,0,Medium,Low,Low,❌,✅,57.4,23
+2025-11-03,03:43:52,Monday,November,Hyderabad,Banjara Hills,17.418173,78.437044,Drug Offense,Parking Lot,1.69,34,Medium,2025-11-03,3,0,1,Medium,Medium,Medium,✅,✅,58.2,44
+2025-02-01,02:08:56,Saturday,February,Hyderabad,Mehdipatnam,17.381732,78.431183,Drug Offense,Commercial,2.84,66,High,2025-02-01,2,1,1,High,High,High,✅,✅,79.1,87
+2025-09-30,09:24:39,Tuesday,September,Hyderabad,Madhapur,17.458323,78.387914,Drug Offense,Park/Open Ground,1.71,31,Medium,2025-09-30,9,0,0,Medium,Medium,Medium,✅,✅,64.6,41
+2025-06-12,02:58:43,Thursday,June,Hyderabad,Koti,17.391507,78.486924,Vehicle Theft,Parking Lot,4.18,80,Low,2025-06-12,2,0,1,Low,High,Low,✅,❌,45.5,55
+2025-01-05,00:25:54,Sunday,January,Hyderabad,Kukatpally,17.496919,78.399422,Robbery,Nightclub/Bar,3.4,66,High,2025-01-05,0,1,1,High,High,High,✅,✅,76.4,84
+2025-01-28,00:52:22,Tuesday,January,Hyderabad,Ameerpet,17.439807,78.443798,Burglary,Nightclub/Bar,2.92,57,High,2025-01-28,0,0,1,High,High,High,✅,✅,71.3,80
+2025-10-30,22:45:24,Thursday,October,Hyderabad,Dilsukhnagar,17.374118,78.520277,Vandalism,Parking Lot,2.83,70,High,2025-10-30,22,0,1,High,High,High,✅,✅,78.8,86
+2025-03-30,21:35:24,Sunday,March,Hyderabad,Mehdipatnam,17.38309,78.436781,Chain Snatching,Parking Lot,2.68,58,High,2025-03-30,21,1,1,High,High,High,✅,✅,77.1,85
+2025-12-10,04:08:00,Wednesday,December,Hyderabad,LB Nagar,17.331531,78.555972,Burglary,Commercial,1.85,31,Medium,2025-12-10,4,0,1,Medium,Medium,Medium,✅,✅,68.2,46
+2025-12-03,13:08:05,Wednesday,December,Hyderabad,Madhapur,17.448173,78.398828,Robbery,Parking Lot,2.2,40,Medium,2025-12-03,13,0,0,Medium,Medium,Medium,✅,✅,73.3,45
+2025-12-23,19:59:27,Tuesday,December,Hyderabad,Abids,17.389797,78.470886,Drug Offense,Transit Station,1.45,34,Medium,2025-12-23,19,0,0,Medium,Medium,Medium,✅,✅,72.4,41
+2026-02-24,22:14:11,Tuesday,February,Hyderabad,Ameerpet,17.434422,78.450609,Vandalism,Commercial,3.29,81,High,2026-02-24,22,0,1,High,High,High,✅,✅,67.5,79
+2025-05-02,11:26:59,Friday,May,Hyderabad,Dilsukhnagar,17.370249,78.535126,Harassment,Bank/ATM,2.59,56,Low,2025-05-02,11,0,0,High,High,Low,❌,❌,61.3,74
+2025-09-05,06:37:30,Friday,September,Hyderabad,Kukatpally,17.507259,78.400149,Burglary,Transit Station,3.18,69,Low,2025-09-05,6,0,0,Low,High,Low,✅,❌,66.4,74
+2026-02-03,08:29:33,Tuesday,February,Hyderabad,Abids,17.379892,78.460698,Burglary,Market/Bazaar,2.02,40,High,2026-02-03,8,0,0,Medium,Medium,High,❌,❌,55.9,39
+2025-11-19,23:42:42,Wednesday,November,Hyderabad,Madhapur,17.444201,78.384316,Burglary,Market/Bazaar,2.12,42,Medium,2025-11-19,23,0,1,Medium,Medium,Medium,✅,✅,76.2,50
+2025-01-28,03:30:29,Tuesday,January,Hyderabad,Kukatpally,17.486749,78.402962,Harassment,Park/Open Ground,3.62,79,High,2025-01-28,3,0,1,High,High,High,✅,✅,75.2,81
+2025-06-30,12:18:10,Monday,June,Hyderabad,Begumpet,17.440672,78.465643,Theft,Nightclub/Bar,3.69,94,High,2025-06-30,12,0,0,High,High,High,✅,✅,82.5,89
+2025-08-31,00:03:42,Sunday,August,Hyderabad,Mehdipatnam,17.388419,78.433628,Vehicle Theft,Commercial,4.29,84,High,2025-08-31,0,1,1,High,High,High,✅,✅,90.1,93
+2025-09-16,02:54:50,Tuesday,September,Hyderabad,Jubilee Hills,17.442418,78.402776,Vehicle Theft,Nightclub/Bar,1.33,30,Medium,2025-09-16,2,0,1,Medium,Medium,Medium,✅,✅,69.1,42
+2026-03-16,08:00:47,Monday,March,Hyderabad,Hitec City,17.452955,78.381047,Burglary,Transit Station,1.42,30,Medium,2026-03-16,8,0,0,Medium,Medium,Medium,✅,✅,75.2,42
+2025-08-17,21:16:50,Sunday,August,Hyderabad,Mehdipatnam,17.380385,78.453661,Assault,Park/Open Ground,3.46,57,High,2025-08-17,21,1,1,High,High,High,✅,✅,77.8,86
+2025-01-17,10:05:09,Friday,January,Hyderabad,LB Nagar,17.337956,78.549718,Drug Offense,Transit Station,1.68,38,Medium,2025-01-17,10,0,0,Medium,Medium,Medium,✅,✅,75.1,45
+2026-01-30,01:28:46,Friday,January,Hyderabad,Begumpet,17.454167,78.479791,Robbery,Street/Road,4.3,82,High,2026-01-30,1,0,1,High,High,High,✅,✅,78.5,86
+2025-01-28,20:16:48,Tuesday,January,Hyderabad,Gachibowli,17.4389,78.337435,Burglary,Commercial,0.62,16,Low,2025-01-28,20,0,1,Low,Low,Low,✅,✅,90.9,6
+2025-06-04,15:47:48,Wednesday,June,Hyderabad,Madhapur,17.445676,78.397909,Harassment,Street/Road,1.98,39,Medium,2025-06-04,15,0,0,Medium,Medium,Medium,✅,✅,74.6,44
+2025-08-31,00:55:27,Sunday,August,Hyderabad,Begumpet,17.441776,78.46519,Theft,Nightclub/Bar,3.54,76,High,2025-08-31,0,1,1,High,High,High,✅,✅,85.4,90
+2025-09-29,21:02:06,Monday,September,Hyderabad,Gachibowli,17.435811,78.346788,Harassment,Bank/ATM,0.95,22,Low,2025-09-29,21,0,1,Low,Low,Low,✅,✅,81.8,10
+2026-03-16,22:17:51,Monday,March,Hyderabad,Mehdipatnam,17.388625,78.437272,Burglary,Nightclub/Bar,4.82,92,High,2026-03-16,22,0,1,High,High,High,✅,✅,84.5,91
+2026-01-31,21:47:15,Saturday,January,Hyderabad,Madhapur,17.453602,78.385043,Drug Offense,Street/Road,1.89,39,Medium,2026-01-31,21,1,1,Medium,Medium,Medium,✅,✅,71.9,47
+2025-04-03,20:43:00,Thursday,April,Hyderabad,Dilsukhnagar,17.357678,78.525962,Burglary,Commercial,3.79,69,High,2025-04-03,20,0,1,High,High,High,✅,✅,80.7,88
+2025-12-17,14:22:14,Wednesday,December,Hyderabad,Banjara Hills,17.41865,78.434613,Vehicle Theft,Nightclub/Bar,2.05,37,High,2025-12-17,14,0,0,Medium,Medium,High,❌,❌,45.3,55
+2025-02-17,00:42:57,Monday,February,Hyderabad,Kukatpally,17.482438,78.39803,Assault,Residential,3.78,61,High,2025-02-17,0,0,1,Medium,High,High,❌,✅,62.5,76
+2025-03-08,02:57:41,Saturday,March,Hyderabad,Kukatpally,17.490093,78.376401,Drug Offense,Transit Station,3.24,60,High,2025-03-08,2,1,1,High,High,High,✅,✅,74.3,83
+2025-05-31,14:42:59,Saturday,May,Hyderabad,Hitec City,17.449043,78.381861,Burglary,Park/Open Ground,1.86,32,Medium,2025-05-31,14,1,0,Medium,Medium,Medium,✅,✅,74.1,44
+2026-04-08,13:16:10,Wednesday,April,Hyderabad,Dilsukhnagar,17.378349,78.520258,Burglary,Nightclub/Bar,3.96,75,High,2026-04-08,13,0,0,High,High,High,✅,✅,82.9,89
+2025-01-31,06:37:30,Friday,January,Hyderabad,Gachibowli,17.443535,78.351937,Robbery,Park/Open Ground,0.56,11,Low,2025-01-31,6,0,0,Low,Low,Low,✅,✅,90.8,5
+2025-04-13,21:41:31,Sunday,April,Hyderabad,Koti,17.377965,78.50222,Burglary,Transit Station,4.06,82,High,2025-04-13,21,1,1,High,High,High,✅,✅,83.8,90
+2025-11-11,23:45:16,Tuesday,November,Hyderabad,Secunderabad,17.444587,78.492406,Burglary,Commercial,2.98,63,High,2025-11-11,23,0,1,High,High,High,✅,✅,84.4,90
+2025-05-09,03:57:31,Friday,May,Hyderabad,Dilsukhnagar,17.367868,78.538018,Robbery,Commercial,3.63,59,High,2025-05-09,3,0,1,High,High,High,✅,✅,69.6,81
+2025-03-19,22:21:57,Wednesday,March,Hyderabad,Hitec City,17.458344,78.378994,Vandalism,Commercial,1.42,34,Medium,2025-03-19,22,0,1,Medium,Medium,Medium,✅,✅,78.5,44
+2025-09-09,15:27:25,Tuesday,September,Hyderabad,Abids,17.397021,78.464,Burglary,Market/Bazaar,1.61,39,High,2025-09-09,15,0,0,Medium,Medium,High,❌,❌,50.9,54
+2026-02-23,06:36:34,Monday,February,Hyderabad,Dilsukhnagar,17.374172,78.536924,Chain Snatching,Bank/ATM,4.23,74,High,2026-02-23,6,0,0,High,High,High,✅,✅,83.6,89
+2025-11-28,00:54:21,Friday,November,Hyderabad,Mehdipatnam,17.376716,78.450014,Burglary,Park/Open Ground,4.07,72,High,2025-11-28,0,0,1,High,High,High,✅,✅,82.9,89
+2025-10-11,01:24:42,Saturday,October,Hyderabad,Jubilee Hills,17.429104,78.401119,Assault,Nightclub/Bar,2.01,46,Medium,2025-10-11,1,1,1,Low,Medium,Medium,❌,✅,74.3,51
+2025-11-19,22:22:31,Wednesday,November,Hyderabad,Banjara Hills,17.424917,78.435002,Burglary,Park/Open Ground,1.53,38,Medium,2025-11-19,22,0,1,Medium,Medium,Medium,✅,✅,71.9,49
+2025-04-09,00:15:31,Wednesday,April,Hyderabad,Charminar,17.365901,78.478125,Vandalism,Residential,3.05,70,High,2025-04-09,0,0,1,High,High,High,✅,✅,81.8,87
+2025-10-01,14:01:02,Wednesday,October,Hyderabad,Madhapur,17.450816,78.406205,Chain Snatching,Commercial,1.58,37,Medium,2025-10-01,14,0,0,Medium,Medium,Medium,✅,✅,70.3,49
+2025-07-27,02:41:42,Sunday,July,Hyderabad,Charminar,17.360856,78.472784,Harassment,Park/Open Ground,3.97,78,High,2025-07-27,2,1,1,High,High,High,✅,✅,79.2,86
+2025-04-30,04:47:09,Wednesday,April,Hyderabad,Kukatpally,17.499409,78.398929,Cybercrime,Commercial,3.07,75,Medium,2025-04-30,4,0,1,High,High,Medium,❌,❌,52.5,73
+2025-01-24,01:08:00,Friday,January,Hyderabad,Kukatpally,17.489834,78.402505,Robbery,Commercial,3.4,65,Medium,2025-01-24,1,0,1,High,High,Medium,❌,❌,57.8,75
+2025-08-22,19:10:53,Friday,August,Hyderabad,Banjara Hills,17.406399,78.438473,Drug Offense,Residential,2.25,41,Medium,2025-08-22,19,0,0,Medium,Medium,Medium,✅,✅,67.3,42
+2025-09-12,19:51:39,Friday,September,Hyderabad,Banjara Hills,17.418445,78.437233,Assault,Residential,1.87,46,Medium,2025-09-12,19,0,0,Medium,Medium,Medium,✅,✅,67.7,50
+2026-02-20,23:43:25,Friday,February,Hyderabad,Gachibowli,17.44903,78.360964,Chain Snatching,Residential,0.7,14,Low,2026-02-20,23,0,1,Low,Low,Low,✅,✅,87.0,8
+2025-04-20,01:37:11,Sunday,April,Hyderabad,Abids,17.392943,78.456843,Chain Snatching,Residential,1.2,26,Medium,2025-04-20,1,1,1,Medium,Medium,Medium,✅,✅,60.6,43
+2025-08-01,05:44:23,Friday,August,Hyderabad,Abids,17.389985,78.466892,Harassment,Transit Station,1.69,39,Medium,2025-08-01,5,0,0,Medium,Medium,Medium,✅,✅,61.4,40
+2025-01-21,02:54:40,Tuesday,January,Hyderabad,Kukatpally,17.478896,78.405609,Drug Offense,Parking Lot,3.62,65,High,2025-01-21,2,0,1,Low,High,High,❌,✅,68.8,75
+2025-02-11,00:00:11,Tuesday,February,Hyderabad,Madhapur,17.448062,78.387131,Burglary,Nightclub/Bar,1.59,40,Medium,2025-02-11,0,0,1,Medium,Medium,Medium,✅,✅,75.3,48
+2026-01-31,15:44:08,Saturday,January,Hyderabad,Abids,17.391144,78.477281,Assault,Transit Station,1.94,42,Medium,2026-01-31,15,1,0,Medium,Medium,Medium,✅,✅,76.2,46
+2025-07-30,07:11:39,Wednesday,July,Hyderabad,Madhapur,17.442217,78.390486,Theft,Transit Station,1.5,34,Medium,2025-07-30,7,0,0,Medium,Medium,Medium,✅,✅,75.5,42
+2025-11-18,09:22:26,Tuesday,November,Hyderabad,Banjara Hills,17.415781,78.424455,Theft,Market/Bazaar,1.84,37,Medium,2025-11-18,9,0,0,Medium,Medium,Medium,✅,✅,52.3,36
+2025-02-18,02:48:34,Tuesday,February,Hyderabad,Ameerpet,17.44692,78.446599,Harassment,Street/Road,2.85,69,High,2025-02-18,2,0,1,Low,High,High,❌,✅,65.6,72
+2025-04-17,21:07:50,Thursday,April,Hyderabad,Mehdipatnam,17.408959,78.431711,Robbery,Park/Open Ground,3.44,76,High,2025-04-17,21,0,1,High,High,High,✅,✅,86.1,91
+2026-04-18,01:23:18,Saturday,April,Hyderabad,Mehdipatnam,17.389389,78.436572,Assault,Parking Lot,3.69,58,High,2026-04-18,1,1,1,High,High,High,✅,✅,80.9,87
+2026-04-01,14:02:06,Wednesday,April,Hyderabad,Abids,17.403788,78.479917,Theft,Market/Bazaar,1.49,29,High,2026-04-01,14,0,0,Medium,High,High,❌,✅,39.1,55
+2025-09-06,20:57:15,Saturday,September,Hyderabad,Charminar,17.374568,78.473795,Cybercrime,Bank/ATM,3.97,68,High,2025-09-06,20,1,1,High,High,High,✅,✅,81.1,88
+2026-04-05,02:07:20,Sunday,April,Hyderabad,Mehdipatnam,17.391422,78.437589,Assault,Residential,3.81,78,High,2026-04-05,2,1,1,High,High,High,✅,✅,86.8,91
+2025-04-13,12:57:14,Sunday,April,Hyderabad,LB Nagar,17.339537,78.542359,Burglary,Park/Open Ground,2.06,45,Medium,2025-04-13,12,1,0,Medium,Medium,Medium,✅,✅,73.5,52
+2025-08-12,00:29:11,Tuesday,August,Hyderabad,Koti,17.381565,78.489846,Vandalism,Bank/ATM,3.59,66,High,2025-08-12,0,0,1,High,High,High,✅,✅,82.0,88
+2025-11-20,22:12:21,Thursday,November,Hyderabad,Secunderabad,17.440893,78.503978,Robbery,Commercial,3.8,69,High,2025-11-20,22,0,1,High,High,High,✅,✅,82.1,89
+2025-02-26,14:29:26,Wednesday,February,Hyderabad,Jubilee Hills,17.439596,78.405404,Robbery,Bank/ATM,1.8,35,Low,2025-02-26,14,0,0,Medium,Medium,Low,❌,❌,72.2,42
+2025-03-22,08:36:35,Saturday,March,Hyderabad,Kukatpally,17.491531,78.39346,Assault,Residential,3.49,78,Medium,2025-03-22,8,1,0,High,High,Medium,❌,❌,49.0,71
+2026-03-18,06:37:30,Wednesday,March,Hyderabad,Madhapur,17.452876,78.385862,Cybercrime,Nightclub/Bar,1.63,30,Medium,2026-03-18,6,0,0,Medium,Medium,Medium,✅,✅,76.0,43
+2026-03-23,22:27:37,Monday,March,Hyderabad,Dilsukhnagar,17.368056,78.522733,Assault,Transit Station,4.35,77,Medium,2026-03-23,22,0,1,High,Medium,Medium,❌,✅,51.6,70
+2025-01-23,23:46:49,Thursday,January,Hyderabad,Begumpet,17.441593,78.463955,Harassment,Commercial,3.25,66,High,2025-01-23,23,0,1,High,High,High,✅,✅,72.2,81
+2026-02-19,22:52:06,Thursday,February,Hyderabad,Madhapur,17.44539,78.391897,Cybercrime,Park/Open Ground,1.67,25,High,2026-02-19,22,0,1,Medium,Medium,High,❌,❌,37.5,55
+2025-01-07,22:46:26,Tuesday,January,Hyderabad,Abids,17.400116,78.470401,Assault,Transit Station,2.12,38,Medium,2025-01-07,22,0,1,Medium,Medium,Medium,✅,✅,73.8,44
+2025-02-16,01:19:10,Sunday,February,Hyderabad,Mehdipatnam,17.384309,78.43335,Cybercrime,Commercial,4.31,78,High,2025-02-16,1,1,1,High,High,High,✅,✅,87.9,92
+2026-03-24,22:25:11,Tuesday,March,Hyderabad,Jubilee Hills,17.436664,78.402581,Chain Snatching,Park/Open Ground,1.97,45,Medium,2026-03-24,22,0,1,Medium,Medium,Medium,✅,✅,71.4,48
+2025-11-18,02:24:57,Tuesday,November,Hyderabad,LB Nagar,17.337857,78.543485,Chain Snatching,Market/Bazaar,1.44,28,Medium,2025-11-18,2,0,1,Medium,Medium,Medium,✅,✅,74.5,43
+2025-05-19,22:39:34,Monday,May,Hyderabad,Abids,17.389397,78.475355,Drug Offense,Street/Road,2.2,53,Medium,2025-05-19,22,0,1,Medium,Medium,Medium,✅,✅,64.0,55
+2026-03-27,20:32:58,Friday,March,Hyderabad,Kukatpally,17.489995,78.410946,Chain Snatching,Commercial,3.63,65,High,2026-03-27,20,0,1,High,High,High,✅,✅,79.5,88
+2025-11-13,01:23:23,Thursday,November,Hyderabad,Madhapur,17.446358,78.37638,Robbery,Market/Bazaar,1.65,35,High,2025-11-13,1,0,1,Medium,Medium,High,❌,❌,67.8,42
+2026-02-01,22:15:34,Sunday,February,Hyderabad,Dilsukhnagar,17.369757,78.519617,Burglary,Park/Open Ground,4.18,87,Medium,2026-02-01,22,1,1,High,High,Medium,❌,❌,51.1,74
+2025-04-18,10:20:22,Friday,April,Hyderabad,Dilsukhnagar,17.361754,78.53909,Vehicle Theft,Market/Bazaar,3.72,77,High,2025-04-18,10,0,0,High,High,High,✅,✅,84.7,90
+2025-07-10,11:28:31,Thursday,July,Hyderabad,Banjara Hills,17.413346,78.436488,Harassment,Market/Bazaar,2.24,42,High,2025-07-10,11,0,0,Medium,Medium,High,❌,❌,46.4,44
+2025-09-30,12:28:39,Tuesday,September,Hyderabad,Dilsukhnagar,17.373751,78.537807,Chain Snatching,Residential,3.49,72,Medium,2025-09-30,12,0,0,High,High,Medium,❌,❌,50.3,71
+2025-02-14,02:25:57,Friday,February,Hyderabad,Madhapur,17.429441,78.38738,Robbery,Nightclub/Bar,1.62,31,High,2025-02-14,2,0,1,Medium,Medium,High,❌,❌,40.9,54
+2025-02-27,22:09:31,Thursday,February,Hyderabad,Hitec City,17.451421,78.375463,Robbery,Street/Road,1.69,33,Low,2025-02-27,22,0,1,Medium,Low,Low,❌,✅,58.5,24
+2025-05-31,01:34:59,Saturday,May,Hyderabad,Charminar,17.346704,78.475599,Robbery,Park/Open Ground,3.23,70,High,2025-05-31,1,1,1,High,High,High,✅,✅,76.9,85
+2025-11-27,21:04:01,Thursday,November,Hyderabad,Dilsukhnagar,17.366421,78.522729,Assault,Market/Bazaar,3.65,76,High,2025-11-27,21,0,1,High,High,High,✅,✅,72.5,84
+2025-06-25,13:31:37,Wednesday,June,Hyderabad,Kukatpally,17.489921,78.395699,Harassment,Market/Bazaar,3.31,71,High,2025-06-25,13,0,0,High,High,High,✅,✅,77.5,85
+2025-03-09,12:10:50,Sunday,March,Hyderabad,Kukatpally,17.494626,78.402056,Vehicle Theft,Street/Road,3.37,68,High,2025-03-09,12,1,0,High,High,High,✅,✅,76.3,82
+2026-01-30,01:09:22,Friday,January,Hyderabad,Hitec City,17.435723,78.385059,Vehicle Theft,Park/Open Ground,1.12,27,Medium,2026-01-30,1,0,1,Medium,Medium,Medium,✅,✅,68.3,40
+2025-12-31,17:18:11,Wednesday,December,Hyderabad,Jubilee Hills,17.42807,78.410176,Robbery,Transit Station,1.53,31,Medium,2025-12-31,17,0,0,Medium,Medium,Medium,✅,✅,66.8,38
+2025-06-12,23:16:23,Thursday,June,Hyderabad,Charminar,17.360321,78.482192,Robbery,Street/Road,3.61,78,High,2025-06-12,23,0,1,Low,High,High,❌,✅,73.9,83
+2025-06-12,07:23:28,Thursday,June,Hyderabad,Mehdipatnam,17.400378,78.430575,Harassment,Transit Station,3.43,77,High,2025-06-12,7,0,0,Low,High,High,❌,✅,79.4,84
+2025-01-13,23:49:09,Monday,January,Hyderabad,Koti,17.369225,78.491537,Cybercrime,Bank/ATM,3.77,59,High,2025-01-13,23,0,1,High,High,High,✅,✅,77.3,85
+2025-10-07,13:41:45,Tuesday,October,Hyderabad,Dilsukhnagar,17.369684,78.519689,Vehicle Theft,Park/Open Ground,3.0,58,Low,2025-10-07,13,0,0,High,Low,Low,❌,✅,48.8,42
+2025-10-21,21:09:51,Tuesday,October,Hyderabad,Abids,17.377361,78.474091,Drug Offense,Nightclub/Bar,1.48,32,Medium,2025-10-21,21,0,1,Medium,Medium,Medium,✅,✅,74.1,43
+2025-09-03,07:43:35,Wednesday,September,Hyderabad,Dilsukhnagar,17.375183,78.509825,Burglary,Nightclub/Bar,3.92,71,High,2025-09-03,7,0,0,High,High,High,✅,✅,74.9,83
+2025-04-23,14:22:05,Wednesday,April,Hyderabad,LB Nagar,17.343136,78.552398,Chain Snatching,Commercial,1.85,35,Medium,2025-04-23,14,0,0,Medium,Medium,Medium,✅,✅,73.3,48
+2025-09-27,02:17:12,Saturday,September,Hyderabad,Kukatpally,17.497296,78.385169,Theft,Residential,3.32,78,Medium,2025-09-27,2,1,1,High,Medium,Medium,❌,✅,49.2,71
+2025-12-10,19:25:12,Wednesday,December,Hyderabad,Mehdipatnam,17.411692,78.442776,Cybercrime,Bank/ATM,3.84,73,High,2025-12-10,19,0,0,High,High,High,✅,✅,87.0,92
+2026-04-11,15:09:45,Saturday,April,Hyderabad,Charminar,17.363813,78.474768,Vandalism,Bank/ATM,3.97,74,High,2026-04-11,15,1,0,High,High,High,✅,✅,86.5,91
+2025-06-26,11:19:28,Thursday,June,Hyderabad,Hitec City,17.440329,78.368153,Harassment,Residential,1.78,31,Medium,2025-06-26,11,0,0,Medium,Medium,Medium,✅,✅,66.9,38
+2026-01-15,13:51:28,Thursday,January,Hyderabad,Madhapur,17.459926,78.390874,Vehicle Theft,Transit Station,2.2,43,Medium,2026-01-15,13,0,0,Medium,Low,Medium,✅,❌,47.4,32
+2025-08-06,16:08:53,Wednesday,August,Hyderabad,Koti,17.376324,78.480931,Drug Offense,Residential,2.65,64,High,2025-08-06,16,0,0,High,High,High,✅,✅,73.8,82
+2026-03-21,16:21:04,Saturday,March,Hyderabad,Madhapur,17.449614,78.40907,Drug Offense,Parking Lot,1.36,32,High,2026-03-21,16,1,0,Medium,Medium,High,❌,❌,41.8,58
+2026-04-14,21:35:29,Tuesday,April,Hyderabad,Mehdipatnam,17.400056,78.44469,Drug Offense,Transit Station,3.25,68,High,2026-04-14,21,0,1,High,High,High,✅,✅,82.1,88
+2025-05-29,20:52:52,Thursday,May,Hyderabad,Begumpet,17.443966,78.459298,Vehicle Theft,Nightclub/Bar,3.25,73,High,2025-05-29,20,0,1,High,High,High,✅,✅,83.9,89
+2025-04-25,00:50:00,Friday,April,Hyderabad,Madhapur,17.442297,78.38153,Robbery,Nightclub/Bar,1.67,33,Low,2025-04-25,0,0,1,Medium,Low,Low,❌,✅,47.8,32
+2025-11-22,15:07:41,Saturday,November,Hyderabad,LB Nagar,17.33673,78.559635,Vehicle Theft,Parking Lot,1.43,36,Medium,2025-11-22,15,1,0,Medium,Medium,Medium,✅,✅,73.8,46
+2025-11-27,20:48:17,Thursday,November,Hyderabad,Dilsukhnagar,17.356212,78.514931,Cybercrime,Residential,3.42,75,High,2025-11-27,20,0,1,High,High,High,✅,✅,80.1,87
+2025-09-04,02:16:40,Thursday,September,Hyderabad,Kukatpally,17.489912,78.391867,Cybercrime,Residential,4.11,70,High,2025-09-04,2,0,1,High,High,High,✅,✅,79.4,86
+2025-01-09,08:37:03,Thursday,January,Hyderabad,Kukatpally,17.500932,78.390717,Robbery,Bank/ATM,3.22,78,Medium,2025-01-09,8,0,0,High,High,Medium,❌,❌,47.4,69
+2025-07-02,05:03:17,Wednesday,July,Hyderabad,Jubilee Hills,17.428239,78.408786,Chain Snatching,Parking Lot,1.71,41,Low,2025-07-02,5,0,0,Medium,Low,Low,❌,✅,56.9,25
+2025-01-25,09:18:33,Saturday,January,Hyderabad,Gachibowli,17.438988,78.358541,Burglary,Market/Bazaar,0.75,11,Low,2025-01-25,9,1,0,Low,Low,Low,✅,✅,91.6,5
+2026-01-27,03:38:48,Tuesday,January,Hyderabad,Jubilee Hills,17.441553,78.395083,Robbery,Market/Bazaar,1.6,36,Low,2026-01-27,3,0,1,Medium,Low,Low,❌,✅,51.2,28
+2026-03-09,21:51:19,Monday,March,Hyderabad,LB Nagar,17.339737,78.546762,Vehicle Theft,Bank/ATM,1.35,30,Medium,2026-03-09,21,0,1,Medium,Medium,Medium,✅,✅,71.8,43
+2026-02-26,04:00:08,Thursday,February,Hyderabad,Gachibowli,17.429641,78.336117,Harassment,Nightclub/Bar,0.71,19,Low,2026-02-26,4,0,1,Low,Low,Low,✅,✅,85.2,10
+2025-06-24,08:06:13,Tuesday,June,Hyderabad,Begumpet,17.435603,78.459257,Robbery,Market/Bazaar,3.85,67,Medium,2025-06-24,8,0,0,High,High,Medium,❌,❌,45.1,66
+2026-04-05,17:39:44,Sunday,April,Hyderabad,Abids,17.387726,78.481547,Harassment,Market/Bazaar,1.71,44,Medium,2026-04-05,17,1,0,Low,Medium,Medium,❌,✅,63.4,50
+2026-02-15,03:26:29,Sunday,February,Hyderabad,Abids,17.377231,78.466171,Burglary,Residential,1.95,46,High,2026-02-15,3,1,1,Low,High,High,❌,✅,46.0,64
+2025-09-03,01:23:08,Wednesday,September,Hyderabad,Charminar,17.356836,78.481904,Cybercrime,Market/Bazaar,3.7,69,High,2025-09-03,1,0,1,High,High,High,✅,✅,72.4,83
+2025-01-15,23:52:07,Wednesday,January,Hyderabad,Hitec City,17.452171,78.390033,Assault,Transit Station,2.43,51,Medium,2025-01-15,23,0,1,Medium,Medium,Medium,✅,✅,40.3,60
+2025-04-27,21:08:05,Sunday,April,Hyderabad,Dilsukhnagar,17.355511,78.528726,Vandalism,Residential,3.29,61,High,2025-04-27,21,1,1,High,High,High,✅,✅,77.0,85
+2026-01-23,13:02:12,Friday,January,Hyderabad,Madhapur,17.449662,78.399143,Burglary,Commercial,1.7,44,Medium,2026-01-23,13,0,0,Medium,Medium,Medium,✅,✅,71.5,48
+2025-01-31,22:02:04,Friday,January,Hyderabad,Kukatpally,17.494321,78.386943,Vehicle Theft,Commercial,3.12,59,High,2025-01-31,22,0,1,High,High,High,✅,✅,76.2,85
+2025-11-05,21:11:42,Wednesday,November,Hyderabad,Koti,17.37317,78.479939,Chain Snatching,Commercial,3.74,61,High,2025-11-05,21,0,1,High,High,High,✅,✅,78.8,87
+2026-04-28,00:22:22,Tuesday,April,Hyderabad,Dilsukhnagar,17.372034,78.530427,Robbery,Market/Bazaar,3.85,69,High,2026-04-28,0,0,1,High,High,High,✅,✅,82.3,88
+2025-02-04,00:48:00,Tuesday,February,Hyderabad,Kukatpally,17.491419,78.401876,Harassment,Street/Road,3.55,69,Low,2025-02-04,0,0,1,Low,High,Low,✅,❌,45.9,52
+2026-04-07,17:00:46,Tuesday,April,Hyderabad,Jubilee Hills,17.427127,78.424084,Burglary,Street/Road,1.91,38,Medium,2026-04-07,17,0,0,Medium,Medium,Medium,✅,✅,72.5,45
+2025-07-07,22:37:11,Monday,July,Hyderabad,Madhapur,17.4473,78.38506,Cybercrime,Residential,1.26,29,Medium,2025-07-07,22,0,1,Medium,Medium,Medium,✅,✅,72.0,42
+2025-08-06,21:26:07,Wednesday,August,Hyderabad,Begumpet,17.452656,78.471568,Chain Snatching,Residential,2.89,66,High,2025-08-06,21,0,1,High,High,High,✅,✅,82.1,88
+2025-09-11,11:45:18,Thursday,September,Hyderabad,Jubilee Hills,17.43253,78.415731,Harassment,Commercial,1.65,30,Medium,2025-09-11,11,0,0,Medium,Medium,Medium,✅,✅,49.8,32
+2025-07-17,09:29:38,Thursday,July,Hyderabad,Banjara Hills,17.416857,78.43711,Vehicle Theft,Park/Open Ground,1.45,35,Medium,2025-07-17,9,0,0,Medium,Medium,Medium,✅,✅,58.1,37
+2026-03-14,13:12:54,Saturday,March,Hyderabad,Hitec City,17.44025,78.372265,Burglary,Park/Open Ground,1.89,38,Medium,2026-03-14,13,1,0,Medium,Medium,Medium,✅,✅,78.9,45
+2025-12-12,20:25:28,Friday,December,Hyderabad,Charminar,17.365719,78.481259,Harassment,Residential,2.62,53,High,2025-12-12,20,0,1,High,High,High,✅,✅,67.3,77
+2025-12-22,20:47:59,Monday,December,Hyderabad,Begumpet,17.433523,78.476177,Robbery,Residential,3.13,74,Low,2025-12-22,20,0,1,High,High,Low,❌,❌,77.4,85
+2025-04-13,19:54:25,Sunday,April,Hyderabad,Gachibowli,17.439099,78.355675,Burglary,Street/Road,0.88,20,Low,2025-04-13,19,1,0,Low,Low,Low,✅,✅,84.4,8
+2026-01-27,22:49:37,Tuesday,January,Hyderabad,Hitec City,17.442666,78.372122,Drug Offense,Nightclub/Bar,2.02,41,Medium,2026-01-27,22,0,1,Medium,Medium,Medium,✅,✅,70.8,46
+2026-04-28,23:42:38,Tuesday,April,Hyderabad,Mehdipatnam,17.393697,78.427504,Vandalism,Park/Open Ground,3.4,73,High,2026-04-28,23,0,1,High,High,High,✅,✅,85.4,90
+2025-08-21,03:07:16,Thursday,August,Hyderabad,Abids,17.399999,78.483624,Cybercrime,Park/Open Ground,1.62,36,Medium,2025-08-21,3,0,1,Medium,Medium,Medium,✅,✅,58.3,43
+2025-01-16,03:47:03,Thursday,January,Hyderabad,Jubilee Hills,17.434703,78.400545,Burglary,Park/Open Ground,1.55,39,High,2025-01-16,3,0,1,Medium,Medium,High,❌,❌,51.5,53
+2025-07-15,19:43:20,Tuesday,July,Hyderabad,Jubilee Hills,17.439866,78.411534,Robbery,Nightclub/Bar,1.95,35,Medium,2025-07-15,19,0,0,Medium,Medium,Medium,✅,✅,69.3,40
+2025-02-09,21:48:33,Sunday,February,Hyderabad,Abids,17.388275,78.477501,Cybercrime,Park/Open Ground,1.4,34,Medium,2025-02-09,21,1,1,Medium,Medium,Medium,✅,✅,77.8,45
+2025-09-09,16:16:34,Tuesday,September,Hyderabad,Madhapur,17.4466,78.400932,Chain Snatching,Market/Bazaar,1.46,36,High,2025-09-09,16,0,0,Medium,Medium,High,❌,❌,44.4,61
+2025-01-17,13:56:58,Friday,January,Hyderabad,Abids,17.394846,78.485474,Burglary,Parking Lot,1.4,32,Medium,2025-01-17,13,0,0,Medium,Medium,Medium,✅,✅,56.0,45
+2025-08-15,20:11:35,Friday,August,Hyderabad,Begumpet,17.445692,78.461393,Vehicle Theft,Transit Station,3.33,83,High,2025-08-15,20,0,1,High,High,High,✅,✅,87.3,92
+2026-01-02,12:31:48,Friday,January,Hyderabad,Hitec City,17.453641,78.37951,Burglary,Park/Open Ground,1.85,37,Medium,2026-01-02,12,0,0,Medium,Medium,Medium,✅,✅,72.8,44
+2025-10-20,00:54:10,Monday,October,Hyderabad,Ameerpet,17.443477,78.459489,Harassment,Commercial,3.84,74,High,2025-10-20,0,0,1,High,High,High,✅,✅,80.1,88
+2025-07-13,22:49:18,Sunday,July,Hyderabad,Kukatpally,17.49006,78.390349,Chain Snatching,Commercial,3.08,51,High,2025-07-13,22,1,1,High,High,High,✅,✅,71.4,81
+2026-03-05,11:22:51,Thursday,March,Hyderabad,Jubilee Hills,17.422729,78.411026,Drug Offense,Commercial,2.18,43,Low,2026-03-05,11,0,0,Low,Low,Low,✅,✅,56.9,27
+2025-07-14,03:27:22,Monday,July,Hyderabad,Gachibowli,17.446866,78.353013,Chain Snatching,Parking Lot,0.94,20,Medium,2025-07-14,3,0,1,Low,Medium,Medium,❌,✅,50.7,28
+2025-05-07,22:37:05,Wednesday,May,Hyderabad,Secunderabad,17.441496,78.497652,Burglary,Nightclub/Bar,2.56,55,High,2025-05-07,22,0,1,High,High,High,✅,✅,72.2,82
+2025-10-03,23:42:55,Friday,October,Hyderabad,Charminar,17.361329,78.461942,Vandalism,Market/Bazaar,3.49,84,High,2025-10-03,23,0,1,High,High,High,✅,✅,82.1,89
+2025-08-29,22:24:36,Friday,August,Hyderabad,Dilsukhnagar,17.368831,78.537677,Vandalism,Bank/ATM,4.31,89,High,2025-08-29,22,0,1,High,High,High,✅,✅,85.4,91
+2025-02-21,22:43:13,Friday,February,Hyderabad,Madhapur,17.443585,78.387831,Chain Snatching,Park/Open Ground,2.1,41,Medium,2025-02-21,22,0,1,Medium,Medium,Medium,✅,✅,74.6,48
+2025-06-23,22:23:27,Monday,June,Hyderabad,Mehdipatnam,17.387538,78.428225,Assault,Park/Open Ground,3.49,76,Medium,2025-06-23,22,0,1,High,High,Medium,❌,❌,53.1,74
+2025-02-08,17:13:18,Saturday,February,Hyderabad,Abids,17.378331,78.476804,Vehicle Theft,Commercial,2.23,42,Low,2025-02-08,17,1,0,Medium,Medium,Low,❌,❌,63.4,43
+2026-02-16,01:05:45,Monday,February,Hyderabad,Begumpet,17.447046,78.460458,Drug Offense,Residential,4.73,89,High,2026-02-16,1,0,1,High,High,High,✅,✅,81.4,88
+2025-10-18,16:30:27,Saturday,October,Hyderabad,Banjara Hills,17.420862,78.435144,Assault,Bank/ATM,1.83,45,High,2025-10-18,16,1,0,Low,High,High,❌,✅,48.7,66
+2025-06-04,16:51:19,Wednesday,June,Hyderabad,LB Nagar,17.341113,78.549988,Vandalism,Market/Bazaar,1.46,29,Medium,2025-06-04,16,0,0,Medium,Medium,Medium,✅,✅,62.8,47
+2025-05-09,23:42:48,Friday,May,Hyderabad,Begumpet,17.441361,78.469152,Harassment,Transit Station,2.46,51,High,2025-05-09,23,0,1,Medium,High,High,❌,✅,57.1,71
+2026-03-18,23:13:42,Wednesday,March,Hyderabad,Ameerpet,17.448273,78.43821,Cybercrime,Nightclub/Bar,4.09,81,High,2026-03-18,23,0,1,High,High,High,✅,✅,83.1,89
+2026-03-13,16:59:36,Friday,March,Hyderabad,Kukatpally,17.483597,78.405711,Theft,Market/Bazaar,4.12,76,High,2026-03-13,16,0,0,High,High,High,✅,✅,77.2,84
+2025-05-04,04:47:43,Sunday,May,Hyderabad,Jubilee Hills,17.440624,78.416899,Vehicle Theft,Parking Lot,2.06,39,Medium,2025-05-04,4,1,1,Medium,Medium,Medium,✅,✅,70.3,46
+2026-04-12,02:40:13,Sunday,April,Hyderabad,LB Nagar,17.347433,78.549773,Vandalism,Nightclub/Bar,2.34,51,Medium,2026-04-12,2,1,1,Medium,Medium,Medium,✅,✅,66.8,56
+2025-05-12,21:38:15,Monday,May,Hyderabad,Jubilee Hills,17.418121,78.391834,Vandalism,Street/Road,1.79,28,High,2025-05-12,21,0,1,Medium,Medium,High,❌,❌,66.0,41
+2025-05-06,12:29:31,Tuesday,May,Hyderabad,Charminar,17.364562,78.479375,Harassment,Parking Lot,3.12,68,High,2025-05-06,12,0,0,High,High,High,✅,✅,74.6,81
+2025-04-14,21:01:16,Monday,April,Hyderabad,Charminar,17.363463,78.480466,Vehicle Theft,Market/Bazaar,3.74,69,High,2025-04-14,21,0,1,High,High,High,✅,✅,82.2,88
+2026-01-05,20:03:55,Monday,January,Hyderabad,Charminar,17.360965,78.472296,Burglary,Bank/ATM,4.27,81,High,2026-01-05,20,0,1,High,High,High,✅,✅,74.6,84
+2026-04-07,13:57:23,Tuesday,April,Hyderabad,Banjara Hills,17.421194,78.425967,Burglary,Parking Lot,1.68,42,Medium,2026-04-07,13,0,0,Medium,Medium,Medium,✅,✅,67.7,48
+2025-05-01,03:36:47,Thursday,May,Hyderabad,Jubilee Hills,17.438235,78.402735,Harassment,Residential,2.01,34,Medium,2025-05-01,3,0,1,Medium,Medium,Medium,✅,✅,73.6,43
+2026-02-01,11:31:56,Sunday,February,Hyderabad,Kukatpally,17.494748,78.40647,Burglary,Street/Road,4.6,85,High,2026-02-01,11,1,0,Low,High,High,❌,✅,79.4,84
+2025-06-10,10:53:37,Tuesday,June,Hyderabad,Abids,17.386229,78.471107,Vandalism,Street/Road,1.53,32,Medium,2025-06-10,10,0,0,Medium,Medium,Medium,✅,✅,69.2,39
+2025-03-31,06:17:28,Monday,March,Hyderabad,Banjara Hills,17.413567,78.430397,Vandalism,Nightclub/Bar,2.29,42,Medium,2025-03-31,6,0,0,Medium,Medium,Medium,✅,✅,55.5,41
+2025-10-01,11:44:07,Wednesday,October,Hyderabad,Madhapur,17.443769,78.398153,Chain Snatching,Market/Bazaar,1.18,27,Medium,2025-10-01,11,0,0,Medium,Medium,Medium,✅,✅,69.7,41
+2025-05-23,07:23:30,Friday,May,Hyderabad,Secunderabad,17.445704,78.499393,Chain Snatching,Nightclub/Bar,3.08,60,High,2025-05-23,7,0,0,High,High,High,✅,✅,81.5,88
+2025-11-07,01:42:51,Friday,November,Hyderabad,Koti,17.390572,78.494051,Theft,Street/Road,3.36,61,High,2025-11-07,1,0,1,High,High,High,✅,✅,72.4,82
+2025-11-24,22:23:57,Monday,November,Hyderabad,Hitec City,17.441924,78.372314,Burglary,Market/Bazaar,1.94,43,Medium,2025-11-24,22,0,1,Medium,Medium,Medium,✅,✅,62.0,51
+2025-07-18,00:58:25,Friday,July,Hyderabad,Madhapur,17.451674,78.401982,Vehicle Theft,Nightclub/Bar,1.89,38,Low,2025-07-18,0,0,1,Medium,Medium,Low,❌,❌,60.0,42
+2025-05-01,09:13:55,Thursday,May,Hyderabad,Abids,17.381689,78.488153,Robbery,Park/Open Ground,1.35,34,Medium,2025-05-01,9,0,0,Medium,Medium,Medium,✅,✅,70.4,41
+2026-01-28,20:26:50,Wednesday,January,Hyderabad,Abids,17.388239,78.477414,Theft,Nightclub/Bar,1.69,38,High,2026-01-28,20,0,1,Medium,Medium,High,❌,❌,41.2,55
+2026-04-27,15:30:47,Monday,April,Hyderabad,Abids,17.380972,78.47368,Vandalism,Bank/ATM,2.3,47,Medium,2026-04-27,15,0,0,Low,Medium,Medium,❌,✅,65.4,48
+2026-02-24,21:44:16,Tuesday,February,Hyderabad,Koti,17.382847,78.484223,Harassment,Residential,2.84,70,High,2026-02-24,21,0,1,Low,High,High,❌,✅,73.6,82
+2026-02-21,22:29:44,Saturday,February,Hyderabad,Dilsukhnagar,17.382038,78.520007,Theft,Commercial,3.44,79,High,2026-02-21,22,1,1,High,High,High,✅,✅,79.0,87
+2025-08-16,07:00:25,Saturday,August,Hyderabad,Mehdipatnam,17.39445,78.453192,Assault,Nightclub/Bar,3.45,64,High,2025-08-16,7,1,0,High,High,High,✅,✅,80.4,87
+2025-03-22,07:33:45,Saturday,March,Hyderabad,Banjara Hills,17.413144,78.445306,Robbery,Nightclub/Bar,1.94,38,Low,2025-03-22,7,1,0,Medium,Medium,Low,❌,❌,62.1,39
+2025-09-02,23:08:16,Tuesday,September,Hyderabad,Madhapur,17.442866,78.368186,Robbery,Bank/ATM,1.68,37,Medium,2025-09-02,23,0,1,Medium,Medium,Medium,✅,✅,54.4,50
+2025-08-01,11:11:25,Friday,August,Hyderabad,Banjara Hills,17.415543,78.437125,Vandalism,Street/Road,1.84,30,Low,2025-08-01,11,0,0,Medium,Low,Low,❌,✅,50.5,29
+2025-10-13,01:14:58,Monday,October,Hyderabad,Koti,17.380595,78.497812,Burglary,Park/Open Ground,3.47,70,High,2025-10-13,1,0,1,High,High,High,✅,✅,73.7,84
+2025-03-28,01:25:39,Friday,March,Hyderabad,LB Nagar,17.344411,78.541205,Vandalism,Nightclub/Bar,1.65,32,High,2025-03-28,1,0,1,Medium,High,High,❌,✅,48.2,65
+2025-03-29,18:07:00,Saturday,March,Hyderabad,Gachibowli,17.437578,78.341372,Harassment,Parking Lot,0.64,13,Low,2025-03-29,18,1,0,Low,Low,Low,✅,✅,89.3,6
+2025-03-02,07:45:13,Sunday,March,Hyderabad,Madhapur,17.442769,78.397001,Assault,Nightclub/Bar,1.78,28,Medium,2025-03-02,7,1,0,Medium,Medium,Medium,✅,✅,74.4,41
+2025-03-08,21:38:13,Saturday,March,Hyderabad,Begumpet,17.439567,78.479723,Vehicle Theft,Street/Road,4.21,73,High,2025-03-08,21,1,1,High,High,High,✅,✅,80.6,88
+2025-03-16,00:18:16,Sunday,March,Hyderabad,Abids,17.381121,78.48116,Assault,Park/Open Ground,2.01,34,Medium,2025-03-16,0,1,1,Medium,Medium,Medium,✅,✅,72.9,46
+2025-11-28,20:30:08,Friday,November,Hyderabad,Mehdipatnam,17.395442,78.434659,Chain Snatching,Parking Lot,3.54,61,High,2025-11-28,20,0,1,High,High,High,✅,✅,79.2,87
+2025-08-05,11:04:06,Tuesday,August,Hyderabad,Dilsukhnagar,17.37706,78.537211,Harassment,Commercial,3.3,71,High,2025-08-05,11,0,0,High,High,High,✅,✅,83.4,89
+2025-08-30,04:00:16,Saturday,August,Hyderabad,Secunderabad,17.451668,78.492704,Harassment,Parking Lot,3.24,73,Low,2025-08-30,4,1,1,High,High,Low,❌,❌,82.2,88
+2025-07-09,00:02:37,Wednesday,July,Hyderabad,Mehdipatnam,17.386382,78.430259,Robbery,Nightclub/Bar,3.61,59,High,2025-07-09,0,0,1,High,High,High,✅,✅,70.9,80
+2025-06-23,07:05:20,Monday,June,Hyderabad,Koti,17.381738,78.488645,Harassment,Parking Lot,3.42,61,High,2025-06-23,7,0,0,High,High,High,✅,✅,71.9,81
+2025-01-23,04:31:55,Thursday,January,Hyderabad,Gachibowli,17.437747,78.351067,Vehicle Theft,Bank/ATM,0.87,18,Low,2025-01-23,4,0,1,Low,Low,Low,✅,✅,84.1,9
+2025-05-15,02:59:16,Thursday,May,Hyderabad,Koti,17.374457,78.475138,Harassment,Bank/ATM,3.4,71,Medium,2025-05-15,2,0,1,High,High,Medium,❌,❌,80.0,87
+2026-01-13,15:48:09,Tuesday,January,Hyderabad,Gachibowli,17.439362,78.36135,Harassment,Park/Open Ground,0.61,8,Medium,2026-01-13,15,0,0,Medium,Medium,Medium,✅,✅,51.8,27
+2025-04-28,23:16:10,Monday,April,Hyderabad,Charminar,17.36225,78.474397,Cybercrime,Parking Lot,2.8,48,Low,2025-04-28,23,0,1,Low,Low,Low,✅,✅,54.1,34
+2025-09-11,22:45:35,Thursday,September,Hyderabad,Koti,17.397385,78.494525,Cybercrime,Park/Open Ground,2.48,59,High,2025-09-11,22,0,1,Medium,High,High,❌,✅,70.0,81
+2026-03-20,22:05:13,Friday,March,Hyderabad,Dilsukhnagar,17.374583,78.525594,Vehicle Theft,Transit Station,2.78,68,High,2026-03-20,22,0,1,High,High,High,✅,✅,63.4,78
+2025-05-20,18:57:42,Tuesday,May,Hyderabad,LB Nagar,17.329436,78.569099,Drug Offense,Street/Road,1.98,39,Low,2025-05-20,18,0,0,Medium,Medium,Low,❌,❌,51.5,37
+2025-09-27,08:26:58,Saturday,September,Hyderabad,Charminar,17.374341,78.474855,Burglary,Street/Road,3.84,75,High,2025-09-27,8,1,0,High,High,High,✅,✅,70.5,79
+2025-06-18,01:43:07,Wednesday,June,Hyderabad,Koti,17.383478,78.485752,Vandalism,Bank/ATM,4.42,80,Medium,2025-06-18,1,0,1,High,Medium,Medium,❌,✅,50.7,67
+2026-03-05,10:09:01,Thursday,March,Hyderabad,Banjara Hills,17.409273,78.435972,Burglary,Park/Open Ground,2.26,45,Medium,2026-03-05,10,0,0,Low,Medium,Medium,❌,✅,52.2,43
+2025-08-21,20:17:38,Thursday,August,Hyderabad,Madhapur,17.423503,78.392529,Theft,Bank/ATM,1.72,34,Medium,2025-08-21,20,0,1,Medium,Medium,Medium,✅,✅,69.9,44
+2025-06-16,23:46:58,Monday,June,Hyderabad,Madhapur,17.441354,78.392283,Drug Offense,Transit Station,1.87,32,Low,2025-06-16,23,0,1,Medium,Low,Low,❌,✅,65.1,20
+2025-11-26,09:20:51,Wednesday,November,Hyderabad,Abids,17.395677,78.470538,Theft,Nightclub/Bar,1.3,31,Low,2025-11-26,9,0,0,Medium,Low,Low,❌,✅,59.7,23
+2025-02-17,21:15:49,Monday,February,Hyderabad,Begumpet,17.432722,78.476648,Vandalism,Residential,3.53,66,Medium,2025-02-17,21,0,1,High,High,Medium,❌,❌,49.3,70
+2025-07-18,12:18:41,Friday,July,Hyderabad,Jubilee Hills,17.438149,78.399569,Robbery,Residential,2.17,41,Medium,2025-07-18,12,0,0,Medium,Medium,Medium,✅,✅,66.9,43
+2026-01-12,12:57:43,Monday,January,Hyderabad,Begumpet,17.436745,78.468396,Drug Offense,Transit Station,3.74,70,High,2026-01-12,12,0,0,High,High,High,✅,✅,63.1,70
+2025-07-08,16:12:31,Tuesday,July,Hyderabad,LB Nagar,17.342466,78.554324,Cybercrime,Parking Lot,2.09,37,Medium,2025-07-08,16,0,0,Medium,Medium,Medium,✅,✅,78.6,47
+2025-08-05,23:51:23,Tuesday,August,Hyderabad,Kukatpally,17.499865,78.399755,Drug Offense,Transit Station,4.07,74,High,2025-08-05,23,0,1,High,High,High,✅,✅,86.5,91
+2025-01-21,16:21:29,Tuesday,January,Hyderabad,Banjara Hills,17.3894,78.429157,Assault,Transit Station,2.02,37,Medium,2025-01-21,16,0,0,Medium,Medium,Medium,✅,✅,74.3,44
+2025-09-26,23:27:05,Friday,September,Hyderabad,Mehdipatnam,17.378075,78.435272,Cybercrime,Nightclub/Bar,2.94,64,Low,2025-09-26,23,0,1,High,High,Low,❌,❌,75.4,84
+2026-04-08,21:33:27,Wednesday,April,Hyderabad,Mehdipatnam,17.391065,78.454737,Vehicle Theft,Commercial,3.28,74,High,2026-04-08,21,0,1,High,High,High,✅,✅,85.6,91
+2025-09-20,23:26:06,Saturday,September,Hyderabad,Charminar,17.360683,78.476814,Cybercrime,Nightclub/Bar,3.0,63,High,2025-09-20,23,1,1,High,High,High,✅,✅,77.0,85
+2026-01-29,16:01:07,Thursday,January,Hyderabad,Banjara Hills,17.415185,78.434609,Cybercrime,Transit Station,1.88,43,Medium,2026-01-29,16,0,0,Low,Medium,Medium,❌,✅,64.1,43
+2025-01-24,01:19:20,Friday,January,Hyderabad,Begumpet,17.448756,78.465941,Drug Offense,Park/Open Ground,3.18,71,High,2025-01-24,1,0,1,High,High,High,✅,✅,75.2,84
+2025-06-24,05:13:11,Tuesday,June,Hyderabad,Hitec City,17.45616,78.37514,Burglary,Nightclub/Bar,1.48,38,Medium,2025-06-24,5,0,0,Medium,Medium,Medium,✅,✅,74.0,46
+2025-10-01,23:07:00,Wednesday,October,Hyderabad,Begumpet,17.456118,78.463045,Robbery,Park/Open Ground,3.13,71,High,2025-10-01,23,0,1,High,High,High,✅,✅,81.3,87
+2025-12-03,23:38:46,Wednesday,December,Hyderabad,LB Nagar,17.342859,78.555519,Cybercrime,Nightclub/Bar,2.24,46,Medium,2025-12-03,23,0,1,Low,Medium,Medium,❌,✅,72.6,52
+2025-07-04,15:51:19,Friday,July,Hyderabad,Kukatpally,17.499721,78.397364,Burglary,Transit Station,2.97,55,High,2025-07-04,15,0,0,High,High,High,✅,✅,71.7,80
+2026-02-22,00:44:12,Sunday,February,Hyderabad,Banjara Hills,17.421042,78.434109,Theft,Street/Road,1.96,38,Medium,2026-02-22,0,1,1,Medium,Medium,Medium,✅,✅,63.9,47
+2025-05-04,01:54:50,Sunday,May,Hyderabad,Mehdipatnam,17.39855,78.433609,Harassment,Street/Road,2.07,47,High,2025-05-04,1,1,1,Medium,High,High,❌,✅,51.5,67
+2025-03-17,15:27:01,Monday,March,Hyderabad,Madhapur,17.448704,78.403418,Burglary,Transit Station,1.37,29,Medium,2025-03-17,15,0,0,Medium,Medium,Medium,✅,✅,66.0,40
+2025-09-06,15:01:55,Saturday,September,Hyderabad,Madhapur,17.459107,78.386271,Cybercrime,Street/Road,1.35,34,Medium,2025-09-06,15,1,0,Medium,Medium,Medium,✅,✅,73.0,48
+2026-03-03,12:03:21,Tuesday,March,Hyderabad,LB Nagar,17.344112,78.545145,Theft,Residential,2.39,49,Medium,2026-03-03,12,0,0,Medium,Medium,Medium,✅,✅,69.2,52
+2025-08-01,12:02:31,Friday,August,Hyderabad,Begumpet,17.427274,78.462164,Vandalism,Park/Open Ground,3.9,82,High,2025-08-01,12,0,0,High,High,High,✅,✅,85.8,90
+2026-04-24,18:14:45,Friday,April,Hyderabad,Kukatpally,17.513404,78.397712,Theft,Market/Bazaar,3.67,74,High,2026-04-24,18,0,0,High,High,High,✅,✅,87.8,92
+2025-10-11,02:17:57,Saturday,October,Hyderabad,Gachibowli,17.447066,78.356491,Vandalism,Park/Open Ground,0.37,8,Low,2025-10-11,2,1,1,Low,Low,Low,✅,✅,86.0,8
+2025-06-27,23:01:10,Friday,June,Hyderabad,Mehdipatnam,17.383228,78.436469,Vehicle Theft,Street/Road,3.54,72,High,2025-06-27,23,0,1,High,High,High,✅,✅,82.6,89
+2025-09-17,01:21:58,Wednesday,September,Hyderabad,Secunderabad,17.441427,78.498009,Drug Offense,Park/Open Ground,2.24,50,Medium,2025-09-17,1,0,1,Medium,Medium,Medium,✅,✅,62.4,58
+2025-12-31,23:53:43,Wednesday,December,Hyderabad,Dilsukhnagar,17.364526,78.525907,Chain Snatching,Park/Open Ground,3.62,73,High,2025-12-31,23,0,1,High,High,High,✅,✅,84.2,90
+2025-12-20,23:05:42,Saturday,December,Hyderabad,Hitec City,17.433544,78.379063,Cybercrime,Transit Station,1.52,27,Medium,2025-12-20,23,1,1,Medium,Medium,Medium,✅,✅,57.6,37
+2025-09-09,23:31:19,Tuesday,September,Hyderabad,Kukatpally,17.492178,78.397695,Assault,Street/Road,4.78,97,High,2025-09-09,23,0,1,High,High,High,✅,✅,82.3,89
+2025-07-03,14:43:10,Thursday,July,Hyderabad,Charminar,17.356149,78.482443,Robbery,Market/Bazaar,3.14,52,Medium,2025-07-03,14,0,0,High,High,Medium,❌,❌,42.8,63
+2025-08-09,03:39:14,Saturday,August,Hyderabad,Gachibowli,17.449749,78.353773,Burglary,Market/Bazaar,0.77,20,Low,2025-08-09,3,1,1,Low,Low,Low,✅,✅,87.2,7
+2026-02-06,11:49:02,Friday,February,Hyderabad,Gachibowli,17.44516,78.345107,Harassment,Nightclub/Bar,0.63,10,Low,2026-02-06,11,0,0,Low,Low,Low,✅,✅,92.8,4
+2025-09-21,19:42:06,Sunday,September,Hyderabad,LB Nagar,17.351697,78.550808,Theft,Park/Open Ground,2.33,44,Medium,2025-09-21,19,1,0,Medium,Medium,Medium,✅,✅,70.3,47
+2026-01-22,03:06:50,Thursday,January,Hyderabad,LB Nagar,17.339123,78.542446,Drug Offense,Residential,1.91,41,Medium,2026-01-22,3,0,1,Medium,Medium,Medium,✅,✅,75.6,48
+2025-02-23,20:55:13,Sunday,February,Hyderabad,Ameerpet,17.435467,78.440566,Chain Snatching,Transit Station,3.74,66,High,2025-02-23,20,1,1,Low,High,High,❌,✅,76.5,84
+2025-09-17,15:46:55,Wednesday,September,Hyderabad,Abids,17.387865,78.465358,Burglary,Transit Station,2.03,38,Medium,2025-09-17,15,0,0,Medium,Medium,Medium,✅,✅,77.3,46
+2025-03-12,03:54:12,Wednesday,March,Hyderabad,LB Nagar,17.338488,78.557027,Cybercrime,Parking Lot,1.97,40,Medium,2025-03-12,3,0,1,Medium,Medium,Medium,✅,✅,77.2,48
+2026-03-04,13:18:32,Wednesday,March,Hyderabad,Secunderabad,17.435754,78.508902,Robbery,Residential,3.52,69,High,2026-03-04,13,0,0,High,High,High,✅,✅,79.2,86
+2025-08-01,11:40:42,Friday,August,Hyderabad,Abids,17.387628,78.464452,Assault,Transit Station,2.26,48,Medium,2025-08-01,11,0,0,Low,Medium,Medium,❌,✅,53.4,44
+2026-02-08,02:27:26,Sunday,February,Hyderabad,Begumpet,17.45801,78.468842,Vandalism,Park/Open Ground,3.42,81,High,2026-02-08,2,1,1,High,High,High,✅,✅,74.8,84
+2026-04-29,00:28:09,Wednesday,April,Hyderabad,Gachibowli,17.445323,78.355957,Theft,Market/Bazaar,0.34,7,Medium,2026-04-29,0,0,1,Medium,Medium,Medium,✅,✅,56.7,30
+2025-07-25,05:27:03,Friday,July,Hyderabad,Gachibowli,17.448872,78.33137,Vandalism,Commercial,0.81,14,Low,2025-07-25,5,0,0,Low,Low,Low,✅,✅,92.5,4
+2025-11-20,19:18:26,Thursday,November,Hyderabad,Charminar,17.358661,78.472497,Vandalism,Market/Bazaar,4.33,77,High,2025-11-20,19,0,0,High,High,High,✅,✅,80.8,88
+2026-04-11,11:00:52,Saturday,April,Hyderabad,Gachibowli,17.440125,78.35874,Vehicle Theft,Market/Bazaar,0.54,11,Low,2026-04-11,11,1,0,Low,Low,Low,✅,✅,75.7,13
+2025-11-26,06:56:34,Wednesday,November,Hyderabad,Madhapur,17.465944,78.401095,Drug Offense,Park/Open Ground,1.89,43,Medium,2025-11-26,6,0,0,Medium,Medium,Medium,✅,✅,71.5,45
+2026-02-05,20:25:49,Thursday,February,Hyderabad,Abids,17.387915,78.476976,Assault,Nightclub/Bar,1.93,36,High,2026-02-05,20,0,1,Medium,Medium,High,❌,❌,46.8,55
+2025-07-19,23:46:47,Saturday,July,Hyderabad,Gachibowli,17.432763,78.354258,Robbery,Market/Bazaar,0.65,14,Medium,2025-07-19,23,1,1,Low,Medium,Medium,❌,✅,53.0,30
+2025-10-10,22:48:40,Friday,October,Hyderabad,Ameerpet,17.436513,78.450772,Robbery,Commercial,3.34,57,Medium,2025-10-10,22,0,1,High,Medium,Medium,❌,✅,51.8,66
+2025-10-31,02:49:19,Friday,October,Hyderabad,Ameerpet,17.44577,78.44279,Vandalism,Market/Bazaar,3.58,62,High,2025-10-31,2,0,1,High,High,High,✅,✅,74.9,84
+2025-07-10,08:40:32,Thursday,July,Hyderabad,LB Nagar,17.337632,78.535513,Chain Snatching,Residential,1.5,28,Medium,2025-07-10,8,0,0,Medium,Medium,Medium,✅,✅,69.6,43
+2025-08-18,09:36:47,Monday,August,Hyderabad,Banjara Hills,17.411514,78.444827,Theft,Park/Open Ground,1.56,35,Low,2025-08-18,9,0,0,Medium,Low,Low,❌,✅,57.8,25
+2026-01-17,18:36:45,Saturday,January,Hyderabad,Abids,17.393294,78.472322,Harassment,Street/Road,1.92,38,Medium,2026-01-17,18,1,0,Medium,Medium,Medium,✅,✅,70.4,44
+2026-02-06,07:45:24,Friday,February,Hyderabad,Mehdipatnam,17.392273,78.440418,Harassment,Street/Road,3.07,63,High,2026-02-06,7,0,0,High,High,High,✅,✅,75.0,83
+2025-04-09,14:29:06,Wednesday,April,Hyderabad,Kukatpally,17.493782,78.404134,Robbery,Parking Lot,2.95,72,High,2025-04-09,14,0,0,High,High,High,✅,✅,85.9,90
+2025-08-06,18:13:28,Wednesday,August,Hyderabad,Charminar,17.364101,78.48896,Burglary,Bank/ATM,4.0,76,High,2025-08-06,18,0,0,High,High,High,✅,✅,85.3,90
+2025-09-23,11:37:31,Tuesday,September,Hyderabad,Ameerpet,17.43411,78.444673,Vandalism,Park/Open Ground,3.29,74,High,2025-09-23,11,0,0,High,High,High,✅,✅,74.3,82
+2026-02-26,00:08:31,Thursday,February,Hyderabad,Begumpet,17.455455,78.476746,Cybercrime,Transit Station,3.36,83,Medium,2026-02-26,0,0,1,Low,High,Medium,❌,❌,48.3,70
+2025-12-22,06:29:30,Monday,December,Hyderabad,Banjara Hills,17.428387,78.441568,Theft,Transit Station,2.16,39,Medium,2025-12-22,6,0,0,Medium,Low,Medium,✅,❌,45.7,32
+2025-11-05,13:07:07,Wednesday,November,Hyderabad,Banjara Hills,17.411807,78.437214,Chain Snatching,Nightclub/Bar,1.5,29,Medium,2025-11-05,13,0,0,Medium,Medium,Medium,✅,✅,64.7,43
+2025-07-10,09:23:19,Thursday,July,Hyderabad,Banjara Hills,17.433817,78.425824,Vehicle Theft,Park/Open Ground,1.49,28,Medium,2025-07-10,9,0,0,Medium,Medium,Medium,✅,✅,67.0,38
+2026-02-06,18:26:03,Friday,February,Hyderabad,Jubilee Hills,17.435829,78.415209,Vehicle Theft,Nightclub/Bar,1.59,41,Medium,2026-02-06,18,0,0,Medium,Medium,Medium,✅,✅,64.5,43
+2025-09-08,00:22:04,Monday,September,Hyderabad,Dilsukhnagar,17.374648,78.529007,Theft,Parking Lot,3.1,77,High,2025-09-08,0,0,1,High,High,High,✅,✅,74.7,85
+2025-08-20,15:30:53,Wednesday,August,Hyderabad,Kukatpally,17.492642,78.386693,Drug Offense,Transit Station,3.67,66,High,2025-08-20,15,0,0,High,High,High,✅,✅,80.6,86
+2026-01-25,14:42:28,Sunday,January,Hyderabad,Madhapur,17.452293,78.377962,Robbery,Bank/ATM,1.49,23,Medium,2026-01-25,14,1,0,Medium,Medium,Medium,✅,✅,60.3,39
+2025-11-16,21:57:25,Sunday,November,Hyderabad,Mehdipatnam,17.391483,78.428688,Chain Snatching,Market/Bazaar,3.51,57,Low,2025-11-16,21,1,1,High,High,Low,❌,❌,42.9,52
+2025-08-15,05:55:10,Friday,August,Hyderabad,Koti,17.388233,78.489509,Theft,Nightclub/Bar,3.6,73,High,2025-08-15,5,0,0,High,High,High,✅,✅,86.7,91
+2025-10-14,00:34:36,Tuesday,October,Hyderabad,Mehdipatnam,17.39912,78.439984,Theft,Market/Bazaar,3.19,64,High,2025-10-14,0,0,1,High,High,High,✅,✅,77.9,86
+2026-04-05,01:59:34,Sunday,April,Hyderabad,Ameerpet,17.443449,78.446661,Robbery,Commercial,4.22,73,High,2026-04-05,1,1,1,High,High,High,✅,✅,85.5,90
+2026-03-01,17:05:51,Sunday,March,Hyderabad,Secunderabad,17.434357,78.497864,Harassment,Bank/ATM,2.94,67,High,2026-03-01,17,1,0,High,High,High,✅,✅,85.0,91
+2026-03-18,00:21:27,Wednesday,March,Hyderabad,Madhapur,17.453176,78.379057,Robbery,Parking Lot,1.98,37,Medium,2026-03-18,0,0,1,Medium,Medium,Medium,✅,✅,79.3,46
+2025-07-15,08:05:07,Tuesday,July,Hyderabad,Gachibowli,17.454039,78.365336,Burglary,Nightclub/Bar,0.5,8,Low,2025-07-15,8,0,0,Low,Low,Low,✅,✅,80.2,12
+2025-05-11,02:09:19,Sunday,May,Hyderabad,Jubilee Hills,17.43955,78.425897,Vandalism,Transit Station,1.46,20,Medium,2025-05-11,2,1,1,Medium,Medium,Medium,✅,✅,72.0,38
+2025-04-03,00:45:03,Thursday,April,Hyderabad,Gachibowli,17.445116,78.346684,Vehicle Theft,Parking Lot,0.49,9,Low,2025-04-03,0,0,1,Low,Low,Low,✅,✅,84.1,10
+2026-04-03,23:52:57,Friday,April,Hyderabad,Begumpet,17.443779,78.463633,Burglary,Commercial,3.77,61,High,2026-04-03,23,0,1,High,High,High,✅,✅,77.6,86
+2025-10-28,00:48:32,Tuesday,October,Hyderabad,Kukatpally,17.501151,78.394796,Vandalism,Residential,2.39,54,High,2025-10-28,0,0,1,Low,High,High,❌,✅,62.2,75
+2025-10-11,13:04:30,Saturday,October,Hyderabad,Madhapur,17.45653,78.395513,Theft,Parking Lot,1.9,40,Medium,2025-10-11,13,1,0,Medium,Medium,Medium,✅,✅,67.6,48
+2025-01-10,00:43:06,Friday,January,Hyderabad,Koti,17.384374,78.478738,Assault,Market/Bazaar,3.18,80,High,2025-01-10,0,0,1,Medium,High,High,❌,✅,72.6,84
+2025-10-18,13:28:05,Saturday,October,Hyderabad,Hitec City,17.443181,78.365966,Harassment,Street/Road,2.26,53,Low,2025-10-18,13,1,0,Low,Low,Low,✅,✅,54.1,31
+2025-10-04,05:50:15,Saturday,October,Hyderabad,Gachibowli,17.446092,78.361295,Harassment,Parking Lot,0.66,16,High,2025-10-04,5,1,0,Low,Low,High,❌,❌,79.9,11
+2025-08-26,19:18:41,Tuesday,August,Hyderabad,LB Nagar,17.343639,78.551643,Robbery,Commercial,1.17,25,Low,2025-08-26,19,0,0,Medium,Low,Low,❌,✅,68.0,19
+2025-05-20,19:16:53,Tuesday,May,Hyderabad,Madhapur,17.447896,78.384864,Vandalism,Bank/ATM,2.44,48,Medium,2025-05-20,19,0,0,Medium,Medium,Medium,✅,✅,65.4,52
+2026-03-07,20:10:47,Saturday,March,Hyderabad,Kukatpally,17.498188,78.406351,Harassment,Residential,3.9,69,High,2026-03-07,20,1,1,High,High,High,✅,✅,83.0,89
+2025-03-04,11:56:27,Tuesday,March,Hyderabad,Dilsukhnagar,17.365243,78.520235,Assault,Market/Bazaar,2.88,64,Medium,2025-03-04,11,0,0,High,High,Medium,❌,❌,51.7,71
+2025-11-22,08:48:45,Saturday,November,Hyderabad,Gachibowli,17.448371,78.34564,Cybercrime,Nightclub/Bar,0.84,14,Low,2025-11-22,8,1,0,Low,Low,Low,✅,✅,91.4,5
+2025-06-24,06:29:38,Tuesday,June,Hyderabad,Gachibowli,17.446484,78.339487,Chain Snatching,Commercial,0.86,18,Low,2025-06-24,6,0,0,Low,Low,Low,✅,✅,90.8,5
+2025-11-08,20:43:11,Saturday,November,Hyderabad,Charminar,17.365745,78.470466,Vandalism,Market/Bazaar,4.28,94,High,2025-11-08,20,1,1,High,High,High,✅,✅,78.3,87
+2025-02-11,05:34:01,Tuesday,February,Hyderabad,Ameerpet,17.438457,78.4416,Cybercrime,Residential,3.44,71,Low,2025-02-11,5,0,0,Low,Low,Low,✅,✅,47.6,46
+2026-02-28,23:11:53,Saturday,February,Hyderabad,Begumpet,17.446884,78.449803,Theft,Residential,4.02,76,High,2026-02-28,23,1,1,High,High,High,✅,✅,82.2,89
+2025-08-16,01:01:48,Saturday,August,Hyderabad,Secunderabad,17.432849,78.509533,Vehicle Theft,Bank/ATM,3.65,82,High,2025-08-16,1,1,1,High,High,High,✅,✅,86.1,91
+2025-11-17,01:14:14,Monday,November,Hyderabad,Kukatpally,17.497179,78.389411,Cybercrime,Bank/ATM,3.17,53,High,2025-11-17,1,0,1,High,High,High,✅,✅,72.4,82
+2025-12-27,09:00:12,Saturday,December,Hyderabad,Koti,17.365916,78.495428,Vandalism,Residential,2.71,66,High,2025-12-27,9,1,0,High,High,High,✅,✅,75.7,82
+2025-03-29,17:12:42,Saturday,March,Hyderabad,Madhapur,17.450049,78.387929,Drug Offense,Transit Station,1.79,40,Medium,2025-03-29,17,1,0,Medium,Medium,Medium,✅,✅,67.8,47
+2025-02-03,00:54:14,Monday,February,Hyderabad,Dilsukhnagar,17.376734,78.526133,Harassment,Nightclub/Bar,3.28,80,Medium,2025-02-03,0,0,1,Medium,High,Medium,✅,❌,51.4,73
+2025-12-21,11:43:35,Sunday,December,Hyderabad,Charminar,17.354256,78.488549,Cybercrime,Commercial,3.15,72,High,2025-12-21,11,1,0,High,High,High,✅,✅,84.9,90
+2025-01-27,13:27:54,Monday,January,Hyderabad,Mehdipatnam,17.389776,78.454611,Vandalism,Nightclub/Bar,3.58,59,High,2025-01-27,13,0,0,High,High,High,✅,✅,77.3,85
+2025-09-11,11:33:48,Thursday,September,Hyderabad,Madhapur,17.441529,78.398905,Theft,Street/Road,1.61,23,Medium,2025-09-11,11,0,0,Medium,Medium,Medium,✅,✅,61.9,35
+2025-09-30,20:25:12,Tuesday,September,Hyderabad,Begumpet,17.452701,78.485898,Chain Snatching,Residential,4.22,80,Medium,2025-09-30,20,0,1,High,Medium,Medium,❌,✅,54.9,68
+2025-04-26,16:04:58,Saturday,April,Hyderabad,Dilsukhnagar,17.360593,78.525199,Assault,Street/Road,3.58,56,High,2025-04-26,16,1,0,High,High,High,✅,✅,74.9,83
+2025-11-17,20:06:01,Monday,November,Hyderabad,Banjara Hills,17.42168,78.432547,Cybercrime,Parking Lot,1.76,46,High,2025-11-17,20,0,1,Medium,Medium,High,❌,❌,46.5,62
+2025-11-17,10:53:16,Monday,November,Hyderabad,Abids,17.393328,78.469444,Assault,Residential,1.62,32,Medium,2025-11-17,10,0,0,Medium,Medium,Medium,✅,✅,68.1,41
+2026-03-03,01:52:21,Tuesday,March,Hyderabad,Gachibowli,17.435505,78.351579,Harassment,Street/Road,0.61,11,Low,2026-03-03,1,0,1,Low,Low,Low,✅,✅,92.1,5
+2025-08-13,17:37:07,Wednesday,August,Hyderabad,Kukatpally,17.491269,78.402927,Burglary,Commercial,3.49,68,High,2025-08-13,17,0,0,High,High,High,✅,✅,85.1,90
+2026-03-11,07:03:58,Wednesday,March,Hyderabad,Koti,17.376519,78.500036,Cybercrime,Commercial,3.18,60,High,2026-03-11,7,0,0,High,High,High,✅,✅,77.2,84
+2025-02-03,20:35:03,Monday,February,Hyderabad,Begumpet,17.433518,78.476021,Vehicle Theft,Parking Lot,3.38,83,High,2025-02-03,20,0,1,High,High,High,✅,✅,76.7,86
+2025-07-30,07:55:38,Wednesday,July,Hyderabad,Abids,17.403652,78.471023,Drug Offense,Commercial,2.23,42,Medium,2025-07-30,7,0,0,Medium,Medium,Medium,✅,✅,62.6,41
+2025-08-08,19:39:06,Friday,August,Hyderabad,Abids,17.386201,78.46103,Chain Snatching,Commercial,1.39,29,Medium,2025-08-08,19,0,0,Medium,Medium,Medium,✅,✅,64.2,39
+2025-04-09,20:38:45,Wednesday,April,Hyderabad,Kukatpally,17.490324,78.394199,Burglary,Street/Road,3.45,76,High,2025-04-09,20,0,1,High,High,High,✅,✅,83.7,89
+2025-05-12,23:46:39,Monday,May,Hyderabad,Ameerpet,17.4342,78.44239,Cybercrime,Transit Station,3.22,68,High,2025-05-12,23,0,1,High,High,High,✅,✅,74.7,84
+2025-01-31,00:27:32,Friday,January,Hyderabad,Charminar,17.36529,78.477011,Chain Snatching,Nightclub/Bar,4.23,83,Medium,2025-01-31,0,0,1,Medium,Medium,Medium,✅,✅,48.3,70
+2025-03-16,04:30:19,Sunday,March,Hyderabad,Abids,17.399737,78.469117,Drug Offense,Bank/ATM,1.29,30,Medium,2025-03-16,4,1,1,Medium,Medium,Medium,✅,✅,72.5,41
+2025-09-23,01:09:03,Tuesday,September,Hyderabad,Charminar,17.364488,78.482445,Assault,Market/Bazaar,3.59,72,Medium,2025-09-23,1,0,1,High,High,Medium,❌,❌,52.2,74
+2025-06-26,21:40:58,Thursday,June,Hyderabad,Begumpet,17.435102,78.471991,Assault,Residential,4.04,79,High,2025-06-26,21,0,1,Low,High,High,❌,✅,70.3,81
+2025-12-22,22:29:38,Monday,December,Hyderabad,Madhapur,17.453179,78.374863,Chain Snatching,Bank/ATM,1.35,30,Medium,2025-12-22,22,0,1,Low,Medium,Medium,❌,✅,70.9,44
+2025-03-25,03:29:56,Tuesday,March,Hyderabad,Gachibowli,17.448315,78.353697,Theft,Park/Open Ground,0.78,15,Low,2025-03-25,3,0,1,Low,Low,Low,✅,✅,91.6,5
+2025-04-25,17:39:13,Friday,April,Hyderabad,Mehdipatnam,17.400567,78.438906,Assault,Park/Open Ground,3.67,66,Medium,2025-04-25,17,0,0,High,High,Medium,❌,❌,51.1,73
+2025-04-16,02:00:23,Wednesday,April,Hyderabad,Begumpet,17.432731,78.459054,Theft,Residential,4.04,70,High,2025-04-16,2,0,1,High,High,High,✅,✅,78.7,85
+2025-03-14,09:28:12,Friday,March,Hyderabad,Banjara Hills,17.43171,78.440198,Drug Offense,Bank/ATM,1.63,38,Low,2025-03-14,9,0,0,Medium,Low,Low,❌,✅,58.6,25
+2025-04-12,21:56:16,Saturday,April,Hyderabad,Secunderabad,17.446763,78.502729,Robbery,Bank/ATM,3.45,85,High,2025-04-12,21,1,1,High,High,High,✅,✅,89.6,93
+2025-01-12,22:58:06,Sunday,January,Hyderabad,Secunderabad,17.427896,78.495526,Theft,Transit Station,2.86,68,High,2025-01-12,22,1,1,Low,High,High,❌,✅,71.5,83
+2025-02-26,21:19:29,Wednesday,February,Hyderabad,Koti,17.380221,78.49657,Assault,Bank/ATM,3.37,73,High,2025-02-26,21,0,1,High,High,High,✅,✅,82.8,89
+2026-02-14,16:56:45,Saturday,February,Hyderabad,Ameerpet,17.436059,78.459272,Burglary,Residential,3.27,61,Medium,2026-02-14,16,1,0,High,High,Medium,❌,❌,45.5,67
+2026-02-11,06:12:34,Wednesday,February,Hyderabad,Jubilee Hills,17.440574,78.408982,Vandalism,Bank/ATM,2.16,38,Medium,2026-02-11,6,0,0,Medium,Medium,Medium,✅,✅,71.0,43
+2025-05-06,09:54:34,Tuesday,May,Hyderabad,Mehdipatnam,17.378724,78.437522,Vehicle Theft,Transit Station,2.98,71,High,2025-05-06,9,0,0,Low,High,High,❌,✅,77.9,83
+2026-02-12,21:54:32,Thursday,February,Hyderabad,Mehdipatnam,17.393649,78.452646,Drug Offense,Park/Open Ground,2.75,61,High,2026-02-12,21,0,1,High,High,High,✅,✅,75.7,84
+2025-08-29,21:39:04,Friday,August,Hyderabad,Abids,17.398295,78.468149,Robbery,Market/Bazaar,1.5,32,Medium,2025-08-29,21,0,1,Medium,Medium,Medium,✅,✅,65.8,41
+2026-01-20,23:33:29,Tuesday,January,Hyderabad,Mehdipatnam,17.383169,78.446523,Robbery,Bank/ATM,3.79,70,High,2026-01-20,23,0,1,High,High,High,✅,✅,78.6,86
+2026-01-02,15:30:17,Friday,January,Hyderabad,Madhapur,17.450387,78.391301,Drug Offense,Parking Lot,1.5,29,Low,2026-01-02,15,0,0,Medium,Low,Low,❌,✅,61.3,22
+2025-11-29,21:57:12,Saturday,November,Hyderabad,Kukatpally,17.478709,78.399872,Cybercrime,Street/Road,4.44,85,High,2025-11-29,21,1,1,High,High,High,✅,✅,85.4,91
+2026-04-01,21:59:53,Wednesday,April,Hyderabad,Begumpet,17.4549,78.467982,Chain Snatching,Nightclub/Bar,3.35,73,High,2026-04-01,21,0,1,High,High,High,✅,✅,84.0,90
+2025-02-13,09:28:33,Thursday,February,Hyderabad,Abids,17.376544,78.471301,Chain Snatching,Street/Road,2.0,52,High,2025-02-13,9,0,0,Low,High,High,❌,✅,48.5,64
+2025-11-15,23:29:27,Saturday,November,Hyderabad,Ameerpet,17.431981,78.448634,Vandalism,Bank/ATM,3.27,65,High,2025-11-15,23,1,1,High,High,High,✅,✅,77.9,86
+2025-01-13,21:16:41,Monday,January,Hyderabad,Begumpet,17.455606,78.463971,Burglary,Bank/ATM,3.17,67,High,2025-01-13,21,0,1,High,High,High,✅,✅,77.7,85
+2025-09-20,20:50:17,Saturday,September,Hyderabad,Ameerpet,17.446076,78.442556,Assault,Residential,3.13,48,High,2025-09-20,20,1,1,High,High,High,✅,✅,59.8,73
+2025-10-07,21:43:21,Tuesday,October,Hyderabad,Charminar,17.35283,78.474157,Vehicle Theft,Nightclub/Bar,3.66,76,High,2025-10-07,21,0,1,High,High,High,✅,✅,77.1,85
+2025-03-12,11:00:49,Wednesday,March,Hyderabad,Kukatpally,17.49827,78.399753,Vehicle Theft,Nightclub/Bar,4.55,90,High,2025-03-12,11,0,0,High,High,High,✅,✅,88.2,92
+2026-04-30,00:48:41,Thursday,April,Hyderabad,Begumpet,17.440009,78.461442,Theft,Park/Open Ground,4.51,84,High,2026-04-30,0,0,1,High,High,High,✅,✅,85.4,90
+2025-03-18,12:14:14,Tuesday,March,Hyderabad,Abids,17.391198,78.466426,Assault,Park/Open Ground,1.68,41,Medium,2025-03-18,12,0,0,Medium,Medium,Medium,✅,✅,75.0,46
+2025-10-10,14:46:52,Friday,October,Hyderabad,Abids,17.401808,78.4614,Cybercrime,Bank/ATM,1.95,50,High,2025-10-10,14,0,0,Low,High,High,❌,✅,44.7,60
+2025-04-07,13:49:44,Monday,April,Hyderabad,LB Nagar,17.342859,78.541803,Vandalism,Street/Road,1.45,36,Medium,2025-04-07,13,0,0,Medium,Medium,Medium,✅,✅,78.1,46
+2025-01-16,00:55:08,Thursday,January,Hyderabad,Ameerpet,17.438323,78.449495,Vehicle Theft,Commercial,4.25,77,Medium,2025-01-16,0,0,1,High,High,Medium,❌,❌,50.3,71
+2025-07-01,10:14:26,Tuesday,July,Hyderabad,LB Nagar,17.340668,78.553774,Vandalism,Parking Lot,1.51,33,Medium,2025-07-01,10,0,0,Medium,Medium,Medium,✅,✅,70.4,43
+2025-06-03,20:36:50,Tuesday,June,Hyderabad,Ameerpet,17.427998,78.445121,Theft,Transit Station,3.32,65,Low,2025-06-03,20,0,1,Low,Low,Low,✅,✅,40.7,49
+2025-10-18,20:51:38,Saturday,October,Hyderabad,Gachibowli,17.441764,78.343115,Drug Offense,Parking Lot,0.7,15,Medium,2025-10-18,20,1,1,Low,Medium,Medium,❌,✅,54.1,29
+2025-02-02,21:30:06,Sunday,February,Hyderabad,Begumpet,17.440488,78.462211,Chain Snatching,Park/Open Ground,4.36,86,Medium,2025-02-02,21,1,1,High,High,Medium,❌,❌,60.6,78
+2025-03-29,03:43:35,Saturday,March,Hyderabad,Banjara Hills,17.410526,78.427331,Robbery,Commercial,2.25,42,Medium,2025-03-29,3,1,1,Medium,Medium,Medium,✅,✅,69.9,47
+2025-01-14,05:12:04,Tuesday,January,Hyderabad,Madhapur,17.443737,78.382067,Vandalism,Nightclub/Bar,1.42,27,Medium,2025-01-14,5,0,0,Medium,Medium,Medium,✅,✅,71.6,39
+2025-09-26,20:23:33,Friday,September,Hyderabad,Mehdipatnam,17.390234,78.42385,Theft,Transit Station,3.17,80,Medium,2025-09-26,20,0,1,High,Medium,Medium,❌,✅,55.4,65
+2025-07-20,20:08:34,Sunday,July,Hyderabad,Begumpet,17.43853,78.452208,Vandalism,Park/Open Ground,2.42,56,High,2025-07-20,20,1,1,Medium,High,High,❌,✅,65.0,77
+2026-03-20,02:13:19,Friday,March,Hyderabad,Koti,17.371887,78.493047,Vandalism,Park/Open Ground,3.21,50,High,2026-03-20,2,0,1,High,High,High,✅,✅,66.3,76
+2025-10-28,06:32:45,Tuesday,October,Hyderabad,Hitec City,17.443044,78.386672,Cybercrime,Nightclub/Bar,1.34,28,High,2025-10-28,6,0,0,Medium,Medium,High,❌,❌,70.3,41
+2025-08-17,02:52:25,Sunday,August,Hyderabad,Jubilee Hills,17.428579,78.39829,Drug Offense,Street/Road,2.02,46,Medium,2025-08-17,2,1,1,Low,Medium,Medium,❌,✅,61.7,51
+2026-03-27,23:36:02,Friday,March,Hyderabad,Kukatpally,17.49726,78.388344,Burglary,Nightclub/Bar,3.76,82,Medium,2026-03-27,23,0,1,High,Medium,Medium,❌,✅,53.5,69
+2025-06-27,22:53:45,Friday,June,Hyderabad,Madhapur,17.459004,78.399561,Vehicle Theft,Parking Lot,1.63,41,Medium,2025-06-27,22,0,1,Medium,Medium,Medium,✅,✅,70.9,46
+2025-03-31,13:15:11,Monday,March,Hyderabad,LB Nagar,17.33741,78.550572,Drug Offense,Parking Lot,2.02,48,Medium,2025-03-31,13,0,0,Medium,Medium,Medium,✅,✅,58.8,49
+2025-04-04,06:25:44,Friday,April,Hyderabad,Mehdipatnam,17.391502,78.455799,Theft,Street/Road,3.66,61,High,2025-04-04,6,0,0,High,High,High,✅,✅,80.5,87
+2025-10-03,20:44:46,Friday,October,Hyderabad,Mehdipatnam,17.388987,78.444098,Assault,Park/Open Ground,3.14,74,Low,2025-10-03,20,0,1,High,High,Low,❌,❌,71.8,84
+2025-03-04,05:48:06,Tuesday,March,Hyderabad,Ameerpet,17.440804,78.445956,Harassment,Bank/ATM,2.91,72,High,2025-03-04,5,0,0,High,High,High,✅,✅,76.9,84
+2025-04-17,16:02:29,Thursday,April,Hyderabad,Hitec City,17.439641,78.385992,Theft,Residential,2.06,41,Medium,2025-04-17,16,0,0,Medium,Medium,Medium,✅,✅,70.4,44
+2025-08-25,01:25:54,Monday,August,Hyderabad,Dilsukhnagar,17.369129,78.529483,Assault,Parking Lot,3.3,59,High,2025-08-25,1,0,1,High,High,High,✅,✅,74.3,82
+2025-12-30,04:20:42,Tuesday,December,Hyderabad,Banjara Hills,17.409908,78.432624,Cybercrime,Park/Open Ground,2.1,43,High,2025-12-30,4,0,1,Low,High,High,❌,✅,38.4,57
+2025-12-03,23:08:30,Wednesday,December,Hyderabad,Ameerpet,17.42621,78.447206,Vehicle Theft,Transit Station,3.27,67,Medium,2025-12-03,23,0,1,Low,High,Medium,❌,❌,71.0,79
+2025-02-21,20:34:47,Friday,February,Hyderabad,Kukatpally,17.477145,78.412396,Vandalism,Transit Station,3.74,67,High,2025-02-21,20,0,1,High,High,High,✅,✅,77.4,84
+2025-12-13,23:22:11,Saturday,December,Hyderabad,Charminar,17.367483,78.475195,Assault,Commercial,3.69,84,High,2025-12-13,23,1,1,High,High,High,✅,✅,83.5,90
+2025-01-25,19:41:42,Saturday,January,Hyderabad,Dilsukhnagar,17.36039,78.504446,Burglary,Parking Lot,3.76,61,High,2025-01-25,19,1,0,High,High,High,✅,✅,73.1,82
+2025-01-03,23:49:12,Friday,January,Hyderabad,Kukatpally,17.488406,78.393324,Assault,Bank/ATM,3.12,56,High,2025-01-03,23,0,1,High,High,High,✅,✅,72.7,83
+2025-08-04,20:21:52,Monday,August,Hyderabad,Charminar,17.366701,78.47677,Assault,Residential,2.68,64,Low,2025-08-04,20,0,1,High,High,Low,❌,❌,47.3,56
+2026-02-13,21:10:46,Friday,February,Hyderabad,Banjara Hills,17.419133,78.432359,Robbery,Commercial,1.8,40,Medium,2026-02-13,21,0,1,Medium,Medium,Medium,✅,✅,68.3,46
+2025-06-17,10:35:40,Tuesday,June,Hyderabad,LB Nagar,17.339732,78.546908,Assault,Street/Road,1.53,34,Medium,2025-06-17,10,0,0,Medium,Medium,Medium,✅,✅,75.5,46
+2025-03-03,20:22:20,Monday,March,Hyderabad,Begumpet,17.444854,78.455283,Robbery,Commercial,3.3,81,High,2025-03-03,20,0,1,High,High,High,✅,✅,82.0,89
+2025-07-19,21:04:42,Saturday,July,Hyderabad,Charminar,17.371936,78.468707,Vehicle Theft,Bank/ATM,3.81,62,High,2025-07-19,21,1,1,High,High,High,✅,✅,78.6,86
+2025-07-30,00:31:06,Wednesday,July,Hyderabad,Secunderabad,17.443591,78.508708,Harassment,Transit Station,4.05,68,Low,2025-07-30,0,0,1,Low,Low,Low,✅,✅,41.0,48
+2025-06-16,15:43:59,Monday,June,Hyderabad,Kukatpally,17.486255,78.396771,Robbery,Bank/ATM,3.53,68,High,2025-06-16,15,0,0,High,High,High,✅,✅,78.9,86
+2025-12-19,02:42:30,Friday,December,Hyderabad,Koti,17.371714,78.503785,Burglary,Bank/ATM,3.35,68,High,2025-12-19,2,0,1,High,High,High,✅,✅,79.9,85
+2025-08-18,01:47:14,Monday,August,Hyderabad,Kukatpally,17.510987,78.403352,Harassment,Commercial,3.77,73,High,2025-08-18,1,0,1,High,High,High,✅,✅,84.6,89
+2026-04-05,03:19:15,Sunday,April,Hyderabad,Abids,17.40261,78.467585,Vandalism,Street/Road,1.87,39,High,2026-04-05,3,1,1,Medium,High,High,❌,✅,45.5,63
+2025-07-11,15:18:12,Friday,July,Hyderabad,Jubilee Hills,17.431666,78.413501,Robbery,Parking Lot,1.86,33,Medium,2025-07-11,15,0,0,Medium,Medium,Medium,✅,✅,64.2,38
+2026-04-18,17:47:56,Saturday,April,Hyderabad,Secunderabad,17.443086,78.496283,Chain Snatching,Transit Station,3.78,68,High,2026-04-18,17,1,0,High,High,High,✅,✅,83.4,89
+2026-01-25,01:33:50,Sunday,January,Hyderabad,Abids,17.393185,78.465514,Vandalism,Nightclub/Bar,1.66,36,High,2026-01-25,1,1,1,Medium,High,High,❌,✅,38.2,57
+2026-01-11,10:21:15,Sunday,January,Hyderabad,LB Nagar,17.361506,78.54353,Assault,Market/Bazaar,1.03,21,Low,2026-01-11,10,1,0,Medium,Low,Low,❌,✅,73.2,15
+2025-05-08,10:38:55,Thursday,May,Hyderabad,Mehdipatnam,17.406802,78.451284,Vandalism,Market/Bazaar,3.3,71,High,2025-05-08,10,0,0,High,High,High,✅,✅,82.0,88
+2025-01-04,23:04:12,Saturday,January,Hyderabad,Mehdipatnam,17.388545,78.455146,Theft,Transit Station,2.72,66,High,2025-01-04,23,1,1,High,High,High,✅,✅,78.5,86
+2025-10-31,17:53:50,Friday,October,Hyderabad,Jubilee Hills,17.441389,78.419623,Assault,Street/Road,1.43,35,High,2025-10-31,17,0,0,Medium,Medium,High,❌,❌,71.9,44
+2025-08-28,01:12:15,Thursday,August,Hyderabad,Dilsukhnagar,17.370595,78.528714,Vandalism,Transit Station,3.6,70,High,2025-08-28,1,0,1,High,High,High,✅,✅,84.2,89
+2025-10-23,14:40:12,Thursday,October,Hyderabad,Hitec City,17.446776,78.374987,Vehicle Theft,Park/Open Ground,1.82,43,Low,2025-10-23,14,0,0,Low,Low,Low,✅,✅,57.7,26
+2025-07-23,12:10:30,Wednesday,July,Hyderabad,Gachibowli,17.443989,78.346298,Cybercrime,Parking Lot,0.9,16,Low,2025-07-23,12,0,0,Low,Low,Low,✅,✅,91.3,5
+2026-02-11,15:01:48,Wednesday,February,Hyderabad,LB Nagar,17.335532,78.549171,Vandalism,Parking Lot,2.2,43,High,2026-02-11,15,0,0,Medium,High,High,❌,✅,45.7,65
+2026-04-17,00:09:35,Friday,April,Hyderabad,Koti,17.38387,78.483385,Robbery,Nightclub/Bar,3.09,73,High,2026-04-17,0,0,1,High,High,High,✅,✅,83.4,88
+2025-05-26,12:35:38,Monday,May,Hyderabad,Madhapur,17.456609,78.392245,Cybercrime,Residential,1.38,34,High,2025-05-26,12,0,0,Medium,Medium,High,❌,❌,49.1,57
+2025-04-11,04:58:12,Friday,April,Hyderabad,Madhapur,17.440808,78.382029,Theft,Commercial,2.29,53,Medium,2025-04-11,4,0,1,Medium,Medium,Medium,✅,✅,50.8,59
+2025-07-11,23:25:47,Friday,July,Hyderabad,Dilsukhnagar,17.36128,78.528513,Chain Snatching,Parking Lot,4.13,75,High,2025-07-11,23,0,1,High,High,High,✅,✅,73.6,85
+2025-02-06,20:58:07,Thursday,February,Hyderabad,Kukatpally,17.506607,78.408493,Vandalism,Transit Station,2.74,57,High,2025-02-06,20,0,1,Low,High,High,❌,✅,75.0,82
+2026-01-30,23:22:32,Friday,January,Hyderabad,Hitec City,17.444711,78.379588,Cybercrime,Bank/ATM,2.01,45,High,2026-01-30,23,0,1,Medium,High,High,❌,✅,46.3,62
+2026-04-20,21:15:30,Monday,April,Hyderabad,Begumpet,17.455367,78.471055,Theft,Bank/ATM,4.57,90,High,2026-04-20,21,0,1,High,High,High,✅,✅,89.2,93
+2025-12-24,07:16:38,Wednesday,December,Hyderabad,Charminar,17.338936,78.485574,Cybercrime,Transit Station,3.58,64,High,2025-12-24,7,0,0,Low,High,High,❌,✅,67.7,75
+2025-12-06,03:07:49,Saturday,December,Hyderabad,Kukatpally,17.508881,78.389826,Burglary,Parking Lot,3.1,76,High,2025-12-06,3,1,1,High,High,High,✅,✅,85.5,90
+2025-02-11,21:56:27,Tuesday,February,Hyderabad,Koti,17.381353,78.495726,Robbery,Parking Lot,3.23,63,High,2025-02-11,21,0,1,Low,High,High,❌,✅,76.1,84
+2025-09-30,15:37:19,Tuesday,September,Hyderabad,Ameerpet,17.435303,78.455285,Vandalism,Residential,3.39,68,High,2025-09-30,15,0,0,High,High,High,✅,✅,65.6,74
+2026-02-13,11:52:09,Friday,February,Hyderabad,Abids,17.391059,78.461672,Vehicle Theft,Street/Road,1.98,37,Medium,2026-02-13,11,0,0,Medium,Medium,Medium,✅,✅,62.0,40
+2025-01-04,05:52:31,Saturday,January,Hyderabad,Hitec City,17.437681,78.383004,Theft,Residential,1.8,40,Medium,2025-01-04,5,1,0,Medium,Medium,Medium,✅,✅,60.6,44
+2025-09-26,22:46:27,Friday,September,Hyderabad,Begumpet,17.464679,78.466768,Robbery,Transit Station,3.56,72,High,2025-09-26,22,0,1,High,High,High,✅,✅,73.0,83
+2025-04-12,15:11:32,Saturday,April,Hyderabad,Jubilee Hills,17.435509,78.403566,Burglary,Park/Open Ground,2.07,40,Medium,2025-04-12,15,1,0,Medium,Medium,Medium,✅,✅,77.9,46
+2025-04-13,01:47:11,Sunday,April,Hyderabad,Jubilee Hills,17.424291,78.404565,Assault,Nightclub/Bar,2.29,43,Medium,2025-04-13,1,1,1,Low,Medium,Medium,❌,✅,71.3,49
+2026-04-13,02:40:10,Monday,April,Hyderabad,Mehdipatnam,17.386987,78.437196,Burglary,Nightclub/Bar,3.53,60,High,2026-04-13,2,0,1,High,High,High,✅,✅,81.0,87
+2025-02-02,10:01:37,Sunday,February,Hyderabad,Hitec City,17.433355,78.375854,Assault,Park/Open Ground,1.4,33,Medium,2025-02-02,10,1,0,Medium,Medium,Medium,✅,✅,76.3,42
+2025-01-05,01:17:48,Sunday,January,Hyderabad,Banjara Hills,17.425034,78.451721,Theft,Commercial,1.31,27,Medium,2025-01-05,1,1,1,Medium,Medium,Medium,✅,✅,73.0,41

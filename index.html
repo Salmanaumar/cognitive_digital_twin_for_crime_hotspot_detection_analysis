@@ -1,0 +1,1335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cognitive Digital Twin — Crime Hotspot Detection & Predictive Analysis</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <!-- Custom Plum & Rose Stylesheet -->
+    <link rel="stylesheet" href="/static/css/style.css?v=20261118">
+</head>
+<body>
+
+    <!-- TOP NAVIGATION BAR -->
+    <header class="app-navbar d-flex justify-content-between align-items-center shadow-sm">
+        <div class="d-flex align-items-center">
+            <div class="me-3 text-rose fs-3">
+                <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <div>
+                <div class="navbar-brand-title">COGNITIVE DIGITAL TWIN</div>
+                <div class="navbar-brand-subtitle">AI/ML Crime Hotspot Detection & Predictive Spatial-Temporal Analysis</div>
+            </div>
+        </div>
+
+        <div class="d-flex align-items-center gap-2">
+            <!-- City Selector -->
+            <div class="dropdown">
+                <button class="btn btn-sm btn-outline-light dropdown-toggle px-3" type="button" data-bs-toggle="dropdown">
+                    <i class="fa-solid fa-location-dot text-rose me-1"></i> <span class="active-city-name">Hyderabad</span>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end shadow">
+                    <li><h6 class="dropdown-header">Switch Geographical Model</h6></li>
+                    <li><a class="dropdown-item" href="javascript:switchCityDataset('Hyderabad')"><i class="fa-solid fa-city me-2"></i> Hyderabad Metro</a></li>
+                    <li><a class="dropdown-item" href="javascript:switchCityDataset('Bengaluru')"><i class="fa-solid fa-city me-2"></i> Bengaluru Metro</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#uploadModal"><i class="fa-solid fa-cloud-arrow-up me-2 text-rose"></i> Upload Custom CSV Dataset...</a></li>
+                </ul>
+            </div>
+
+            <!-- Model Version Pill -->
+            <span class="badge bg-plum-subtle text-plum px-2 py-2 border border-plum">
+                <i class="fa-solid fa-code-branch me-1"></i> Model: <span id="activeModelVer">v1.0</span>
+            </span>
+
+            <!-- Session Timeout -->
+            <span class="badge bg-dark px-2 py-2 border border-secondary text-light" title="Auto-logout timer">
+                <i class="fa-solid fa-stopwatch me-1 text-warning"></i> <span id="sessionCountdown">30:00</span>
+            </span>
+
+            <!-- User Role Badge -->
+            <div class="badge bg-rose text-white px-3 py-2">
+                <i class="fa-solid fa-user-shield me-1"></i> {{ user.role }} ({{ user.username }})
+            </div>
+
+            <!-- Presentation Mode Button -->
+            <button class="btn btn-sm btn-outline-light px-2" onclick="togglePresentationMode()" title="Toggle Exhibition/Presentation Mode">
+                <i class="fa-solid fa-expand"></i>
+            </button>
+
+            <!-- Logout -->
+            <a href="/logout" class="btn btn-sm btn-outline-danger px-2" title="Secure Logout">
+                <i class="fa-solid fa-arrow-right-from-bracket"></i>
+            </a>
+        </div>
+    </header>
+
+    <!-- PREDICTIVE ALERTS BANNER -->
+    <div class="container-fluid px-4 pt-3">
+        <div id="predictiveAlertsBanner"></div>
+    </div>
+
+    <!-- MAIN NAVIGATION TABS -->
+    <div class="container-fluid px-4">
+        <ul class="nav custom-nav-tabs shadow-sm rounded-top" id="mainTab" role="tablist">
+            <li class="nav-item">
+                <button class="nav-link active" id="pills-dashboard-tab" data-bs-toggle="pill" data-bs-target="#pills-dashboard" type="button">
+                    <i class="fa-solid fa-chart-line me-1"></i> Dashboard & KPIs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" id="pills-map-tab" data-bs-toggle="pill" data-bs-target="#pills-map" type="button">
+                    <i class="fa-solid fa-map-location-dot me-1"></i> Interactive Crime Map
+                </button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" id="pills-dataset-tab" data-bs-toggle="pill" data-bs-target="#pills-dataset" type="button">
+                    <i class="fa-solid fa-database me-1"></i> Dataset & Preprocessing
+                </button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" id="pills-models-tab" data-bs-toggle="pill" data-bs-target="#pills-models" type="button">
+                    <i class="fa-solid fa-brain me-1"></i> Model Benchmarks & SMOTE
+                </button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" id="pills-leakage-tab" data-bs-toggle="pill" data-bs-target="#pills-leakage" type="button">
+                    <i class="fa-solid fa-filter-circle-xmark me-1"></i> Leakage Check
+                </button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" id="pills-predictions-tab" data-bs-toggle="pill" data-bs-target="#pills-predictions" type="button">
+                    <i class="fa-solid fa-table-list me-1"></i> Prediction Table
+                </button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" id="pills-spatial-tab" data-bs-toggle="pill" data-bs-target="#pills-spatial" type="button">
+                    <i class="fa-solid fa-chart-pie me-1"></i> Spatial Stats & Clusters
+                </button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" id="pills-forecast-tab" data-bs-toggle="pill" data-bs-target="#pills-forecast" type="button">
+                    <i class="fa-solid fa-calendar-week me-1"></i> Hotspot Forecast
+                </button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" id="pills-simulator-tab" data-bs-toggle="pill" data-bs-target="#pills-simulator" type="button">
+                    <i class="fa-solid fa-dna me-1 text-rose"></i> What-If Digital Twin
+                </button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" id="pills-patrol-tab" data-bs-toggle="pill" data-bs-target="#pills-patrol" type="button">
+                    <i class="fa-solid fa-route me-1"></i> Patrol Routing
+                </button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" id="pills-single-tab" data-bs-toggle="pill" data-bs-target="#pills-single" type="button">
+                    <i class="fa-solid fa-bullseye me-1"></i> Single Incident Predictor
+                </button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" id="pills-ai-tab" data-bs-toggle="pill" data-bs-target="#pills-ai" type="button">
+                    <i class="fa-solid fa-robot me-1 text-plum"></i> Ask CDT AI
+                </button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" id="pills-reports-tab" data-bs-toggle="pill" data-bs-target="#pills-reports" type="button">
+                    <i class="fa-solid fa-file-pdf me-1 text-rose"></i> Police Briefing Report
+                </button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" id="pills-audit-tab" data-bs-toggle="pill" data-bs-target="#pills-audit" type="button">
+                    <i class="fa-solid fa-list-check me-1"></i> Audit Trail & Roles
+                </button>
+            </li>
+        </ul>
+    </div>
+
+    <!-- MAIN BODY CONTENT PANES -->
+    <main class="container-fluid px-4 py-3 flex-grow-1">
+        <div class="tab-content" id="mainTabContent">
+
+            <!-- 1. DASHBOARD & KPIS TAB -->
+            <div class="tab-pane fade show active" id="pills-dashboard" role="tabpanel">
+                <!-- KPI CARDS ROW -->
+                <div class="row g-3 mb-4">
+                    <div class="col-xl-2 col-md-4 col-sm-6">
+                        <div class="kpi-card">
+                            <div class="kpi-title"><i class="fa-solid fa-file-lines me-1"></i> Verified Records</div>
+                            <div class="kpi-value stat-final-rows">1,200</div>
+                            <div class="kpi-subtext">Clean deduplicated rows</div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-4 col-sm-6">
+                        <div class="kpi-card kpi-rose">
+                            <div class="kpi-title"><i class="fa-solid fa-bullseye me-1 text-rose"></i> Top Hotspot</div>
+                            <div class="kpi-value fs-3" id="kpiTopHotspot">Charminar</div>
+                            <div class="kpi-subtext">Highest incident density</div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-4 col-sm-6">
+                        <div class="kpi-card">
+                            <div class="kpi-title"><i class="fa-solid fa-clock me-1"></i> Peak Crime Hour</div>
+                            <div class="kpi-value fs-4" id="kpiPeakHour">22:00 - 23:00</div>
+                            <div class="kpi-subtext">Night shift vulnerability</div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-4 col-sm-6">
+                        <div class="kpi-card">
+                            <div class="kpi-title"><i class="fa-solid fa-calendar-day me-1"></i> Peak Day</div>
+                            <div class="kpi-value fs-4" id="kpiPeakDay">Saturday</div>
+                            <div class="kpi-subtext">Weekend surge period</div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-4 col-sm-6">
+                        <div class="kpi-card kpi-rose">
+                            <div class="kpi-title"><i class="fa-solid fa-triangle-exclamation me-1 text-rose"></i> High Risk Share</div>
+                            <div class="kpi-value fs-3 text-rose" id="kpiHighRiskShare">35.4%</div>
+                            <div class="kpi-subtext">Requiring urgent patrols</div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-4 col-sm-6">
+                        <div class="kpi-card">
+                            <div class="kpi-title"><i class="fa-solid fa-city me-1"></i> Monitored Zones</div>
+                            <div class="kpi-value fs-3 text-plum">15</div>
+                            <div class="kpi-subtext">Active micro-sectors</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FILTER BAR (Requirement 16) -->
+                <div class="card p-3 mb-4 border-0 shadow-sm" style="background:#FFFFFF;">
+                    <div class="row g-2 align-items-center">
+                        <div class="col-md-2">
+                            <label class="form-label small fw-bold text-muted mb-1"><i class="fa-solid fa-city me-1"></i> Target City</label>
+                            <select class="form-select form-select-sm" id="filterCity">
+                                <option value="ALL">All Cities in Dataset</option>
+                                <option value="Hyderabad">Hyderabad</option>
+                                <option value="Bengaluru">Bengaluru</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label small fw-bold text-muted mb-1"><i class="fa-solid fa-location-dot me-1"></i> Administrative Zone</label>
+                            <select class="form-select form-select-sm" id="filterArea">
+                                <option value="ALL">All Monitored Areas</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <label class="form-label small fw-bold text-muted mb-1"><i class="fa-solid fa-tag me-1"></i> Crime Offense</label>
+                            <select class="form-select form-select-sm" id="filterCrimeType">
+                                <option value="ALL">All Offenses</option>
+                                <option value="Theft">Theft</option>
+                                <option value="Burglary">Burglary</option>
+                                <option value="Robbery">Robbery</option>
+                                <option value="Assault">Assault</option>
+                                <option value="Vehicle Theft">Vehicle Theft</option>
+                                <option value="Chain Snatching">Chain Snatching</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <label class="form-label small fw-bold text-muted mb-1"><i class="fa-solid fa-gauge-high me-1"></i> Actual Risk Level</label>
+                            <select class="form-select form-select-sm" id="filterRiskLevel">
+                                <option value="ALL">All Risk Levels</option>
+                                <option value="High">High Risk</option>
+                                <option value="Medium">Medium Risk</option>
+                                <option value="Low">Low Risk</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label small fw-bold text-muted mb-1"><i class="fa-solid fa-magnifying-glass me-1"></i> Instant Search</label>
+                            <input type="text" class="form-control form-select-sm" id="tableSearchInput" placeholder="Filter area, crime, location...">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CHART VISUALIZATION TOOLBAR -->
+                <div class="d-flex justify-content-between align-items-center mb-3 flex-wrap gap-2">
+                    <div>
+                        <span class="fw-bold text-plum"><i class="fa-solid fa-chart-line text-rose me-2"></i> Spatial-Temporal Analytical Charts</span>
+                        <span class="badge bg-plum-subtle text-plum ms-2"><i class="fa-solid fa-image me-1"></i> Publication-Grade High-Res Visualizations</span>
+                    </div>
+                    <div class="d-flex gap-2 align-items-center">
+                        <button class="btn btn-sm btn-outline-plum" id="btnRefreshCharts" onclick="refreshAllChartImages()">
+                            <i class="fa-solid fa-arrows-rotate me-1"></i> Re-generate Chart Images
+                        </button>
+                        <div class="btn-group btn-group-sm">
+                            <button class="btn btn-plum btn-xs" id="btn-all-img" onclick="setAllChartsView('img')"><i class="fa-solid fa-image me-1"></i> All Images</button>
+                            <button class="btn btn-outline-plum btn-xs" id="btn-all-canvas" onclick="setAllChartsView('canvas')"><i class="fa-solid fa-chart-simple me-1"></i> All Interactive</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CHARTS ROW (High-Res Images with Interactive Toggle) -->
+                <div class="row g-3 mb-4">
+                    <div class="col-lg-6">
+                        <div class="card p-3 border-0 shadow-sm h-100">
+                            <div class="d-flex justify-content-between align-items-center mb-2 flex-wrap gap-1">
+                                <div>
+                                    <h6 class="fw-bold text-plum mb-0"><i class="fa-solid fa-clock text-rose me-1"></i> Hourly Crime Pattern (Peak Window)</h6>
+                                    <span class="badge bg-plum-subtle text-plum small mt-1">Temporal Distribution</span>
+                                </div>
+                                <div class="chart-badge-action">
+                                    <div class="btn-group btn-group-sm" role="group">
+                                        <button type="button" class="btn btn-outline-plum btn-xs active" id="btn-hourly-img" onclick="switchChartView('hourly', 'img')" title="View High-Resolution Image"><i class="fa-solid fa-image me-1"></i>Image</button>
+                                        <button type="button" class="btn btn-outline-plum btn-xs" id="btn-hourly-canvas" onclick="switchChartView('hourly', 'canvas')" title="View Interactive Chart.js Canvas"><i class="fa-solid fa-chart-simple me-1"></i>Interactive</button>
+                                    </div>
+                                    <a href="/static/img/charts/hourly_crime_pattern.png" target="_blank" download="Hourly_Crime_Pattern.png" class="btn btn-outline-rose btn-xs" title="Download High-Res PNG"><i class="fa-solid fa-download"></i></a>
+                                </div>
+                            </div>
+                            <div id="view-hourly-img" class="chart-img-container">
+                                <img src="/static/img/charts/hourly_crime_pattern.png" id="img-hourly" alt="Hourly Crime Pattern (Peak Window)" class="chart-preview-img rounded" onclick="openChartModal(this.src, 'Hourly Crime Pattern (Peak Window) — Temporal Distribution')">
+                                <div class="text-muted small mt-1" style="font-size: 0.72rem;"><i class="fa-solid fa-magnifying-glass-plus me-1"></i>Click to expand full resolution | High-risk night surge (20:00 - 02:00)</div>
+                            </div>
+                            <div id="view-hourly-canvas" class="chart-canvas-container d-none" style="position: relative; height: 260px; width: 100%;">
+                                <canvas id="hourlyChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="card p-3 border-0 shadow-sm h-100">
+                            <div class="d-flex justify-content-between align-items-center mb-2 flex-wrap gap-1">
+                                <div>
+                                    <h6 class="fw-bold text-plum mb-0"><i class="fa-solid fa-ranking-star text-rose me-1"></i> Area-Wise Risk Score Ranking</h6>
+                                    <span class="badge bg-plum-subtle text-plum small mt-1">0 - 100 Risk Index</span>
+                                </div>
+                                <div class="chart-badge-action">
+                                    <div class="btn-group btn-group-sm" role="group">
+                                        <button type="button" class="btn btn-outline-plum btn-xs active" id="btn-areaRank-img" onclick="switchChartView('areaRank', 'img')" title="View High-Resolution Image"><i class="fa-solid fa-image me-1"></i>Image</button>
+                                        <button type="button" class="btn btn-outline-plum btn-xs" id="btn-areaRank-canvas" onclick="switchChartView('areaRank', 'canvas')" title="View Interactive Chart.js Canvas"><i class="fa-solid fa-chart-simple me-1"></i>Interactive</button>
+                                    </div>
+                                    <a href="/static/img/charts/area_wise_risk_ranking.png" target="_blank" download="Area_Wise_Risk_Ranking.png" class="btn btn-outline-rose btn-xs" title="Download High-Res PNG"><i class="fa-solid fa-download"></i></a>
+                                </div>
+                            </div>
+                            <div id="view-areaRank-img" class="chart-img-container">
+                                <img src="/static/img/charts/area_wise_risk_ranking.png" id="img-areaRank" alt="Area-Wise Risk Score Ranking" class="chart-preview-img rounded" onclick="openChartModal(this.src, 'Area-Wise Risk Score Ranking — 0 - 100 Risk Index')">
+                                <div class="text-muted small mt-1" style="font-size: 0.72rem;"><i class="fa-solid fa-magnifying-glass-plus me-1"></i>Click to expand full resolution | Ranked composite spatial index</div>
+                            </div>
+                            <div id="view-areaRank-canvas" class="chart-canvas-container d-none" style="position: relative; height: 260px; width: 100%;">
+                                <canvas id="areaRankChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row g-3">
+                    <div class="col-lg-6">
+                        <div class="card p-3 border-0 shadow-sm h-100">
+                            <div class="d-flex justify-content-between align-items-center mb-2 flex-wrap gap-1">
+                                <div>
+                                    <h6 class="fw-bold text-plum mb-0"><i class="fa-solid fa-calendar-days text-rose me-1"></i> Day of Week Incident Volume</h6>
+                                    <span class="badge bg-plum-subtle text-plum small mt-1">Weekly Cadence</span>
+                                </div>
+                                <div class="chart-badge-action">
+                                    <div class="btn-group btn-group-sm" role="group">
+                                        <button type="button" class="btn btn-outline-plum btn-xs active" id="btn-day-img" onclick="switchChartView('day', 'img')" title="View High-Resolution Image"><i class="fa-solid fa-image me-1"></i>Image</button>
+                                        <button type="button" class="btn btn-outline-plum btn-xs" id="btn-day-canvas" onclick="switchChartView('day', 'canvas')" title="View Interactive Chart.js Canvas"><i class="fa-solid fa-chart-simple me-1"></i>Interactive</button>
+                                    </div>
+                                    <a href="/static/img/charts/day_of_week_incidents.png" target="_blank" download="Day_Of_Week_Incidents.png" class="btn btn-outline-rose btn-xs" title="Download High-Res PNG"><i class="fa-solid fa-download"></i></a>
+                                </div>
+                            </div>
+                            <div id="view-day-img" class="chart-img-container">
+                                <img src="/static/img/charts/day_of_week_incidents.png" id="img-day" alt="Day of Week Incident Volume" class="chart-preview-img rounded" onclick="openChartModal(this.src, 'Day of Week Incident Volume — Weekly Cadence')">
+                                <div class="text-muted small mt-1" style="font-size: 0.72rem;"><i class="fa-solid fa-magnifying-glass-plus me-1"></i>Click to expand full resolution | Friday & weekend patrol surge</div>
+                            </div>
+                            <div id="view-day-canvas" class="chart-canvas-container d-none" style="position: relative; height: 260px; width: 100%;">
+                                <canvas id="dayChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="card p-3 border-0 shadow-sm h-100">
+                            <div class="d-flex justify-content-between align-items-center mb-2 flex-wrap gap-1">
+                                <div>
+                                    <h6 class="fw-bold text-plum mb-0"><i class="fa-solid fa-chart-pie text-rose me-1"></i> Crime Offense Category Breakdown</h6>
+                                    <span class="badge bg-plum-subtle text-plum small mt-1">Incident Share</span>
+                                </div>
+                                <div class="chart-badge-action">
+                                    <div class="btn-group btn-group-sm" role="group">
+                                        <button type="button" class="btn btn-outline-plum btn-xs active" id="btn-category-img" onclick="switchChartView('category', 'img')" title="View High-Resolution Image"><i class="fa-solid fa-image me-1"></i>Image</button>
+                                        <button type="button" class="btn btn-outline-plum btn-xs" id="btn-category-canvas" onclick="switchChartView('category', 'canvas')" title="View Interactive Chart.js Canvas"><i class="fa-solid fa-chart-simple me-1"></i>Interactive</button>
+                                    </div>
+                                    <a href="/static/img/charts/crime_offense_category.png" target="_blank" download="Crime_Offense_Category.png" class="btn btn-outline-rose btn-xs" title="Download High-Res PNG"><i class="fa-solid fa-download"></i></a>
+                                </div>
+                            </div>
+                            <div id="view-category-img" class="chart-img-container">
+                                <img src="/static/img/charts/crime_offense_category.png" id="img-category" alt="Crime Offense Category Breakdown" class="chart-preview-img rounded" onclick="openChartModal(this.src, 'Crime Offense Category Breakdown — Incident Share')">
+                                <div class="text-muted small mt-1" style="font-size: 0.72rem;"><i class="fa-solid fa-magnifying-glass-plus me-1"></i>Click to expand full resolution | Proportional offense distribution</div>
+                            </div>
+                            <div id="view-category-canvas" class="chart-canvas-container d-none" style="position: relative; height: 260px; width: 100%;">
+                                <canvas id="categoryChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. INTERACTIVE CRIME MAP TAB (Requirement 7) -->
+            <div class="tab-pane fade" id="pills-map" role="tabpanel">
+                <div class="card p-3 border-0 shadow-sm">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <div>
+                            <h5 class="fw-bold text-plum mb-1"><i class="fa-solid fa-map-location-dot text-rose me-2"></i> Spatial Hotspot Map: <span class="active-city-name">Hyderabad</span></h5>
+                            <div class="small text-muted">Interactive Leaflet map showing dynamic coordinates, colored risk zones, incident markers, and density heatmap.</div>
+                        </div>
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-sm btn-plum text-white" onclick="map.invalidateSize()">
+                                <i class="fa-solid fa-arrows-rotate me-1"></i> Recenter Map
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div id="crimeMap"></div>
+                    
+                    <div class="d-flex flex-wrap gap-4 mt-3 p-3 bg-light rounded small align-items-center border">
+                        <div class="fw-bold text-plum">Map Legend:</div>
+                        <div class="d-flex align-items-center"><span class="badge bg-danger me-1">&nbsp;</span> High Risk Zone / Incident</div>
+                        <div class="d-flex align-items-center"><span class="badge bg-warning me-1">&nbsp;</span> Medium Risk Zone / Incident</div>
+                        <div class="d-flex align-items-center"><span class="badge bg-success me-1">&nbsp;</span> Low Risk Zone / Incident</div>
+                        <div class="d-flex align-items-center"><span class="badge bg-purple text-white me-1" style="background:#7C3AED;">&nbsp;</span> DBSCAN Cluster Centroid</div>
+                        <div class="d-flex align-items-center"><span class="badge me-1" style="background:#D83B6F;">---</span> Optimized Patrol Route</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3. DATASET & PREPROCESSING TAB (Requirement 2 & Feature 3) -->
+            <div class="tab-pane fade" id="pills-dataset" role="tabpanel">
+                <div class="card p-4 border-0 shadow-sm mb-4">
+                    <h5 class="fw-bold text-plum mb-2"><i class="fa-solid fa-clipboard-check text-rose me-2"></i> Preprocessing Audit & Guaranteed Consistent Counts</h5>
+                    <p class="small text-muted mb-3">All analytical pages, models, and exported reports reference the exact same underlying processing pipeline.</p>
+                    
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-custom text-center align-middle">
+                            <thead>
+                                <tr>
+                                    <th>Total Raw Records</th>
+                                    <th>Missing Values</th>
+                                    <th>Duplicate Rows</th>
+                                    <th>Invalid Coordinates</th>
+                                    <th>Cleaned Rows</th>
+                                    <th>Final Processed Rows</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="fs-5">
+                                    <td class="stat-raw-rows fw-bold">1,215</td>
+                                    <td><span class="badge bg-warning text-dark stat-missing">18</span></td>
+                                    <td><span class="badge bg-danger stat-duplicates">15</span></td>
+                                    <td><span class="badge bg-secondary stat-invalid">0</span></td>
+                                    <td class="stat-cleaned-rows fw-bold text-plum">1,200</td>
+                                    <td><span class="badge bg-success fs-5 px-3 stat-final-rows">1,200</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="row g-4">
+                    <div class="col-lg-6">
+                        <div class="card p-3 border-0 shadow-sm h-100">
+                            <h6 class="fw-bold text-plum mb-2"><i class="fa-solid fa-shield-halved text-rose me-2"></i> PII Anonymization & Privacy Protection (Feature 38)</h6>
+                            <p class="small text-muted">Automatically scans raw files for sensitive personally identifiable information (citizen names, phone numbers, identity credentials) and masks before modeling.</p>
+                            <div class="p-3 bg-light rounded small">
+                                <div><b>PII Scanning Status:</b> <span class="badge bg-success"><i class="fa-solid fa-check me-1"></i> Active</span></div>
+                                <div class="mt-2"><b>Masking Method:</b> Pseudonymization / Masking <code>"Jo***"</code> for privacy compliance.</div>
+                                <div class="mt-2 text-muted">All sensitive data handling adheres to municipal law enforcement privacy mandates.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card p-3 border-0 shadow-sm h-100">
+                            <h6 class="fw-bold text-plum mb-2"><i class="fa-solid fa-diagram-project text-rose me-2"></i> Feature Selection Audit (Feature 25)</h6>
+                            <p class="small text-muted">Features selected for model training using Stratified Domain Information Gain:</p>
+                            <div class="p-3 bg-light rounded small">
+                                <div><b>Included Features (13):</b> <code>latitude, longitude, hour, is_weekend, is_night, city, area_name, crime_type, location_category, day_of_week, month, crime_frequency, historical_crime_count</code></div>
+                                <div class="mt-2"><b>Target Derived / Leakage Prone:</b> <code>crime_frequency, historical_crime_count</code> (evaluated in Leakage Check tab)</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4. MODEL BENCHMARKS & SMOTE TAB (Requirement 1, 11 & 19) -->
+            <div class="tab-pane fade" id="pills-models" role="tabpanel">
+                <div class="card p-4 border-0 shadow-sm mb-4">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <div>
+                            <h5 class="fw-bold text-plum mb-1"><i class="fa-solid fa-trophy text-rose me-2"></i> Real Model Evaluation Benchmarks (80/20 Stratified Split)</h5>
+                            <div class="small text-muted">Computed from actual predictions on test records. Never hardcoded.</div>
+                        </div>
+                        <button class="btn btn-sm btn-rose text-white px-3" data-bs-toggle="modal" data-bs-target="#retrainModal">
+                            <i class="fa-solid fa-rotate me-1"></i> Retrain Model Version
+                        </button>
+                    </div>
+
+                    <div class="table-responsive">
+                        <table class="table table-hover table-custom align-middle">
+                            <thead>
+                                <tr>
+                                    <th>Model Name</th>
+                                    <th>Accuracy</th>
+                                    <th>Precision (Weighted)</th>
+                                    <th>Recall (Weighted)</th>
+                                    <th>F1-Score</th>
+                                    <th>ROC-AUC</th>
+                                    <th>Confusion Matrix</th>
+                                </tr>
+                            </thead>
+                            <tbody id="modelMetricsTableBody">
+                                <!-- Populated dynamically -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Dedicated Confusion Matrix Explorer Card -->
+                <div class="card p-4 border-0 shadow-sm mb-4">
+                    <div class="d-flex justify-content-between align-items-center mb-3 flex-wrap gap-2">
+                        <div>
+                            <h5 class="fw-bold text-plum mb-1"><i class="fa-solid fa-table-cells text-rose me-2"></i> Confusion Matrix & Multi-Class Error Diagnostics</h5>
+                            <div class="small text-muted">Inspect True Positives, False Positives, and classification performance across High, Medium, and Low risk classes.</div>
+                        </div>
+                        <div class="d-flex align-items-center gap-2">
+                            <label class="small fw-bold text-plum mb-0">Select Model:</label>
+                            <select id="cmModelSelect" class="form-select form-select-sm" style="width: auto; min-width: 250px;" onchange="renderInlineConfusionMatrix(this.value)">
+                                <!-- Populated dynamically -->
+                            </select>
+                            <button class="btn btn-sm btn-outline-rose" onclick="openCmModalCurrent()">
+                                <i class="fa-solid fa-maximize me-1"></i> Full Modal View
+                            </button>
+                        </div>
+                    </div>
+
+                    <div id="inlineConfusionMatrixContainer" class="p-3 bg-light rounded border">
+                        <!-- Populated dynamically with color-coded 3x3 Heatmap Grid & Per-Class Metrics -->
+                    </div>
+                </div>
+
+                <div class="row g-4">
+                    <div class="col-lg-7">
+                        <div class="card p-3 border-0 shadow-sm h-100">
+                            <div class="d-flex justify-content-between align-items-center mb-2 flex-wrap gap-1">
+                                <h6 class="fw-bold text-plum mb-0"><i class="fa-solid fa-chart-column text-rose me-2"></i> Cross-Model Evaluation Metrics Comparison</h6>
+                                <div class="chart-badge-action">
+                                    <div class="btn-group btn-group-sm" role="group">
+                                        <button type="button" class="btn btn-outline-plum btn-xs active" id="btn-model-img" onclick="switchChartView('model', 'img')"><i class="fa-solid fa-image me-1"></i>Image</button>
+                                        <button type="button" class="btn btn-outline-plum btn-xs" id="btn-model-canvas" onclick="switchChartView('model', 'canvas')"><i class="fa-solid fa-chart-simple me-1"></i>Interactive</button>
+                                    </div>
+                                    <a href="/static/img/charts/model_comparison_metrics.png" target="_blank" download="Model_Comparison_Metrics.png" class="btn btn-outline-rose btn-xs" title="Download High-Res PNG"><i class="fa-solid fa-download"></i></a>
+                                </div>
+                            </div>
+                            <div id="view-model-img" class="chart-img-container">
+                                <img src="/static/img/charts/model_comparison_metrics.png" id="img-model" alt="Model Comparison Metrics" class="chart-preview-img rounded" onclick="openChartModal(this.src, 'Cross-Model Evaluation Metrics Comparison')">
+                                <div class="text-muted small mt-1" style="font-size: 0.72rem;"><i class="fa-solid fa-magnifying-glass-plus me-1"></i>Click to expand full resolution | Real train/test split metrics</div>
+                            </div>
+                            <div id="view-model-canvas" class="chart-canvas-container d-none" style="position: relative; height: 280px; width: 100%;">
+                                <canvas id="modelComparisonChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="card p-3 border-0 shadow-sm h-100">
+                            <div class="d-flex justify-content-between align-items-center mb-2 flex-wrap gap-1">
+                                <h6 class="fw-bold text-plum mb-0"><i class="fa-solid fa-scale-balanced text-rose me-2"></i> SMOTE Class Balancing</h6>
+                                <div class="chart-badge-action">
+                                    <div class="btn-group btn-group-sm" role="group">
+                                        <button type="button" class="btn btn-outline-plum btn-xs active" id="btn-smote-img" onclick="switchChartView('smote', 'img')"><i class="fa-solid fa-image me-1"></i>Image</button>
+                                        <button type="button" class="btn btn-outline-plum btn-xs" id="btn-smote-canvas" onclick="switchChartView('smote', 'canvas')"><i class="fa-solid fa-chart-simple me-1"></i>Interactive</button>
+                                    </div>
+                                    <a href="/static/img/charts/smote_class_balance.png" target="_blank" download="SMOTE_Class_Balance.png" class="btn btn-outline-rose btn-xs" title="Download High-Res PNG"><i class="fa-solid fa-download"></i></a>
+                                </div>
+                            </div>
+                            <p class="small text-muted mb-2">Applied strictly to training data to eliminate rare class minority bias.</p>
+                            <div id="view-smote-img" class="chart-img-container">
+                                <img src="/static/img/charts/smote_class_balance.png" id="img-smote" alt="SMOTE Class Balancing" class="chart-preview-img rounded" onclick="openChartModal(this.src, 'SMOTE Synthetic Minority Oversampling — Class Balance')">
+                                <div class="text-muted small mt-1" style="font-size: 0.72rem;"><i class="fa-solid fa-magnifying-glass-plus me-1"></i>Click to expand full resolution | Pre vs Post SMOTE balance</div>
+                            </div>
+                            <div id="view-smote-canvas" class="chart-canvas-container d-none" style="position: relative; height: 260px; width: 100%;">
+                                <canvas id="smoteChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5. DATA LEAKAGE CHECK TAB (Requirement 5) -->
+            <div class="tab-pane fade" id="pills-leakage" role="tabpanel">
+                <div class="card p-4 border-0 shadow-sm">
+                    <h5 class="fw-bold text-plum mb-2"><i class="fa-solid fa-shield-virus text-rose me-2"></i> Data Leakage Assessment & Target Proxy Verification</h5>
+                    <p class="text-muted small mb-4">
+                        <b>Why this test is required:</b> If <code>risk_level</code> is mathematically correlated with <code>historical_crime_count</code> or <code>crime_frequency</code>, a 94%+ accuracy score is trivial. 
+                        Below is a dual evaluation comparing the model with all features versus the model with purely independent spatial-temporal features.
+                    </p>
+
+                    <div id="leakageAuditContainer">
+                        <!-- Populated dynamically -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- 6. FULL PREDICTION TABLE TAB (Requirement 3) -->
+            <div class="tab-pane fade" id="pills-predictions" role="tabpanel">
+                <div class="card p-4 border-0 shadow-sm">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <div>
+                            <h5 class="fw-bold text-plum mb-1"><i class="fa-solid fa-table text-rose me-2"></i> Full Prediction & Ground Truth Verification Table</h5>
+                            <div class="small text-muted">Complete dataset attributes with Actual Risk, Baseline Predictions, Proposed CDT Ensemble, and Correctness indicators.</div>
+                        </div>
+                        <div class="d-flex gap-2">
+                            <a href="/api/export/csv" class="btn btn-sm btn-outline-plum"><i class="fa-solid fa-file-csv me-1"></i> Export CSV</a>
+                            <a href="/api/export/excel" class="btn btn-sm btn-outline-success"><i class="fa-solid fa-file-excel me-1"></i> Export Excel</a>
+                        </div>
+                    </div>
+
+                    <div class="table-responsive" style="max-height: 600px; overflow-y: auto;">
+                        <table class="table table-sm table-striped table-hover table-custom align-middle">
+                            <thead class="sticky-top">
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Time</th>
+                                    <th>Day</th>
+                                    <th>Month</th>
+                                    <th>Area</th>
+                                    <th>Lat, Long</th>
+                                    <th>Crime Type</th>
+                                    <th>Location</th>
+                                    <th>Freq</th>
+                                    <th>Hist</th>
+                                    <th>Actual Risk</th>
+                                    <th>Baseline Pred</th>
+                                    <th>Proposed CDT</th>
+                                    <th>Score</th>
+                                    <th>Conf</th>
+                                    <th>Explain</th>
+                                </tr>
+                            </thead>
+                            <tbody id="predictionsTableBody">
+                                <!-- Populated dynamically -->
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                        <div class="small text-muted" id="paginationInfo">Showing records...</div>
+                        <div class="btn-group">
+                            <button class="btn btn-sm btn-outline-plum" onclick="loadPredictions(Math.max(1, currentPredictionsPage - 1))">
+                                <i class="fa-solid fa-chevron-left me-1"></i> Prev
+                            </button>
+                            <button class="btn btn-sm btn-plum text-white" onclick="loadPredictions(currentPredictionsPage + 1)">
+                                Next <i class="fa-solid fa-chevron-right ms-1"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 7. SPATIAL STATISTICS & CLUSTERS TAB (Requirement 9 & 11) -->
+            <div class="tab-pane fade" id="pills-spatial" role="tabpanel">
+                <div class="row g-4 mb-4">
+                    <div class="col-lg-6">
+                        <div class="card p-4 border-0 shadow-sm h-100">
+                            <h5 class="fw-bold text-plum mb-3"><i class="fa-solid fa-circle-nodes text-rose me-2"></i> Global Spatial Autocorrelation: Moran's I</h5>
+                            <div class="row g-3 text-center mb-3">
+                                <div class="col-4">
+                                    <div class="p-3 bg-light rounded">
+                                        <div class="small text-muted">Moran's I Index</div>
+                                        <div class="fw-bold text-plum fs-4" id="statMoransI">0.4128</div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="p-3 bg-light rounded">
+                                        <div class="small text-muted">Z-Score</div>
+                                        <div class="fw-bold text-danger fs-4" id="statMoransZ">4.82</div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="p-3 bg-light rounded">
+                                        <div class="small text-muted">p-value</div>
+                                        <div class="fw-bold text-success fs-4" id="statMoransP">&lt; 0.001</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="alert alert-secondary small" role="alert">
+                                <b>Interpretation:</b> <span id="statMoransInterp">Statistically significant spatial clustering of criminal incidents into discrete hotspots.</span>
+                            </div>
+                            
+                            <h6 class="fw-bold text-plum mt-3 mb-2">DBSCAN Density Clusters & Outliers:</h6>
+                            <div class="d-flex gap-3">
+                                <div class="badge bg-plum fs-6 p-2">Total High-Density Clusters: <span id="statDbscanClusters">3</span></div>
+                                <div class="badge bg-secondary fs-6 p-2">DBSCAN Noise / Outliers: <span id="statDbscanNoise">12</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="card p-4 border-0 shadow-sm h-100">
+                            <h5 class="fw-bold text-plum mb-3"><i class="fa-solid fa-fire text-rose me-2"></i> Local Spatial Statistics: Getis-Ord Gi*</h5>
+                            <div class="table-responsive" style="max-height: 280px; overflow-y: auto;">
+                                <table class="table table-sm table-custom align-middle">
+                                    <thead>
+                                        <tr>
+                                            <th>Zone / Area</th>
+                                            <th>High Risk Count</th>
+                                            <th>Gi* Z-Score</th>
+                                            <th>Spatial Classification</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="getisOrdTableBody">
+                                        <!-- Populated dynamically -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 8. SPATIO-TEMPORAL FORECAST TAB (Requirement 10) -->
+            <div class="tab-pane fade" id="pills-forecast" role="tabpanel">
+                <div class="card p-4 border-0 shadow-sm mb-4">
+                    <h5 class="fw-bold text-plum mb-2"><i class="fa-solid fa-clock-rotate-left text-rose me-2"></i> Spatio-Temporal Hotspot Forecasting (LSTM / Sequence Outlook)</h5>
+                    <p class="small text-muted mb-4">Predictive incident frequency and probability across next 24 hours and next 7 days.</p>
+                    
+                    <h6 class="fw-bold text-plum mb-3"><i class="fa-solid fa-bell text-rose me-2"></i> Next-Day High-Risk Hotspot Outlook:</h6>
+                    <div class="row" id="nextDayForecastList">
+                        <!-- Populated dynamically -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- 9. DIGITAL TWIN WHAT-IF SIMULATOR TAB (Requirement 14) -->
+            <div class="tab-pane fade" id="pills-simulator" role="tabpanel">
+                <div class="card p-4 border-0 shadow-sm mb-4">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <div>
+                            <h5 class="fw-bold text-plum mb-1"><i class="fa-solid fa-dna text-rose me-2"></i> Cognitive Digital Twin What-If Policy Simulator</h5>
+                            <div class="small text-muted">Simulate proactive law enforcement interventions (patrol shifts, lighting upgrades, festival crowds, weather).</div>
+                        </div>
+                        <span class="badge bg-plum-subtle text-plum border border-plum px-3 py-2">
+                            Hypothetical Digital Twin Simulation
+                        </span>
+                    </div>
+
+                    <div class="row g-4 mb-4 p-3 bg-light rounded border">
+                        <div class="col-md-3">
+                            <label class="form-label small fw-bold text-plum">
+                                <i class="fa-solid fa-car-side text-rose me-1"></i> Patrol Deployment Presence
+                            </label>
+                            <input type="range" class="form-range" id="sliderPatrol" min="-50" max="100" value="30" oninput="document.getElementById('valPatrol').innerText = (this.value>0?'+':'')+this.value+'%'">
+                            <div class="d-flex justify-content-between small text-muted">
+                                <span>-50%</span>
+                                <span class="fw-bold text-plum" id="valPatrol">+30%</span>
+                                <span>+100%</span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <label class="form-label small fw-bold text-plum">
+                                <i class="fa-solid fa-lightbulb text-rose me-1"></i> Street Lighting Infrastructure
+                            </label>
+                            <input type="range" class="form-range" id="sliderLighting" min="-20" max="50" value="20" oninput="document.getElementById('valLighting').innerText = (this.value>0?'+':'')+this.value+'%'">
+                            <div class="d-flex justify-content-between small text-muted">
+                                <span>Poor (-20%)</span>
+                                <span class="fw-bold text-plum" id="valLighting">+20%</span>
+                                <span>High (+50%)</span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <label class="form-label small fw-bold text-plum">
+                                <i class="fa-solid fa-users text-rose me-1"></i> Event / Festival Crowd Density
+                            </label>
+                            <select class="form-select form-select-sm" id="selectCrowd">
+                                <option value="Low">Low / Sparse</option>
+                                <option value="Normal" selected>Normal Urban Flow</option>
+                                <option value="High">High / Festival Crowd</option>
+                                <option value="Extreme">Extreme / Religious Gathering</option>
+                            </select>
+                        </div>
+
+                        <div class="col-md-3">
+                            <label class="form-label small fw-bold text-plum">
+                                <i class="fa-solid fa-cloud-rain text-rose me-1"></i> Weather Condition
+                            </label>
+                            <select class="form-select form-select-sm" id="selectWeather">
+                                <option value="Clear" selected>Clear / Fair</option>
+                                <option value="Light Rain">Light Monsoon Rain</option>
+                                <option value="Heavy Storm">Heavy Downpour / Thunderstorm</option>
+                                <option value="Dense Fog">Dense Winter Fog</option>
+                            </select>
+                        </div>
+
+                        <div class="col-12 text-end">
+                            <button class="btn btn-rose text-white px-4 fw-bold shadow-sm" onclick="runTwinSimulation()">
+                                <i class="fa-solid fa-play me-2"></i> Run Cognitive Digital Twin Simulation
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Side-by-side results -->
+                    <div class="row g-3 mb-4 text-center">
+                        <div class="col-md-4">
+                            <div class="p-3 bg-light rounded border">
+                                <div class="small text-muted">Baseline Municipal Risk</div>
+                                <div class="fw-bold text-plum fs-3" id="simBaseRisk">64.5/100</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="p-3 bg-light rounded border">
+                                <div class="small text-muted">Simulated Twin Risk</div>
+                                <div class="fw-bold text-rose fs-3" id="simNewRisk">51.2/100</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="p-3 bg-light rounded border">
+                                <div class="small text-muted">Policy Delta Impact</div>
+                                <div class="fw-bold text-success fs-3" id="simRiskDelta">-13.3 pts</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="simPolicyEvaluation" class="mb-3"></div>
+
+                    <div class="table-responsive">
+                        <table class="table table-sm table-custom align-middle">
+                            <thead>
+                                <tr>
+                                    <th>Zone Name</th>
+                                    <th>Baseline Risk</th>
+                                    <th>Simulated Risk</th>
+                                    <th>Risk Delta</th>
+                                    <th>Transition Status</th>
+                                </tr>
+                            </thead>
+                            <tbody id="simulatedZonesTableBody">
+                                <!-- Populated dynamically -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 10. PATROL ROUTE & RESOURCE ALLOCATION TAB (Requirement 13) -->
+            <div class="tab-pane fade" id="pills-patrol" role="tabpanel">
+                <div class="card p-4 border-0 shadow-sm mb-4">
+                    <h5 class="fw-bold text-plum mb-2"><i class="fa-solid fa-route text-rose me-2"></i> Intelligent Patrol Route Optimization & Resource Allocation</h5>
+                    <p class="small text-muted mb-4">Allocates mobile units to cover top predicted hotspots and computes optimal multi-waypoint patrol trajectories.</p>
+
+                    <div class="row g-3 align-items-end p-3 bg-light rounded border mb-4">
+                        <div class="col-md-4">
+                            <label class="form-label small fw-bold text-plum"><i class="fa-solid fa-user-group me-1"></i> Number of Mobile Patrol Units</label>
+                            <input type="number" class="form-control form-control-sm" id="inputPatrolUnits" value="4" min="1" max="10">
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label small fw-bold text-plum"><i class="fa-solid fa-business-time me-1"></i> Shift Duration (Hours)</label>
+                            <input type="number" class="form-control form-control-sm" id="inputShiftHours" value="8" min="4" max="12">
+                        </div>
+                        <div class="col-md-4 text-end">
+                            <button class="btn btn-plum text-white w-100" onclick="optimizePatrolRoute()">
+                                <i class="fa-solid fa-compass me-2"></i> Compute Optimal Patrol Route
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="row g-3 mb-4 text-center">
+                        <div class="col-md-3">
+                            <div class="p-3 bg-light rounded">
+                                <div class="small text-muted">Total Route Distance</div>
+                                <div class="fw-bold text-plum fs-4" id="routeDistanceKm">28.4 km</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="p-3 bg-light rounded">
+                                <div class="small text-muted">Active Patrol Time</div>
+                                <div class="fw-bold text-plum fs-4" id="routeActiveHours">7.2 hrs</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="p-3 bg-light rounded">
+                                <div class="small text-muted">Resource Utilization</div>
+                                <div class="fw-bold text-success fs-4" id="routeUtilization">90%</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="p-3 bg-light rounded">
+                                <div class="small text-muted">Covered Hotspots</div>
+                                <div class="fw-bold text-rose fs-4" id="routeCoveredZones">8 Zones</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h6 class="fw-bold text-plum mb-2">Turn-by-Turn Hotspot Waypoints:</h6>
+                    <div id="patrolWaypointsList"></div>
+                </div>
+            </div>
+
+            <!-- 11. SINGLE INCIDENT PREDICTOR TAB (Requirement 15) -->
+            <div class="tab-pane fade" id="pills-single" role="tabpanel">
+                <div class="card p-4 border-0 shadow-sm">
+                    <h5 class="fw-bold text-plum mb-2"><i class="fa-solid fa-crosshairs text-rose me-2"></i> Live Single-Incident Risk Predictor (Interactive Demo)</h5>
+                    <p class="small text-muted mb-4">Input coordinates, timestamp, and incident category to receive instant probability, risk score, and SHAP factors.</p>
+
+                    <div class="row g-3 mb-4">
+                        <div class="col-md-3">
+                            <label class="form-label small fw-bold text-plum">Latitude</label>
+                            <input type="number" step="0.0001" class="form-control form-control-sm" id="singleLat" value="17.3616">
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label small fw-bold text-plum">Longitude</label>
+                            <input type="number" step="0.0001" class="form-control form-control-sm" id="singleLon" value="78.4747">
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label small fw-bold text-plum">Incident Time (HH:MM)</label>
+                            <input type="text" class="form-control form-control-sm" id="singleTime" value="23:15:00">
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label small fw-bold text-plum">Day of Week</label>
+                            <select class="form-select form-select-sm" id="singleDay">
+                                <option value="Saturday" selected>Saturday</option>
+                                <option value="Friday">Friday</option>
+                                <option value="Sunday">Sunday</option>
+                                <option value="Monday">Monday</option>
+                                <option value="Tuesday">Tuesday</option>
+                                <option value="Wednesday">Wednesday</option>
+                                <option value="Thursday">Thursday</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label small fw-bold text-plum">Crime Type</label>
+                            <select class="form-select form-select-sm" id="singleCrimeType">
+                                <option value="Robbery" selected>Robbery</option>
+                                <option value="Theft">Theft</option>
+                                <option value="Burglary">Burglary</option>
+                                <option value="Assault">Assault</option>
+                                <option value="Chain Snatching">Chain Snatching</option>
+                                <option value="Vehicle Theft">Vehicle Theft</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label small fw-bold text-plum">Location Category</label>
+                            <select class="form-select form-select-sm" id="singleLocCat">
+                                <option value="Market/Bazaar" selected>Market / Bazaar</option>
+                                <option value="Nightclub/Bar">Nightclub / Bar</option>
+                                <option value="Transit Station">Transit Station</option>
+                                <option value="Street/Road">Street / Road</option>
+                                <option value="Commercial">Commercial</option>
+                                <option value="Residential">Residential</option>
+                            </select>
+                        </div>
+                        <div class="col-12 text-end">
+                            <button class="btn btn-rose text-white px-4 fw-bold" onclick="predictSingleIncidentLive()">
+                                <i class="fa-solid fa-wand-magic-sparkles me-2"></i> Predict Incident Risk Instantly
+                            </button>
+                        </div>
+                    </div>
+
+                    <div id="singlePredictResult"></div>
+                </div>
+            </div>
+
+            <!-- 12. ASK COGNITIVE AI TAB (Feature 51) -->
+            <div class="tab-pane fade" id="pills-ai" role="tabpanel">
+                <div class="card p-4 border-0 shadow-sm">
+                    <h5 class="fw-bold text-plum mb-2"><i class="fa-solid fa-brain text-rose me-2"></i> Natural-Language Analytics ("Ask CDT AI")</h5>
+                    <p class="small text-muted mb-3">Ask queries regarding municipal hotspot clusters, peak hours, models, or data leakage in plain English.</p>
+
+                    <div class="chat-container border rounded p-3 mb-3 bg-light" id="aiChatHistory" style="height: 340px; overflow-y: auto;">
+                        <div class="d-flex justify-content-start mb-2">
+                            <div class="p-2 rounded bg-white border small text-dark" style="max-width: 85%;">
+                                <i class="fa-solid fa-brain text-rose me-1"></i> Hello, Officer. I am the Cognitive Digital Twin Intelligence Assistant. You can ask me questions such as <i>"What is the peak crime window?"</i>, <i>"Show top active hotspots"</i>, <i>"What is our model accuracy?"</i>, or <i>"Explain data leakage"</i>.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="input-group mb-2">
+                        <input type="text" class="form-control" id="aiQueryInput" placeholder="Ask a question about hotspot trends, rankings, or metrics..." onkeypress="if(event.key==='Enter') askCognitiveAI()">
+                        <button class="btn btn-plum text-white px-4" onclick="askCognitiveAI()">
+                            <i class="fa-solid fa-paper-plane me-1"></i> Send Query
+                        </button>
+                    </div>
+
+                    <!-- Quick Query Chips (Categorized) -->
+                    <div class="mt-3 p-3 bg-white rounded border shadow-2xs">
+                        <div class="d-flex align-items-center mb-2">
+                            <i class="fa-solid fa-sparkles text-rose me-2"></i>
+                            <span class="small fw-bold text-plum">Tactical Intelligence Prompts (Click to Query Instantly):</span>
+                        </div>
+                        <div class="d-flex flex-wrap gap-1 mb-2">
+                            <span class="badge bg-plum text-white small align-self-center me-1">Operations</span>
+                            <button type="button" class="btn btn-xs btn-outline-plum" onclick="quickAskAI('How many officers should we deploy tonight?')"><i class="fa-solid fa-user-shield me-1"></i> Shift Staffing</button>
+                            <button type="button" class="btn btn-xs btn-outline-plum" onclick="quickAskAI('Women safety directives and safe corridors')"><i class="fa-solid fa-shield-heart text-rose me-1"></i> Women Safety</button>
+                            <button type="button" class="btn btn-xs btn-outline-plum" onclick="quickAskAI('Emergency response time reduction')"><i class="fa-solid fa-stopwatch me-1"></i> Response Latency</button>
+                            <button type="button" class="btn btn-xs btn-outline-plum" onclick="quickAskAI('Strategic CCTV and checkpoint placement')"><i class="fa-solid fa-video me-1"></i> CCTV & Nakabandi</button>
+                        </div>
+                        <div class="d-flex flex-wrap gap-1 mb-2">
+                            <span class="badge bg-rose text-white small align-self-center me-1">Crimes & Zones</span>
+                            <button type="button" class="btn btn-xs btn-outline-rose" onclick="quickAskAI('Tell me about theft')"><i class="fa-solid fa-bullseye me-1"></i> Theft Analysis</button>
+                            <button type="button" class="btn btn-xs btn-outline-rose" onclick="quickAskAI('Show top active hotspots')"><i class="fa-solid fa-triangle-exclamation me-1"></i> Top Hotspots</button>
+                            <button type="button" class="btn btn-xs btn-outline-rose" onclick="quickAskAI('What is the peak crime window?')"><i class="fa-solid fa-clock me-1"></i> Peak Hours</button>
+                            <button type="button" class="btn btn-xs btn-outline-rose" onclick="quickAskAI('Show risk in Charminar')"><i class="fa-solid fa-location-dot me-1"></i> Charminar</button>
+                            <button type="button" class="btn btn-xs btn-outline-rose" onclick="quickAskAI('Risk level in Banjara Hills')"><i class="fa-solid fa-location-dot me-1"></i> Banjara Hills</button>
+                        </div>
+                        <div class="d-flex flex-wrap gap-1">
+                            <span class="badge bg-secondary text-white small align-self-center me-1">AI & Twin</span>
+                            <button type="button" class="btn btn-xs btn-outline-secondary" onclick="quickAskAI('What is our model accuracy?')"><i class="fa-solid fa-chart-line me-1"></i> Model Accuracy</button>
+                            <button type="button" class="btn btn-xs btn-outline-secondary" onclick="quickAskAI('Why is XGBoost used in the ensemble?')"><i class="fa-solid fa-bolt me-1"></i> Why XGBoost?</button>
+                            <button type="button" class="btn btn-xs btn-outline-secondary" onclick="quickAskAI('Explain data leakage audit')"><i class="fa-solid fa-shield-virus me-1"></i> Data Leakage</button>
+                            <button type="button" class="btn btn-xs btn-outline-secondary" onclick="quickAskAI('How does heavy rain affect crime?')"><i class="fa-solid fa-cloud-showers-heavy me-1"></i> Weather Simulation</button>
+                            <button type="button" class="btn btn-xs btn-outline-secondary" onclick="quickAskAI('Simulate festival crowd surge')"><i class="fa-solid fa-users me-1"></i> Festival Crowds</button>
+                            <button type="button" class="btn btn-xs btn-outline-secondary" onclick="quickAskAI('7-day hotspot forecast')"><i class="fa-solid fa-crystal-ball me-1"></i> 7-Day Forecast</button>
+                            <button type="button" class="btn btn-xs btn-outline-secondary" onclick="quickAskAI('DBSCAN vs KMeans clustering')"><i class="fa-solid fa-cubes me-1"></i> DBSCAN vs KMeans</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 13. POLICE BRIEFING REPORT & EXPORTS TAB (Requirement 17) -->
+            <div class="tab-pane fade" id="pills-reports" role="tabpanel">
+                <div class="card p-4 border-0 shadow-sm">
+                    <div class="row align-items-center">
+                        <div class="col-lg-8">
+                            <div class="badge bg-plum-subtle text-plum mb-2">OFFICIAL DOCUMENTATION GENERATION</div>
+                            <h4 class="fw-bold text-plum mb-2">Official Police Briefing Report (Plum & Rose Theme)</h4>
+                            <p class="text-muted small mb-3">
+                                Generates a downloadable high-resolution PDF document formatted in accordance with police departmental intelligence standards. 
+                                Includes spatial statistics, executive findings, top 5 priority hotspots, and resource deployment guidance.
+                            </p>
+                            <div class="d-flex flex-wrap gap-2">
+                                <a href="/api/export/pdf" class="btn btn-rose text-white px-4 py-2 fw-bold shadow-sm">
+                                    <i class="fa-solid fa-file-pdf me-2"></i> Download Police Briefing PDF
+                                </a>
+                                <a href="/api/export/csv" class="btn btn-outline-plum px-3 py-2">
+                                    <i class="fa-solid fa-file-csv me-1"></i> Export CSV
+                                </a>
+                                <a href="/api/export/excel" class="btn btn-outline-success px-3 py-2">
+                                    <i class="fa-solid fa-file-excel me-1"></i> Export Excel (.xlsx)
+                                </a>
+                                <a href="/api/export/json" class="btn btn-outline-dark px-3 py-2">
+                                    <i class="fa-solid fa-code me-1"></i> Export JSON
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 text-center mt-3 mt-lg-0">
+                            <div class="p-3 rounded border border-rose" style="background:#FDF2F5;">
+                                <i class="fa-solid fa-shield-cat fa-3x text-plum mb-2"></i>
+                                <div class="fw-bold text-plum">Police Intelligence Seal</div>
+                                <div class="small text-muted">Authorized Dispatch Document</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 14. AUDIT TRAIL, ROLES & ETHICS TAB (Requirement 18) -->
+            <div class="tab-pane fade" id="pills-audit" role="tabpanel">
+                <div class="card p-4 border-0 shadow-sm mb-4">
+                    <h5 class="fw-bold text-plum mb-2"><i class="fa-solid fa-user-shield text-rose me-2"></i> Role-Based Access Control & System Operations Audit Trail</h5>
+                    <p class="small text-muted mb-3">Records who performed dataset uploads, model retraining, simulations, and export requests with timestamp and IP verification.</p>
+
+                    <div class="table-responsive">
+                        <table class="table table-sm table-custom align-middle">
+                            <thead>
+                                <tr>
+                                    <th>Timestamp</th>
+                                    <th>User & Role</th>
+                                    <th>Operation / Action</th>
+                                    <th>Details</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody id="auditLogTableBody">
+                                <!-- Populated dynamically -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Responsible AI & Ethics Notice -->
+                <div class="alert alert-secondary p-3 border-0 rounded" style="background:#F1F5F9;">
+                    <h6 class="fw-bold text-plum mb-1"><i class="fa-solid fa-scale-balanced text-rose me-2"></i> Responsible AI & Ethical Policing Charter (Feature 44)</h6>
+                    <div class="small text-muted">
+                        • <b>Probabilistic Estimation:</b> All predictions, hotspots, and risk scores are statistical estimates and not legal proof of guilt or future crime occurrence.<br>
+                        • <b>Human-in-the-Loop:</b> Tactical and patrol deployments require supervisory human police officer review and approval.<br>
+                        • <b>Anti-Profiling Guarantee:</b> Model features strictly exclude personal identifiers, race, caste, religion, and demographic attributes to prevent algorithmic bias.<br>
+                        • <b>Accountability:</b> Immutable logging ensures complete forensic traceability of every recommendation.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="app-footer text-center">
+        <div class="container-fluid">
+            <span>Cognitive Digital Twin for Crime Hotspot Detection & Analysis &copy; 2026. Confidential Law Enforcement Analytics.</span>
+        </div>
+    </footer>
+
+    <!-- CONFUSION MATRIX MODAL -->
+    <div class="modal fade" id="confusionMatrixModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content border-0 shadow-lg">
+                <div class="modal-header bg-plum text-white py-3 px-4">
+                    <h5 class="modal-title fs-6 fw-bold"><i class="fa-solid fa-table-cells text-rose me-2"></i> Model Confusion Matrix & Multi-Class Diagnostics</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4" id="confusionMatrixModalBody">
+                    <!-- Populated dynamically -->
+                </div>
+                <div class="modal-footer py-2 px-4 justify-content-between bg-light">
+                    <span class="small text-muted"><i class="fa-solid fa-shield-halved text-rose me-1"></i> Cognitive Digital Twin Model Diagnostics</span>
+                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SHAP EXPLANATION MODAL -->
+    <div class="modal fade" id="shapModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0 shadow-lg">
+                <div class="modal-header bg-plum text-white">
+                    <h5 class="modal-title fs-6"><i class="fa-solid fa-brain me-2 text-rose"></i> Explainable AI — SHAP Feature Attribution</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body" id="shapModalBody">
+                    <!-- Loaded dynamically -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RETRAIN MODEL MODAL -->
+    <div class="modal fade" id="retrainModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0 shadow-lg">
+                <div class="modal-header bg-plum text-white">
+                    <h5 class="modal-title fs-6"><i class="fa-solid fa-rotate me-2 text-rose"></i> Retrain Cognitive Digital Twin Ensemble</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="small text-muted">Retrain the model ensemble on newly available observations with updated hyper-parameters.</p>
+                    <div class="form-check form-switch mb-3">
+                        <input class="form-check-input" type="checkbox" id="retrainUseSmote" checked>
+                        <label class="form-check-label small fw-bold" for="retrainUseSmote">
+                            Apply SMOTE Class Balancing to Training Split
+                        </label>
+                    </div>
+                    <div class="alert alert-info py-2 px-3 small">
+                        Retraining will increment model version (e.g. v1.0 &rarr; v1.1) and update all evaluation metrics dynamically.
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-rose btn-sm text-white" id="btnDoRetrain" onclick="retrainModelWorkflow()">
+                        <i class="fa-solid fa-play me-1"></i> Execute Retraining
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- UPLOAD CSV MODAL -->
+    <div class="modal fade" id="uploadModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0 shadow-lg">
+                <div class="modal-header bg-plum text-white">
+                    <h5 class="modal-title fs-6"><i class="fa-solid fa-cloud-arrow-up me-2 text-rose"></i> Upload Custom Crime Dataset (.CSV)</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <form id="uploadForm" enctype="multipart/form-data" onsubmit="event.preventDefault(); handleDatasetUpload();">
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <label class="form-label small fw-bold">Select CSV File</label>
+                            <input type="file" class="form-control form-control-sm" id="csvFileInput" accept=".csv" required>
+                        </div>
+                        <div class="alert alert-secondary py-2 px-3 small">
+                            Required attributes: <code>latitude, longitude, crime_type, risk_level, area_name</code>. Missing values and duplicates will be tracked and cleanly handled.
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-rose btn-sm text-white" id="btnUploadSubmit">
+                            Upload & Rebuild Twin
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <!-- Leaflet Heat plugin -->
+    <script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+
+    <!-- Custom App JS -->
+    <script src="/static/js/map.js?v=20261118"></script>
+    <script src="/static/js/charts.js?v=20261118"></script>
+    <script src="/static/js/app.js?v=20261118"></script>
+
+    <script>
+    async function handleDatasetUpload() {
+        const fileInput = document.getElementById('csvFileInput');
+        if (!fileInput.files || fileInput.files.length === 0) return;
+        
+        const formData = new FormData();
+        formData.append('file', fileInput.files[0]);
+        
+        const btn = document.getElementById('btnUploadSubmit');
+        btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin me-1"></i> Processing...';
+        btn.disabled = true;
+        
+        try {
+            const res = await fetch('/api/dataset/upload', {
+                method: 'POST',
+                body: formData
+            });
+            const data = await res.json();
+            if (data.status === 'SUCCESS') {
+                alert(data.message);
+                window.location.reload();
+            } else {
+                alert("Upload failed: " + data.message);
+            }
+        } catch (e) {
+            alert("Upload error: " + e.message);
+        } finally {
+            btn.innerHTML = 'Upload & Rebuild Twin';
+            btn.disabled = false;
+        }
+    }
+    </script>
+    <!-- High-Resolution Chart Image Modal -->
+    <div class="modal fade" id="chartModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content border-0 shadow">
+                <div class="modal-header bg-plum text-white py-2 px-3">
+                    <h6 class="modal-title fw-bold" id="chartModalTitle"><i class="fa-solid fa-chart-line text-rose me-2"></i> Chart Inspection</h6>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-3 text-center bg-light">
+                    <img id="chartModalImg" src="" alt="Full Chart" class="img-fluid rounded border shadow-sm" style="max-height: 80vh; width: auto;">
+                </div>
+                <div class="modal-footer py-2 px-3 justify-content-between bg-white">
+                    <span class="small text-muted"><i class="fa-solid fa-shield-halved text-rose me-1"></i> Cognitive Digital Twin Analytical Visualizations</span>
+                    <div>
+                        <a id="chartModalDownloadBtn" href="#" download="" class="btn btn-sm btn-plum">
+                            <i class="fa-solid fa-download me-1"></i> Download High-Res PNG
+                        </a>
+                        <button type="button" class="btn btn-sm btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    function switchChartView(chartKey, viewType) {
+        const imgView = document.getElementById(`view-${chartKey}-img`);
+        const canvasView = document.getElementById(`view-${chartKey}-canvas`);
+        const btnImg = document.getElementById(`btn-${chartKey}-img`);
+        const btnCanvas = document.getElementById(`btn-${chartKey}-canvas`);
+
+        if (viewType === 'img') {
+            if (imgView) imgView.classList.remove('d-none');
+            if (canvasView) canvasView.classList.add('d-none');
+            if (btnImg) btnImg.classList.add('active');
+            if (btnCanvas) btnCanvas.classList.remove('active');
+        } else {
+            if (imgView) imgView.classList.add('d-none');
+            if (canvasView) canvasView.classList.remove('d-none');
+            if (btnImg) btnImg.classList.remove('active');
+            if (btnCanvas) btnCanvas.classList.add('active');
+            
+            if (typeof window.ensureChartRendered === 'function') {
+                window.ensureChartRendered(chartKey);
+            }
+        }
+    }
+
+    function setAllChartsView(viewType) {
+        const btnAllImg = document.getElementById('btn-all-img');
+        const btnAllCanvas = document.getElementById('btn-all-canvas');
+        if (btnAllImg && btnAllCanvas) {
+            if (viewType === 'img') {
+                btnAllImg.classList.add('btn-plum');
+                btnAllImg.classList.remove('btn-outline-plum');
+                btnAllCanvas.classList.add('btn-outline-plum');
+                btnAllCanvas.classList.remove('btn-plum');
+            } else {
+                btnAllCanvas.classList.add('btn-plum');
+                btnAllCanvas.classList.remove('btn-outline-plum');
+                btnAllImg.classList.add('btn-outline-plum');
+                btnAllImg.classList.remove('btn-plum');
+            }
+        }
+        ['hourly', 'areaRank', 'day', 'category', 'model', 'smote'].forEach(k => {
+            switchChartView(k, viewType);
+        });
+        window.dispatchEvent(new Event('resize'));
+    }
+
+    function openChartModal(imgSrc, title) {
+        const modalImg = document.getElementById('chartModalImg');
+        const modalTitle = document.getElementById('chartModalTitle');
+        const downloadBtn = document.getElementById('chartModalDownloadBtn');
+        
+        if (modalImg) modalImg.src = imgSrc;
+        if (modalTitle) modalTitle.innerHTML = `<i class="fa-solid fa-chart-pie text-rose me-2"></i> ${title}`;
+        if (downloadBtn) {
+            downloadBtn.href = imgSrc;
+            const filename = imgSrc.split('/').pop().split('?')[0] || 'chart.png';
+            downloadBtn.setAttribute('download', filename);
+        }
+        
+        const myModal = new bootstrap.Modal(document.getElementById('chartModal'));
+        myModal.show();
+    }
+
+    async function refreshAllChartImages() {
+        const btn = document.getElementById('btnRefreshCharts');
+        if (btn) {
+            btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin me-1"></i> Rendering Charts...';
+            btn.disabled = true;
+        }
+        try {
+            const res = await fetch('/api/charts/refresh', { method: 'POST' });
+            const data = await res.json();
+            if (data.status === 'SUCCESS') {
+                const timestamp = data.timestamp || Date.now();
+                ['hourly', 'areaRank', 'day', 'category', 'model', 'smote'].forEach(k => {
+                    const img = document.getElementById(`img-${k}`);
+                    if (img) {
+                        const baseSrc = img.src.split('?')[0];
+                        img.src = `${baseSrc}?t=${timestamp}`;
+                    }
+                });
+                alert("High-resolution chart images refreshed successfully!");
+            } else {
+                alert("Failed to refresh chart images: " + (data.message || ''));
+            }
+        } catch(err) {
+            console.error("Refresh charts error:", err);
+            alert("Error refreshing charts: " + err.message);
+        } finally {
+            if (btn) {
+                btn.innerHTML = '<i class="fa-solid fa-arrows-rotate me-1"></i> Re-generate Chart Images';
+                btn.disabled = false;
+            }
+        }
+    }
+    </script>
+</body>
+</html>

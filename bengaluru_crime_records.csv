@@ -1,0 +1,1216 @@
+date,time,day_of_week,month,city,area_name,latitude,longitude,crime_type,location_category,crime_frequency,historical_crime_count,risk_level
+2025-02-27,22:15:14,Thursday,February,Bengaluru,Marathahalli,12.963074,77.696294,Robbery,Residential,3.69,77,High
+2025-08-05,01:01:05,Tuesday,August,Bengaluru,Malleshwaram,13.005332,77.572384,Assault,Street/Road,0.89,15,Low
+2025-04-12,22:41:44,Saturday,April,Bengaluru,Hebbal,13.032044,77.60134,Harassment,Parking Lot,1.6,32,Medium
+2025-10-29,02:00:48,Wednesday,October,Bengaluru,Shivajinagar,12.9654,77.610903,Robbery,Parking Lot,3.6,75,High
+2025-03-21,06:48:21,Friday,March,Bengaluru,HSR Layout,12.904836,77.633302,Burglary,Residential,0.82,18,Low
+2025-07-03,11:38:16,Thursday,July,Bengaluru,Indiranagar,12.998876,77.643954,Theft,Park/Open Ground,2.06,37,Medium
+2026-04-18,12:05:35,Saturday,April,Bengaluru,Indiranagar,12.973595,77.638466,Vehicle Theft,Bank/ATM,2.13,47,Medium
+2025-12-27,02:02:42,Saturday,December,Bengaluru,Whitefield,12.965531,77.749956,Assault,Nightclub/Bar,2.27,45,High
+2025-04-30,03:24:17,Wednesday,April,Bengaluru,Yelahanka,13.102371,77.580623,Cybercrime,Bank/ATM,0.89,15,Low
+2025-07-01,06:42:17,Tuesday,July,Bengaluru,Electronic City,12.846949,77.667254,Burglary,Transit Station,2.36,52,High
+2025-05-06,23:17:59,Tuesday,May,Bengaluru,BTM Layout,12.915675,77.607691,Harassment,Street/Road,4.16,77,High
+2026-01-29,01:14:52,Thursday,January,Bengaluru,Yelahanka,13.089927,77.589255,Theft,Bank/ATM,1.01,19,Low
+2025-02-03,06:58:36,Monday,February,Bengaluru,HSR Layout,12.906685,77.649493,Chain Snatching,Street/Road,1.12,22,Low
+2026-03-29,20:29:09,Sunday,March,Bengaluru,Jayanagar,12.929143,77.578812,Vehicle Theft,Transit Station,0.75,17,Low
+2025-10-15,01:37:27,Wednesday,October,Bengaluru,BTM Layout,12.907749,77.60053,Drug Offense,Parking Lot,4.56,86,High
+2025-03-12,16:31:05,Wednesday,March,Bengaluru,Whitefield,12.961497,77.749394,Theft,Residential,2.06,41,Medium
+2025-03-23,,Sunday,March,Bengaluru,Marathahalli,12.958813,77.709917,Vandalism,Parking Lot,3.88,84,High
+2025-05-09,17:55:00,Friday,May,Bengaluru,Hebbal,13.02445,77.60534,Burglary,Market/Bazaar,1.86,39,Medium
+2025-11-25,10:07:18,Tuesday,November,Bengaluru,Rajajinagar,13.010023,77.548854,Vandalism,Transit Station,1.8,37,Medium
+2026-01-05,11:32:48,Monday,January,Bengaluru,Koramangala,12.939212,77.633765,Robbery,Market/Bazaar,4.09,74,High
+2025-11-17,09:53:40,Monday,November,Bengaluru,Yelahanka,13.095084,77.593679,Harassment,Street/Road,0.73,12,Low
+2026-01-26,05:34:49,Monday,January,Bengaluru,Electronic City,12.823959,77.662964,Harassment,Commercial,1.9,39,Medium
+2025-09-08,00:07:59,Monday,September,Bengaluru,Electronic City,12.84391,77.663432,Chain Snatching,Nightclub/Bar,1.87,38,Medium
+2025-05-04,05:05:46,Sunday,May,Bengaluru,Koramangala,12.935052,77.611112,Cybercrime,Residential,3.29,69,High
+2025-12-04,00:10:16,Thursday,December,Bengaluru,MG Road,12.976082,77.626306,Harassment,Parking Lot,3.54,60,High
+2026-01-22,23:44:12,Thursday,January,Bengaluru,Hebbal,13.031202,77.593628,Vehicle Theft,Parking Lot,2.1,40,Medium
+2025-07-11,00:28:07,Friday,July,Bengaluru,Marathahalli,12.965428,77.690125,Assault,Street/Road,3.7,69,High
+2025-01-11,18:35:14,Saturday,January,Bengaluru,Electronic City,12.838155,77.660815,Drug Offense,Street/Road,1.91,41,Medium
+2025-12-29,20:03:14,Monday,December,Bengaluru,Indiranagar,12.979197,77.636772,Burglary,Commercial,2.12,43,Medium
+2025-09-21,07:17:42,Sunday,September,Bengaluru,Indiranagar,12.983593,77.631017,Cybercrime,Street/Road,1.83,37,Medium
+2026-01-06,18:15:50,Tuesday,January,Bengaluru,MG Road,12.969334,77.604024,Cybercrime,Parking Lot,4.24,89,High
+2025-02-19,21:27:22,Wednesday,February,Bengaluru,Indiranagar,12.986751,77.645012,Vandalism,Parking Lot,2.02,43,Medium
+2026-01-09,01:43:41,Friday,January,Bengaluru,Yelahanka,13.102779,77.602555,Burglary,Commercial,0.91,17,Low
+2025-06-23,06:15:12,Monday,June,Bengaluru,BTM Layout,12.921541,77.619837,Assault,Market/Bazaar,3.97,71,High
+2025-08-05,23:15:55,Tuesday,August,Bengaluru,MG Road,12.977945,77.600885,Burglary,Park/Open Ground,3.92,74,High
+2025-11-30,03:05:59,Sunday,November,Bengaluru,Koramangala,12.941076,77.616864,Assault,Transit Station,4.1,77,High
+2025-09-04,23:57:03,Thursday,September,Bengaluru,Shivajinagar,12.994007,77.606602,Robbery,Parking Lot,3.49,73,High
+2025-05-16,14:18:27,Friday,May,Bengaluru,Jayanagar,12.919841,77.577626,Harassment,Park/Open Ground,0.77,14,Low
+2025-06-01,06:03:37,Sunday,June,Bengaluru,Whitefield,12.969904,77.761628,Harassment,Commercial,1.92,41,Medium
+2025-01-26,00:58:54,Sunday,January,Bengaluru,Koramangala,12.927496,77.632317,Harassment,Transit Station,3.87,68,High
+2025-02-11,05:04:38,Tuesday,February,Bengaluru,Hebbal,13.039586,77.596417,Burglary,Street/Road,2.02,37,Medium
+2026-04-28,18:15:37,Tuesday,April,Bengaluru,Indiranagar,12.970992,77.636696,Drug Offense,Commercial,2.28,45,Medium
+2025-08-03,21:37:36,Sunday,August,Bengaluru,Indiranagar,12.971329,77.64203,Harassment,Bank/ATM,1.83,32,Medium
+2025-12-09,22:20:15,Tuesday,December,Bengaluru,Whitefield,12.97678,77.75853,Vehicle Theft,Parking Lot,1.92,40,Medium
+2025-11-27,22:59:48,Thursday,November,Bengaluru,Marathahalli,12.96322,77.70151,Burglary,Commercial,4.42,84,High
+2025-10-16,03:04:34,Thursday,October,Bengaluru,Malleshwaram,13.013747,77.572206,Assault,Market/Bazaar,0.67,15,Low
+2026-04-23,20:56:15,Thursday,April,Bengaluru,MG Road,12.971717,77.607255,Chain Snatching,Nightclub/Bar,3.66,74,High
+2026-03-03,22:39:51,Tuesday,March,Bengaluru,Shivajinagar,12.982984,77.603942,Harassment,Commercial,3.91,76,High
+2025-02-23,07:16:07,Sunday,February,Bengaluru,Marathahalli,12.953378,77.702837,Burglary,Market/Bazaar,3.62,77,High
+2025-05-25,19:13:45,Sunday,May,Bengaluru,HSR Layout,12.931212,77.659347,Chain Snatching,Street/Road,1.01,18,Low
+2025-09-08,08:57:58,Monday,September,Bengaluru,Hebbal,13.019599,77.598492,Theft,Residential,2.38,50,High
+2026-03-01,08:02:00,Sunday,March,Bengaluru,Jayanagar,12.924625,77.59709,Chain Snatching,Transit Station,0.63,13,Low
+2026-01-15,01:27:35,Thursday,January,Bengaluru,MG Road,12.989724,77.60984,Theft,Residential,4.17,75,High
+2026-04-08,20:53:23,Wednesday,April,Bengaluru,BTM Layout,12.919618,77.623311,Drug Offense,Market/Bazaar,3.71,76,High
+2025-03-07,01:19:23,Friday,March,Bengaluru,Jayanagar,12.940935,77.578139,Theft,Bank/ATM,0.58,8,Low
+2025-05-08,14:49:35,Thursday,May,Bengaluru,Marathahalli,12.957201,77.712376,Vandalism,Transit Station,3.43,65,High
+2025-03-25,05:56:26,Tuesday,March,Bengaluru,Yelahanka,13.098679,77.586318,Theft,Transit Station,0.89,17,Low
+2026-04-22,13:51:42,Wednesday,April,Bengaluru,Rajajinagar,12.997173,77.549275,Assault,Nightclub/Bar,2.1,39,Medium
+2025-12-26,03:24:55,Friday,December,Bengaluru,Rajajinagar,12.990348,77.556697,Theft,Park/Open Ground,1.33,28,Medium
+2026-02-23,14:22:19,Monday,February,Bengaluru,Whitefield,12.974977,77.751009,Assault,Street/Road,1.9,36,Medium
+2025-04-09,22:55:04,Wednesday,April,Bengaluru,Marathahalli,12.976164,77.681783,Vehicle Theft,Bank/ATM,5.05,97,High
+2026-03-08,20:07:56,Sunday,March,Bengaluru,Marathahalli,12.955209,77.699061,Vehicle Theft,Transit Station,3.48,74,High
+2025-02-25,22:46:50,Tuesday,February,Bengaluru,Koramangala,12.930485,77.631297,Chain Snatching,Parking Lot,3.46,63,High
+2026-04-06,18:12:16,Monday,April,Bengaluru,Jayanagar,12.933696,77.588451,Theft,Parking Lot,0.73,16,Low
+2026-04-19,17:43:46,Sunday,April,Bengaluru,Hebbal,13.041778,77.601883,Assault,Bank/ATM,1.9,39,Medium
+2025-12-07,10:39:20,Sunday,December,Bengaluru,Indiranagar,12.990823,77.637284,Burglary,Nightclub/Bar,2.44,47,High
+2025-12-08,13:20:25,Monday,December,Bengaluru,HSR Layout,12.922544,77.644768,Vehicle Theft,Market/Bazaar,0.67,13,Low
+2025-08-04,21:24:43,Monday,August,Bengaluru,Whitefield,12.967632,77.745095,Robbery,Nightclub/Bar,2.06,42,Medium
+2026-03-03,00:19:18,Tuesday,March,Bengaluru,Hebbal,13.027752,77.587286,Assault,Parking Lot,2.4,47,High
+2025-12-02,10:29:28,Tuesday,December,Bengaluru,Malleshwaram,12.997507,77.564229,Cybercrime,Street/Road,1.07,20,Low
+2026-04-07,23:10:42,Tuesday,April,Bengaluru,Rajajinagar,12.991596,77.550429,Burglary,Nightclub/Bar,1.89,36,Medium
+2025-11-21,20:52:48,Friday,November,Bengaluru,Marathahalli,12.955634,77.699031,Assault,Nightclub/Bar,3.96,85,High
+2025-04-12,04:01:02,Saturday,April,Bengaluru,Rajajinagar,12.986615,77.54174,Assault,Park/Open Ground,2.19,42,Medium
+2026-01-29,02:29:26,Thursday,January,Bengaluru,Yelahanka,13.084403,77.60886,Drug Offense,Street/Road,1.13,24,Medium
+2025-07-24,01:44:00,Thursday,July,Bengaluru,Shivajinagar,12.986152,77.600991,Burglary,Parking Lot,3.02,61,High
+2026-02-16,19:29:03,Monday,February,Bengaluru,MG Road,12.985769,77.612767,Harassment,,3.91,70,High
+2025-03-10,19:35:38,Monday,March,Bengaluru,Shivajinagar,12.988093,77.603401,Chain Snatching,Park/Open Ground,3.98,70,High
+2026-04-10,17:28:57,Friday,April,Bengaluru,Yelahanka,13.118906,77.59955,Robbery,Park/Open Ground,1.09,22,Low
+2026-01-20,07:53:40,Tuesday,January,Bengaluru,HSR Layout,12.919079,77.646067,Vehicle Theft,Market/Bazaar,0.77,12,Low
+2025-05-03,20:45:18,Saturday,May,Bengaluru,Marathahalli,12.958213,77.70521,Assault,Nightclub/Bar,3.95,83,High
+2026-04-03,17:05:08,Friday,April,Bengaluru,Electronic City,12.828209,77.655994,Robbery,Street/Road,2.27,42,Medium
+2025-03-20,05:26:26,Thursday,March,Bengaluru,BTM Layout,12.901298,77.613,Chain Snatching,Market/Bazaar,4.29,92,High
+2025-02-01,06:53:26,Saturday,February,Bengaluru,Jayanagar,12.920238,77.598452,Vandalism,Commercial,1.06,25,Low
+2025-01-04,12:48:24,Saturday,January,Bengaluru,Shivajinagar,12.985711,77.601042,Vandalism,Market/Bazaar,3.49,68,High
+2025-04-23,23:01:24,Wednesday,April,Bengaluru,Shivajinagar,12.985384,77.613203,Chain Snatching,Parking Lot,3.46,73,High
+2025-08-28,04:39:34,Thursday,August,Bengaluru,Yelahanka,13.102775,77.598719,Theft,Parking Lot,0.85,14,Low
+2025-11-26,13:08:55,Wednesday,November,Bengaluru,Indiranagar,12.974799,77.645783,Cybercrime,Transit Station,1.94,34,Medium
+2025-07-14,10:13:29,Monday,July,Bengaluru,HSR Layout,12.901151,77.648884,Chain Snatching,Bank/ATM,0.98,21,Low
+2026-01-21,13:16:53,Wednesday,January,Bengaluru,HSR Layout,12.914759,77.638612,Burglary,Park/Open Ground,0.7,13,Low
+2025-10-04,22:14:41,Saturday,October,Bengaluru,BTM Layout,12.91796,77.619326,Burglary,Commercial,3.62,71,High
+2025-04-13,00:39:09,Sunday,April,Bengaluru,Whitefield,12.974963,77.760949,Assault,Transit Station,2.05,45,Medium
+2025-02-28,21:29:44,Friday,February,Bengaluru,Marathahalli,12.945253,77.708955,Vehicle Theft,Bank/ATM,3.7,74,High
+2025-11-07,23:45:07,Friday,November,Bengaluru,Malleshwaram,13.015119,77.564893,Robbery,Nightclub/Bar,0.79,13,Low
+2025-01-14,09:36:43,Tuesday,January,Bengaluru,Malleshwaram,13.002982,77.570671,Vandalism,Parking Lot,0.82,13,Low
+2025-10-31,22:53:40,Friday,October,Bengaluru,Indiranagar,12.96186,77.640087,Assault,Residential,1.87,41,Medium
+2025-12-17,19:51:07,Wednesday,December,Bengaluru,Yelahanka,13.09189,77.600201,Drug Offense,Commercial,0.81,16,Low
+2025-08-08,21:23:04,Friday,August,Bengaluru,Hebbal,13.027914,77.601032,Harassment,Bank/ATM,1.43,29,Medium
+2025-08-04,15:06:27,Monday,August,Bengaluru,Yelahanka,13.094176,77.591828,Chain Snatching,Park/Open Ground,0.53,9,Low
+2025-04-01,23:33:41,Tuesday,April,Bengaluru,Jayanagar,12.926371,77.574217,Vehicle Theft,Market/Bazaar,0.86,20,Low
+2025-08-12,11:20:54,Tuesday,August,Bengaluru,Shivajinagar,12.990417,77.612937,Assault,Residential,4.33,91,High
+2025-05-05,15:21:01,Monday,May,Bengaluru,Shivajinagar,12.991213,77.60936,Cybercrime,Bank/ATM,3.44,67,High
+2025-04-19,22:21:17,Saturday,April,Bengaluru,Shivajinagar,13.005293,77.600814,Drug Offense,Nightclub/Bar,3.7,67,High
+2025-04-08,02:15:46,Tuesday,April,Bengaluru,Hebbal,13.040412,77.59949,Vandalism,Park/Open Ground,1.96,43,Medium
+2025-05-04,22:30:41,Sunday,May,Bengaluru,Rajajinagar,13.01039,77.533346,Cybercrime,Park/Open Ground,1.55,30,Medium
+2025-05-31,07:25:44,Saturday,May,Bengaluru,Indiranagar,12.973227,77.632148,Assault,Nightclub/Bar,2.36,46,Medium
+2025-07-08,15:35:33,Tuesday,July,Bengaluru,Malleshwaram,12.996108,77.564274,Chain Snatching,Parking Lot,0.96,18,Low
+2025-12-26,14:17:19,Friday,December,Bengaluru,Electronic City,12.836902,77.658677,Vehicle Theft,Street/Road,1.74,32,Medium
+2025-04-09,01:34:48,Wednesday,April,Bengaluru,BTM Layout,12.90129,77.61763,Robbery,Street/Road,3.41,70,High
+2025-09-05,00:48:33,Friday,September,Bengaluru,BTM Layout,12.911395,77.606203,Drug Offense,Nightclub/Bar,3.22,65,High
+2025-04-10,09:14:23,Thursday,April,Bengaluru,Yelahanka,13.080678,77.601777,Robbery,Nightclub/Bar,0.79,17,Low
+2025-10-01,20:03:35,Wednesday,October,Bengaluru,BTM Layout,12.920607,77.60228,Vehicle Theft,Transit Station,4.86,99,High
+2026-03-23,00:36:18,Monday,March,Bengaluru,Indiranagar,12.985864,77.634706,Cybercrime,Park/Open Ground,1.81,36,Medium
+2025-04-05,01:16:55,Saturday,April,Bengaluru,Electronic City,12.83218,77.660585,Cybercrime,Residential,1.44,28,Medium
+2025-09-09,02:36:40,Tuesday,September,Bengaluru,Jayanagar,12.921687,77.585942,Theft,Transit Station,0.66,15,Low
+2025-10-16,09:05:15,Thursday,October,Bengaluru,Rajajinagar,12.991317,77.549924,Burglary,Market/Bazaar,1.82,38,Medium
+2025-11-02,19:14:49,Sunday,November,Bengaluru,Malleshwaram,13.011951,77.570473,Harassment,Parking Lot,0.99,21,Low
+2025-06-02,16:19:36,Monday,June,Bengaluru,Shivajinagar,12.990917,77.601676,Drug Offense,Commercial,3.68,63,High
+2025-04-17,20:13:16,Thursday,April,Bengaluru,Rajajinagar,13.002104,77.565641,Burglary,Transit Station,2.28,44,High
+2025-10-10,20:26:28,Friday,October,Bengaluru,MG Road,12.971699,77.60314,Drug Offense,,3.81,71,High
+2025-04-29,22:44:55,Tuesday,April,Bengaluru,Koramangala,12.917535,77.627386,Cybercrime,Residential,4.55,87,High
+2026-02-08,20:37:42,Sunday,February,Bengaluru,HSR Layout,12.895795,77.636535,Assault,Parking Lot,0.8,14,Low
+2025-04-26,20:09:58,Saturday,April,Bengaluru,Hebbal,13.023158,77.597128,Vehicle Theft,Transit Station,2.18,44,High
+2025-03-26,12:28:07,Wednesday,March,Bengaluru,Koramangala,12.937085,77.630667,Cybercrime,Nightclub/Bar,3.82,72,High
+2025-09-14,17:31:28,Sunday,September,Bengaluru,HSR Layout,12.905102,77.641397,Burglary,Commercial,1.06,22,Low
+2025-06-15,20:05:14,Sunday,June,Bengaluru,BTM Layout,12.918055,77.612086,Drug Offense,Commercial,3.43,69,High
+2025-01-21,05:30:33,Tuesday,January,Bengaluru,Malleshwaram,13.015178,77.567516,Cybercrime,,1.06,20,Low
+2025-08-12,20:52:31,Tuesday,August,Bengaluru,Malleshwaram,13.000941,77.55647,Burglary,Park/Open Ground,0.95,21,Low
+2025-06-20,10:42:06,Friday,June,Bengaluru,Jayanagar,12.938511,77.591588,Robbery,Bank/ATM,0.99,20,Low
+2025-09-11,23:52:48,Thursday,September,Bengaluru,BTM Layout,12.91041,77.600143,Harassment,Commercial,4.26,86,High
+2025-06-11,08:20:07,Wednesday,June,Bengaluru,Indiranagar,12.979844,77.661949,Vandalism,Market/Bazaar,2.03,37,Medium
+2026-03-22,23:03:12,Sunday,March,Bengaluru,Marathahalli,12.959975,77.703206,Harassment,Bank/ATM,4.5,90,High
+2025-08-15,09:17:35,Friday,August,Bengaluru,Marathahalli,12.948368,77.712495,Robbery,Nightclub/Bar,4.46,97,High
+2025-09-06,01:38:51,Saturday,September,Bengaluru,BTM Layout,12.917046,77.618854,Assault,Transit Station,3.78,81,High
+2025-01-08,17:26:05,Wednesday,January,Bengaluru,Hebbal,13.044368,77.592338,Assault,Residential,2.17,40,Medium
+2025-11-28,04:31:59,Friday,November,Bengaluru,Indiranagar,12.96808,77.630439,Vehicle Theft,Market/Bazaar,2.01,43,Medium
+2026-03-04,15:30:15,Wednesday,March,Bengaluru,Jayanagar,12.921797,77.582608,Cybercrime,Market/Bazaar,0.59,11,Low
+2025-04-08,19:32:47,Tuesday,April,Bengaluru,Jayanagar,12.928953,77.58937,Robbery,Residential,0.77,18,Low
+2026-02-09,13:21:59,Monday,February,Bengaluru,Rajajinagar,12.990062,77.557133,Harassment,Nightclub/Bar,2.33,49,High
+2026-01-07,09:53:37,Wednesday,January,Bengaluru,HSR Layout,12.932687,77.645074,Drug Offense,Park/Open Ground,0.58,12,Low
+2025-10-03,22:35:48,Friday,October,Bengaluru,Shivajinagar,13.006859,77.594443,Harassment,Parking Lot,3.62,70,High
+2026-03-22,06:44:15,Sunday,March,Bengaluru,Electronic City,12.823992,77.668932,Drug Offense,Parking Lot,1.7,36,Medium
+2026-02-02,13:02:20,Monday,February,Bengaluru,Yelahanka,13.103019,77.594261,Cybercrime,Parking Lot,1.16,26,Low
+2026-02-10,07:31:02,Tuesday,February,Bengaluru,Marathahalli,12.950215,77.711418,Robbery,Market/Bazaar,3.92,85,High
+2025-02-21,14:06:33,Friday,February,Bengaluru,Yelahanka,13.095064,77.590473,Cybercrime,Commercial,0.76,17,Low
+2026-03-22,20:09:04,Sunday,March,Bengaluru,Jayanagar,12.926604,77.587715,Cybercrime,Nightclub/Bar,0.87,20,Low
+2025-12-21,12:41:05,Sunday,December,Bengaluru,Malleshwaram,13.009611,77.556777,Chain Snatching,Market/Bazaar,0.82,18,Low
+2025-11-17,22:56:48,Monday,November,Bengaluru,Electronic City,12.849945,77.657724,Cybercrime,Market/Bazaar,1.47,30,Medium
+2025-02-05,07:40:43,Wednesday,February,Bengaluru,Malleshwaram,12.989742,77.578417,Vehicle Theft,Street/Road,0.62,12,Low
+2025-02-20,20:45:55,Thursday,February,Bengaluru,Jayanagar,12.918347,77.588648,Burglary,Park/Open Ground,0.83,16,Low
+2025-06-03,04:20:50,Tuesday,June,Bengaluru,BTM Layout,12.902572,77.605741,Theft,Nightclub/Bar,4.48,97,High
+2025-08-09,04:15:33,Saturday,August,Bengaluru,Electronic City,12.844899,77.669026,Vandalism,Transit Station,2.17,45,High
+2025-02-10,23:39:43,Monday,February,Bengaluru,MG Road,12.992842,77.611978,Assault,Park/Open Ground,3.8,68,High
+2025-08-25,20:16:29,Monday,August,Bengaluru,Whitefield,12.969947,77.752781,Vehicle Theft,Commercial,1.65,36,Medium
+2025-12-13,17:10:04,Saturday,December,Bengaluru,HSR Layout,12.899063,77.649015,Cybercrime,Bank/ATM,0.94,17,Low
+2025-08-06,17:54:19,Wednesday,August,Bengaluru,Marathahalli,12.961148,77.705262,Assault,Parking Lot,4.1,87,High
+2025-05-02,12:36:22,Friday,May,Bengaluru,Indiranagar,12.977135,77.647253,Drug Offense,Nightclub/Bar,1.7,37,Medium
+2026-03-01,11:00:36,Sunday,March,Bengaluru,Koramangala,12.939341,77.618694,Theft,Park/Open Ground,3.31,66,High
+2026-02-14,07:38:51,Saturday,February,Bengaluru,Rajajinagar,12.986008,77.546612,Chain Snatching,Street/Road,2.04,43,Medium
+2025-11-14,08:43:48,Friday,November,Bengaluru,Whitefield,12.962205,77.771059,Robbery,Residential,2.17,49,High
+2025-01-21,23:02:37,Tuesday,January,Bengaluru,Marathahalli,12.963961,77.685247,Chain Snatching,Transit Station,3.16,56,High
+2025-06-17,23:26:11,Tuesday,June,Bengaluru,HSR Layout,12.921294,77.638975,Assault,Transit Station,0.75,13,Low
+2025-09-14,08:53:10,Sunday,September,Bengaluru,Hebbal,13.0516,77.596622,Vehicle Theft,Park/Open Ground,2.05,38,Medium
+2026-03-22,20:29:04,Sunday,March,Bengaluru,BTM Layout,12.921659,77.61788,Robbery,Street/Road,3.83,77,High
+2026-02-16,17:23:05,Monday,February,Bengaluru,Yelahanka,13.090145,77.59449,Vandalism,Commercial,0.91,17,Low
+2025-03-05,14:23:43,Wednesday,March,Bengaluru,Hebbal,13.040278,77.605646,Vehicle Theft,Parking Lot,2.22,48,Medium
+2025-02-25,21:14:30,Tuesday,February,Bengaluru,Electronic City,12.832988,77.659737,Theft,Market/Bazaar,2.43,50,High
+2025-04-24,20:04:40,Thursday,April,Bengaluru,Malleshwaram,12.994452,77.572725,Cybercrime,Nightclub/Bar,1.31,26,Medium
+2025-03-13,01:02:19,Thursday,March,Bengaluru,Indiranagar,12.974676,77.647892,Cybercrime,Residential,2.12,42,Medium
+2026-03-31,17:08:24,Tuesday,March,Bengaluru,Whitefield,12.966324,77.747527,Cybercrime,Bank/ATM,1.74,35,Medium
+2025-12-23,16:37:47,Tuesday,December,Bengaluru,BTM Layout,12.914512,77.61118,Robbery,Parking Lot,3.81,69,High
+2025-09-08,19:26:17,Monday,September,Bengaluru,Yelahanka,13.108955,77.584416,Theft,Bank/ATM,0.95,21,Low
+2025-08-16,14:06:43,Saturday,August,Bengaluru,Shivajinagar,12.992007,77.603676,Chain Snatching,Market/Bazaar,3.9,78,High
+2025-07-23,20:54:52,Wednesday,July,Bengaluru,Koramangala,12.953591,77.621597,Cybercrime,Residential,4.07,82,High
+2025-11-24,20:03:50,Monday,November,Bengaluru,Marathahalli,12.952119,77.703749,Chain Snatching,Street/Road,3.22,63,High
+2025-10-17,06:04:53,Friday,October,Bengaluru,Rajajinagar,12.990167,77.546858,Harassment,Street/Road,1.8,30,Medium
+2026-02-21,07:21:49,Saturday,February,Bengaluru,Whitefield,12.954331,77.740341,Robbery,Commercial,2.26,42,Medium
+2025-03-16,04:34:16,Sunday,March,Bengaluru,Yelahanka,13.108575,77.594588,Robbery,Residential,1.0,20,Low
+2025-01-08,02:15:37,Wednesday,January,Bengaluru,MG Road,12.984937,77.619569,Chain Snatching,Commercial,3.62,75,High
+2025-01-27,04:47:26,Monday,January,Bengaluru,HSR Layout,12.907115,77.640156,Harassment,Residential,0.74,17,Low
+2025-08-18,19:37:06,Monday,August,Bengaluru,Shivajinagar,12.983313,77.593911,Cybercrime,Market/Bazaar,3.93,83,High
+2025-01-23,23:50:58,Thursday,January,Bengaluru,Malleshwaram,12.998682,77.569363,Harassment,Nightclub/Bar,0.88,17,Low
+2025-01-16,23:54:25,Thursday,January,Bengaluru,Marathahalli,12.952379,77.698718,Vandalism,Residential,4.39,95,High
+2026-04-11,20:20:38,Saturday,April,Bengaluru,BTM Layout,12.918887,77.612776,Robbery,Residential,3.64,77,High
+2025-11-16,20:37:35,Sunday,November,Bengaluru,HSR Layout,12.898112,77.634541,Chain Snatching,Parking Lot,0.73,14,Low
+2025-09-16,20:50:44,Tuesday,September,Bengaluru,Shivajinagar,12.982159,77.60509,Burglary,Market/Bazaar,4.24,85,High
+2025-08-20,07:26:21,Wednesday,August,Bengaluru,Jayanagar,12.940445,77.586545,Cybercrime,Parking Lot,0.87,17,Low
+2025-02-18,22:42:16,Tuesday,February,Bengaluru,BTM Layout,12.921271,77.607226,Chain Snatching,Transit Station,4.78,92,High
+2025-02-16,02:05:27,Sunday,February,Bengaluru,Indiranagar,12.981645,77.64652,Burglary,Bank/ATM,2.19,43,Medium
+2025-01-31,18:35:35,Friday,January,Bengaluru,Hebbal,13.046857,77.60219,Chain Snatching,Residential,1.95,35,Medium
+2026-03-24,21:48:27,Tuesday,March,Bengaluru,Electronic City,12.842237,77.653532,Theft,Nightclub/Bar,2.45,48,High
+2025-06-30,03:36:32,Monday,June,Bengaluru,HSR Layout,12.91233,77.654828,Assault,Transit Station,1.05,21,Low
+2026-03-10,03:22:54,Tuesday,March,Bengaluru,Whitefield,12.981761,77.751709,Harassment,Bank/ATM,1.54,28,Medium
+2025-05-23,18:14:51,Friday,May,Bengaluru,Rajajinagar,12.997438,77.555232,Vandalism,Market/Bazaar,1.92,36,Medium
+2025-12-12,20:35:01,Friday,December,Bengaluru,Malleshwaram,13.001609,77.561063,Drug Offense,Nightclub/Bar,0.8,15,Low
+2025-05-20,12:58:21,Tuesday,May,Bengaluru,MG Road,12.98516,77.594415,Chain Snatching,Commercial,4.27,81,High
+2025-03-15,18:42:25,Saturday,March,Bengaluru,Yelahanka,13.099652,77.580018,Burglary,Transit Station,0.8,16,Low
+2026-01-18,16:13:24,Sunday,January,Bengaluru,Indiranagar,12.966816,77.62321,Vandalism,Park/Open Ground,1.84,34,Medium
+2025-07-09,22:49:36,Wednesday,July,Bengaluru,MG Road,12.984575,77.617084,Drug Offense,Residential,3.64,62,High
+2025-03-22,04:43:05,Saturday,March,Bengaluru,MG Road,12.990373,77.598039,Vehicle Theft,Park/Open Ground,4.43,81,High
+2025-11-07,22:13:48,Friday,November,Bengaluru,Shivajinagar,12.993483,77.601647,Harassment,Residential,3.52,75,High
+2025-02-26,09:43:43,Wednesday,February,Bengaluru,Jayanagar,12.920788,77.59535,Drug Offense,Park/Open Ground,1.13,21,Low
+2025-04-23,00:03:00,Wednesday,April,Bengaluru,Koramangala,12.937357,77.62266,Assault,Nightclub/Bar,4.37,82,High
+2025-03-12,08:18:20,Wednesday,March,Bengaluru,Rajajinagar,13.003342,77.563633,Burglary,Commercial,1.97,35,Medium
+2025-08-09,23:34:45,Saturday,August,Bengaluru,BTM Layout,12.926594,77.614031,Assault,Market/Bazaar,3.83,81,High
+2025-07-23,23:02:27,Wednesday,July,Bengaluru,Indiranagar,12.972989,77.655208,Theft,Park/Open Ground,1.47,31,Medium
+2025-06-10,18:27:36,Tuesday,June,Bengaluru,Yelahanka,13.087969,77.600818,Vandalism,Parking Lot,0.96,20,Low
+2025-07-27,00:20:10,Sunday,July,Bengaluru,Indiranagar,12.974782,77.621409,Drug Offense,Park/Open Ground,2.16,42,Medium
+2025-08-12,03:15:27,Tuesday,August,Bengaluru,Indiranagar,12.981377,77.644631,Drug Offense,Parking Lot,1.99,35,Medium
+2025-07-22,09:47:21,Tuesday,July,Bengaluru,Indiranagar,12.978371,77.631533,Assault,Bank/ATM,1.98,39,Medium
+2025-09-19,20:07:33,Friday,September,Bengaluru,Indiranagar,12.971389,77.641101,Harassment,Street/Road,1.71,37,Medium
+2026-01-08,20:52:09,Thursday,January,Bengaluru,Electronic City,12.837187,77.657951,Assault,Residential,2.04,38,Medium
+2025-04-12,05:38:09,Saturday,April,Bengaluru,HSR Layout,12.908152,77.64104,Burglary,Transit Station,0.83,15,Low
+2026-01-22,00:28:43,Thursday,January,Bengaluru,Shivajinagar,12.986777,77.598125,Drug Offense,Bank/ATM,4.14,85,High
+2025-08-14,23:40:19,Thursday,August,Bengaluru,MG Road,12.976516,77.614201,Vehicle Theft,Commercial,4.51,89,High
+2025-02-07,09:29:28,Friday,February,Bengaluru,Hebbal,13.049688,77.598583,Theft,Commercial,1.54,31,Medium
+2025-05-27,02:41:55,Tuesday,May,Bengaluru,Yelahanka,13.092447,77.592066,Burglary,Market/Bazaar,1.05,22,Low
+2025-10-25,02:47:57,Saturday,October,Bengaluru,Shivajinagar,13.00012,77.606791,Theft,Park/Open Ground,3.31,69,High
+2025-11-06,15:32:09,Thursday,November,Bengaluru,Electronic City,12.853928,77.659314,Theft,Park/Open Ground,1.97,40,Medium
+2026-04-06,10:45:05,Monday,April,Bengaluru,Rajajinagar,12.988394,77.541285,Harassment,Transit Station,2.06,42,Medium
+2025-12-29,14:28:33,Monday,December,Bengaluru,Whitefield,12.968957,77.764247,Harassment,Transit Station,2.0,39,Medium
+2026-04-15,09:24:26,Wednesday,April,Bengaluru,Electronic City,12.857012,77.671241,Chain Snatching,Commercial,2.45,49,High
+2025-06-21,20:35:43,Saturday,June,Bengaluru,Marathahalli,12.96169,77.695068,Vandalism,Nightclub/Bar,4.23,78,High
+2026-03-13,07:21:05,Friday,March,Bengaluru,BTM Layout,12.922774,77.587312,Drug Offense,Transit Station,3.73,78,High
+2025-12-02,22:42:25,Tuesday,December,Bengaluru,HSR Layout,12.915094,77.643905,Robbery,Residential,0.69,14,Low
+2025-07-12,20:50:21,Saturday,July,Bengaluru,Hebbal,13.032058,77.599772,Robbery,Market/Bazaar,1.51,31,Medium
+2025-12-10,22:01:23,Wednesday,December,Bengaluru,Marathahalli,12.942339,77.699433,Vehicle Theft,Transit Station,4.03,84,High
+2026-01-28,15:12:14,Wednesday,January,Bengaluru,Electronic City,12.857206,77.667002,Robbery,Transit Station,1.41,30,Medium
+2026-03-09,03:32:49,Monday,March,Bengaluru,HSR Layout,12.918877,77.65438,Harassment,Market/Bazaar,0.77,13,Low
+2025-06-22,07:38:24,Sunday,June,Bengaluru,Marathahalli,12.967342,77.69931,Robbery,Transit Station,3.41,68,High
+2025-12-21,19:51:57,Sunday,December,Bengaluru,Yelahanka,13.101087,77.5908,Robbery,Park/Open Ground,0.88,20,Low
+2025-07-06,21:46:15,Sunday,July,Bengaluru,Jayanagar,12.936661,77.583154,Cybercrime,Nightclub/Bar,0.78,18,Low
+2025-10-01,07:19:51,Wednesday,October,Bengaluru,Whitefield,12.970915,77.75362,Cybercrime,Street/Road,2.29,47,Medium
+2026-04-30,23:29:49,Thursday,April,Bengaluru,Marathahalli,12.975807,77.696283,Vehicle Theft,Parking Lot,3.68,74,High
+2026-02-23,00:08:55,Monday,February,Bengaluru,MG Road,12.968092,77.611754,Vehicle Theft,Commercial,3.73,73,High
+2025-07-10,17:59:06,Thursday,July,Bengaluru,Yelahanka,13.099175,77.598039,Harassment,Residential,1.13,24,Low
+2026-01-26,05:17:28,Monday,January,Bengaluru,Indiranagar,12.986104,77.643261,Harassment,Transit Station,2.25,42,Medium
+2026-04-30,07:52:28,Thursday,April,Bengaluru,Indiranagar,12.987244,77.650296,Chain Snatching,Commercial,1.8,36,Medium
+2025-07-22,21:24:05,Tuesday,July,Bengaluru,Koramangala,12.929027,77.626873,Chain Snatching,Street/Road,3.77,68,High
+2026-04-22,03:53:45,Wednesday,April,Bengaluru,Electronic City,12.85811,77.663828,Chain Snatching,Transit Station,2.09,44,Medium
+2025-05-27,18:44:53,Tuesday,May,Bengaluru,Koramangala,12.943575,77.62906,Robbery,Park/Open Ground,4.4,90,High
+2025-01-03,02:01:16,Friday,January,Bengaluru,Malleshwaram,13.0019,77.565305,Assault,Transit Station,0.89,19,Low
+2026-02-02,09:15:19,Monday,February,Bengaluru,Indiranagar,12.968176,77.62765,Burglary,Commercial,2.02,41,Medium
+2025-11-24,19:29:04,Monday,November,Bengaluru,Jayanagar,12.925688,77.573215,Burglary,Park/Open Ground,0.6,10,Low
+2025-09-21,01:09:18,Sunday,September,Bengaluru,Marathahalli,12.967817,77.709672,Vandalism,Commercial,4.3,80,High
+2025-10-20,13:11:42,Monday,October,Bengaluru,Whitefield,12.949805,77.768328,Burglary,Market/Bazaar,1.95,38,Medium
+2025-09-27,17:32:50,Saturday,September,Bengaluru,Indiranagar,12.997029,77.646601,Harassment,Market/Bazaar,2.29,43,Medium
+2026-03-24,15:02:40,Tuesday,March,Bengaluru,Jayanagar,12.924768,77.581555,Vandalism,Bank/ATM,0.8,17,Low
+2025-01-09,20:22:15,Thursday,January,Bengaluru,BTM Layout,12.924367,77.60516,Burglary,Bank/ATM,3.93,75,High
+2025-06-30,02:41:11,Monday,June,Bengaluru,Koramangala,12.927283,77.632026,Cybercrime,Park/Open Ground,3.55,73,High
+2025-03-11,02:45:49,Tuesday,March,Bengaluru,Rajajinagar,12.990446,77.557408,Cybercrime,Commercial,1.8,39,Medium
+2025-01-23,06:56:02,Thursday,January,Bengaluru,Whitefield,12.957056,77.753524,Chain Snatching,Nightclub/Bar,2.8,57,High
+2026-02-22,17:30:16,Sunday,February,Bengaluru,Jayanagar,12.926168,77.58431,Theft,Street/Road,0.99,18,Low
+2026-03-18,01:55:41,Wednesday,March,Bengaluru,Electronic City,12.839584,77.654897,Chain Snatching,Nightclub/Bar,2.06,38,Medium
+2025-07-08,13:56:25,Tuesday,July,Bengaluru,Rajajinagar,12.995997,77.559011,Cybercrime,Parking Lot,1.71,35,Medium
+2025-09-12,14:59:51,Friday,September,Bengaluru,MG Road,12.97324,77.616582,Harassment,Nightclub/Bar,3.98,76,High
+2025-08-06,00:52:11,Wednesday,August,Bengaluru,BTM Layout,12.934382,77.600197,Harassment,Nightclub/Bar,3.98,72,High
+2025-02-10,10:42:18,Monday,February,Bengaluru,Indiranagar,12.976918,77.639761,Vehicle Theft,Park/Open Ground,2.13,46,Medium
+2025-08-07,23:22:28,Thursday,August,Bengaluru,BTM Layout,12.928276,77.596618,Theft,Bank/ATM,3.7,73,High
+2025-11-24,01:04:42,Monday,November,Bengaluru,HSR Layout,12.925522,77.640171,Vandalism,Bank/ATM,0.63,10,Low
+2025-03-15,17:02:08,Saturday,March,Bengaluru,Koramangala,12.922216,77.629007,Burglary,Street/Road,3.85,68,High
+2025-07-16,18:02:38,Wednesday,July,Bengaluru,Electronic City,12.840547,77.652082,Robbery,Park/Open Ground,1.63,35,Medium
+2025-08-16,02:36:08,Saturday,August,Bengaluru,Electronic City,12.839128,77.660468,Harassment,Bank/ATM,2.26,46,High
+2025-11-29,08:15:07,Saturday,November,Bengaluru,Electronic City,12.847847,77.666868,Theft,Transit Station,2.01,42,Medium
+2025-07-18,17:07:16,Friday,July,Bengaluru,Hebbal,13.04136,77.612572,Vehicle Theft,Park/Open Ground,1.9,42,Medium
+2025-05-27,22:58:31,Tuesday,May,Bengaluru,Malleshwaram,13.007567,77.564908,Assault,Residential,0.54,11,Low
+2025-02-07,14:11:57,Friday,February,Bengaluru,Yelahanka,13.09338,77.59695,Cybercrime,Residential,0.82,17,Low
+2025-06-27,12:57:19,Friday,June,Bengaluru,Marathahalli,12.96783,77.702273,Robbery,Transit Station,4.54,94,High
+2025-04-25,03:12:50,Friday,April,Bengaluru,Hebbal,13.036384,77.603241,Robbery,Street/Road,2.37,48,High
+2025-07-04,22:29:51,Friday,July,Bengaluru,Koramangala,12.936736,77.622027,Harassment,Transit Station,3.53,62,High
+2025-06-08,12:45:46,Sunday,June,Bengaluru,Indiranagar,12.969835,77.633682,Cybercrime,Market/Bazaar,2.13,39,Medium
+2025-07-29,18:04:08,Tuesday,July,Bengaluru,Rajajinagar,12.98351,77.557064,Chain Snatching,Residential,2.04,40,Medium
+2025-12-15,21:56:53,Monday,December,Bengaluru,Shivajinagar,12.992991,77.60355,Harassment,Transit Station,4.47,83,High
+2025-09-15,01:53:07,Monday,September,Bengaluru,Jayanagar,12.931455,77.583009,Harassment,Transit Station,0.91,16,Low
+2025-03-24,01:14:22,Monday,March,Bengaluru,MG Road,12.980148,77.611397,Harassment,Nightclub/Bar,3.5,68,High
+2025-04-11,20:35:17,Friday,April,Bengaluru,HSR Layout,12.916392,77.637412,Robbery,Nightclub/Bar,0.68,15,Low
+2025-11-25,05:37:37,Tuesday,November,Bengaluru,Hebbal,13.055519,77.594599,Robbery,Transit Station,2.4,50,High
+2026-01-04,19:21:53,Sunday,January,Bengaluru,Malleshwaram,12.994579,77.561858,Drug Offense,Commercial,0.54,12,Low
+2025-01-24,20:49:36,Friday,January,Bengaluru,Indiranagar,12.982462,77.641232,Vehicle Theft,Street/Road,2.12,43,Medium
+2025-11-13,20:01:31,Thursday,November,Bengaluru,Jayanagar,12.923285,77.582647,Harassment,Nightclub/Bar,0.92,18,Low
+2025-05-06,15:19:29,Tuesday,May,Bengaluru,Shivajinagar,12.978568,77.606638,Burglary,Commercial,4.16,74,High
+2025-08-01,21:21:38,Friday,August,Bengaluru,Shivajinagar,12.987489,77.600603,Robbery,Bank/ATM,3.55,71,High
+2026-03-17,23:08:48,Tuesday,March,Bengaluru,BTM Layout,12.91902,77.605077,Chain Snatching,Market/Bazaar,3.52,58,High
+2025-05-04,14:07:17,Sunday,May,Bengaluru,Electronic City,12.848696,77.669725,Cybercrime,Street/Road,1.77,34,Medium
+2025-01-26,09:24:55,Sunday,January,Bengaluru,Indiranagar,12.970048,77.639128,Drug Offense,Parking Lot,2.12,46,Medium
+2026-04-07,05:52:20,Tuesday,April,Bengaluru,Yelahanka,13.091339,77.581884,Drug Offense,Bank/ATM,0.91,19,Low
+2025-03-23,15:32:29,Sunday,March,Bengaluru,Rajajinagar,12.995067,77.552878,Cybercrime,Nightclub/Bar,1.77,38,Medium
+2025-02-16,19:29:15,Sunday,February,Bengaluru,Koramangala,12.923369,77.625967,Assault,Bank/ATM,4.18,90,High
+2025-05-25,02:41:43,Sunday,May,Bengaluru,Koramangala,12.919519,77.640984,Cybercrime,Nightclub/Bar,4.0,79,High
+2025-02-25,13:08:56,Tuesday,February,Bengaluru,Yelahanka,13.097154,77.589222,Vehicle Theft,Bank/ATM,1.02,22,Low
+2025-01-24,12:03:36,Friday,January,Bengaluru,Electronic City,12.838201,77.641989,Harassment,Street/Road,1.86,37,Medium
+2025-05-28,02:24:32,Wednesday,May,Bengaluru,Hebbal,13.041223,77.593097,Cybercrime,Market/Bazaar,1.98,38,Medium
+2025-11-16,21:39:07,Sunday,November,Bengaluru,Yelahanka,13.102912,77.602696,Robbery,Residential,0.98,20,Low
+2026-02-11,10:35:23,Wednesday,February,Bengaluru,Electronic City,12.84888,77.654778,Robbery,Street/Road,1.98,44,Medium
+2025-07-25,16:02:02,Friday,July,Bengaluru,Hebbal,13.037696,77.593361,Theft,Transit Station,1.4,30,Medium
+2025-08-31,16:29:09,Sunday,August,Bengaluru,Rajajinagar,12.987423,77.545227,Drug Offense,Market/Bazaar,1.82,34,Medium
+2026-04-22,19:20:10,Wednesday,April,Bengaluru,Electronic City,12.841589,77.656712,Vandalism,Nightclub/Bar,1.91,35,Medium
+2025-09-17,16:34:31,Wednesday,September,Bengaluru,Electronic City,12.853168,77.654146,Drug Offense,Nightclub/Bar,2.04,44,Medium
+2025-01-09,11:21:43,Thursday,January,Bengaluru,Yelahanka,13.102949,77.588895,Burglary,Parking Lot,0.98,20,Low
+2026-04-06,23:55:44,Monday,April,Bengaluru,Rajajinagar,12.993052,77.560423,Theft,Park/Open Ground,2.12,40,Medium
+2026-02-05,10:46:03,Thursday,February,Bengaluru,Marathahalli,12.95227,77.700274,Drug Offense,Park/Open Ground,3.5,71,High
+2025-11-19,23:39:49,Wednesday,November,Bengaluru,Hebbal,13.027442,77.581269,Vandalism,Transit Station,2.34,44,High
+2025-01-17,18:44:07,Friday,January,Bengaluru,Whitefield,12.96593,77.747348,Assault,Commercial,1.94,37,Medium
+2025-08-03,04:26:44,Sunday,August,Bengaluru,Electronic City,12.852084,77.655535,Assault,Parking Lot,2.58,52,High
+2025-11-10,15:55:54,Monday,November,Bengaluru,Rajajinagar,13.00791,77.55188,Theft,Transit Station,2.34,47,High
+2025-10-15,10:42:30,Wednesday,October,Bengaluru,Whitefield,12.971248,77.739625,Harassment,Parking Lot,1.33,27,Medium
+2025-08-24,13:34:22,Sunday,August,Bengaluru,MG Road,12.982102,77.611223,Vehicle Theft,Park/Open Ground,3.85,69,High
+2025-05-23,17:19:14,Friday,May,Bengaluru,Whitefield,12.972271,77.763618,Vehicle Theft,Nightclub/Bar,1.88,39,Medium
+2025-12-27,23:22:35,Saturday,December,Bengaluru,BTM Layout,12.931091,77.615088,Vehicle Theft,Nightclub/Bar,4.35,83,High
+2025-12-13,17:24:57,Saturday,December,Bengaluru,Malleshwaram,13.001992,77.554506,Vandalism,Bank/ATM,0.65,10,Low
+2025-01-22,09:45:05,Wednesday,January,Bengaluru,HSR Layout,12.914185,77.633396,Chain Snatching,,0.9,20,Low
+2025-09-03,02:34:17,Wednesday,September,Bengaluru,BTM Layout,12.926173,77.605222,Harassment,Nightclub/Bar,4.03,75,High
+2025-11-12,23:37:15,Wednesday,November,Bengaluru,Indiranagar,12.966801,77.63195,Assault,Commercial,2.07,38,Medium
+2025-04-26,20:14:03,Saturday,April,Bengaluru,Hebbal,13.049616,77.593803,Burglary,Parking Lot,2.28,48,High
+2025-08-30,02:08:00,Saturday,August,Bengaluru,BTM Layout,12.930049,77.604093,Harassment,Transit Station,3.77,80,High
+2026-04-24,18:30:41,Friday,April,Bengaluru,Marathahalli,12.954685,77.717866,Assault,Nightclub/Bar,4.23,83,High
+2025-11-27,01:58:49,Thursday,November,Bengaluru,HSR Layout,12.926991,77.659693,Burglary,Street/Road,0.81,14,Low
+2025-08-02,08:59:58,Saturday,August,Bengaluru,MG Road,12.981827,77.602191,Theft,Parking Lot,3.94,85,High
+2026-04-25,12:56:02,Saturday,April,Bengaluru,MG Road,12.984527,77.601406,Theft,Nightclub/Bar,3.98,78,High
+2025-05-26,14:41:34,Monday,May,Bengaluru,Electronic City,12.836066,77.658651,Harassment,Park/Open Ground,1.6,34,Medium
+2025-09-16,14:17:12,Tuesday,September,Bengaluru,Yelahanka,13.10454,77.585376,Burglary,Bank/ATM,1.0,21,Low
+2025-08-23,01:11:00,Saturday,August,Bengaluru,BTM Layout,12.926368,77.614757,Chain Snatching,Nightclub/Bar,3.73,66,High
+2025-11-09,15:52:27,Sunday,November,Bengaluru,MG Road,12.985189,77.591101,Harassment,Bank/ATM,3.71,74,High
+2025-12-09,03:11:08,Tuesday,December,Bengaluru,Jayanagar,12.931927,77.569652,Cybercrime,Bank/ATM,0.67,14,Low
+2025-05-14,23:48:17,Wednesday,May,Bengaluru,Koramangala,12.943464,77.62294,Chain Snatching,Nightclub/Bar,4.22,79,High
+2025-12-01,11:44:15,Monday,December,Bengaluru,HSR Layout,12.902741,77.621622,Theft,Residential,0.83,15,Low
+2025-03-23,12:43:32,Sunday,March,Bengaluru,HSR Layout,12.88913,77.643313,Vehicle Theft,Residential,0.85,19,Low
+2025-11-11,07:14:08,Tuesday,November,Bengaluru,Electronic City,12.837213,77.662614,Cybercrime,Transit Station,2.42,46,High
+2025-11-07,01:35:58,Friday,November,Bengaluru,BTM Layout,12.908789,77.60296,Cybercrime,Market/Bazaar,3.47,70,High
+2025-05-07,21:48:38,Wednesday,May,Bengaluru,Rajajinagar,13.005509,77.546575,Burglary,Market/Bazaar,1.87,41,Medium
+2025-12-27,11:04:58,Saturday,December,Bengaluru,Hebbal,13.031591,77.596888,Drug Offense,Residential,1.48,28,Medium
+2025-10-08,16:12:36,Wednesday,October,Bengaluru,Yelahanka,13.106595,77.594049,Harassment,Transit Station,1.24,24,Low
+2026-03-14,16:28:07,Saturday,March,Bengaluru,Electronic City,12.844324,77.655368,Assault,Park/Open Ground,1.87,32,Medium
+2025-08-17,01:29:08,Sunday,August,Bengaluru,Hebbal,13.042154,77.586966,Harassment,Parking Lot,1.87,37,Medium
+2025-01-30,17:29:43,Thursday,January,Bengaluru,Malleshwaram,13.00374,77.567083,Vehicle Theft,Commercial,0.77,17,Low
+2026-02-23,00:47:13,Monday,February,Bengaluru,HSR Layout,12.906223,77.638118,Drug Offense,Residential,0.86,17,Low
+2025-06-26,22:04:34,Thursday,June,Bengaluru,Jayanagar,12.928436,77.585019,Theft,Residential,0.95,22,Low
+2025-05-27,02:08:49,Tuesday,May,Bengaluru,Koramangala,12.926623,77.601129,Vandalism,,4.46,91,High
+2026-03-22,15:24:05,Sunday,March,Bengaluru,Shivajinagar,13.000459,77.595025,Harassment,Transit Station,4.14,82,High
+2025-04-02,17:25:33,Wednesday,April,Bengaluru,Indiranagar,12.976937,77.651799,Robbery,Street/Road,1.47,30,Medium
+2025-01-12,09:29:43,Sunday,January,Bengaluru,Rajajinagar,13.007495,77.546853,Harassment,Parking Lot,2.27,43,Medium
+2026-02-26,07:15:29,Thursday,February,Bengaluru,Jayanagar,12.928466,77.571294,Chain Snatching,Transit Station,0.86,17,Low
+2026-04-25,23:48:07,Saturday,April,Bengaluru,Whitefield,12.962012,77.749957,Theft,Parking Lot,2.23,47,High
+2026-04-25,00:15:13,Saturday,April,Bengaluru,Rajajinagar,12.999106,77.541494,Burglary,Residential,2.03,40,Medium
+2025-08-17,01:55:03,Sunday,August,Bengaluru,Koramangala,12.944705,77.628794,Assault,Commercial,4.07,80,High
+2025-04-30,02:55:49,Wednesday,April,Bengaluru,Shivajinagar,12.990178,77.596529,Theft,Transit Station,4.54,86,High
+2026-02-22,23:36:20,Sunday,February,Bengaluru,Whitefield,12.967676,77.753867,Drug Offense,Bank/ATM,1.88,33,Medium
+2026-03-25,04:42:33,Wednesday,March,Bengaluru,HSR Layout,12.904459,77.647989,Assault,Parking Lot,0.71,16,Low
+2025-02-01,17:37:56,Saturday,February,Bengaluru,HSR Layout,12.913632,77.64653,Robbery,Parking Lot,0.97,22,Low
+2025-06-26,15:50:33,Thursday,June,Bengaluru,Koramangala,12.933703,77.632386,Chain Snatching,Parking Lot,3.85,74,High
+2025-06-03,02:34:30,Tuesday,June,Bengaluru,MG Road,12.989943,77.608392,Assault,Street/Road,4.61,90,High
+2025-12-29,04:51:29,Monday,December,Bengaluru,Yelahanka,13.103408,77.593937,Theft,Market/Bazaar,1.15,23,Medium
+2025-10-13,16:08:24,Monday,October,Bengaluru,Jayanagar,12.928371,77.568158,Assault,Nightclub/Bar,0.94,20,Low
+2025-11-28,02:59:28,Friday,November,Bengaluru,Electronic City,12.855576,77.660017,Chain Snatching,Residential,2.08,40,Medium
+2026-03-01,22:24:43,Sunday,March,Bengaluru,BTM Layout,12.912078,77.606814,Drug Offense,Commercial,3.78,69,High
+2026-02-16,18:46:42,Monday,February,Bengaluru,Whitefield,12.979537,77.762171,Harassment,Street/Road,1.95,39,Medium
+2026-03-22,10:19:58,Sunday,March,Bengaluru,Whitefield,12.970104,77.751084,Theft,Street/Road,1.57,31,Medium
+2025-03-02,18:58:15,Sunday,March,Bengaluru,BTM Layout,12.912883,77.611709,Drug Offense,Street/Road,3.62,74,High
+2025-10-10,10:49:18,Friday,October,Bengaluru,Whitefield,12.965726,77.75622,Vandalism,Park/Open Ground,2.21,45,Medium
+2025-07-03,22:32:56,Thursday,July,Bengaluru,Marathahalli,12.951097,77.691978,Cybercrime,Park/Open Ground,4.15,76,High
+2026-01-05,15:48:53,Monday,January,Bengaluru,Rajajinagar,13.003989,77.55834,Chain Snatching,Street/Road,2.28,43,Medium
+2025-07-31,01:36:55,Thursday,July,Bengaluru,Electronic City,12.850581,77.675399,Assault,Transit Station,1.46,27,Medium
+2025-10-11,18:37:46,Saturday,October,Bengaluru,HSR Layout,12.913227,77.653405,Vandalism,Nightclub/Bar,0.46,10,Low
+2025-06-18,07:24:36,Wednesday,June,Bengaluru,Whitefield,12.972456,77.751524,Assault,Park/Open Ground,1.88,39,Medium
+2026-04-29,11:48:52,Wednesday,April,Bengaluru,Marathahalli,12.960668,77.699936,Cybercrime,Park/Open Ground,4.81,91,High
+2026-01-11,08:08:46,Sunday,January,Bengaluru,MG Road,12.968116,77.615288,Harassment,Park/Open Ground,4.43,83,High
+2025-11-25,01:33:02,Tuesday,November,Bengaluru,Hebbal,13.038516,77.591834,Burglary,Commercial,1.74,36,Medium
+2025-03-12,20:14:04,Wednesday,March,Bengaluru,Jayanagar,12.930645,77.581375,Robbery,Commercial,0.68,14,Low
+2025-08-22,11:03:39,Friday,August,Bengaluru,Hebbal,13.044201,77.590088,Drug Offense,Park/Open Ground,2.52,52,High
+2025-01-09,00:26:00,Thursday,January,Bengaluru,Shivajinagar,12.985464,77.601949,Theft,Market/Bazaar,4.31,85,High
+2025-05-27,00:32:52,Tuesday,May,Bengaluru,Hebbal,13.02993,77.597289,Vandalism,Transit Station,1.93,42,Medium
+2025-09-26,04:15:12,Friday,September,Bengaluru,Indiranagar,12.986202,77.644809,Drug Offense,Market/Bazaar,2.25,46,High
+2025-07-01,08:50:25,Tuesday,July,Bengaluru,Yelahanka,13.08622,77.590797,Burglary,Bank/ATM,0.92,18,Low
+2025-10-17,01:14:19,Friday,October,Bengaluru,Shivajinagar,12.9852,77.610923,Burglary,Commercial,3.87,74,High
+2025-07-14,12:35:30,Monday,July,Bengaluru,Jayanagar,12.922685,77.590063,Theft,Commercial,0.75,15,Low
+2025-09-13,13:41:50,Saturday,September,Bengaluru,Indiranagar,12.995768,77.639393,Chain Snatching,Residential,2.7,55,High
+2025-04-28,02:44:56,Monday,April,Bengaluru,Koramangala,12.953527,77.625356,Drug Offense,Park/Open Ground,3.31,64,High
+2026-04-19,22:57:34,Sunday,April,Bengaluru,Koramangala,12.930306,77.624204,Drug Offense,Commercial,3.82,66,High
+2025-06-11,00:13:37,Wednesday,June,Bengaluru,Yelahanka,13.098938,77.579757,Robbery,Parking Lot,0.52,10,Low
+2025-03-25,18:15:36,Tuesday,March,Bengaluru,HSR Layout,12.91276,77.63294,Vandalism,Market/Bazaar,0.68,15,Low
+2026-01-22,23:08:50,Thursday,January,Bengaluru,Jayanagar,12.939476,77.57918,Burglary,Market/Bazaar,0.88,19,Low
+2025-02-20,02:04:21,Thursday,February,Bengaluru,Koramangala,12.933919,77.629871,Drug Offense,Parking Lot,3.3,68,High
+2025-11-21,23:31:14,Friday,November,Bengaluru,Koramangala,12.936028,77.607202,Chain Snatching,Market/Bazaar,4.67,92,High
+2025-04-06,21:37:42,Sunday,April,Bengaluru,Jayanagar,12.925133,77.57169,Vandalism,Residential,0.92,16,Low
+2025-05-07,22:04:05,Wednesday,May,Bengaluru,Rajajinagar,13.004376,77.565251,Vehicle Theft,Transit Station,2.1,38,Medium
+2026-02-06,01:24:20,Friday,February,Bengaluru,BTM Layout,12.912736,77.611274,Chain Snatching,Residential,3.56,66,High
+2026-04-28,22:48:17,Tuesday,April,Bengaluru,Koramangala,12.929534,77.627243,Burglary,Transit Station,3.52,69,High
+2025-08-09,00:32:26,Saturday,August,Bengaluru,MG Road,12.973911,77.598703,Burglary,Commercial,3.68,78,High
+2025-10-11,02:38:38,Saturday,October,Bengaluru,Electronic City,12.849295,77.658854,Chain Snatching,Parking Lot,1.86,38,Medium
+2025-07-31,12:49:05,Thursday,July,Bengaluru,HSR Layout,12.911311,77.644751,Harassment,Street/Road,0.87,16,Low
+2025-07-14,22:19:17,Monday,July,Bengaluru,Marathahalli,12.959567,77.691442,Cybercrime,Transit Station,3.32,63,High
+2025-08-11,22:30:50,Monday,August,Bengaluru,MG Road,12.974572,77.591545,Burglary,Bank/ATM,3.79,80,High
+2026-01-05,20:31:38,Monday,January,Bengaluru,Whitefield,12.954125,77.755861,Drug Offense,Street/Road,2.38,46,High
+2025-03-11,09:00:25,Tuesday,March,Bengaluru,Indiranagar,12.97323,77.655002,Chain Snatching,Parking Lot,2.04,43,Medium
+2025-06-21,02:55:41,Saturday,June,Bengaluru,Shivajinagar,12.984174,77.614767,Drug Offense,Transit Station,4.54,86,High
+2025-11-05,22:12:30,Wednesday,November,Bengaluru,Electronic City,12.844126,77.666686,Chain Snatching,Transit Station,1.87,38,Medium
+2025-05-30,23:44:40,Friday,May,Bengaluru,Electronic City,12.857885,77.666437,Cybercrime,Street/Road,1.99,43,Medium
+2025-05-24,12:23:07,Saturday,May,Bengaluru,Jayanagar,12.921954,77.582081,Drug Offense,Street/Road,0.89,20,Low
+2026-01-29,01:29:45,Thursday,January,Bengaluru,Marathahalli,12.959497,77.696109,Assault,Park/Open Ground,3.83,82,High
+2025-12-21,02:52:54,Sunday,December,Bengaluru,Yelahanka,13.087232,77.589853,Vandalism,Park/Open Ground,0.82,17,Low
+2025-06-05,01:09:45,Thursday,June,Bengaluru,Marathahalli,12.974231,77.693703,Vandalism,Parking Lot,3.04,63,High
+2025-11-03,23:34:32,Monday,November,Bengaluru,Shivajinagar,12.99067,77.603351,Vandalism,Market/Bazaar,3.24,68,High
+2025-07-04,22:57:51,Friday,July,Bengaluru,Rajajinagar,12.989415,77.550106,Harassment,Residential,1.96,35,Medium
+2025-05-08,21:42:22,Thursday,May,Bengaluru,Rajajinagar,13.003776,77.550329,Robbery,Commercial,2.43,46,High
+2025-12-13,02:21:50,Saturday,December,Bengaluru,Marathahalli,12.946783,77.68551,Vandalism,Residential,3.25,66,High
+2025-05-13,07:32:47,Tuesday,May,Bengaluru,Indiranagar,12.99226,77.65865,Harassment,Market/Bazaar,2.3,48,High
+2025-10-22,22:25:29,Wednesday,October,Bengaluru,BTM Layout,12.908093,77.603113,Drug Offense,Market/Bazaar,3.42,67,High
+2025-01-13,15:06:18,Monday,January,Bengaluru,Electronic City,12.829366,77.666183,Vandalism,Residential,1.86,37,Medium
+2026-04-27,23:09:22,Monday,April,Bengaluru,Yelahanka,13.099058,77.614973,Vehicle Theft,Bank/ATM,1.19,25,Medium
+2025-04-16,16:30:22,Wednesday,April,Bengaluru,Rajajinagar,12.988364,77.556974,Cybercrime,Residential,1.99,40,Medium
+2025-12-23,20:19:02,Tuesday,December,Bengaluru,BTM Layout,12.904404,77.612027,Burglary,Commercial,4.51,85,High
+2025-02-25,08:59:47,Tuesday,February,Bengaluru,Marathahalli,12.961564,77.694267,Assault,Market/Bazaar,3.29,65,High
+2025-03-23,10:35:27,Sunday,March,Bengaluru,Hebbal,13.034803,77.587619,Cybercrime,Street/Road,2.27,48,High
+2025-04-05,01:27:25,Saturday,April,Bengaluru,Marathahalli,12.951854,77.69217,Theft,Street/Road,4.46,90,High
+2025-08-08,12:00:45,Friday,August,Bengaluru,Malleshwaram,13.024828,77.562142,Assault,Street/Road,0.88,16,Low
+2025-12-27,02:36:06,Saturday,December,Bengaluru,Rajajinagar,13.002645,77.553717,Harassment,Transit Station,1.94,35,Medium
+2025-04-11,14:07:16,Friday,April,Bengaluru,Electronic City,12.854526,77.658564,Cybercrime,Market/Bazaar,2.67,53,High
+2025-11-02,12:39:25,Sunday,November,Bengaluru,Electronic City,12.849948,77.636677,Drug Offense,Residential,2.2,43,Medium
+2026-03-09,14:39:11,Monday,March,Bengaluru,Electronic City,12.84192,77.654223,Vehicle Theft,Residential,2.03,43,Medium
+2025-06-10,22:07:11,Tuesday,June,Bengaluru,MG Road,12.983225,77.610705,Chain Snatching,Transit Station,4.1,77,High
+2025-11-02,04:36:24,Sunday,November,Bengaluru,Jayanagar,12.93492,77.589525,Vandalism,Transit Station,0.88,16,Low
+2025-10-03,08:35:10,Friday,October,Bengaluru,Marathahalli,12.968611,77.703066,Cybercrime,Nightclub/Bar,3.88,83,High
+2025-06-11,04:55:22,Wednesday,June,Bengaluru,MG Road,12.969038,77.606408,Theft,Park/Open Ground,3.43,72,High
+2026-02-22,12:35:32,Sunday,February,Bengaluru,Whitefield,12.963461,77.747536,Cybercrime,Parking Lot,2.03,45,Medium
+2025-08-01,17:31:10,Friday,August,Bengaluru,Shivajinagar,12.99794,77.603325,Burglary,Commercial,3.83,82,High
+2025-01-17,08:14:34,Friday,January,Bengaluru,HSR Layout,12.89924,77.638498,Vehicle Theft,Transit Station,0.93,17,Low
+2026-01-16,15:35:32,Friday,January,Bengaluru,Malleshwaram,13.001861,77.569906,Burglary,Residential,1.05,22,Low
+2025-10-06,11:34:52,Monday,October,Bengaluru,Rajajinagar,13.003283,77.543086,Theft,Park/Open Ground,1.89,41,Medium
+2025-08-06,03:47:53,Wednesday,August,Bengaluru,Whitefield,12.969864,77.75803,Assault,Nightclub/Bar,1.81,34,Medium
+2025-05-15,02:05:28,Thursday,May,Bengaluru,Shivajinagar,12.987977,77.599367,Burglary,Street/Road,3.88,70,High
+2026-01-13,18:44:22,Tuesday,January,Bengaluru,Rajajinagar,13.000093,77.563958,Drug Offense,Parking Lot,1.99,37,Medium
+2025-03-13,06:52:13,Thursday,March,Bengaluru,Malleshwaram,13.002895,77.550147,Theft,Bank/ATM,0.81,15,Low
+2025-10-03,05:20:45,Friday,October,Bengaluru,Malleshwaram,12.99809,77.564423,Vehicle Theft,Nightclub/Bar,0.63,14,Low
+2025-09-21,21:52:06,Sunday,September,Bengaluru,Yelahanka,13.107301,77.589363,Robbery,Parking Lot,0.58,11,Low
+2026-03-20,20:08:44,Friday,March,Bengaluru,HSR Layout,12.917929,77.640694,Robbery,Street/Road,0.79,13,Low
+2025-06-14,15:31:09,Saturday,June,Bengaluru,BTM Layout,12.923407,77.609001,Drug Offense,Nightclub/Bar,3.76,80,High
+2025-08-20,02:40:50,Wednesday,August,Bengaluru,Jayanagar,12.930276,77.599654,Burglary,Parking Lot,0.87,16,Low
+2026-04-25,17:31:20,Saturday,April,Bengaluru,BTM Layout,12.924323,77.619989,Drug Offense,Commercial,4.27,89,High
+2025-08-23,01:22:54,Saturday,August,Bengaluru,BTM Layout,12.918226,77.607823,Burglary,Market/Bazaar,4.15,85,High
+2025-08-08,06:31:17,Friday,August,Bengaluru,Whitefield,12.969804,77.75481,Chain Snatching,Nightclub/Bar,1.84,39,Medium
+2025-10-23,04:36:54,Thursday,October,Bengaluru,Hebbal,13.024563,77.585668,Cybercrime,Bank/ATM,2.3,44,High
+2025-01-25,01:06:40,Saturday,January,Bengaluru,Rajajinagar,13.003178,77.543889,Cybercrime,Commercial,1.69,35,Medium
+2025-03-22,14:29:00,Saturday,March,Bengaluru,Yelahanka,13.108468,77.609118,Vandalism,Street/Road,0.73,13,Low
+2025-06-04,22:05:41,Wednesday,June,Bengaluru,Marathahalli,12.952143,77.706403,Chain Snatching,Nightclub/Bar,4.0,75,High
+2025-12-07,20:10:03,Sunday,December,Bengaluru,Electronic City,12.846738,77.659014,Vandalism,Nightclub/Bar,1.58,34,Medium
+2025-12-02,02:45:06,Tuesday,December,Bengaluru,Jayanagar,12.931127,77.575783,Theft,Street/Road,0.8,18,Low
+2025-03-09,18:14:33,Sunday,March,Bengaluru,Indiranagar,12.976656,77.61969,Cybercrime,Commercial,1.76,33,Medium
+2025-06-25,16:44:08,Wednesday,June,Bengaluru,BTM Layout,12.916446,77.607997,Cybercrime,Residential,4.28,81,High
+2025-02-15,23:51:06,Saturday,February,Bengaluru,Jayanagar,12.931766,77.596181,Burglary,Bank/ATM,1.25,30,Medium
+2025-03-12,12:49:52,Wednesday,March,Bengaluru,HSR Layout,12.917483,77.649335,Robbery,Transit Station,0.41,9,Low
+2025-10-16,00:39:41,Thursday,October,Bengaluru,Hebbal,13.043647,77.591062,Robbery,Park/Open Ground,1.95,40,Medium
+2025-04-20,21:58:26,Sunday,April,Bengaluru,BTM Layout,12.917918,77.610507,Drug Offense,Park/Open Ground,4.53,85,High
+2026-04-05,03:08:48,Sunday,April,Bengaluru,Indiranagar,12.983762,77.646216,Burglary,Parking Lot,1.88,39,Medium
+2025-06-11,04:15:17,Wednesday,June,Bengaluru,Jayanagar,12.929974,77.570654,Burglary,Street/Road,0.86,20,Low
+2026-04-27,22:01:54,Monday,April,Bengaluru,Rajajinagar,13.002497,77.553413,Vehicle Theft,Street/Road,1.61,33,Medium
+2025-09-18,06:47:25,Thursday,September,Bengaluru,Malleshwaram,13.000098,77.561758,Vehicle Theft,Commercial,0.87,17,Low
+2025-07-17,23:40:38,Thursday,July,Bengaluru,Shivajinagar,12.988906,77.600343,Burglary,Market/Bazaar,3.89,73,High
+2026-04-24,10:08:24,Friday,April,Bengaluru,Electronic City,12.838713,77.650139,Drug Offense,Parking Lot,2.35,49,High
+2025-12-16,05:48:30,Tuesday,December,Bengaluru,Hebbal,13.038441,77.601959,Burglary,Commercial,1.52,33,Medium
+2025-01-08,08:13:02,Wednesday,January,Bengaluru,Indiranagar,12.971719,77.657516,Theft,Parking Lot,2.12,43,Medium
+2025-11-18,22:32:49,Tuesday,November,Bengaluru,HSR Layout,12.90786,77.646397,Vandalism,Parking Lot,0.8,16,Low
+2025-11-24,17:34:39,Monday,November,Bengaluru,Indiranagar,12.960705,77.653067,Robbery,Nightclub/Bar,1.3,23,Medium
+2025-02-10,16:58:13,Monday,February,Bengaluru,HSR Layout,12.915683,77.647569,Robbery,Market/Bazaar,0.8,15,Low
+2025-10-28,20:48:53,Tuesday,October,Bengaluru,Jayanagar,12.932318,77.578504,Burglary,Nightclub/Bar,1.05,22,Low
+2026-03-10,21:05:59,Tuesday,March,Bengaluru,BTM Layout,12.908908,77.616747,Vandalism,Residential,4.09,87,High
+2025-11-08,01:19:42,Saturday,November,Bengaluru,Malleshwaram,13.014973,77.567145,Robbery,Residential,0.57,13,Low
+2025-03-12,08:31:22,Wednesday,March,Bengaluru,BTM Layout,12.921548,77.60844,Harassment,Market/Bazaar,3.54,72,High
+2025-07-10,02:55:17,Thursday,July,Bengaluru,MG Road,12.982659,77.602983,Burglary,Commercial,4.2,85,High
+2025-08-08,08:33:04,Friday,August,Bengaluru,Rajajinagar,12.998042,77.549107,Vehicle Theft,Residential,2.12,45,Medium
+2025-09-19,23:54:36,Friday,September,Bengaluru,Shivajinagar,12.992254,77.60185,Robbery,Bank/ATM,4.01,81,High
+2026-01-31,03:57:36,Saturday,January,Bengaluru,HSR Layout,12.91408,77.645803,Burglary,Street/Road,0.98,21,Low
+2026-03-16,10:02:30,Monday,March,Bengaluru,Koramangala,12.929723,77.630825,Chain Snatching,Parking Lot,3.96,75,High
+2026-04-22,04:35:51,Wednesday,April,Bengaluru,MG Road,12.969919,77.601818,Vandalism,Street/Road,4.57,93,High
+2025-08-02,23:20:17,Saturday,August,Bengaluru,Whitefield,12.966544,77.755491,Burglary,Bank/ATM,2.29,48,High
+2025-12-11,01:11:14,Thursday,December,Bengaluru,Hebbal,13.040194,77.618074,Harassment,Commercial,2.14,45,High
+2026-03-26,14:55:18,Thursday,March,Bengaluru,Indiranagar,12.976887,77.648173,Vehicle Theft,Bank/ATM,2.04,41,Medium
+2025-08-22,00:23:12,Friday,August,Bengaluru,Hebbal,13.039072,77.586396,Vehicle Theft,Nightclub/Bar,2.06,38,Medium
+2025-08-26,11:37:31,Tuesday,August,Bengaluru,Whitefield,12.948966,77.751592,Assault,Market/Bazaar,1.91,35,Medium
+2025-01-04,03:14:34,Saturday,January,Bengaluru,MG Road,12.967983,77.609981,Chain Snatching,Commercial,4.3,90,High
+2026-01-24,12:06:13,Saturday,January,Bengaluru,Koramangala,12.931167,77.623848,Harassment,Street/Road,3.42,73,High
+2025-01-31,07:45:17,Friday,January,Bengaluru,Shivajinagar,12.991822,77.582833,Burglary,Commercial,3.51,70,High
+2025-09-24,13:44:57,Wednesday,September,Bengaluru,Yelahanka,13.106135,77.58711,Chain Snatching,Park/Open Ground,0.65,13,Low
+2025-02-18,16:08:40,Tuesday,February,Bengaluru,Malleshwaram,13.010009,77.568937,Vandalism,Residential,0.64,9,Low
+2025-12-06,04:15:18,Saturday,December,Bengaluru,Jayanagar,12.92602,77.595179,Vehicle Theft,Bank/ATM,0.87,20,Low
+2026-03-02,13:28:17,Monday,March,Bengaluru,BTM Layout,12.931017,77.613165,Assault,Residential,3.63,68,High
+2026-02-04,06:09:06,Wednesday,February,Bengaluru,MG Road,12.980804,77.594575,Robbery,Park/Open Ground,4.19,79,High
+2025-07-28,03:34:22,Monday,July,Bengaluru,Electronic City,12.845467,77.652551,Assault,Park/Open Ground,2.13,39,Medium
+2025-05-16,05:10:51,Friday,May,Bengaluru,Shivajinagar,12.990576,77.610401,Vehicle Theft,Commercial,4.38,81,High
+2026-03-15,10:09:05,Sunday,March,Bengaluru,Yelahanka,13.1094,77.603693,Assault,Bank/ATM,1.17,23,Low
+2025-01-26,21:19:16,Sunday,January,Bengaluru,Hebbal,13.031334,77.588199,Robbery,Commercial,2.41,48,High
+2025-08-20,17:47:35,Wednesday,August,Bengaluru,Yelahanka,13.105769,77.597004,Assault,Residential,0.89,20,Low
+2026-02-16,04:07:00,Monday,February,Bengaluru,Indiranagar,12.983964,77.647593,Theft,Street/Road,1.94,35,Medium
+2026-02-26,12:23:43,Thursday,February,Bengaluru,Whitefield,12.969318,77.753638,Burglary,Nightclub/Bar,1.77,31,Medium
+2025-02-03,01:28:51,Monday,February,Bengaluru,Koramangala,12.939205,77.624898,Robbery,Residential,3.56,64,High
+2025-01-22,14:03:10,Wednesday,January,Bengaluru,Indiranagar,12.976496,77.642952,Drug Offense,Parking Lot,2.2,46,Medium
+2025-01-16,23:11:22,Thursday,January,Bengaluru,Shivajinagar,12.982469,77.596398,Assault,Transit Station,3.89,73,High
+2025-08-17,04:02:39,Sunday,August,Bengaluru,HSR Layout,12.906905,77.650777,Drug Offense,Street/Road,0.98,18,Low
+2025-07-30,18:03:05,Wednesday,July,Bengaluru,Shivajinagar,12.983346,77.604447,Vehicle Theft,Parking Lot,3.71,75,High
+2025-04-13,20:56:51,Sunday,April,Bengaluru,Jayanagar,12.940798,77.571679,Harassment,Street/Road,0.59,11,Low
+2026-02-05,22:22:30,Thursday,February,Bengaluru,Jayanagar,12.926514,77.570141,Harassment,Park/Open Ground,0.86,20,Low
+2025-09-15,10:24:17,Monday,September,Bengaluru,Malleshwaram,13.007428,77.563072,Robbery,Commercial,0.97,19,Low
+2025-04-23,00:57:51,Wednesday,April,Bengaluru,Malleshwaram,13.000222,77.553692,Vehicle Theft,Commercial,1.04,23,Low
+2025-07-03,18:14:10,Thursday,July,Bengaluru,Hebbal,13.031743,77.583652,Burglary,Street/Road,2.39,45,Medium
+2025-05-17,17:52:50,Saturday,May,Bengaluru,Whitefield,12.967957,77.742606,Theft,Street/Road,2.29,48,High
+2026-02-13,12:22:59,Friday,February,Bengaluru,Yelahanka,13.091834,77.58301,Robbery,Transit Station,0.69,13,Low
+2025-06-12,23:44:22,Thursday,June,Bengaluru,Malleshwaram,12.995725,77.556268,Drug Offense,Commercial,0.83,19,Low
+2025-10-16,04:36:12,Thursday,October,Bengaluru,Malleshwaram,13.002433,77.565786,Cybercrime,Market/Bazaar,0.65,11,Low
+2025-09-09,20:14:38,Tuesday,September,Bengaluru,MG Road,12.965203,77.613238,Assault,Commercial,4.15,79,High
+2025-06-19,09:51:08,Thursday,June,Bengaluru,Koramangala,12.9226,77.631908,Chain Snatching,Transit Station,4.11,75,High
+2025-01-12,01:58:09,Sunday,January,Bengaluru,Koramangala,12.939612,77.627225,Burglary,Market/Bazaar,3.95,74,High
+2025-07-11,22:42:25,Friday,July,Bengaluru,Indiranagar,12.971483,77.654363,Drug Offense,Residential,2.02,36,Medium
+2025-06-15,04:10:46,Sunday,June,Bengaluru,HSR Layout,12.921095,77.641927,Vandalism,Park/Open Ground,0.85,14,Low
+2025-12-29,14:14:42,Monday,December,Bengaluru,MG Road,12.968685,77.605473,Drug Offense,Transit Station,4.0,80,High
+2026-01-11,22:18:08,Sunday,January,Bengaluru,HSR Layout,12.926097,77.655652,Robbery,Commercial,1.03,20,Low
+2026-01-30,18:02:11,Friday,January,Bengaluru,Yelahanka,13.103573,77.600844,Drug Offense,Bank/ATM,0.63,13,Low
+2025-10-17,23:09:21,Friday,October,Bengaluru,Marathahalli,12.958563,77.691674,Burglary,Street/Road,4.41,86,High
+2025-03-27,20:56:05,Thursday,March,Bengaluru,Electronic City,12.848463,77.66382,Chain Snatching,Park/Open Ground,1.89,36,Medium
+2025-04-18,07:44:04,Friday,April,Bengaluru,HSR Layout,12.919053,77.651698,Chain Snatching,Nightclub/Bar,0.7,14,Low
+2025-01-01,23:46:26,Wednesday,January,Bengaluru,BTM Layout,12.917831,77.616232,Robbery,Parking Lot,4.2,86,High
+2025-06-29,17:24:06,Sunday,June,Bengaluru,Jayanagar,12.933231,77.589573,Cybercrime,Street/Road,0.93,18,Low
+2025-02-07,04:18:01,Friday,February,Bengaluru,Shivajinagar,12.992946,77.595161,Chain Snatching,Nightclub/Bar,3.79,71,High
+2025-06-25,05:56:24,Wednesday,June,Bengaluru,Indiranagar,12.974004,77.647677,Robbery,Residential,2.0,42,Medium
+2025-06-23,19:39:57,Monday,June,Bengaluru,Indiranagar,12.972877,77.640833,Cybercrime,Commercial,1.88,41,Medium
+2025-03-26,23:10:03,Wednesday,March,Bengaluru,Marathahalli,12.955155,77.708949,Burglary,Bank/ATM,3.77,79,High
+2025-07-29,22:35:46,Tuesday,July,Bengaluru,Whitefield,12.974142,77.741689,Harassment,Nightclub/Bar,2.24,48,High
+2025-06-02,07:06:03,Monday,June,Bengaluru,HSR Layout,12.903419,77.637997,Vandalism,Market/Bazaar,0.94,20,Low
+2025-01-28,23:05:18,Tuesday,January,Bengaluru,MG Road,12.983992,77.602866,Drug Offense,Park/Open Ground,4.46,83,High
+2025-01-14,06:10:40,Tuesday,January,Bengaluru,Indiranagar,12.977396,77.643423,Vehicle Theft,Residential,2.18,40,Medium
+2025-03-01,09:50:25,Saturday,March,Bengaluru,Yelahanka,13.109219,77.579178,Cybercrime,Park/Open Ground,0.94,17,Low
+2025-11-25,17:24:11,Tuesday,November,Bengaluru,Indiranagar,12.985774,77.644662,Chain Snatching,Parking Lot,2.26,47,Medium
+2025-08-17,23:29:16,Sunday,August,Bengaluru,MG Road,12.966776,77.609472,Assault,Nightclub/Bar,3.99,75,High
+2026-01-21,06:05:42,Wednesday,January,Bengaluru,MG Road,12.972261,77.604239,Chain Snatching,Market/Bazaar,4.0,75,High
+2025-10-29,07:35:03,Wednesday,October,Bengaluru,Rajajinagar,12.999097,77.566957,Vandalism,Market/Bazaar,1.61,35,Medium
+2025-12-18,15:36:56,Thursday,December,Bengaluru,Hebbal,13.030123,77.586932,Assault,Park/Open Ground,1.65,31,Medium
+2025-07-22,22:02:32,Tuesday,July,Bengaluru,Indiranagar,12.967059,77.645599,Drug Offense,Market/Bazaar,1.61,33,Medium
+2025-11-14,02:28:11,Friday,November,Bengaluru,Marathahalli,12.967271,77.714108,Robbery,Street/Road,3.84,74,High
+2025-01-22,01:27:12,Wednesday,January,Bengaluru,MG Road,12.984287,77.615042,Robbery,Nightclub/Bar,3.67,72,High
+2026-04-14,05:24:35,Tuesday,April,Bengaluru,BTM Layout,12.919223,77.617494,Vandalism,Market/Bazaar,4.16,81,High
+2025-05-22,16:29:58,Thursday,May,Bengaluru,Yelahanka,13.098014,77.589984,Theft,Market/Bazaar,0.7,15,Low
+2025-08-01,04:09:36,Friday,August,Bengaluru,Indiranagar,12.985268,77.638923,Drug Offense,Residential,1.61,31,Medium
+2026-02-04,03:50:18,Wednesday,February,Bengaluru,Malleshwaram,13.002734,77.55818,Harassment,Bank/ATM,1.02,20,Low
+2025-07-16,20:31:36,Wednesday,July,Bengaluru,HSR Layout,12.914345,77.658669,Drug Offense,Park/Open Ground,0.81,17,Low
+2025-05-22,00:38:43,Thursday,May,Bengaluru,MG Road,12.973689,77.618041,Vandalism,Commercial,4.08,74,High
+2025-12-20,07:03:47,Saturday,December,Bengaluru,Electronic City,12.8388,77.659692,Cybercrime,Nightclub/Bar,2.08,38,Medium
+2025-06-22,12:19:17,Sunday,June,Bengaluru,Koramangala,12.932994,77.632026,Cybercrime,Residential,3.07,63,High
+2025-06-03,17:49:52,Tuesday,June,Bengaluru,MG Road,12.985201,77.602665,Chain Snatching,Nightclub/Bar,4.01,84,High
+2025-11-27,02:12:28,Thursday,November,Bengaluru,Malleshwaram,12.993066,77.552533,Assault,Parking Lot,0.69,13,Low
+2025-09-22,11:52:03,Monday,September,Bengaluru,Rajajinagar,13.005377,77.563199,Harassment,Transit Station,1.85,39,Medium
+2025-12-30,16:25:08,Tuesday,December,Bengaluru,HSR Layout,12.910428,77.661481,Harassment,Commercial,0.79,18,Low
+2026-03-25,06:53:03,Wednesday,March,Bengaluru,Whitefield,12.973458,77.761647,Assault,Commercial,2.4,47,High
+2026-04-16,21:17:23,Thursday,April,Bengaluru,Koramangala,12.926046,77.624958,Cybercrime,Market/Bazaar,4.46,86,High
+2026-04-18,20:15:23,Saturday,April,Bengaluru,Marathahalli,12.955556,77.693564,Cybercrime,Park/Open Ground,4.58,86,High
+2025-08-31,18:35:22,Sunday,August,Bengaluru,Yelahanka,13.105031,77.607834,Chain Snatching,Transit Station,0.81,18,Low
+2026-03-02,12:01:24,Monday,March,Bengaluru,BTM Layout,12.931074,77.608356,Theft,Transit Station,3.56,71,High
+2025-04-24,20:14:43,Thursday,April,Bengaluru,Yelahanka,13.094635,77.590801,Assault,Nightclub/Bar,0.9,18,Low
+2025-01-11,21:00:30,Saturday,January,Bengaluru,Hebbal,13.028538,77.609154,Robbery,Transit Station,2.52,50,High
+2025-01-05,07:16:38,Sunday,January,Bengaluru,Rajajinagar,13.005613,77.544212,Vehicle Theft,Nightclub/Bar,2.03,43,Medium
+2026-03-13,11:29:16,Friday,March,Bengaluru,Jayanagar,12.935578,77.576213,Assault,Park/Open Ground,0.68,14,Low
+2025-09-24,15:37:06,Wednesday,September,Bengaluru,Marathahalli,12.967456,77.701697,Theft,Market/Bazaar,4.11,87,High
+2025-11-28,19:38:18,Friday,November,Bengaluru,Hebbal,13.037884,77.592689,Vehicle Theft,Residential,1.81,40,Medium
+2025-06-22,08:40:20,Sunday,June,Bengaluru,Indiranagar,12.975739,77.644732,Vehicle Theft,Nightclub/Bar,2.31,46,Medium
+2026-04-02,09:09:33,Thursday,April,Bengaluru,BTM Layout,12.922033,77.607684,Assault,Commercial,4.85,93,High
+2025-06-13,03:41:31,Friday,June,Bengaluru,Marathahalli,12.955347,77.702557,Vehicle Theft,Nightclub/Bar,3.97,85,High
+2025-07-18,23:02:37,Friday,July,Bengaluru,Jayanagar,12.936854,77.5887,Drug Offense,Street/Road,0.75,15,Low
+2026-01-01,00:40:50,Thursday,January,Bengaluru,BTM Layout,12.926318,77.605319,Cybercrime,Bank/ATM,4.16,80,High
+2025-03-29,21:56:35,Saturday,March,Bengaluru,Yelahanka,13.105677,77.606931,Robbery,Nightclub/Bar,0.94,17,Low
+2025-03-07,08:43:57,Friday,March,Bengaluru,Shivajinagar,12.994871,77.61946,Chain Snatching,Residential,4.11,80,High
+2025-04-25,23:55:19,Friday,April,Bengaluru,Electronic City,12.846359,77.660391,Vandalism,Bank/ATM,2.24,44,High
+2025-10-27,09:29:54,Monday,October,Bengaluru,HSR Layout,12.901268,77.640174,Burglary,Park/Open Ground,0.94,19,Low
+2025-11-21,18:37:39,Friday,November,Bengaluru,Yelahanka,13.105704,77.603382,Burglary,Park/Open Ground,0.84,17,Low
+2025-03-03,21:24:33,Monday,March,Bengaluru,Hebbal,13.045316,77.606369,Vehicle Theft,Parking Lot,1.59,33,Medium
+2026-03-14,04:08:12,Saturday,March,Bengaluru,Yelahanka,13.116401,77.59633,Chain Snatching,Parking Lot,1.0,22,Low
+2025-06-11,08:49:05,Wednesday,June,Bengaluru,MG Road,12.978833,77.598424,Cybercrime,Bank/ATM,4.07,77,High
+2025-11-21,,Friday,November,Bengaluru,Electronic City,12.861096,77.655952,Vehicle Theft,Street/Road,1.93,43,Medium
+2026-01-27,05:31:50,Tuesday,January,Bengaluru,Malleshwaram,13.007285,77.574947,Burglary,Transit Station,0.91,19,Low
+2025-08-08,23:24:00,Friday,August,Bengaluru,Marathahalli,12.961031,77.688192,Theft,Market/Bazaar,3.75,71,High
+2025-07-11,13:48:53,Friday,July,Bengaluru,BTM Layout,12.902687,77.619003,Harassment,Street/Road,2.96,54,High
+2025-01-03,21:14:44,Friday,January,Bengaluru,Marathahalli,12.96066,77.691334,Chain Snatching,Nightclub/Bar,4.18,77,High
+2025-07-16,16:37:19,Wednesday,July,Bengaluru,Indiranagar,12.977068,77.642495,Robbery,Residential,2.08,39,Medium
+2025-05-29,14:46:33,Thursday,May,Bengaluru,HSR Layout,12.914125,77.651163,Drug Offense,Market/Bazaar,1.01,22,Low
+2026-03-31,21:08:21,Tuesday,March,Bengaluru,Jayanagar,12.933545,77.586268,Cybercrime,Bank/ATM,1.07,23,Low
+2026-04-10,15:01:14,Friday,April,Bengaluru,MG Road,12.974186,77.594211,Assault,Transit Station,3.46,71,High
+2025-01-12,21:07:23,Sunday,January,Bengaluru,BTM Layout,12.902982,77.606397,Theft,Parking Lot,4.11,85,High
+2025-10-01,19:03:38,Wednesday,October,Bengaluru,Rajajinagar,12.994302,77.550185,Theft,Residential,2.11,41,Medium
+2025-01-11,01:44:07,Saturday,January,Bengaluru,Yelahanka,13.097665,77.598957,Vandalism,Park/Open Ground,0.77,17,Low
+2025-10-08,08:30:44,Wednesday,October,Bengaluru,Indiranagar,12.978148,77.634013,Robbery,Street/Road,2.2,42,Medium
+2025-01-05,01:06:42,Sunday,January,Bengaluru,Marathahalli,12.960991,77.688896,Harassment,Nightclub/Bar,3.9,74,High
+2026-03-02,03:32:46,Monday,March,Bengaluru,Jayanagar,12.930036,77.56959,Drug Offense,Residential,0.57,11,Low
+2026-02-06,03:31:12,Friday,February,Bengaluru,Indiranagar,12.968913,77.622224,Drug Offense,Street/Road,2.19,43,Medium
+2025-09-25,06:22:45,Thursday,September,Bengaluru,Yelahanka,13.104557,77.59925,Vandalism,Nightclub/Bar,0.78,13,Low
+2025-10-08,21:44:59,Wednesday,October,Bengaluru,Koramangala,12.925725,77.620505,Cybercrime,Bank/ATM,3.92,77,High
+2025-01-07,06:53:36,Tuesday,January,Bengaluru,Koramangala,12.945175,77.624004,Cybercrime,Transit Station,3.54,69,High
+2025-09-19,02:46:46,Friday,September,Bengaluru,Rajajinagar,12.993991,77.537286,Burglary,Nightclub/Bar,2.24,49,High
+2025-08-22,09:16:29,Friday,August,Bengaluru,Whitefield,12.985033,77.763008,Theft,Residential,1.77,37,Medium
+2025-01-21,09:23:51,Tuesday,January,Bengaluru,Yelahanka,13.083927,77.60321,Chain Snatching,Parking Lot,0.83,16,Low
+2026-03-12,01:00:54,Thursday,March,Bengaluru,Indiranagar,12.973689,77.634102,Robbery,Transit Station,1.93,35,Medium
+2026-04-03,14:39:17,Friday,April,Bengaluru,Electronic City,12.848243,77.658673,Burglary,Bank/ATM,1.84,33,Medium
+2025-02-28,23:17:53,Friday,February,Bengaluru,MG Road,12.969857,77.604756,Vandalism,Park/Open Ground,4.42,84,High
+2026-03-30,06:08:44,Monday,March,Bengaluru,Marathahalli,12.96326,77.689577,Theft,Transit Station,3.75,66,High
+2026-04-12,18:30:51,Sunday,April,Bengaluru,Jayanagar,12.924091,77.576707,Drug Offense,Park/Open Ground,0.96,18,Low
+2025-07-14,11:39:01,Monday,July,Bengaluru,Malleshwaram,13.001966,77.554829,Robbery,Park/Open Ground,0.89,18,Low
+2026-03-31,13:28:02,Tuesday,March,Bengaluru,Indiranagar,12.970908,77.635458,Burglary,Nightclub/Bar,2.26,44,Medium
+2025-01-07,22:55:43,Tuesday,January,Bengaluru,Electronic City,12.844842,77.650488,Harassment,Street/Road,2.36,44,High
+2025-06-23,16:33:44,Monday,June,Bengaluru,Yelahanka,13.09649,77.607407,Drug Offense,Residential,0.98,23,Low
+2026-01-08,22:42:43,Thursday,January,Bengaluru,Marathahalli,12.954305,77.68852,Vandalism,Transit Station,3.98,71,High
+2025-11-26,19:54:30,Wednesday,November,Bengaluru,Koramangala,12.939266,77.65591,Cybercrime,Transit Station,3.09,55,High
+2025-09-09,10:15:21,Tuesday,September,Bengaluru,Rajajinagar,13.007797,77.551251,Vehicle Theft,,1.86,37,Medium
+2025-10-09,20:24:25,Thursday,October,Bengaluru,Whitefield,12.965241,77.752636,Assault,Residential,2.03,44,Medium
+2026-02-15,20:54:31,Sunday,February,Bengaluru,Shivajinagar,12.99607,77.599403,Cybercrime,Bank/ATM,3.43,71,High
+2026-01-17,06:25:26,Saturday,January,Bengaluru,Shivajinagar,12.980452,77.609363,Theft,Market/Bazaar,4.11,74,High
+2025-02-16,19:39:40,Sunday,February,Bengaluru,Yelahanka,13.09558,77.59497,Vehicle Theft,Market/Bazaar,0.75,16,Low
+2025-12-10,22:23:52,Wednesday,December,Bengaluru,Marathahalli,12.957542,77.696886,Theft,Street/Road,4.85,98,High
+2025-10-14,19:38:30,Tuesday,October,Bengaluru,Electronic City,12.835822,77.669375,Chain Snatching,Park/Open Ground,2.07,44,Medium
+2026-01-24,21:14:00,Saturday,January,Bengaluru,Indiranagar,12.985408,77.652581,Chain Snatching,Bank/ATM,2.06,42,Medium
+2025-05-30,17:33:23,Friday,May,Bengaluru,Rajajinagar,12.991639,77.542989,Burglary,Commercial,1.81,31,Medium
+2025-03-13,16:06:16,Thursday,March,Bengaluru,Shivajinagar,12.988892,77.594118,Drug Offense,Street/Road,3.67,75,High
+2026-04-22,12:13:29,Wednesday,April,Bengaluru,Indiranagar,12.995005,77.637822,Assault,Bank/ATM,2.03,40,Medium
+2025-08-01,01:59:40,Friday,August,Bengaluru,Rajajinagar,12.990609,77.566979,Drug Offense,Residential,2.16,40,Medium
+2025-12-04,00:08:31,Thursday,December,Bengaluru,Shivajinagar,12.984139,77.608051,Theft,Market/Bazaar,3.63,75,High
+2026-04-24,13:53:37,Friday,April,Bengaluru,Hebbal,13.031568,77.588548,Cybercrime,Market/Bazaar,1.69,36,Medium
+2025-10-24,02:08:06,Friday,October,Bengaluru,BTM Layout,12.918435,77.623801,Vandalism,Bank/ATM,3.79,77,High
+2025-11-08,22:48:15,Saturday,November,Bengaluru,Jayanagar,12.919853,77.599698,Vehicle Theft,Parking Lot,0.75,14,Low
+2025-08-20,04:08:26,Wednesday,August,Bengaluru,HSR Layout,12.909881,77.650321,Drug Offense,Market/Bazaar,1.08,20,Low
+2025-12-26,17:55:20,Friday,December,Bengaluru,Yelahanka,13.102812,77.606479,Harassment,Street/Road,0.65,15,Low
+2025-11-16,,Sunday,November,Bengaluru,Whitefield,12.973534,77.754051,Chain Snatching,Transit Station,1.87,37,Medium
+2025-09-15,01:20:45,Monday,September,Bengaluru,MG Road,12.987731,77.611417,Burglary,Bank/ATM,4.06,86,High
+2025-10-20,21:45:26,Monday,October,Bengaluru,Malleshwaram,12.989145,77.568958,Harassment,Nightclub/Bar,1.3,29,Medium
+2025-01-07,16:06:01,Tuesday,January,Bengaluru,Rajajinagar,12.994891,77.568102,Vandalism,Transit Station,1.5,30,Medium
+2025-01-29,02:50:10,Wednesday,January,Bengaluru,Marathahalli,12.944176,77.705629,Vehicle Theft,Nightclub/Bar,3.67,73,High
+2025-02-01,22:50:18,Saturday,February,Bengaluru,Yelahanka,13.096031,77.604607,Assault,Market/Bazaar,0.57,10,Low
+2026-02-21,14:06:39,Saturday,February,Bengaluru,Electronic City,12.855071,77.659683,Harassment,Street/Road,2.12,40,Medium
+2025-07-19,07:32:50,Saturday,July,Bengaluru,Hebbal,13.032509,77.606231,Vehicle Theft,Commercial,2.17,40,Medium
+2025-08-02,21:20:35,Saturday,August,Bengaluru,Jayanagar,12.933489,77.599457,Theft,Commercial,0.85,16,Low
+2025-11-14,14:53:14,Friday,November,Bengaluru,Whitefield,12.970272,77.753575,Chain Snatching,Market/Bazaar,2.29,48,High
+2026-02-02,23:12:18,Monday,February,Bengaluru,Whitefield,12.971933,77.742744,Cybercrime,Transit Station,2.47,56,High
+2025-04-06,05:47:32,Sunday,April,Bengaluru,Indiranagar,12.984117,77.6244,Burglary,Parking Lot,1.85,33,Medium
+2025-05-23,17:16:08,Friday,May,Bengaluru,Jayanagar,12.918309,77.594839,Robbery,Nightclub/Bar,0.54,10,Low
+2025-08-27,22:59:09,Wednesday,August,Bengaluru,Electronic City,12.859079,77.653346,Theft,Transit Station,2.08,43,Medium
+2025-01-27,20:39:53,Monday,January,Bengaluru,Malleshwaram,13.000084,77.561503,Vehicle Theft,Park/Open Ground,1.03,22,Low
+2026-02-06,22:20:33,Friday,February,Bengaluru,Indiranagar,12.966284,77.643373,Assault,Transit Station,2.3,43,High
+2026-02-07,16:10:26,Saturday,February,Bengaluru,Indiranagar,12.981228,77.638753,Harassment,Market/Bazaar,2.49,51,High
+2025-06-28,07:56:13,Saturday,June,Bengaluru,Indiranagar,12.968245,77.65442,Chain Snatching,Bank/ATM,2.23,44,Medium
+2025-04-22,19:33:30,Tuesday,April,Bengaluru,HSR Layout,12.925111,77.640579,Harassment,Commercial,0.98,18,Low
+2025-06-27,,Friday,June,Bengaluru,Marathahalli,12.968704,77.698523,Drug Offense,Street/Road,3.9,69,High
+2026-03-30,02:07:24,Monday,March,Bengaluru,Marathahalli,12.964337,77.693614,Vehicle Theft,Market/Bazaar,3.88,79,High
+2026-04-12,02:23:32,Sunday,April,Bengaluru,Koramangala,12.920656,77.630578,Harassment,Park/Open Ground,3.14,66,High
+2025-06-01,09:20:32,Sunday,June,Bengaluru,Koramangala,12.947261,77.618963,Burglary,Residential,3.94,72,High
+2025-10-03,17:00:40,Friday,October,Bengaluru,Rajajinagar,12.997164,77.557639,Burglary,Street/Road,2.6,50,High
+2026-02-01,01:27:53,Sunday,February,Bengaluru,Marathahalli,12.959687,77.694709,Burglary,Street/Road,4.02,86,High
+2026-02-23,07:01:29,Monday,February,Bengaluru,Marathahalli,12.948755,77.701979,Chain Snatching,Commercial,3.51,68,High
+2025-01-28,05:50:16,Tuesday,January,Bengaluru,Indiranagar,12.975777,77.638092,Harassment,Residential,2.28,43,Medium
+2025-04-27,08:26:24,Sunday,April,Bengaluru,Yelahanka,13.099146,77.590254,Cybercrime,Parking Lot,0.78,14,Low
+2025-01-09,12:43:07,Thursday,January,Bengaluru,Electronic City,12.836139,77.662955,Harassment,Commercial,2.13,40,Medium
+2025-11-13,01:37:02,Thursday,November,Bengaluru,BTM Layout,12.92053,77.607236,Burglary,Bank/ATM,3.98,86,High
+2026-02-07,21:19:38,Saturday,February,Bengaluru,HSR Layout,12.912768,77.64044,Burglary,Nightclub/Bar,0.96,19,Low
+2025-07-22,21:01:30,Tuesday,July,Bengaluru,Jayanagar,12.930086,77.583499,Robbery,Market/Bazaar,0.97,17,Low
+2026-01-18,02:54:34,Sunday,January,Bengaluru,MG Road,12.961729,77.609328,Vehicle Theft,Transit Station,4.49,84,High
+2026-03-31,14:00:35,Tuesday,March,Bengaluru,Marathahalli,12.965874,77.680382,Harassment,Transit Station,3.32,56,High
+2025-01-03,23:34:35,Friday,January,Bengaluru,Koramangala,12.930473,77.62974,Burglary,Nightclub/Bar,3.91,69,High
+2026-01-15,14:13:26,Thursday,January,Bengaluru,BTM Layout,12.915715,77.602927,Harassment,Transit Station,3.4,71,High
+2025-04-24,22:12:07,Thursday,April,Bengaluru,MG Road,12.981019,77.6004,Robbery,Commercial,3.53,68,High
+2025-10-09,01:04:16,Thursday,October,Bengaluru,Marathahalli,12.950792,77.68435,Burglary,Street/Road,4.34,86,High
+2025-07-02,04:42:41,Wednesday,July,Bengaluru,Electronic City,12.850068,77.665915,Assault,Residential,1.59,32,Medium
+2025-02-05,06:20:31,Wednesday,February,Bengaluru,Malleshwaram,12.993865,77.550285,Cybercrime,Bank/ATM,0.82,19,Low
+2025-10-27,00:23:51,Monday,October,Bengaluru,BTM Layout,12.929142,77.603224,Chain Snatching,Parking Lot,3.4,68,High
+2025-06-10,21:45:47,Tuesday,June,Bengaluru,Koramangala,12.927182,77.618481,Vandalism,Nightclub/Bar,4.13,79,High
+2025-12-14,18:29:28,Sunday,December,Bengaluru,MG Road,12.979732,77.614384,Chain Snatching,Nightclub/Bar,4.33,93,High
+2025-02-25,05:41:38,Tuesday,February,Bengaluru,Hebbal,13.029558,77.607645,Burglary,Nightclub/Bar,1.83,40,Medium
+2025-04-11,08:46:56,Friday,April,Bengaluru,Hebbal,13.040642,77.605923,Burglary,Residential,1.76,36,Medium
+2025-09-17,20:01:52,Wednesday,September,Bengaluru,Yelahanka,13.118953,77.591359,Drug Offense,Parking Lot,0.73,15,Low
+2025-10-10,00:30:41,Friday,October,Bengaluru,Koramangala,12.944357,77.626178,Robbery,Bank/ATM,4.33,86,High
+2026-04-02,18:46:54,Thursday,April,Bengaluru,Whitefield,12.962181,77.744584,Vehicle Theft,Transit Station,2.43,47,High
+2025-09-19,02:25:23,Friday,September,Bengaluru,Hebbal,13.032175,77.604158,Harassment,Commercial,2.36,48,High
+2026-03-11,19:43:10,Wednesday,March,Bengaluru,Whitefield,12.975685,77.764254,Harassment,Transit Station,2.15,41,Medium
+2025-04-02,00:42:55,Wednesday,April,Bengaluru,MG Road,12.981431,77.598302,Robbery,Park/Open Ground,4.02,75,High
+2025-04-23,10:04:16,Wednesday,April,Bengaluru,Koramangala,12.93747,77.616597,Chain Snatching,Street/Road,4.21,80,High
+2025-04-16,02:23:24,Wednesday,April,Bengaluru,Marathahalli,12.956811,77.680481,Cybercrime,Park/Open Ground,4.23,85,High
+2025-11-29,01:33:40,Saturday,November,Bengaluru,Koramangala,12.926633,77.639791,Vehicle Theft,Nightclub/Bar,3.75,76,High
+2025-12-01,12:23:37,Monday,December,Bengaluru,Jayanagar,12.932553,77.584417,Burglary,Market/Bazaar,0.9,18,Low
+2026-04-10,07:33:25,Friday,April,Bengaluru,Jayanagar,12.917451,77.59227,Chain Snatching,Bank/ATM,1.13,26,Low
+2025-09-04,19:00:32,Thursday,September,Bengaluru,Rajajinagar,12.990219,77.561293,Robbery,Park/Open Ground,2.04,37,Medium
+2025-02-09,16:41:17,Sunday,February,Bengaluru,Whitefield,12.974909,77.758465,Assault,Transit Station,1.63,33,Medium
+2025-07-05,02:07:42,Saturday,July,Bengaluru,MG Road,12.980821,77.597499,Assault,Parking Lot,3.83,83,High
+2025-02-28,23:30:13,Friday,February,Bengaluru,BTM Layout,12.909363,77.619482,Drug Offense,Transit Station,4.22,87,High
+2025-05-05,00:37:10,Monday,May,Bengaluru,Koramangala,12.929118,77.626797,Robbery,Market/Bazaar,3.81,69,High
+2025-03-17,01:10:16,Monday,March,Bengaluru,Malleshwaram,12.99577,77.575144,Robbery,Market/Bazaar,0.83,16,Low
+2025-10-16,20:01:56,Thursday,October,Bengaluru,Malleshwaram,13.007967,77.586428,Vehicle Theft,Residential,0.54,10,Low
+2025-11-07,18:10:14,Friday,November,Bengaluru,Shivajinagar,12.973808,77.615327,Vandalism,Transit Station,3.48,69,High
+2025-12-04,16:16:10,Thursday,December,Bengaluru,Malleshwaram,13.002848,77.566498,Chain Snatching,Park/Open Ground,0.86,14,Low
+2025-07-13,12:08:06,Sunday,July,Bengaluru,Whitefield,12.980016,77.752704,Theft,Street/Road,1.96,40,Medium
+2026-04-11,16:43:26,Saturday,April,Bengaluru,Yelahanka,13.110348,77.605435,Robbery,Residential,0.73,13,Low
+2026-04-07,20:56:50,Tuesday,April,Bengaluru,Shivajinagar,12.988033,77.595094,Harassment,Market/Bazaar,4.11,77,High
+2025-09-04,21:08:57,Thursday,September,Bengaluru,Indiranagar,12.978399,77.649467,Drug Offense,Market/Bazaar,1.83,39,Medium
+2025-12-14,20:27:33,Sunday,December,Bengaluru,Rajajinagar,13.014888,77.544882,Vandalism,Bank/ATM,1.93,42,Medium
+2025-09-29,02:30:50,Monday,September,Bengaluru,BTM Layout,12.937037,77.604962,Vandalism,Bank/ATM,3.5,74,High
+2025-03-10,08:30:49,Monday,March,Bengaluru,Jayanagar,12.932369,77.576567,Assault,Residential,0.89,17,Low
+2026-03-25,17:26:16,Wednesday,March,Bengaluru,Malleshwaram,13.018867,77.564144,Assault,Commercial,0.6,10,Low
+2025-09-25,03:33:00,Thursday,September,Bengaluru,Malleshwaram,13.015819,77.568893,Vandalism,Street/Road,0.81,16,Low
+2025-07-05,03:09:27,Saturday,July,Bengaluru,Jayanagar,12.93559,77.576438,Drug Offense,Nightclub/Bar,1.0,18,Low
+2025-10-02,13:36:23,Thursday,October,Bengaluru,Yelahanka,13.092489,77.60614,Drug Offense,Nightclub/Bar,1.08,21,Low
+2025-04-15,13:35:50,Tuesday,April,Bengaluru,Rajajinagar,12.98015,77.543572,Harassment,Park/Open Ground,2.13,47,Medium
+2025-10-14,17:30:16,Tuesday,October,Bengaluru,Electronic City,12.848627,77.660817,Vehicle Theft,Bank/ATM,1.9,39,Medium
+2025-03-12,06:47:14,Wednesday,March,Bengaluru,BTM Layout,12.906594,77.610276,Cybercrime,Transit Station,3.66,72,High
+2025-09-18,12:50:21,Thursday,September,Bengaluru,Whitefield,12.955449,77.739156,Harassment,Commercial,2.06,40,Medium
+2025-11-22,00:51:05,Saturday,November,Bengaluru,Jayanagar,12.93218,77.587887,Robbery,Park/Open Ground,1.25,27,Medium
+2025-02-02,,Sunday,February,Bengaluru,Indiranagar,12.990007,77.655258,Burglary,Commercial,1.81,39,Medium
+2025-11-11,20:33:18,Tuesday,November,Bengaluru,Jayanagar,12.921858,77.58093,Drug Offense,Commercial,0.78,18,Low
+2025-09-11,21:54:42,Thursday,September,Bengaluru,Marathahalli,12.97642,77.706924,Harassment,Nightclub/Bar,4.18,86,High
+2026-02-06,00:44:14,Friday,February,Bengaluru,Koramangala,12.936679,77.635626,Drug Offense,Transit Station,3.46,58,High
+2025-05-03,20:00:10,Saturday,May,Bengaluru,Electronic City,12.832584,77.653777,Burglary,Nightclub/Bar,1.73,34,Medium
+2025-12-09,12:25:37,Tuesday,December,Bengaluru,Electronic City,12.839149,77.66158,Assault,Market/Bazaar,2.27,46,Medium
+2025-12-27,20:35:18,Saturday,December,Bengaluru,BTM Layout,12.934772,77.606865,Harassment,Bank/ATM,4.25,89,High
+2025-05-22,07:38:12,Thursday,May,Bengaluru,Yelahanka,13.105177,77.589792,Cybercrime,Parking Lot,0.8,13,Low
+2025-03-31,13:32:06,Monday,March,Bengaluru,HSR Layout,12.91032,77.660975,Harassment,Residential,0.76,15,Low
+2026-04-30,03:51:32,Thursday,April,Bengaluru,Electronic City,12.835083,77.672434,Vehicle Theft,Market/Bazaar,2.37,52,High
+2025-12-22,14:24:36,Monday,December,Bengaluru,HSR Layout,12.907241,77.643982,Cybercrime,Street/Road,1.01,19,Low
+2025-08-23,21:29:57,Saturday,August,Bengaluru,Rajajinagar,13.008353,77.554704,Drug Offense,Commercial,2.2,44,High
+2025-05-13,02:24:40,Tuesday,May,Bengaluru,Indiranagar,12.982578,77.640017,Assault,Street/Road,1.93,41,Medium
+2025-06-30,16:34:00,Monday,June,Bengaluru,Jayanagar,12.939623,77.599283,Vehicle Theft,Street/Road,0.72,13,Low
+2025-07-24,21:47:52,Thursday,July,Bengaluru,Indiranagar,12.979528,77.653509,Chain Snatching,Residential,1.75,38,Medium
+2025-09-01,21:57:36,Monday,September,Bengaluru,MG Road,12.965869,77.604919,Vehicle Theft,Transit Station,3.49,68,High
+2026-01-13,01:15:55,Tuesday,January,Bengaluru,Shivajinagar,12.985279,77.598815,Vehicle Theft,Street/Road,3.85,77,High
+2026-03-04,07:53:39,Wednesday,March,Bengaluru,Whitefield,12.968218,77.751513,Chain Snatching,Transit Station,1.67,36,Medium
+2026-04-17,02:43:42,Friday,April,Bengaluru,Indiranagar,12.991966,77.655978,Cybercrime,Commercial,2.58,50,High
+2026-03-11,00:20:31,Wednesday,March,Bengaluru,Koramangala,12.952029,77.629271,Drug Offense,Nightclub/Bar,4.31,94,High
+2026-01-27,11:25:14,Tuesday,January,Bengaluru,MG Road,12.974869,77.605953,Drug Offense,Transit Station,3.11,61,High
+2026-02-14,13:30:34,Saturday,February,Bengaluru,Hebbal,13.038353,77.598048,Theft,Market/Bazaar,1.74,33,Medium
+2026-03-17,21:49:11,Tuesday,March,Bengaluru,Jayanagar,12.940029,77.594891,Cybercrime,Residential,0.91,19,Low
+2025-12-19,00:00:43,Friday,December,Bengaluru,Electronic City,12.846083,77.664259,Assault,Parking Lot,2.28,48,High
+2025-06-16,11:39:55,Monday,June,Bengaluru,Indiranagar,12.975784,77.639092,Vehicle Theft,Transit Station,1.95,37,Medium
+2025-05-02,08:30:39,Friday,May,Bengaluru,HSR Layout,12.900868,77.66576,Chain Snatching,Bank/ATM,0.96,21,Low
+2025-08-06,01:48:23,Wednesday,August,Bengaluru,Shivajinagar,12.995745,77.598281,Chain Snatching,Parking Lot,3.63,71,High
+2025-04-03,00:43:14,Thursday,April,Bengaluru,Shivajinagar,12.981521,77.611923,Burglary,Nightclub/Bar,4.18,82,High
+2025-08-10,12:12:09,Sunday,August,Bengaluru,Hebbal,13.039278,77.600803,Robbery,Park/Open Ground,2.16,42,Medium
+2025-08-04,02:40:33,Monday,August,Bengaluru,MG Road,12.973598,77.59804,Harassment,Bank/ATM,4.3,86,High
+2025-05-09,17:54:36,Friday,May,Bengaluru,HSR Layout,12.904375,77.657633,Theft,Parking Lot,0.65,9,Low
+2025-03-25,02:16:30,Tuesday,March,Bengaluru,BTM Layout,12.927545,77.60075,Burglary,Park/Open Ground,3.95,80,High
+2025-07-04,11:35:35,Friday,July,Bengaluru,HSR Layout,12.924079,77.659462,Vehicle Theft,Bank/ATM,0.55,9,Low
+2025-03-04,11:55:43,Tuesday,March,Bengaluru,Jayanagar,12.919625,77.58651,Drug Offense,Street/Road,0.86,18,Low
+2025-05-26,11:20:43,Monday,May,Bengaluru,Rajajinagar,13.000847,77.564608,Harassment,Park/Open Ground,1.95,38,Medium
+2025-07-15,19:18:29,Tuesday,July,Bengaluru,Indiranagar,12.983656,77.647425,Robbery,Transit Station,2.13,47,Medium
+2026-04-21,10:26:40,Tuesday,April,Bengaluru,Rajajinagar,12.993948,77.540457,Drug Offense,Parking Lot,1.84,38,Medium
+2025-03-24,10:14:20,Monday,March,Bengaluru,Indiranagar,12.978386,77.638977,Chain Snatching,Nightclub/Bar,1.61,35,Medium
+2025-11-27,12:17:56,Thursday,November,Bengaluru,Malleshwaram,13.008224,77.565285,Cybercrime,Bank/ATM,0.71,16,Low
+2025-03-27,05:54:01,Thursday,March,Bengaluru,Jayanagar,12.937621,77.600765,Robbery,Street/Road,0.91,16,Low
+2025-12-25,09:10:25,Thursday,December,Bengaluru,BTM Layout,12.918433,77.618695,Burglary,Residential,4.39,83,High
+2025-10-08,02:25:33,Wednesday,October,Bengaluru,Shivajinagar,12.99877,77.59979,Burglary,Residential,4.23,90,High
+2025-03-21,02:41:59,Friday,March,Bengaluru,Malleshwaram,12.996444,77.559194,Vandalism,Nightclub/Bar,0.71,13,Low
+2026-01-13,09:28:40,Tuesday,January,Bengaluru,Whitefield,12.957352,77.764902,Robbery,Transit Station,2.04,45,Medium
+2025-03-29,00:02:42,Saturday,March,Bengaluru,Yelahanka,13.10127,77.585952,Chain Snatching,Bank/ATM,0.83,17,Low
+2026-03-22,22:35:28,Sunday,March,Bengaluru,Shivajinagar,12.996995,77.612761,Robbery,Market/Bazaar,4.3,85,High
+2025-11-02,14:40:47,Sunday,November,Bengaluru,Malleshwaram,13.013174,77.573472,Drug Offense,Parking Lot,1.03,19,Low
+2025-09-04,17:14:51,Thursday,September,Bengaluru,Electronic City,12.842987,77.663807,Burglary,Park/Open Ground,1.9,34,Medium
+2025-07-31,08:09:19,Thursday,July,Bengaluru,Electronic City,12.861598,77.660205,Theft,Commercial,2.02,38,Medium
+2026-01-24,04:22:18,Saturday,January,Bengaluru,Yelahanka,13.094246,77.582759,Cybercrime,Market/Bazaar,0.68,11,Low
+2026-04-18,02:30:19,Saturday,April,Bengaluru,BTM Layout,12.908714,77.607827,Theft,Parking Lot,4.22,83,High
+2025-04-29,00:35:23,Tuesday,April,Bengaluru,Malleshwaram,13.003278,77.552613,Assault,Parking Lot,0.89,17,Low
+2025-05-08,05:45:47,Thursday,May,Bengaluru,Jayanagar,12.924125,77.589912,Vandalism,Parking Lot,0.7,15,Low
+2025-02-10,13:40:15,Monday,February,Bengaluru,HSR Layout,12.912975,77.645206,Harassment,Nightclub/Bar,0.91,16,Low
+2026-01-16,22:26:12,Friday,January,Bengaluru,Marathahalli,12.956387,77.70036,Burglary,Transit Station,4.42,92,High
+2025-02-26,20:29:39,Wednesday,February,Bengaluru,HSR Layout,12.911916,77.638771,Cybercrime,Nightclub/Bar,0.73,15,Low
+2025-06-14,00:09:03,Saturday,June,Bengaluru,Whitefield,12.971869,77.751702,Harassment,Commercial,1.9,34,Medium
+2025-05-25,08:08:45,Sunday,May,Bengaluru,Indiranagar,12.97388,77.644186,Cybercrime,Commercial,2.04,41,Medium
+2025-03-19,00:31:13,Wednesday,March,Bengaluru,Indiranagar,12.979684,77.6585,Chain Snatching,Parking Lot,1.76,31,Medium
+2026-02-14,15:23:29,Saturday,February,Bengaluru,Rajajinagar,12.997169,77.555725,Theft,Bank/ATM,2.08,39,Medium
+2026-01-20,04:03:17,Tuesday,January,Bengaluru,Yelahanka,13.099563,77.599009,Vandalism,Residential,1.19,24,Medium
+2025-04-09,11:52:24,Wednesday,April,Bengaluru,MG Road,12.982364,77.61581,Theft,Residential,3.46,71,High
+2026-01-30,14:15:47,Friday,January,Bengaluru,Jayanagar,12.931386,77.582598,Theft,Street/Road,0.95,20,Low
+2026-01-30,01:13:30,Friday,January,Bengaluru,BTM Layout,12.919311,77.607427,Vandalism,Nightclub/Bar,4.24,81,High
+2025-11-19,19:07:16,Wednesday,November,Bengaluru,MG Road,12.995482,77.608718,Cybercrime,Nightclub/Bar,4.08,75,High
+2026-03-31,01:55:42,Tuesday,March,Bengaluru,Electronic City,12.840455,77.662718,Assault,Residential,2.24,44,High
+2025-08-11,21:50:17,Monday,August,Bengaluru,Marathahalli,12.966078,77.694879,Drug Offense,Residential,4.27,87,High
+2025-05-05,00:02:37,Monday,May,Bengaluru,Rajajinagar,12.998782,77.554498,Cybercrime,Transit Station,1.98,42,Medium
+2025-02-15,07:10:31,Saturday,February,Bengaluru,Rajajinagar,12.997077,77.555461,Burglary,Bank/ATM,2.26,50,High
+2025-01-31,21:44:34,Friday,January,Bengaluru,Koramangala,12.935391,77.622387,Burglary,Transit Station,4.14,82,High
+2025-06-12,17:50:41,Thursday,June,Bengaluru,Whitefield,12.977901,77.748735,Chain Snatching,Park/Open Ground,1.78,38,Medium
+2025-12-19,01:08:16,Friday,December,Bengaluru,Koramangala,12.936919,77.620006,Theft,Park/Open Ground,4.24,86,High
+2025-05-31,17:44:31,Saturday,May,Bengaluru,Hebbal,13.030824,77.601662,Assault,Transit Station,2.33,49,High
+2025-06-15,23:29:17,Sunday,June,Bengaluru,Electronic City,12.831957,77.657916,Drug Offense,Market/Bazaar,1.97,41,Medium
+2025-09-29,04:28:18,Monday,September,Bengaluru,Indiranagar,12.984745,77.639824,Vehicle Theft,Market/Bazaar,1.76,37,Medium
+2025-01-01,19:24:46,Wednesday,January,Bengaluru,Shivajinagar,12.975027,77.600031,Robbery,Commercial,4.22,90,High
+2025-11-14,07:20:46,Friday,November,Bengaluru,Rajajinagar,13.000773,77.554344,Burglary,Market/Bazaar,2.0,40,Medium
+2025-09-26,21:31:49,Friday,September,Bengaluru,Whitefield,12.959932,77.738083,Harassment,Transit Station,2.08,46,High
+2025-06-15,13:41:20,Sunday,June,Bengaluru,HSR Layout,12.922123,77.641014,Burglary,Residential,0.7,12,Low
+2026-03-04,08:55:02,Wednesday,March,Bengaluru,Koramangala,12.944307,77.624724,Assault,Residential,4.8,94,High
+2025-02-20,01:36:41,Thursday,February,Bengaluru,Whitefield,12.972019,77.749822,Vandalism,Park/Open Ground,2.3,47,High
+2025-12-26,18:16:03,Friday,December,Bengaluru,Malleshwaram,13.005407,77.559798,Chain Snatching,Street/Road,0.63,12,Low
+2026-04-22,18:59:56,Wednesday,April,Bengaluru,Koramangala,12.940518,77.620077,Burglary,Park/Open Ground,3.18,67,High
+2025-10-13,23:56:26,Monday,October,Bengaluru,Electronic City,12.83669,77.653881,Chain Snatching,Commercial,1.83,39,Medium
+2025-09-28,01:46:04,Sunday,September,Bengaluru,HSR Layout,12.897931,77.648372,Vehicle Theft,Residential,0.87,15,Low
+2025-02-19,03:46:14,Wednesday,February,Bengaluru,Hebbal,13.035673,77.604328,Harassment,Parking Lot,1.98,35,Medium
+2025-09-27,21:15:36,Saturday,September,Bengaluru,Whitefield,12.968597,77.747386,Robbery,Market/Bazaar,1.87,40,Medium
+2026-01-18,03:49:40,Sunday,January,Bengaluru,Jayanagar,12.927722,77.586109,Drug Offense,Bank/ATM,0.91,21,Low
+2025-12-07,20:10:50,Sunday,December,Bengaluru,BTM Layout,12.918049,77.620526,Robbery,Market/Bazaar,3.66,76,High
+2025-06-22,21:10:34,Sunday,June,Bengaluru,Hebbal,13.048359,77.597549,Drug Offense,Park/Open Ground,2.53,50,High
+2025-10-09,10:54:23,Thursday,October,Bengaluru,Electronic City,12.843885,77.661897,Vandalism,Parking Lot,1.79,36,Medium
+2025-05-04,18:34:13,Sunday,May,Bengaluru,Malleshwaram,13.010562,77.546434,Vandalism,Market/Bazaar,0.61,13,Low
+2025-08-20,14:25:00,Wednesday,August,Bengaluru,Electronic City,12.845478,77.644452,Theft,Nightclub/Bar,2.42,49,High
+2025-09-23,22:00:19,Tuesday,September,Bengaluru,Koramangala,12.936507,77.614935,Assault,Street/Road,3.51,68,High
+2026-01-31,11:58:35,Saturday,January,Bengaluru,Koramangala,12.932137,77.62351,Harassment,Market/Bazaar,3.8,66,High
+2025-01-20,14:22:09,Monday,January,Bengaluru,Indiranagar,12.981628,77.636405,Robbery,Nightclub/Bar,1.86,38,Medium
+2025-05-08,07:16:51,Thursday,May,Bengaluru,Malleshwaram,12.993691,77.5682,Vehicle Theft,Residential,0.87,20,Low
+2026-04-15,06:46:04,Wednesday,April,Bengaluru,Malleshwaram,12.993105,77.555436,Chain Snatching,Park/Open Ground,0.73,16,Low
+2026-02-27,06:38:41,Friday,February,Bengaluru,Shivajinagar,12.996201,77.606338,Vehicle Theft,Commercial,3.8,79,High
+2026-02-04,01:58:49,Wednesday,February,Bengaluru,Indiranagar,12.97215,77.6326,Chain Snatching,Bank/ATM,2.2,43,High
+2026-04-22,03:55:49,Wednesday,April,Bengaluru,Jayanagar,12.939527,77.580096,Assault,Commercial,0.89,16,Low
+2025-06-06,22:34:36,Friday,June,Bengaluru,Koramangala,12.932576,77.630909,Robbery,,4.22,81,High
+2025-01-26,15:28:48,Sunday,January,Bengaluru,MG Road,12.972676,77.60539,Drug Offense,Market/Bazaar,3.73,74,High
+2025-08-10,09:50:25,Sunday,August,Bengaluru,Whitefield,12.965511,77.747888,Robbery,Transit Station,2.35,49,High
+2025-09-01,18:47:03,Monday,September,Bengaluru,Indiranagar,12.975425,77.634972,Harassment,Parking Lot,2.55,49,High
+2025-07-24,16:27:49,Thursday,July,Bengaluru,Indiranagar,12.983702,77.634343,Robbery,Transit Station,2.14,43,Medium
+2025-04-12,15:25:41,Saturday,April,Bengaluru,Hebbal,13.024678,77.598262,Drug Offense,Street/Road,2.1,40,Medium
+2026-01-12,16:15:15,Monday,January,Bengaluru,Malleshwaram,13.00615,77.563213,Burglary,Nightclub/Bar,1.15,22,Low
+2025-12-17,18:05:07,Wednesday,December,Bengaluru,Electronic City,12.832938,77.65863,Vandalism,Parking Lot,2.14,39,Medium
+2025-04-08,10:22:38,Tuesday,April,Bengaluru,Electronic City,12.840593,77.637001,Theft,Nightclub/Bar,1.79,34,Medium
+2025-11-12,14:39:09,Wednesday,November,Bengaluru,Electronic City,12.850743,77.664861,Cybercrime,Commercial,1.94,35,Medium
+2025-12-17,11:09:48,Wednesday,December,Bengaluru,Whitefield,12.979349,77.745558,Burglary,Residential,2.34,46,Medium
+2025-11-14,04:55:53,Friday,November,Bengaluru,Whitefield,12.973235,77.753037,Vehicle Theft,Commercial,1.88,38,Medium
+2026-02-16,23:30:01,Monday,February,Bengaluru,BTM Layout,12.912165,77.62562,Chain Snatching,Street/Road,4.22,82,High
+2025-10-07,16:48:16,Tuesday,October,Bengaluru,Whitefield,12.974487,77.744106,Harassment,Park/Open Ground,2.12,45,Medium
+2025-03-14,03:24:37,Friday,March,Bengaluru,BTM Layout,12.915668,77.623418,Harassment,Commercial,4.17,76,High
+2025-01-31,02:44:39,Friday,January,Bengaluru,MG Road,12.990444,77.608394,Vehicle Theft,Commercial,3.71,78,High
+2026-04-29,23:42:17,Wednesday,April,Bengaluru,Marathahalli,12.965121,77.6879,Chain Snatching,Residential,3.73,78,High
+2026-03-21,20:24:14,Saturday,March,Bengaluru,HSR Layout,12.917472,77.656824,Vandalism,Market/Bazaar,0.93,16,Low
+2025-09-06,19:34:05,Saturday,September,Bengaluru,Electronic City,12.830316,77.667114,Robbery,,2.36,45,Medium
+2025-10-15,03:02:15,Wednesday,October,Bengaluru,Shivajinagar,12.983504,77.597119,Harassment,Nightclub/Bar,4.3,88,High
+2025-07-21,03:22:43,Monday,July,Bengaluru,Shivajinagar,12.995617,77.602602,Chain Snatching,Bank/ATM,3.56,75,High
+2025-09-14,08:51:03,Sunday,September,Bengaluru,Whitefield,12.974101,77.753425,Vehicle Theft,Parking Lot,1.43,29,Medium
+2025-05-24,07:09:21,Saturday,May,Bengaluru,Hebbal,13.038316,77.611705,Vandalism,Transit Station,1.8,38,Medium
+2025-07-15,01:39:55,Tuesday,July,Bengaluru,BTM Layout,12.915856,77.608184,Assault,Parking Lot,4.09,78,High
+2025-03-20,13:19:58,Thursday,March,Bengaluru,Malleshwaram,13.007809,77.563629,Drug Offense,Bank/ATM,0.86,20,Low
+2025-03-09,06:41:08,Sunday,March,Bengaluru,Hebbal,13.030934,77.599905,Drug Offense,Market/Bazaar,2.11,42,Medium
+2025-04-14,04:19:44,Monday,April,Bengaluru,Rajajinagar,12.988999,77.555773,Harassment,Transit Station,2.15,39,Medium
+2025-03-16,20:59:36,Sunday,March,Bengaluru,Rajajinagar,13.001045,77.554533,Robbery,Bank/ATM,1.88,40,Medium
+2025-09-30,23:07:11,Tuesday,September,Bengaluru,Hebbal,13.04473,77.609064,Chain Snatching,Transit Station,1.89,37,Medium
+2025-06-13,13:26:19,Friday,June,Bengaluru,Rajajinagar,13.000143,77.536343,Cybercrime,Nightclub/Bar,1.55,32,Medium
+2025-04-07,03:08:11,Monday,April,Bengaluru,Rajajinagar,12.997185,77.546392,Theft,Nightclub/Bar,2.19,47,High
+2025-11-10,07:38:14,Monday,November,Bengaluru,Malleshwaram,12.987296,77.570309,Assault,Commercial,1.14,24,Low
+2025-12-19,15:08:32,Friday,December,Bengaluru,Indiranagar,12.987866,77.633929,Drug Offense,Park/Open Ground,1.88,42,Medium
+2025-04-05,12:31:30,Saturday,April,Bengaluru,Electronic City,12.858347,77.663085,Robbery,Transit Station,2.11,38,Medium
+2025-01-17,13:48:00,Friday,January,Bengaluru,Whitefield,12.988926,77.753017,Vehicle Theft,Parking Lot,1.69,33,Medium
+2025-12-10,09:04:11,Wednesday,December,Bengaluru,BTM Layout,12.912694,77.615167,Cybercrime,Park/Open Ground,3.96,73,High
+2025-08-23,07:27:25,Saturday,August,Bengaluru,Yelahanka,13.101646,77.590906,Theft,Parking Lot,0.58,13,Low
+2025-11-10,23:36:38,Monday,November,Bengaluru,Jayanagar,12.930167,77.579167,Harassment,Market/Bazaar,0.84,17,Low
+2025-02-25,14:29:52,Tuesday,February,Bengaluru,Hebbal,13.035311,77.592584,Theft,Street/Road,2.09,44,Medium
+2025-07-22,23:02:35,Tuesday,July,Bengaluru,Hebbal,13.030371,77.594454,Vandalism,Market/Bazaar,2.23,43,High
+2025-04-08,23:56:19,Tuesday,April,Bengaluru,Koramangala,12.937444,77.632629,Vehicle Theft,Park/Open Ground,4.1,79,High
+2025-05-31,19:58:03,Saturday,May,Bengaluru,Jayanagar,12.921591,77.561087,Harassment,Transit Station,1.05,23,Low
+2025-11-27,14:05:46,Thursday,November,Bengaluru,Yelahanka,13.107689,77.596057,Harassment,Residential,0.75,16,Low
+2025-10-27,22:34:08,Monday,October,Bengaluru,Rajajinagar,13.005659,77.549679,Vandalism,Parking Lot,1.88,41,Medium
+2025-01-13,00:57:45,Monday,January,Bengaluru,Shivajinagar,12.99726,77.590237,Assault,Park/Open Ground,3.51,59,High
+2025-06-15,22:41:58,Sunday,June,Bengaluru,HSR Layout,12.903942,77.646251,Robbery,Residential,0.75,15,Low
+2025-12-28,14:40:23,Sunday,December,Bengaluru,Indiranagar,12.981031,77.647523,Burglary,Market/Bazaar,2.21,49,High
+2026-02-10,08:24:35,Tuesday,February,Bengaluru,BTM Layout,12.908666,77.605037,Vandalism,Commercial,4.45,87,High
+2025-10-17,21:55:09,Friday,October,Bengaluru,Electronic City,12.837886,77.655592,Robbery,Transit Station,1.93,41,Medium
+2025-12-31,01:26:19,Wednesday,December,Bengaluru,Rajajinagar,12.994632,77.553905,Vehicle Theft,Park/Open Ground,1.7,36,Medium
+2025-04-03,21:12:00,Thursday,April,Bengaluru,Marathahalli,12.95678,77.694507,Drug Offense,Nightclub/Bar,3.94,76,High
+2025-09-12,03:38:56,Friday,September,Bengaluru,Shivajinagar,12.996789,77.601505,Cybercrime,Street/Road,4.32,86,High
+2025-12-04,15:29:26,Thursday,December,Bengaluru,Malleshwaram,13.001451,77.570383,Cybercrime,Residential,0.96,17,Low
+2026-03-28,17:17:39,Saturday,March,Bengaluru,Whitefield,12.961011,77.761364,Harassment,,2.17,46,Medium
+2025-03-17,22:02:09,Monday,March,Bengaluru,MG Road,12.983741,77.612762,Theft,Nightclub/Bar,4.82,94,High
+2025-01-26,03:26:11,Sunday,January,Bengaluru,Indiranagar,12.977343,77.641378,Robbery,Nightclub/Bar,2.0,42,Medium
+2025-12-21,08:29:47,Sunday,December,Bengaluru,Marathahalli,12.968797,77.693455,Drug Offense,Bank/ATM,3.43,70,High
+2026-01-29,09:20:23,Thursday,January,Bengaluru,Indiranagar,12.987568,77.634581,Vandalism,Residential,1.94,39,Medium
+2025-10-09,02:18:30,Thursday,October,Bengaluru,Yelahanka,13.093975,77.6023,Robbery,Residential,0.57,10,Low
+2025-09-27,13:33:13,Saturday,September,Bengaluru,Electronic City,12.841562,77.651882,Assault,Commercial,1.79,34,Medium
+2026-01-09,20:33:05,Friday,January,Bengaluru,Malleshwaram,13.016575,77.5723,Cybercrime,Nightclub/Bar,0.87,18,Low
+2026-03-11,10:16:33,Wednesday,March,Bengaluru,Malleshwaram,13.001156,77.564318,Drug Offense,Bank/ATM,0.74,17,Low
+2025-10-16,15:33:46,Thursday,October,Bengaluru,Malleshwaram,13.004332,77.563961,Cybercrime,Park/Open Ground,0.84,14,Low
+2025-04-30,22:18:12,Wednesday,April,Bengaluru,Malleshwaram,13.008051,77.577407,Theft,Residential,0.63,12,Low
+2025-11-17,09:51:39,Monday,November,Bengaluru,Shivajinagar,12.980174,77.603024,Vandalism,Parking Lot,3.99,72,High
+2025-06-29,17:51:40,Sunday,June,Bengaluru,Electronic City,12.849412,77.656381,Assault,Commercial,2.43,46,High
+2025-12-20,09:16:50,Saturday,December,Bengaluru,Whitefield,12.954904,77.750899,Burglary,Nightclub/Bar,1.84,38,Medium
+2025-10-09,10:49:00,Thursday,October,Bengaluru,Hebbal,13.033421,77.595029,Burglary,Bank/ATM,1.87,37,Medium
+2026-01-06,18:39:01,Tuesday,January,Bengaluru,Jayanagar,12.926021,77.579899,Robbery,Street/Road,0.99,18,Low
+2025-06-23,21:30:58,Monday,June,Bengaluru,Yelahanka,13.115207,77.593557,Cybercrime,Commercial,0.52,10,Low
+2025-03-21,02:34:57,Friday,March,Bengaluru,Shivajinagar,12.985517,77.594436,Chain Snatching,Park/Open Ground,3.92,85,High
+2025-01-29,12:36:46,Wednesday,January,Bengaluru,BTM Layout,12.919766,77.612208,Chain Snatching,Market/Bazaar,3.55,68,High
+2025-10-23,21:21:51,Thursday,October,Bengaluru,Whitefield,12.976946,77.747956,Chain Snatching,Residential,2.25,45,High
+2026-03-07,00:21:24,Saturday,March,Bengaluru,HSR Layout,12.888039,77.649169,Harassment,Transit Station,0.72,15,Low
+2025-11-01,02:48:19,Saturday,November,Bengaluru,MG Road,12.970193,77.594027,Chain Snatching,Commercial,3.81,80,High
+2025-02-14,15:56:15,Friday,February,Bengaluru,Jayanagar,12.934753,77.560963,Chain Snatching,Park/Open Ground,0.63,14,Low
+2025-09-26,09:11:07,Friday,September,Bengaluru,Whitefield,12.968523,77.753441,Chain Snatching,Commercial,1.76,39,Medium
+2025-08-16,16:01:51,Saturday,August,Bengaluru,Indiranagar,12.978764,77.645267,Cybercrime,Market/Bazaar,1.93,36,Medium
+2025-06-24,15:46:55,Tuesday,June,Bengaluru,Whitefield,12.985707,77.768244,Harassment,Nightclub/Bar,2.11,38,Medium
+2026-01-29,19:43:08,Thursday,January,Bengaluru,MG Road,12.975556,77.616028,Assault,Commercial,4.32,86,High
+2026-01-01,16:07:00,Thursday,January,Bengaluru,Jayanagar,12.932002,77.599256,Vehicle Theft,Commercial,0.61,13,Low
+2025-08-28,01:06:33,Thursday,August,Bengaluru,Electronic City,12.832696,77.650764,Vehicle Theft,Commercial,2.11,43,Medium
+2025-06-09,20:57:13,Monday,June,Bengaluru,Rajajinagar,13.001043,77.56393,Chain Snatching,Street/Road,1.7,35,Medium
+2025-05-22,17:20:49,Thursday,May,Bengaluru,HSR Layout,12.912302,77.632255,Cybercrime,,0.77,14,Low
+2025-03-22,20:39:35,Saturday,March,Bengaluru,MG Road,12.952364,77.611331,Harassment,Residential,4.3,85,High
+2025-06-29,17:20:17,Sunday,June,Bengaluru,Hebbal,13.037671,77.605284,Robbery,Nightclub/Bar,2.16,48,Medium
+2025-03-29,02:19:39,Saturday,March,Bengaluru,Whitefield,12.95171,77.742782,Chain Snatching,Market/Bazaar,2.55,49,High
+2025-03-08,01:03:06,Saturday,March,Bengaluru,Koramangala,12.941276,77.622166,Vandalism,Commercial,3.7,68,High
+2025-07-20,05:45:38,Sunday,July,Bengaluru,Jayanagar,12.938317,77.5766,Drug Offense,Park/Open Ground,0.55,10,Low
+2025-06-20,06:45:48,Friday,June,Bengaluru,HSR Layout,12.901231,77.635962,Harassment,Residential,0.9,20,Low
+2025-03-09,02:52:51,Sunday,March,Bengaluru,Malleshwaram,12.992533,77.547311,Cybercrime,Residential,0.91,17,Low
+2025-12-17,20:45:49,Wednesday,December,Bengaluru,HSR Layout,12.905867,77.646226,Cybercrime,Park/Open Ground,0.92,18,Low
+2025-03-15,19:16:58,Saturday,March,Bengaluru,Whitefield,12.963206,77.755466,Chain Snatching,Parking Lot,2.26,43,Medium
+2026-04-15,13:29:31,Wednesday,April,Bengaluru,BTM Layout,12.904728,77.608432,Theft,Residential,3.58,71,High
+2025-06-29,15:29:54,Sunday,June,Bengaluru,Indiranagar,12.984915,77.658286,Robbery,Nightclub/Bar,1.62,33,Medium
+2025-10-22,04:32:06,Wednesday,October,Bengaluru,Malleshwaram,12.999711,77.553375,Vandalism,Residential,0.94,20,Low
+2025-11-29,02:50:19,Saturday,November,Bengaluru,Hebbal,13.038149,77.596462,Harassment,Park/Open Ground,1.77,36,Medium
+2025-07-31,07:39:15,Thursday,July,Bengaluru,Malleshwaram,13.003455,77.550334,Harassment,Transit Station,1.18,24,Low
+2025-02-03,10:13:52,Monday,February,Bengaluru,Jayanagar,12.927629,77.582448,Drug Offense,Parking Lot,0.99,21,Low
+2026-02-08,10:34:44,Sunday,February,Bengaluru,Malleshwaram,13.012862,77.555687,Assault,Transit Station,0.93,17,Low
+2026-04-22,18:07:37,Wednesday,April,Bengaluru,BTM Layout,12.912874,77.595795,Drug Offense,Park/Open Ground,4.59,85,High
+2025-02-19,14:11:19,Wednesday,February,Bengaluru,Hebbal,13.041251,77.58777,Vandalism,Residential,1.91,37,Medium
+2025-12-17,19:49:52,Wednesday,December,Bengaluru,Indiranagar,12.976796,77.626664,Vandalism,Bank/ATM,2.12,39,Medium
+2025-12-05,21:52:08,Friday,December,Bengaluru,Marathahalli,12.974687,77.705601,Drug Offense,Commercial,3.62,74,High
+2025-03-18,22:24:39,Tuesday,March,Bengaluru,Marathahalli,12.943373,77.696737,Drug Offense,Park/Open Ground,3.45,68,High
+2025-12-15,10:19:36,Monday,December,Bengaluru,Whitefield,12.967807,77.736617,Vehicle Theft,Parking Lot,2.12,47,Medium
+2025-10-26,00:39:32,Sunday,October,Bengaluru,Indiranagar,12.983595,77.645454,Vandalism,Transit Station,2.22,44,High
+2025-07-09,04:00:45,Wednesday,July,Bengaluru,Koramangala,12.937413,77.634064,Harassment,Bank/ATM,3.91,76,High
+2025-05-25,00:15:27,Sunday,May,Bengaluru,Yelahanka,13.101473,77.593709,Drug Offense,Parking Lot,0.6,12,Low
+2025-07-15,23:34:13,Tuesday,July,Bengaluru,BTM Layout,12.907863,77.611183,Robbery,Park/Open Ground,3.73,78,High
+2025-10-12,12:53:59,Sunday,October,Bengaluru,Whitefield,12.97043,77.758431,Chain Snatching,Parking Lot,1.9,36,Medium
+2026-03-23,21:08:08,Monday,March,Bengaluru,HSR Layout,12.913357,77.64601,Theft,Residential,0.64,14,Low
+2026-01-05,16:08:05,Monday,January,Bengaluru,MG Road,12.97235,77.601665,Robbery,Parking Lot,4.17,81,High
+2025-12-23,19:59:27,Tuesday,December,Bengaluru,Rajajinagar,13.002319,77.559559,Drug Offense,Transit Station,1.67,34,Medium
+2025-08-06,17:52:28,Wednesday,August,Bengaluru,Hebbal,13.024623,77.606777,Vandalism,Bank/ATM,1.85,40,Medium
+2025-08-06,00:31:54,Wednesday,August,Bengaluru,MG Road,12.974599,77.613375,Assault,Market/Bazaar,3.44,59,High
+2026-04-20,17:36:23,Monday,April,Bengaluru,Jayanagar,12.927816,77.598587,Theft,Commercial,0.69,13,Low
+2025-07-08,23:44:05,Tuesday,July,Bengaluru,BTM Layout,12.918204,77.614971,Robbery,Market/Bazaar,3.51,74,High
+2025-09-22,00:05:15,Monday,September,Bengaluru,Shivajinagar,12.985755,77.605141,Cybercrime,Residential,4.1,78,High
+2025-01-28,10:34:49,Tuesday,January,Bengaluru,Malleshwaram,13.013143,77.571867,Theft,Park/Open Ground,0.76,17,Low
+2026-04-09,15:36:46,Thursday,April,Bengaluru,Hebbal,13.033224,77.59787,Chain Snatching,Parking Lot,2.24,42,Medium
+2025-05-31,09:10:02,Saturday,May,Bengaluru,Rajajinagar,12.983951,77.535156,Drug Offense,Nightclub/Bar,1.89,34,Medium
+2025-02-01,20:30:37,Saturday,February,Bengaluru,HSR Layout,12.90837,77.632496,Robbery,Commercial,0.66,14,Low
+2026-01-13,19:01:18,Tuesday,January,Bengaluru,Rajajinagar,13.002615,77.558442,Cybercrime,Residential,1.86,36,Medium
+2025-02-09,08:16:08,Sunday,February,Bengaluru,Hebbal,13.037404,77.594447,Drug Offense,Nightclub/Bar,1.88,40,Medium
+2025-05-12,00:47:07,Monday,May,Bengaluru,Yelahanka,13.109897,77.598673,Drug Offense,Transit Station,0.77,16,Low
+2025-08-17,21:16:50,Sunday,August,Bengaluru,Marathahalli,12.967857,77.683731,Assault,Park/Open Ground,3.81,70,High
+2025-09-28,01:21:05,Sunday,September,Bengaluru,Rajajinagar,13.007709,77.567795,Robbery,Transit Station,2.12,46,High
+2025-07-31,12:15:42,Thursday,July,Bengaluru,Rajajinagar,12.991246,77.550256,Cybercrime,Transit Station,1.78,31,Medium
+2026-01-11,11:03:41,Sunday,January,Bengaluru,Malleshwaram,13.00396,77.567399,Vehicle Theft,Residential,0.61,9,Low
+2025-08-26,22:30:47,Tuesday,August,Bengaluru,MG Road,12.990538,77.616546,Harassment,Street/Road,4.64,89,High
+2025-12-28,22:09:33,Sunday,December,Bengaluru,Marathahalli,12.955411,77.703453,Vandalism,Commercial,4.45,82,High
+2025-08-18,12:43:20,Monday,August,Bengaluru,Rajajinagar,12.998831,77.549309,Harassment,Commercial,1.47,30,Medium
+2025-11-23,11:54:27,Sunday,November,Bengaluru,Hebbal,13.035529,77.584242,Drug Offense,Nightclub/Bar,2.22,49,High
+2025-05-17,03:16:41,Saturday,May,Bengaluru,HSR Layout,12.912131,77.657577,Drug Offense,Parking Lot,1.25,26,Medium
+2025-12-12,23:15:46,Friday,December,Bengaluru,Rajajinagar,12.993485,77.549331,Drug Offense,Street/Road,2.34,46,High
+2025-12-13,22:11:20,Saturday,December,Bengaluru,Electronic City,12.841138,77.645325,Harassment,Commercial,1.98,41,Medium
+2026-03-02,23:06:33,Monday,March,Bengaluru,Koramangala,12.922531,77.627804,Burglary,Park/Open Ground,4.85,93,High
+2026-01-07,09:16:12,Wednesday,January,Bengaluru,Whitefield,12.972146,77.744058,Theft,Commercial,2.71,53,High
+2025-01-30,19:42:57,Thursday,January,Bengaluru,Indiranagar,12.983662,77.640244,Assault,Residential,1.84,39,Medium
+2026-03-15,19:08:24,Sunday,March,Bengaluru,Indiranagar,12.973813,77.638588,Drug Offense,Transit Station,1.53,29,Medium
+2025-04-05,23:42:59,Saturday,April,Bengaluru,BTM Layout,12.913261,77.612852,Burglary,Park/Open Ground,3.36,68,High
+2025-08-07,22:57:42,Thursday,August,Bengaluru,Rajajinagar,13.008973,77.54291,Chain Snatching,Nightclub/Bar,1.99,38,Medium
+2025-02-07,08:49:03,Friday,February,Bengaluru,Rajajinagar,12.987097,77.559111,Vandalism,Parking Lot,2.45,48,High
+2025-05-13,11:11:28,Tuesday,May,Bengaluru,Koramangala,12.943924,77.634099,Burglary,Park/Open Ground,4.26,80,High
+2025-07-21,05:41:31,Monday,July,Bengaluru,Malleshwaram,13.004833,77.561873,Burglary,Transit Station,1.21,25,Low
+2025-11-11,20:06:58,Tuesday,November,Bengaluru,Whitefield,12.956021,77.734534,Cybercrime,Nightclub/Bar,1.89,33,Medium
+2025-02-07,01:16:49,Friday,February,Bengaluru,Koramangala,12.938162,77.629175,Cybercrime,Commercial,3.85,79,High
+2025-12-01,20:42:24,Monday,December,Bengaluru,MG Road,12.977463,77.612366,Vehicle Theft,Transit Station,4.4,85,High
+2025-10-22,00:32:45,Wednesday,October,Bengaluru,Jayanagar,12.930165,77.581396,Cybercrime,Park/Open Ground,1.06,20,Low
+2026-03-09,23:49:51,Monday,March,Bengaluru,Jayanagar,12.936394,77.574067,Burglary,Market/Bazaar,0.68,15,Low
+2025-07-16,18:07:36,Wednesday,July,Bengaluru,Koramangala,12.941535,77.619935,Harassment,Bank/ATM,4.18,75,High
+2025-06-05,01:41:05,Thursday,June,Bengaluru,Marathahalli,12.959148,77.70427,Chain Snatching,Market/Bazaar,4.66,87,High
+2026-03-07,14:48:49,Saturday,March,Bengaluru,Indiranagar,12.973629,77.638407,Vehicle Theft,Street/Road,1.67,33,Medium
+2025-01-21,12:42:12,Tuesday,January,Bengaluru,Hebbal,13.033767,77.591697,Vehicle Theft,Parking Lot,1.99,35,Medium
+2025-12-19,20:56:40,Friday,December,Bengaluru,Marathahalli,12.954569,77.704053,Cybercrime,Street/Road,2.98,60,High
+2025-04-09,00:15:31,Wednesday,April,Bengaluru,Koramangala,12.941004,77.625593,Vandalism,Residential,3.97,79,High
+2025-10-01,17:01:02,Wednesday,October,Bengaluru,Shivajinagar,12.994472,77.610651,Chain Snatching,Commercial,3.83,72,High
+2026-01-05,01:25:07,Monday,January,Bengaluru,Rajajinagar,12.996624,77.548114,Assault,Market/Bazaar,2.05,42,Medium
+2026-03-22,07:47:37,Sunday,March,Bengaluru,Marathahalli,12.962474,77.707882,Assault,Residential,4.16,81,High
+2025-03-14,20:30:58,Friday,March,Bengaluru,BTM Layout,12.907289,77.624753,Drug Offense,Commercial,3.23,68,High
+2025-11-29,21:40:03,Saturday,November,Bengaluru,BTM Layout,12.913839,77.614014,Vehicle Theft,Residential,3.8,77,High
+2025-03-29,18:04:52,Saturday,March,Bengaluru,Malleshwaram,12.993072,77.56448,Burglary,Residential,1.2,24,Low
+2026-02-14,19:14:04,Saturday,February,Bengaluru,Malleshwaram,13.003547,77.561823,Assault,Parking Lot,0.73,17,Low
+2026-03-04,23:43:25,Wednesday,March,Bengaluru,Rajajinagar,13.011438,77.548307,Chain Snatching,Residential,2.05,44,Medium
+2025-10-07,04:20:53,Tuesday,October,Bengaluru,Malleshwaram,13.00595,77.574392,Assault,Commercial,0.69,12,Low
+2025-02-02,03:17:09,Sunday,February,Bengaluru,Electronic City,12.842744,77.669806,Vandalism,Transit Station,1.91,36,Medium
+2025-03-26,14:15:59,Wednesday,March,Bengaluru,Hebbal,13.030366,77.573686,Drug Offense,Commercial,1.62,32,Medium
+2026-02-10,20:39:24,Tuesday,February,Bengaluru,Indiranagar,12.978343,77.642225,Robbery,Commercial,2.25,42,Medium
+2025-01-04,00:11:59,Saturday,January,Bengaluru,Indiranagar,12.976595,77.651912,Burglary,Nightclub/Bar,2.2,45,High
+2026-02-18,18:44:08,Wednesday,February,Bengaluru,BTM Layout,12.915311,77.599105,Assault,Transit Station,4.04,79,High
+2025-08-19,13:15:11,Tuesday,August,Bengaluru,Hebbal,13.033278,77.589472,Drug Offense,Commercial,1.82,36,Medium
+2026-01-03,20:40:52,Saturday,January,Bengaluru,MG Road,12.970069,77.612101,Vehicle Theft,Bank/ATM,4.15,75,High
+2025-10-13,20:33:06,Monday,October,Bengaluru,Koramangala,12.930067,77.637823,Drug Offense,Bank/ATM,4.27,77,High
+2026-01-30,21:17:03,Friday,January,Bengaluru,Shivajinagar,12.976421,77.61096,Assault,Residential,4.22,76,High
+2026-03-09,18:31:11,Monday,March,Bengaluru,Marathahalli,12.962942,77.688959,Robbery,Commercial,3.64,65,High
+2025-07-06,23:16:21,Sunday,July,Bengaluru,Marathahalli,12.96736,77.709911,Drug Offense,Park/Open Ground,4.01,82,High
+2026-01-15,01:59:34,Thursday,January,Bengaluru,Indiranagar,12.990168,77.635204,Robbery,Transit Station,1.82,38,Medium
+2025-09-21,21:46:28,Sunday,September,Bengaluru,Shivajinagar,12.981082,77.590459,Drug Offense,Bank/ATM,4.2,77,High
+2026-01-18,21:57:20,Sunday,January,Bengaluru,Whitefield,12.969138,77.751945,Assault,Residential,1.95,37,Medium
+2025-02-20,07:47:26,Thursday,February,Bengaluru,Whitefield,12.967447,77.752167,Assault,Parking Lot,1.73,32,Medium
+2025-08-30,18:31:03,Saturday,August,Bengaluru,Indiranagar,12.979411,77.637047,Vandalism,Transit Station,1.91,35,Medium
+2025-08-21,05:24:23,Thursday,August,Bengaluru,Malleshwaram,12.999913,77.574246,Robbery,Park/Open Ground,1.16,23,Low
+2025-07-03,09:21:08,Thursday,July,Bengaluru,Marathahalli,12.966742,77.69709,Theft,Commercial,4.76,90,High
+2025-02-26,17:26:10,Wednesday,February,Bengaluru,MG Road,12.979521,77.610981,Chain Snatching,Street/Road,3.98,72,High
+2025-03-22,20:39:57,Saturday,March,Bengaluru,Malleshwaram,13.00375,77.563997,Robbery,Market/Bazaar,0.5,8,Low
+2025-07-30,16:31:55,Wednesday,July,Bengaluru,Indiranagar,12.993385,77.648625,Assault,Park/Open Ground,1.37,29,Medium
+2025-01-08,23:27:47,Wednesday,January,Bengaluru,HSR Layout,12.917883,77.645494,Assault,Street/Road,0.79,18,Low
+2025-10-24,07:57:59,Friday,October,Bengaluru,Jayanagar,12.931079,77.599775,Drug Offense,Transit Station,0.73,16,Low
+2025-01-23,01:30:46,Thursday,January,Bengaluru,Jayanagar,12.922431,77.587587,Harassment,Commercial,0.97,19,Low
+2025-07-21,15:51:51,Monday,July,Bengaluru,Hebbal,13.041947,77.592005,Burglary,Park/Open Ground,2.18,42,Medium
+2025-02-12,17:48:00,Wednesday,February,Bengaluru,Whitefield,12.970909,77.741311,Vandalism,Street/Road,1.89,38,Medium
+2025-06-01,07:41:05,Sunday,June,Bengaluru,Electronic City,12.849877,77.657238,Theft,Park/Open Ground,1.76,38,Medium
+2025-03-24,22:29:54,Monday,March,Bengaluru,HSR Layout,12.900122,77.654848,Drug Offense,Commercial,1.13,23,Medium
+2026-01-31,01:25:11,Saturday,January,Bengaluru,Shivajinagar,12.992549,77.595569,Chain Snatching,Park/Open Ground,4.31,80,High
+2025-11-18,02:24:57,Tuesday,November,Bengaluru,Yelahanka,13.092745,77.598296,Chain Snatching,Market/Bazaar,0.71,12,Low
+2025-08-07,08:44:39,Thursday,August,Bengaluru,HSR Layout,12.908866,77.646724,Harassment,Street/Road,0.84,14,Low
+2026-03-27,10:47:59,Friday,March,Bengaluru,Malleshwaram,13.008265,77.564455,Theft,Market/Bazaar,0.98,18,Low
+2025-02-26,23:39:02,Wednesday,February,Bengaluru,Koramangala,12.909,77.617957,Chain Snatching,Bank/ATM,4.08,75,High
+2025-10-14,09:08:21,Tuesday,October,Bengaluru,Marathahalli,12.945575,77.689572,Assault,Market/Bazaar,3.59,73,High
+2025-09-02,09:48:47,Tuesday,September,Bengaluru,Marathahalli,12.958565,77.709037,Assault,Bank/ATM,3.75,77,High
+2025-09-15,21:27:17,Monday,September,Bengaluru,HSR Layout,12.911183,77.646714,Theft,Residential,0.69,14,Low
+2025-08-20,15:32:33,Wednesday,August,Bengaluru,Electronic City,12.844785,77.659109,Burglary,Park/Open Ground,2.1,44,Medium
+2026-02-27,22:28:39,Friday,February,Bengaluru,Marathahalli,12.963156,77.696941,Chain Snatching,Residential,3.59,73,High
+2025-02-14,21:18:04,Friday,February,Bengaluru,Shivajinagar,12.99896,77.60124,Burglary,Transit Station,3.35,71,High
+2025-12-23,04:31:09,Tuesday,December,Bengaluru,Indiranagar,12.989818,77.637445,Assault,Market/Bazaar,1.96,42,Medium
+2025-05-31,01:34:59,Saturday,May,Bengaluru,Koramangala,12.932359,77.627819,Robbery,Park/Open Ground,4.65,91,High
+2025-08-16,23:41:01,Saturday,August,Bengaluru,Jayanagar,12.935821,77.581564,Vehicle Theft,Street/Road,0.53,9,Low
+2026-03-23,19:41:21,Monday,March,Bengaluru,Koramangala,12.940642,77.622909,Vandalism,Bank/ATM,4.23,81,High
+2025-10-31,19:53:35,Friday,October,Bengaluru,Shivajinagar,12.99325,77.593809,Cybercrime,Park/Open Ground,3.02,63,High
+2025-03-09,09:10:50,Sunday,March,Bengaluru,Malleshwaram,13.003504,77.576218,Vehicle Theft,Street/Road,0.84,18,Low
+2025-05-28,01:09:22,Wednesday,May,Bengaluru,Electronic City,12.856007,77.654971,Vehicle Theft,Park/Open Ground,1.73,38,Medium
+2026-04-19,05:45:34,Sunday,April,Bengaluru,Malleshwaram,13.001512,77.557245,Vehicle Theft,Transit Station,1.09,21,Low
+2025-12-29,22:57:42,Monday,December,Bengaluru,Yelahanka,13.083274,77.592064,Robbery,Transit Station,0.94,19,Low
+2025-01-22,10:36:08,Wednesday,January,Bengaluru,Indiranagar,12.997104,77.638912,Cybercrime,Nightclub/Bar,2.5,52,High
+2025-04-16,20:42:20,Wednesday,April,Bengaluru,MG Road,12.982566,77.614191,Chain Snatching,Transit Station,3.55,72,High
+2025-10-04,12:07:58,Saturday,October,Bengaluru,Shivajinagar,12.975379,77.597616,Theft,Parking Lot,4.59,85,High
+2025-03-16,14:59:20,Sunday,March,Bengaluru,Rajajinagar,12.999375,77.548823,Robbery,Commercial,2.14,43,Medium
+2025-06-19,20:45:18,Thursday,June,Bengaluru,Hebbal,13.032175,77.593053,Cybercrime,Nightclub/Bar,1.92,41,Medium
+2025-03-17,17:21:44,Monday,March,Bengaluru,Marathahalli,12.953649,77.705143,Burglary,Park/Open Ground,3.43,61,High
+2025-12-14,22:01:25,Sunday,December,Bengaluru,MG Road,12.985249,77.611473,Drug Offense,Street/Road,4.57,99,High
+2025-02-17,10:03:38,Monday,February,Bengaluru,Electronic City,12.85026,77.656407,Assault,Market/Bazaar,1.8,33,Medium
+2026-04-25,08:12:01,Saturday,April,Bengaluru,Rajajinagar,13.004197,77.551608,Burglary,Market/Bazaar,2.34,44,Medium
+2025-12-10,19:25:12,Wednesday,December,Bengaluru,Marathahalli,12.952523,77.687646,Cybercrime,Bank/ATM,3.61,69,High
+2025-07-04,01:54:27,Friday,July,Bengaluru,Marathahalli,12.957067,77.689666,Chain Snatching,Parking Lot,4.18,78,High
+2025-05-26,22:28:55,Monday,May,Bengaluru,Koramangala,12.932065,77.616358,Harassment,Residential,3.98,73,High
+2026-03-31,23:51:28,Tuesday,March,Bengaluru,BTM Layout,12.909388,77.614927,Vehicle Theft,Transit Station,4.14,80,High
+2026-04-04,02:37:38,Saturday,April,Bengaluru,BTM Layout,12.912454,77.620702,Burglary,Transit Station,4.01,78,High
+2025-09-01,16:21:04,Monday,September,Bengaluru,HSR Layout,12.908728,77.635552,Drug Offense,Parking Lot,0.93,18,Low
+2025-07-29,22:26:11,Tuesday,July,Bengaluru,Koramangala,12.94851,77.626942,Harassment,Park/Open Ground,3.82,80,High
+2025-04-06,12:18:35,Sunday,April,Bengaluru,Whitefield,12.975023,77.757057,Cybercrime,Commercial,1.47,30,Medium
+2025-10-27,09:31:35,Monday,October,Bengaluru,Yelahanka,13.109472,77.57877,Cybercrime,Street/Road,0.82,14,Low
+2025-01-02,04:16:19,Thursday,January,Bengaluru,Rajajinagar,12.995261,77.550797,Cybercrime,Residential,2.67,52,High
+2026-04-03,21:31:58,Friday,April,Bengaluru,Marathahalli,12.959125,77.70724,Assault,Commercial,3.47,68,High
+2025-05-22,15:04:38,Thursday,May,Bengaluru,Rajajinagar,13.015844,77.562595,Chain Snatching,Park/Open Ground,2.19,46,Medium
+2026-03-21,08:40:43,Saturday,March,Bengaluru,Jayanagar,12.927715,77.587276,Cybercrime,Residential,1.12,22,Low
+2026-01-11,18:01:54,Sunday,January,Bengaluru,Hebbal,13.028463,77.602358,Vehicle Theft,Transit Station,2.17,45,Medium
+2025-03-16,01:08:22,Sunday,March,Bengaluru,Koramangala,12.934788,77.628525,Robbery,Commercial,3.93,69,High
+2025-08-03,20:58:22,Sunday,August,Bengaluru,Electronic City,12.851606,77.657063,Theft,Nightclub/Bar,2.11,47,High
+2025-11-24,02:32:12,Monday,November,Bengaluru,Hebbal,13.028284,77.605954,Robbery,Residential,2.35,49,High
+2025-03-27,17:20:55,Thursday,March,Bengaluru,Rajajinagar,12.993768,77.56347,Chain Snatching,Nightclub/Bar,1.87,38,Medium
+2025-12-24,06:34:37,Wednesday,December,Bengaluru,Marathahalli,12.970128,77.698327,Chain Snatching,Transit Station,3.65,67,High
+2025-09-23,02:31:26,Tuesday,September,Bengaluru,MG Road,12.968188,77.598919,Chain Snatching,Transit Station,4.38,87,High
+2025-03-21,16:14:53,Friday,March,Bengaluru,Whitefield,12.968032,77.750555,Assault,Market/Bazaar,2.26,46,Medium
+2026-03-02,06:26:29,Monday,March,Bengaluru,BTM Layout,12.91125,77.608303,Burglary,Residential,3.42,72,High
+2025-09-03,01:23:08,Wednesday,September,Bengaluru,Koramangala,12.940891,77.649403,Cybercrime,Market/Bazaar,3.58,74,High
+2025-12-30,01:52:07,Tuesday,December,Bengaluru,MG Road,12.974221,77.59572,Assault,Transit Station,3.71,69,High
+2025-04-27,21:08:05,Sunday,April,Bengaluru,BTM Layout,12.924988,77.614002,Vandalism,Residential,3.49,70,High
+2026-02-01,23:02:12,Sunday,February,Bengaluru,Koramangala,12.935657,77.626779,Burglary,Commercial,3.9,76,High
+2025-03-02,04:04:19,Sunday,March,Bengaluru,Shivajinagar,12.986913,77.599206,Theft,Residential,4.12,74,High
+2025-04-16,18:57:12,Wednesday,April,Bengaluru,Malleshwaram,12.999307,77.565814,Robbery,Bank/ATM,0.69,13,Low
+2025-03-16,23:17:37,Sunday,March,Bengaluru,Indiranagar,12.996617,77.630924,Chain Snatching,Bank/ATM,1.8,35,Medium
+2025-09-14,23:39:15,Sunday,September,Bengaluru,Yelahanka,13.104629,77.604209,Harassment,Residential,0.86,20,Low
+2025-10-24,00:33:13,Friday,October,Bengaluru,Yelahanka,13.106548,77.600607,Assault,Nightclub/Bar,0.7,16,Low
+2025-10-03,00:46:06,Friday,October,Bengaluru,Rajajinagar,12.996142,77.540093,Assault,Market/Bazaar,2.26,44,High
+2025-12-24,18:11:28,Wednesday,December,Bengaluru,Electronic City,12.849193,77.646662,Burglary,Transit Station,1.74,31,Medium
+2025-08-06,06:32:14,Wednesday,August,Bengaluru,Jayanagar,12.930683,77.569388,Vandalism,Residential,0.9,16,Low
+2025-08-27,03:33:08,Wednesday,August,Bengaluru,Indiranagar,12.984233,77.643609,Cybercrime,Bank/ATM,1.58,34,Medium
+2026-01-05,01:05:20,Monday,January,Bengaluru,Hebbal,13.033194,77.602924,Cybercrime,Residential,2.1,38,Medium
+2025-08-22,19:47:19,Friday,August,Bengaluru,HSR Layout,12.910992,77.641209,Cybercrime,,1.02,23,Low
+2026-03-14,13:12:54,Saturday,March,Bengaluru,HSR Layout,12.896883,77.634601,Burglary,Park/Open Ground,0.84,18,Low
+2025-01-07,18:43:06,Tuesday,January,Bengaluru,MG Road,12.966169,77.604843,Vandalism,Park/Open Ground,4.21,88,High
+2025-03-15,12:25:44,Saturday,March,Bengaluru,Indiranagar,12.991106,77.64601,Drug Offense,Residential,1.9,37,Medium
+2025-07-06,06:21:12,Sunday,July,Bengaluru,Indiranagar,12.970451,77.641887,Drug Offense,Parking Lot,1.47,29,Medium
+2026-03-06,13:46:31,Friday,March,Bengaluru,Whitefield,12.970491,77.746607,Vehicle Theft,Nightclub/Bar,2.22,45,Medium
+2025-07-02,15:42:38,Wednesday,July,Bengaluru,Jayanagar,12.916234,77.578154,Vandalism,Park/Open Ground,1.08,22,Low
+2026-01-29,20:16:31,Thursday,January,Bengaluru,MG Road,12.971602,77.605779,Cybercrime,Street/Road,3.82,71,High
+2025-02-20,05:31:43,Thursday,February,Bengaluru,Koramangala,12.929065,77.625045,Theft,Transit Station,4.8,96,High
+2025-12-14,10:09:19,Sunday,December,Bengaluru,Malleshwaram,13.006967,77.57279,Drug Offense,Residential,0.88,20,Low
+2026-01-20,23:50:29,Tuesday,January,Bengaluru,Marathahalli,12.95051,77.698049,Assault,Nightclub/Bar,4.42,87,High
+2025-09-16,22:51:55,Tuesday,September,Bengaluru,Shivajinagar,12.99146,77.603201,Harassment,Market/Bazaar,3.68,67,High
+2025-01-17,13:56:58,Friday,January,Bengaluru,Rajajinagar,12.985541,77.559535,Burglary,Parking Lot,2.19,40,Medium
+2026-03-13,12:28:29,Friday,March,Bengaluru,Electronic City,12.842599,77.652703,Theft,Commercial,1.91,42,Medium
+2025-12-04,09:56:45,Thursday,December,Bengaluru,Hebbal,13.03361,77.596886,Robbery,Park/Open Ground,1.79,32,Medium
+2025-06-09,18:48:07,Monday,June,Bengaluru,MG Road,12.972904,77.607703,Drug Offense,Park/Open Ground,4.34,92,High
+2025-10-15,19:03:25,Wednesday,October,Bengaluru,Shivajinagar,12.990136,77.609132,Vehicle Theft,Park/Open Ground,4.05,75,High
+2025-12-13,11:49:18,Saturday,December,Bengaluru,Malleshwaram,12.999701,77.572764,Chain Snatching,Commercial,0.96,17,Low
+2025-01-24,04:53:23,Friday,January,Bengaluru,Malleshwaram,13.002106,77.562609,Chain Snatching,Commercial,0.82,18,Low
+2025-02-19,13:22:22,Wednesday,February,Bengaluru,Jayanagar,12.930486,77.569762,Vandalism,Bank/ATM,0.46,7,Low
+2025-05-06,01:19:37,Tuesday,May,Bengaluru,Marathahalli,12.957627,77.688359,Burglary,Residential,3.91,75,High
+2025-06-22,05:01:34,Sunday,June,Bengaluru,Indiranagar,12.971349,77.652033,Chain Snatching,Commercial,2.53,55,High
+2026-03-19,00:57:26,Thursday,March,Bengaluru,Marathahalli,12.961579,77.687211,Vehicle Theft,Commercial,4.03,76,High
+2025-01-12,10:24:36,Sunday,January,Bengaluru,Malleshwaram,12.986616,77.573028,Vandalism,Bank/ATM,0.57,13,Low
+2025-09-08,03:44:43,Monday,September,Bengaluru,Rajajinagar,12.999949,77.549429,Assault,Bank/ATM,2.39,51,High
+2026-02-20,21:21:10,Friday,February,Bengaluru,Hebbal,13.043734,77.598433,Drug Offense,Nightclub/Bar,2.27,51,High
+2025-04-14,15:40:54,Monday,April,Bengaluru,Jayanagar,12.923456,77.597649,Burglary,Market/Bazaar,0.74,16,Low
+2025-05-16,01:19:36,Friday,May,Bengaluru,HSR Layout,12.910276,77.656111,Vandalism,Street/Road,0.74,12,Low
+2026-03-09,00:21:17,Monday,March,Bengaluru,BTM Layout,12.909829,77.617505,Burglary,Market/Bazaar,4.14,75,High
+2025-04-18,11:50:04,Friday,April,Bengaluru,Jayanagar,12.938801,77.603298,Vehicle Theft,Market/Bazaar,0.97,18,Low
+2025-12-06,17:20:12,Saturday,December,Bengaluru,Jayanagar,12.922593,77.584299,Vandalism,Parking Lot,0.76,12,Low
+2025-09-21,14:42:48,Sunday,September,Bengaluru,Malleshwaram,13.00918,77.561147,Harassment,Transit Station,0.7,16,Low
+2025-12-27,21:36:31,Saturday,December,Bengaluru,Marathahalli,12.961428,77.693344,Assault,Park/Open Ground,3.69,71,High
+2025-09-30,16:59:36,Tuesday,September,Bengaluru,Marathahalli,12.954505,77.700079,Theft,Market/Bazaar,3.84,74,High
+2025-08-25,04:15:09,Monday,August,Bengaluru,Electronic City,12.841769,77.663527,Vehicle Theft,Parking Lot,2.26,46,High
+2026-03-17,02:40:13,Tuesday,March,Bengaluru,Electronic City,12.839319,77.673536,Vandalism,Nightclub/Bar,1.69,32,Medium
+2025-03-24,00:15:25,Monday,March,Bengaluru,Marathahalli,12.947918,77.707021,Assault,Residential,4.0,86,High
+2025-01-15,07:51:52,Wednesday,January,Bengaluru,Whitefield,12.982452,77.747523,Vehicle Theft,Park/Open Ground,2.44,47,High
+2025-08-12,13:41:57,Tuesday,August,Bengaluru,Hebbal,13.031001,77.58453,Theft,Street/Road,1.84,40,Medium
+2025-03-11,00:16:50,Tuesday,March,Bengaluru,HSR Layout,12.908893,77.651126,Vehicle Theft,Market/Bazaar,0.59,11,Low
+2026-03-13,01:31:50,Friday,March,Bengaluru,Marathahalli,12.952559,77.688329,Theft,Commercial,3.38,62,High
+2025-11-05,09:55:04,Wednesday,November,Bengaluru,Electronic City,12.829403,77.654207,Vandalism,Bank/ATM,2.46,49,High
+2026-03-30,02:46:53,Monday,March,Bengaluru,Marathahalli,12.967837,77.693017,Robbery,Street/Road,3.27,67,High
+2026-01-12,16:59:07,Monday,January,Bengaluru,Malleshwaram,13.005988,77.572045,Harassment,Market/Bazaar,0.74,14,Low
+2026-03-29,00:07:49,Sunday,March,Bengaluru,Shivajinagar,12.976702,77.608891,Chain Snatching,Bank/ATM,4.63,91,High
+2026-01-19,23:15:59,Monday,January,Bengaluru,Rajajinagar,13.003079,77.536363,Vandalism,Street/Road,1.37,27,Medium
+2025-03-31,06:17:28,Monday,March,Bengaluru,Indiranagar,12.986615,77.645597,Vandalism,Nightclub/Bar,2.26,45,Medium
+2025-09-09,01:07:20,Tuesday,September,Bengaluru,Koramangala,12.944167,77.620306,Harassment,Parking Lot,4.22,80,High
+2025-05-07,07:23:30,Wednesday,May,Bengaluru,Marathahalli,12.947131,77.690054,Chain Snatching,Nightclub/Bar,3.91,69,High
+2026-04-09,02:47:42,Thursday,April,Bengaluru,Marathahalli,12.97521,77.701898,Theft,Street/Road,4.22,89,High
+2025-07-16,09:40:44,Wednesday,July,Bengaluru,Hebbal,13.042663,77.601429,Chain Snatching,Residential,2.24,50,High
+2025-05-02,14:24:00,Friday,May,Bengaluru,Yelahanka,13.088696,77.593526,Vandalism,Nightclub/Bar,0.67,15,Low
+2026-04-25,07:19:13,Saturday,April,Bengaluru,Indiranagar,12.976221,77.65067,Robbery,Park/Open Ground,2.17,46,Medium
+2026-03-27,20:26:50,Friday,March,Bengaluru,Electronic City,12.843759,77.671172,Theft,Nightclub/Bar,1.75,33,Medium
+2026-02-04,15:30:47,Wednesday,February,Bengaluru,Yelahanka,13.109374,77.597982,Vandalism,Bank/ATM,1.14,21,Low
+2025-02-21,05:44:16,Friday,February,Bengaluru,Yelahanka,13.087824,77.590722,Harassment,Residential,0.83,19,Low
+2025-11-05,23:52:35,Wednesday,November,Bengaluru,Jayanagar,12.932849,77.593346,Chain Snatching,Park/Open Ground,0.53,11,Low
+2025-01-27,20:41:11,Monday,January,Bengaluru,Rajajinagar,13.005495,77.547649,Cybercrime,Transit Station,1.83,32,Medium
+2025-04-13,20:19:20,Sunday,April,Bengaluru,Jayanagar,12.922369,77.587223,Drug Offense,Residential,0.75,13,Low
+2025-05-08,02:53:41,Thursday,May,Bengaluru,MG Road,12.977687,77.606401,Robbery,Parking Lot,3.4,64,High
+2025-09-02,07:16:11,Tuesday,September,Bengaluru,Shivajinagar,12.970309,77.603572,Drug Offense,Bank/ATM,4.52,84,High
+2025-02-13,13:23:11,Thursday,February,Bengaluru,Whitefield,12.973064,77.75284,Vandalism,Parking Lot,2.12,45,Medium
+2025-01-11,00:59:35,Saturday,January,Bengaluru,Whitefield,12.956744,77.74276,Drug Offense,Street/Road,1.98,35,Medium
+2025-04-12,02:10:03,Saturday,April,Bengaluru,Shivajinagar,12.981272,77.600959,Vandalism,Parking Lot,3.74,79,High
+2025-02-15,08:36:07,Saturday,February,Bengaluru,MG Road,12.974078,77.59462,Theft,Market/Bazaar,4.26,81,High
+2026-04-17,14:52:43,Friday,April,Bengaluru,Rajajinagar,12.98349,77.546482,Cybercrime,Residential,1.62,35,Medium
+2025-04-15,02:52:50,Tuesday,April,Bengaluru,BTM Layout,12.90783,77.609557,Vehicle Theft,Nightclub/Bar,4.6,94,High
+2025-03-08,13:54:13,Saturday,March,Bengaluru,Jayanagar,12.93437,77.583953,Drug Offense,Street/Road,1.29,26,Medium
+2025-12-13,21:26:50,Saturday,December,Bengaluru,BTM Layout,12.911909,77.605142,Robbery,Commercial,4.47,83,High
+2025-05-01,,Thursday,May,Bengaluru,HSR Layout,12.912298,77.637526,Assault,Bank/ATM,0.84,16,Low
+2025-01-06,15:08:55,Monday,January,Bengaluru,Indiranagar,12.967754,77.623376,Chain Snatching,Parking Lot,2.17,47,Medium
+2026-01-01,12:45:27,Thursday,January,Bengaluru,Whitefield,12.978537,77.738188,Drug Offense,Nightclub/Bar,2.08,38,Medium
+2025-10-13,01:03:21,Monday,October,Bengaluru,Indiranagar,12.963258,77.643292,Assault,Park/Open Ground,1.95,38,Medium
+2026-04-26,21:51:38,Sunday,April,Bengaluru,Malleshwaram,13.003132,77.56904,Theft,Commercial,0.58,11,Low
+2025-11-14,12:19:25,Friday,November,Bengaluru,Hebbal,13.034158,77.605948,Chain Snatching,Transit Station,1.99,37,Medium
+2025-10-25,21:32:31,Saturday,October,Bengaluru,Koramangala,12.942225,77.618337,Chain Snatching,Park/Open Ground,3.51,67,High
+2025-06-12,22:33:27,Thursday,June,Bengaluru,Indiranagar,12.973837,77.631367,Robbery,Nightclub/Bar,1.54,29,Medium
+2025-01-23,04:31:55,Thursday,January,Bengaluru,Electronic City,12.843834,77.64095,Vehicle Theft,Bank/ATM,2.16,49,High
+2026-04-08,08:39:53,Wednesday,April,Bengaluru,HSR Layout,12.90593,77.630408,Vehicle Theft,Market/Bazaar,0.66,15,Low
+2026-04-03,05:20:47,Friday,April,Bengaluru,Jayanagar,12.920287,77.590147,Cybercrime,Transit Station,0.73,12,Low
+2025-04-07,21:11:02,Monday,April,Bengaluru,Koramangala,12.934744,77.633972,Cybercrime,Nightclub/Bar,3.56,73,High
+2025-08-28,23:02:28,Thursday,August,Bengaluru,BTM Layout,12.911019,77.602468,Chain Snatching,Market/Bazaar,4.22,77,High
+2025-09-10,01:55:09,Wednesday,September,Bengaluru,Shivajinagar,12.975502,77.617445,Burglary,Bank/ATM,4.09,86,High
+2026-03-21,09:11:53,Saturday,March,Bengaluru,Whitefield,12.985794,77.75912,Robbery,Market/Bazaar,2.1,41,Medium
+2026-04-02,21:37:13,Thursday,April,Bengaluru,Malleshwaram,12.998071,77.56208,Drug Offense,Commercial,0.85,14,Low
+2026-04-17,02:15:49,Friday,April,Bengaluru,Jayanagar,12.914966,77.581649,Cybercrime,Residential,0.97,21,Low
+2025-05-26,06:25:23,Monday,May,Bengaluru,Koramangala,12.937548,77.626495,Drug Offense,Residential,4.26,84,High
+2025-01-15,02:45:42,Wednesday,January,Bengaluru,MG Road,12.971343,77.609684,Cybercrime,Park/Open Ground,3.39,72,High
+2025-12-03,00:21:02,Wednesday,December,Bengaluru,Malleshwaram,13.001741,77.577394,Drug Offense,Park/Open Ground,0.93,17,Low
+2026-01-11,07:13:55,Sunday,January,Bengaluru,BTM Layout,12.921558,77.593053,Theft,Nightclub/Bar,4.53,84,High
+2025-01-29,23:04:35,Wednesday,January,Bengaluru,Rajajinagar,12.979126,77.558961,Drug Offense,Parking Lot,2.28,49,High
+2025-05-11,05:15:49,Sunday,May,Bengaluru,Jayanagar,12.942058,77.574131,Vandalism,Residential,0.72,13,Low
+2025-04-17,05:24:49,Thursday,April,Bengaluru,Yelahanka,13.099672,77.591087,Vandalism,Nightclub/Bar,0.84,15,Low
+2025-06-02,15:51:27,Monday,June,Bengaluru,Indiranagar,12.982494,77.64575,Vehicle Theft,Transit Station,1.45,26,Medium
+2025-02-19,19:12:31,Wednesday,February,Bengaluru,Marathahalli,12.955231,77.704134,Cybercrime,Parking Lot,3.93,83,High
+2025-10-16,19:27:05,Thursday,October,Bengaluru,HSR Layout,12.905806,77.638324,Vandalism,Bank/ATM,0.92,16,Low
+2025-11-19,13:05:02,Wednesday,November,Bengaluru,Jayanagar,12.940364,77.571648,Harassment,Bank/ATM,0.9,18,Low
+2025-04-25,01:09:59,Friday,April,Bengaluru,Marathahalli,12.953755,77.69115,Cybercrime,Market/Bazaar,3.79,79,High
+2025-08-28,13:05:58,Thursday,August,Bengaluru,HSR Layout,12.921049,77.644704,Cybercrime,Nightclub/Bar,0.62,12,Low
+2025-12-17,10:33:27,Wednesday,December,Bengaluru,MG Road,12.97825,77.619546,Vehicle Theft,Commercial,4.01,79,High
+2025-09-20,23:26:06,Saturday,September,Bengaluru,Koramangala,12.926755,77.621671,Cybercrime,Nightclub/Bar,4.31,85,High
+2025-10-27,02:49:32,Monday,October,Bengaluru,HSR Layout,12.901414,77.661685,Theft,Residential,1.12,24,Medium
+2026-02-07,23:02:05,Saturday,February,Bengaluru,MG Road,12.991887,77.610352,Vandalism,Nightclub/Bar,4.43,87,High
+2026-01-06,14:48:42,Tuesday,January,Bengaluru,Malleshwaram,13.01471,77.558385,Cybercrime,Nightclub/Bar,0.9,18,Low
+2026-02-19,05:13:11,Thursday,February,Bengaluru,Yelahanka,13.100466,77.602501,Burglary,Nightclub/Bar,0.81,14,Low
+2025-10-01,00:00:25,Wednesday,October,Bengaluru,Jayanagar,12.933986,77.581783,Burglary,Commercial,0.84,15,Low
+2025-09-02,23:55:42,Tuesday,September,Bengaluru,Marathahalli,12.961285,77.689414,Drug Offense,Park/Open Ground,3.56,70,High
+2026-02-21,19:23:44,Saturday,February,Bengaluru,Malleshwaram,13.018906,77.55563,Vandalism,Nightclub/Bar,0.42,8,Low
+2025-03-11,20:52:01,Tuesday,March,Bengaluru,MG Road,12.990802,77.614784,Assault,Commercial,3.81,77,High
+2025-11-29,21:27:53,Saturday,November,Bengaluru,Shivajinagar,12.983245,77.615346,Harassment,Street/Road,3.39,72,High
+2026-01-30,14:09:30,Friday,January,Bengaluru,HSR Layout,12.921589,77.656923,Vandalism,Commercial,0.55,12,Low
+2026-04-08,01:28:31,Wednesday,April,Bengaluru,MG Road,12.977395,77.610614,Cybercrime,Commercial,3.87,74,High
+2025-05-05,06:18:36,Monday,May,Bengaluru,Malleshwaram,13.006376,77.562087,Vandalism,,1.16,26,Low
+2025-02-22,01:27:26,Saturday,February,Bengaluru,Koramangala,12.939089,77.621898,Cybercrime,Market/Bazaar,4.22,77,High
+2025-09-07,00:37:46,Sunday,September,Bengaluru,Koramangala,12.925032,77.621471,Drug Offense,Park/Open Ground,4.14,77,High
+2025-02-01,23:36:20,Saturday,February,Bengaluru,BTM Layout,12.91807,77.606785,Harassment,Residential,3.75,79,High
+2025-08-02,06:31:39,Saturday,August,Bengaluru,Marathahalli,12.967409,77.698145,Chain Snatching,Park/Open Ground,3.79,81,High
+2025-03-24,21:30:22,Monday,March,Bengaluru,Koramangala,12.927708,77.615029,Cybercrime,Street/Road,4.54,93,High
+2026-04-11,21:21:58,Saturday,April,Bengaluru,Malleshwaram,12.99558,77.568113,Drug Offense,Park/Open Ground,0.87,15,Low
+2026-01-06,22:24:26,Tuesday,January,Bengaluru,HSR Layout,12.924007,77.653493,Chain Snatching,Park/Open Ground,0.78,17,Low
+2025-04-17,09:44:47,Thursday,April,Bengaluru,Malleshwaram,13.019778,77.556237,Burglary,Park/Open Ground,1.01,18,Low
+2025-04-13,23:06:50,Sunday,April,Bengaluru,MG Road,12.973044,77.610943,Vandalism,Park/Open Ground,4.3,87,High
+2025-04-18,17:03:01,Friday,April,Bengaluru,Whitefield,12.975884,77.736056,Chain Snatching,Nightclub/Bar,2.21,44,Medium
+2025-03-23,02:57:32,Sunday,March,Bengaluru,Marathahalli,12.967678,77.705498,Theft,Residential,3.83,79,High
+2025-02-28,19:14:07,Friday,February,Bengaluru,Jayanagar,12.938882,77.583445,Harassment,Street/Road,0.83,19,Low
+2025-06-24,11:49:02,Tuesday,June,Bengaluru,HSR Layout,12.914095,77.644503,Harassment,Nightclub/Bar,0.9,18,Low
+2025-12-20,16:38:42,Saturday,December,Bengaluru,Yelahanka,13.096799,77.58481,Burglary,Commercial,1.02,21,Low
+2025-08-23,03:06:50,Saturday,August,Bengaluru,Rajajinagar,13.007639,77.56956,Drug Offense,Residential,1.99,43,Medium
+2025-09-17,01:07:55,Wednesday,September,Bengaluru,Koramangala,12.936637,77.635261,Assault,Bank/ATM,3.75,65,High
+2025-05-30,19:31:46,Friday,May,Bengaluru,BTM Layout,12.915408,77.614169,Burglary,Transit Station,3.42,71,High
+2026-02-24,04:07:54,Tuesday,February,Bengaluru,Electronic City,12.840686,77.648248,Assault,Park/Open Ground,1.94,39,Medium
+2026-01-29,00:15:53,Thursday,January,Bengaluru,Rajajinagar,12.993916,77.546941,Cybercrime,Bank/ATM,2.0,39,Medium
+2025-03-29,02:17:23,Saturday,March,Bengaluru,Hebbal,13.049488,77.601192,Vandalism,Bank/ATM,2.53,57,High
+2025-05-06,02:33:26,Tuesday,May,Bengaluru,Marathahalli,12.964133,77.694881,Assault,Transit Station,4.05,81,High
+2026-04-16,13:57:29,Thursday,April,Bengaluru,Jayanagar,12.931267,77.578969,Harassment,Bank/ATM,0.64,11,Low
+2025-03-16,19:04:05,Sunday,March,Bengaluru,Shivajinagar,12.989291,77.610113,Chain Snatching,Bank/ATM,4.37,81,High
+2025-11-12,14:39:09,Wednesday,November,Bengaluru,Electronic City,12.850743,77.664861,Cybercrime,Commercial,1.94,35,Medium
+2025-05-28,01:09:22,Wednesday,May,Bengaluru,Electronic City,12.856007,77.654971,Vehicle Theft,Park/Open Ground,1.73,38,Medium
+2025-08-27,03:33:08,Wednesday,August,Bengaluru,Indiranagar,12.984233,77.643609,Cybercrime,Bank/ATM,1.58,34,Medium
+2026-01-21,13:16:53,Wednesday,January,Bengaluru,HSR Layout,12.914759,77.638612,Burglary,Park/Open Ground,0.7,13,Low
+2025-02-07,08:49:03,Friday,February,Bengaluru,Rajajinagar,12.987097,77.559111,Vandalism,Parking Lot,2.45,48,High
+2025-07-28,03:34:22,Monday,July,Bengaluru,Electronic City,12.845467,77.652551,Assault,Park/Open Ground,2.13,39,Medium
+2025-07-06,23:16:21,Sunday,July,Bengaluru,Marathahalli,12.96736,77.709911,Drug Offense,Park/Open Ground,4.01,82,High
+2025-02-20,07:47:26,Thursday,February,Bengaluru,Whitefield,12.967447,77.752167,Assault,Parking Lot,1.73,32,Medium
+2025-09-15,10:24:17,Monday,September,Bengaluru,Malleshwaram,13.007428,77.563072,Robbery,Commercial,0.97,19,Low
+2025-12-29,04:51:29,Monday,December,Bengaluru,Yelahanka,13.103408,77.593937,Theft,Market/Bazaar,1.15,23,Medium
+2025-07-12,20:50:21,Saturday,July,Bengaluru,Hebbal,13.032058,77.599772,Robbery,Market/Bazaar,1.51,31,Medium
+2026-04-11,16:43:26,Saturday,April,Bengaluru,Yelahanka,13.110348,77.605435,Robbery,Residential,0.73,13,Low
+2026-02-14,19:14:04,Saturday,February,Bengaluru,Malleshwaram,13.003547,77.561823,Assault,Parking Lot,0.73,17,Low
+2026-04-17,02:43:42,Friday,April,Bengaluru,Indiranagar,12.991966,77.655978,Cybercrime,Commercial,2.58,50,High
+2025-01-09,20:22:15,Thursday,January,Bengaluru,BTM Layout,12.924367,77.60516,Burglary,Bank/ATM,3.93,75,High

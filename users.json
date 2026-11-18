@@ -1,0 +1,38 @@
+{
+  "admin": {
+    "username": "admin",
+    "full_name": "Chief System Administrator",
+    "role": "Administrator",
+    "password_hash": "scrypt:32768:8:1$VZkMkfV6fPWMmcYX$f87e24d5c7a0428ba8e1493d673bfda989dd1d59091c42ad2ba68f6524bba98e4dd5dc7e7e5a5ca2570d64fdae1c85fa942b7773a22bd1b7d4d433f21ae76306"
+  },
+  "analyst": {
+    "username": "analyst",
+    "full_name": "Senior Crime Intelligence Analyst",
+    "role": "Analyst",
+    "password_hash": "scrypt:32768:8:1$l03SstV4TKyniORr$d6e25e345aa3020c29ddcc8557e708273d68e0dd851e722861ced6149143b1db99863909dc81138e06e40a3fc875b5e991d07e608f1365d9c4740b35c93f1941"
+  },
+  "officer": {
+    "username": "officer",
+    "full_name": "Field Operations Officer",
+    "role": "Police Officer",
+    "password_hash": "scrypt:32768:8:1$3Tl6LSOa3LeEDjpK$5c9c78eec71fffc6b7de81d46d1fb08c2ffc7d0e14bd8b692c868c1c1120da12eacf80b6820b023f57f8a81839af1bc40b2cde9428ba2021c60f74523208adcb"
+  },
+  "decision_maker": {
+    "username": "decision_maker",
+    "full_name": "Strategic Command Commissioner",
+    "role": "Decision Maker",
+    "password_hash": "scrypt:32768:8:1$vsOb1Q2EsEBBtOz0$9f67de4ccc02560a41432e069767e06bef758a97e0f64eae32bfa3efb66eae7f933a3f177c421538b09b9226a314de120453b32e7f2276c49939a5795d2870b7"
+  },
+  "dc_rao": {
+    "username": "dc_rao",
+    "full_name": "Deputy Commissioner Rao",
+    "role": "Police Officer",
+    "password_hash": "scrypt:32768:8:1$FDr9OgruLtCJvUhS$d774630fff28a585922a3de5dbc3927d30a436d5bb01e42775af0bdfbe9a4f33e4edd6a48c87538025a90dbe6f7e354015e6f8b4026d9f49c6790d5881300ce0"
+  },
+  "sivaji": {
+    "username": "sivaji",
+    "full_name": "sivaji",
+    "role": "Analyst",
+    "password_hash": "scrypt:32768:8:1$4D7Ra8O5xbf7xJO5$1d02103b6c436506922f38d4c416828df98bc5454fb584282401d6d1e597e23d62a848aa1c33c0c80bc3aeef05ed46aba46c8e01a264252a043b2985c29633b3"
+  }
+}
